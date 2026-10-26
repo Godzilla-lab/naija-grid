@@ -9,6 +9,14 @@ authors:
     email: olamibusari607@gmail.com
 repository-code: "https://github.com/Godzilla-lab/naija-grid"
 url: "https://github.com/Godzilla-lab/naija-grid"
+doi: 10.5281/zenodo.23675284
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23675284
+    description: All versions (always resolves to the latest)
+  - type: doi
+    value: 10.5281/zenodo.23675285
+    description: Version 0.1.0
 license: CC-BY-4.0
 version: 0.1.0
 date-released: "2026-10-26"

@@ -2,7 +2,7 @@
 
 Open data on Nigeria's electricity distribution grid: every feeder's service band and its legal monthly billing cap for unmetered customers, from every NERC Monthly Energy Cap order published online, October 2022 to October 2026, with analysis.
 
-![code: MIT](https://img.shields.io/badge/code-MIT-blue) ![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-green) ![months: 45](https://img.shields.io/badge/months-45-informational) ![feeders: 6,458](https://img.shields.io/badge/feeders-6%2C458-informational) [![refresh](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml/badge.svg)](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23675284.svg)](https://doi.org/10.5281/zenodo.23675284) ![code: MIT](https://img.shields.io/badge/code-MIT-blue) ![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-green) ![months: 45](https://img.shields.io/badge/months-45-informational) ![feeders: 6,458](https://img.shields.io/badge/feeders-6%2C458-informational) [![refresh](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml/badge.svg)](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml)
 
 ## What this is
 
@@ -135,7 +135,7 @@ Details in [docs/ANALYSIS.md](docs/ANALYSIS.md#limitations).
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). Suggested: *Busari, O. (2026). naija-grid: NERC monthly energy caps and service bands for every Nigerian feeder, 2022 to 2026. https://github.com/Godzilla-lab/naija-grid*
+See [CITATION.cff](CITATION.cff). Suggested: *Busari, O. (2026). naija-grid: NERC monthly energy caps and service bands for every Nigerian feeder, 2022 to 2026 (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23675284*
 
 ## Licence
 
