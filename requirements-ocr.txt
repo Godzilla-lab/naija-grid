@@ -1,0 +1,5 @@
+# Only for scanned orders, macOS only (uses Apple's Vision framework).
+-r requirements.txt
+pymupdf==2.0
+pyobjc-framework-Vision==12.2.2
+pyobjc-framework-Quartz==12.2.2

@@ -1,0 +1,53 @@
+LAGOS IKEJA BU 11-llupejuINJ-T1-Bhojson    A    1,820
+LAGOS IKEJA BU 11-AjaoINJ-T2-New Estate    C    987
+LAGOS    IKEJA BU 11-AgegelNJ-T3-Oyemekun    B    696
+LAGOS    IKEJA BU 11-AgegelNJ-T1-lju Road    C    622
+LAGOS    IKEJA BU 11-Adeniyi JonesINJ-T1-Anifowoshe    A    1,062
+LAGOS    IKEJA BU 11-Adeniyi Jones|NJ-T1-Ajao    A    1,192
+LAGOS IKEJA BU 11-Adeniyi JonesINJ-T1-Adeniyi Jones    A    1,255
+LAGOS IKEJA BU 11-Adekunle FajuyiINJ-T1-Oduduwa    A-    ?    1,241
+LAGOS IKEJA BU 11-Adekunle FajuyilNJ-T1-Isaac John    A-    ?    1,343
+LAGOS IKEJA BU 11-AbesanINJ-T1-Aboru    D    265
+LAGOS IKORODU BU 33-OdogunyanTCN-AGBEDE    B    315
+LAGOS IKORODU BU 33-MarylandTCN-AJEGUNLE    B    866
+LAGOS    IKORODU BU 33-MarylandTCN-AJEGUNLE INTERFACE    A    641
+LAGOS IKORODU BU 33-IkoroduTCN-OWUTU    B    619
+LAGOS IKORODU BU 33-IkoroduTCN-IJEDE    C    342
+LAGOS    IKORODU BU 33-IkoroduTCN-IBESHE    B    577
+LAGOS IKORODU BU 33-IkoroduTCN-FAKALE Source    A    760
+LAGOS IKORODU BU 33-IkoroduTCN-AGBOWA    D    287
+LAGOS IKORODU BU 11-SabolNJ-T2-Lagos Road    C    535
+LAGOS IKORODU BU 11-SabolNJ-T2-Ladega    D    358
+LAGOS IKORODU BU 11-SabolNJ-T2-Igbogbo    D    291
+LAGOS IKORODU BU 11-SabolNJ-T2-Eyita    B    601
+LAGOS IKORODU BU 11-SabolNJ-T2-Erunwen    D    415
+LAGOS    IKORODU BU 11-SabolNJ-T1-Mary Hill    C    588
+LAGOS IKORODU BU 11-SabolNJ-T1-Lasunwon    C    535
+LAGOS IKORODU BU 11-SabolNJ-T1-ljebu Ode    D    399
+LAGOS IKORODU BU 11-SabolNJ-T1-Ayangburen    C    591
+LAGOS IKORODU BU 11-OwutuINJ-T2-Majidun    B    501
+LAGOS    IKORODU BU 11-OwutuINJ-T2-Isawo    D    297
+LAGOS IKORODU BU 11-Owutu|NJ-T2-Asolo    C    345
+LAGOS IKORODU BU 11-OwutuINJ-T1-Ori Okuta    C    465
+LAGOS IKORODU BU 11-OwutuINJ-T1-Agric    ?    345
+LAGOS IKORODU BU 11-OdogunyanINJ-T2-Ita Oluwo    D    492
+LAGOS IKORODU BU 11-OdogunyanINJ-T2-Centex    A    1,072
+LAGOS IKORODU BU 11-OdogunyanINJ-T2-Cantoment    C    480
+LAGOS IKORODU BU 11-OdogunyanINJ-T1-Industrial    D    494
+LAGOS IKORODU BU 11-OdogunyanINJ-T1-Agodo    B    505
+LAGOS IKORODU BU 11-Ipakodo (Ebute)INJ-T1-WAEC    C    500
+LAGOS IKORODU BU 11-Ipakodo (Ebute)INJ-T1-Ipakodo    C    510
+LAGOS    IKORODU BU 11-Ipakodo (Ebute)INJ-T1-Abuja    C    370
+LAGOS    IKORODU BU 11-ljedeINJ-T1-Luwasa    D    275
+LAGOS IKORODU BU 11-ljedeINJ-T1-Gberibe    C    251
+LAGOS    IKORODU BU 11-IgbogboINJ-T2-Odofin    D    336
+LAGOS IKORODU BU 11-Igbogbo|NJ-T2-Agbele    D    349
+LAGOS IKORODU BU 11-IgbogbolNJ-T1-Ofin    D    351
+LAGOS    IKORODU BU 11-Igbogbo|NJ-T1-Bayeku    D    237
+LAGOS IKORODU BU 11-EpelNJ-T1-Water Works    E    234
+LAGOS IKORODU BU 11-EpeINJ-T1-Township    E    232
+LAGOS IKORODU BU 11-Epe|NJ-T1-LASU    E    199
+LAGOS IKORODU BU 11-AjegunleINJ-T1-Thomas Olaniyan    B    605
+LAGOS    OSHODI BU 33-ItireTCN-AGO 1    A    1,007
+LAGOS    OSHODI BU 33-EjigboTCN-OKE AFA 2    A    802
+LAGOS    OSHODI BU 33-EjigboTCN-IJEGUN    B    412

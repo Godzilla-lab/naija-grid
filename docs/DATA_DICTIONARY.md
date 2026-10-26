@@ -1,113 +1,363 @@
 # Data dictionary
 
-All files are UTF-8 CSV with a header row. Empty string means "not printed in the source" or "could not be split from the source text". Text columns keep the case NERC used. Examples are real values from the September 2026 orders.
+Every column of every published CSV. `data/clean/caps_long.csv` is the main table. Generated from the published files; the tests check that no column is missing here.
 
-DisCo codes used throughout: `AEDC` Abuja, `APLE` Aba Power, `BEDC` Benin, `EEDC` Enugu, `EKEDC` Eko, `IBEDC` Ibadan, `IKEDC` Ikeja, `JEDC` Jos, `KAEDC` Kaduna, `KEDCO` Kano, `PHED` Port Harcourt, `YEDC` Yola. NERC's own file names use other spellings (IE, EKEDP, JED, Ikeja, Eko, APL and more); they are mapped to these codes.
+## `data/clean/band_history_wide.csv`
 
-## data/nerc_caps_all.csv and data/nerc_caps_YYYY-MM.csv
+| Column | Meaning |
+|---|---|
+| feeder_id, disco, state, feeder_raw | As in `data/clean/feeders.csv` |
+| YYYY-MM (one column per order month) | The feeder's band that month; blank when not listed |
 
-One row per feeder line printed in a NERC Monthly Energy Cap order. The monthly files are the same table split by `period`; `nerc_caps_all.csv` is their concatenation. `nerc_caps_all.parquet` holds the same rows with `year`, `month`, `cap_kwh` and `source_page` as integers.
+## `data/clean/caps_long.csv`
 
-| Column | Type | Example | Meaning | How it is derived |
-|---|---|---|---|---|
-| `disco` | string | `IKEDC` | Distribution company. | Mapped from the start of the PDF file name, or the listing title, using the code table above. |
-| `year` | integer | `2026` | Year of the order. | From the PDF header, e.g. "Monthly Energy Cap (September 2026)". |
-| `month` | integer | `9` | Month of the order, 1 to 12. This is the month the cap applies to, not the consumption month (usually the month before). | As `year`. |
-| `period` | string | `2026-09` | `year` and `month` as YYYY-MM. | Formatted from `year` and `month`. |
-| `state` | string | `OGUN` | State the feeder is in. | Leading state name of the row, only in orders that print a STATE column. Empty otherwise. |
-| `business_unit` | string | `ABULE-EGBA BU` | DisCo business unit or area office. | Text up to and including "BU", or the text before a voltage prefix such as `11-` or `11kV-`. Empty when it cannot be split reliably. |
-| `voltage_kv` | string | `11` | Feeder voltage, 11 or 33 kV. | From a `11-`, `33kV-` or `11KV` pattern in the feeder text. Empty when not printed. |
-| `injection_substation` | string | `Abule Iroko` | Injection substation. | Ikeja style names only (`11-<substation>INJ-T1-<feeder>`). |
-| `transformer` | string | `T1` | Injection substation transformer. | Ikeja style names only. |
-| `feeder_name` | string | `Abule Iroko` | Feeder name with state, business unit and voltage prefixes removed. | Best effort split of `feeder_raw`. |
-| `feeder_raw` | string | `11-Abule IrokoINJ-T1-Abule Iroko` | Feeder text exactly as printed, after the state and business unit. | Whitespace collapsed to single spaces, nothing else changed. |
-| `location_raw` | string | `OGUN ABULE-EGBA BU 11-Abule IrokoINJ-T1-Abule Iroko` | Everything printed before the band column. | Whitespace collapsed. Rows that wrap onto two lines are joined with a space. |
-| `feeder_key` | string | `ABULE EGBA BU 11 ABULE IROKOINJ T1 ABULE IROKO` | Key for following one feeder across months. | `location_raw` without the state, uppercased, every character other than letters, digits, spaces and `/` replaced by a space, whitespace collapsed. Use together with `disco`. |
-| `service_band` | string | `C` | NERC service band, `A` to `E`. Band A carries a 20 hour daily supply commitment. | As printed. |
-| `cap_kwh` | integer | `226` | Monthly energy cap for an unmetered non-maximum-demand customer on this feeder, in kWh. | As printed, thousands separators removed. |
-| `extraction_method` | string | `text` | How the row was read: `text` (PDF text layer) or `ocr`. | `ocr` only for pages with no text layer. No published row uses OCR so far. |
-| `source_file` | string | `IE-Monthly-Energy-Cap-September-2026.pdf` | PDF in `raw/pdfs/` the row came from. | NERC file name with runs of spaces replaced by `-`. |
-| `source_page` | integer | `1` | Page of `source_file`, starting at 1. | Page the row's last line was read from. |
-| `source_sha16` | string | `83accdacd39277dc` | First 16 hex characters of the SHA-256 of `source_file`. | Full hash in `data/sources.csv`. |
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| feeder_id | text | 00016b03ec5f | Stable id for a feeder across months (12 hex characters). Links the same feeder through renames. |
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| disco_name | text | Abuja | Distribution company short name. |
+| state | text | FCT | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| order_month | text | 2023-04 | Month of the NERC order (YYYY-MM). The cap applies to bills for this month. |
+| consumption_month | text | 2023-03 | Month whose consumption the cap covers: the month before order_month, as stated in each order's title. |
+| band | text | A | Service band A to E. A promises at least 20 hours of supply a day; E the least. '?' only in data/parsed, where a scanned band letter could not be read. |
+| cap_kwh | number | 150 | Maximum kWh a DisCo may bill an unmetered non-MD customer on this feeder for the month (Order NERC/307/2022). |
+| state_source | text | learned | Where state comes from: printed (in the order), learned (from the same business unit in later orders), manual (data/reference/bu_state_manual.csv), unknown. |
+| extraction_method | text | text | text (PDF text layer) or ocr (scanned page read with Apple Vision; text in raw/ocr_text). |
+| id_link | text | exact | How the row was linked to its feeder: exact, fuzzy_ocr (scanned name matched to a text-month feeder at similarity 0.88 or more), fuzzy_ocr_conflict (a second scanned row matched the same feeder in the same month; kept as its own id). |
+| source_file | text | AEDC-Monthly-Energy-Cap-for-April-2023.p | File name of the NERC PDF in raw/pdfs. |
+| source_page | number | 19 | Page of the PDF the row is on (1-based). |
 
-## data/sources.csv
+## `data/clean/feeders.csv`
 
-One row per PDF found in NERC's document library.
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| feeder_id | text | 3db4455cbb6d | Stable id for a feeder across months (12 hex characters). Links the same feeder through renames. |
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| disco_name | text | Abuja | Distribution company short name. |
+| state | text | FCT | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| business_unit | text | FCT | Business unit, district or area office as printed by the DisCo. |
+| voltage_kv | number |  | Feeder voltage in kV when printed (11 or 33). |
+| injection_substation | number |  | Injection substation, Ikeja-style names only ('11-<substation>INJ-T<n>-<feeder>'). |
+| feeder_name | text | APO AT3_H37_S26_K10 | Feeder name without the Ikeja substation prefix. |
+| feeder_raw | text | APO AT3_H37_S26_K10 | Feeder name exactly as printed in the order. |
+| first_seen | text | 2023-01 | First order month the feeder appears in. |
+| last_seen | text | 2026-09 | Last order month the feeder appears in. |
+| months_listed | number | 7 | Number of order months the feeder appears in. |
+| latest_band | text | A | Band in the feeder's last month. |
+| latest_cap_kwh | number | 207 | Cap in the feeder's last month. |
+| best_band_ever | text | A | Highest band the feeder ever had (A is highest). |
+| worst_band_ever | text | A | Lowest band the feeder ever had. |
+| band_changes | number | 0 | Number of times the feeder's band changed between consecutive listings. |
 
-| Column | Type | Example | Meaning | How it is derived |
-|---|---|---|---|---|
-| `disco` | string | `IKEDC` | Distribution company. | As in the main table. |
-| `year` | integer | `2026` | Year of the order. | PDF header, else listing title, else file name. |
-| `month` | integer | `9` | Month of the order. | As `year`. |
-| `period` | string | `2026-09` | YYYY-MM. | From `year` and `month`. |
-| `period_from` | string | `pdf_header` | Where the month came from: `pdf_header`, `title` or `filename`. | Recorded by the parser. |
-| `status` | string | `used` | `used` (rows are in the main table), `duplicate` (another file for the same DisCo and month was kept), `no_rows` (no rows could be read). | When NERC posts two files for one DisCo and month, the later upload is kept. |
-| `url` | string | `https://nerc.gov.ng/wp-content/uploads/2026/09/IE-Monthly-Energy-Cap-September-2026.pdf` | Where the PDF was downloaded from. | From the library listing. |
-| `filename` | string | `IE-Monthly-Energy-Cap-September-2026.pdf` | File name in `raw/pdfs/`. | As `source_file`. |
-| `title` | string | `IE Monthly Energy Cap September 2026` | Document title in NERC's library. | From the listing card. |
-| `published` | string | `September 1, 2026` | Date shown in NERC's library. | From the listing card, as printed. |
-| `sha256` | string | 64 hex characters | SHA-256 of the PDF. | Computed on the downloaded bytes. |
-| `pages` | integer | `2` | Pages in the PDF. | pypdf page count. |
-| `bytes` | integer | `182766` | File size. | Size on disk. |
-| `feeders_parsed` | integer | `34` | Rows read from this PDF. | Count of parsed rows. |
-| `extraction_method` | string | `text` | `text`, `ocr`, or `ocr+text` for a mix. | Methods used by the rows of this file. |
-| `text_pages` | integer | `2` | Pages with a text layer. | pypdf extraction not empty. |
-| `image_only_pages` | integer | `0` | Pages with no table text and a large embedded image (a scan). | Images narrower than 400 px, such as logos, are ignored. |
-| `unparsed_lines` | integer | `0` | Lines in this PDF that could not be read as a row. | Listed in `data/nerc_caps_unparsed.log`. |
+## `data/parsed/nerc_caps_all.csv`
 
-## data/derived/band_counts_by_disco_month.csv
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| year | number | 2022 | Order year. |
+| month | number | 10 | Order month number. |
+| state | number |  | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| business_unit | text | Abaji Area | Business unit, district or area office as printed by the DisCo. |
+| voltage_kv | number |  | Feeder voltage in kV when printed (11 or 33). |
+| injection_substation | number |  | Injection substation, Ikeja-style names only ('11-<substation>INJ-T<n>-<feeder>'). |
+| transformer | number |  | Transformer at the injection substation, Ikeja-style names only. |
+| feeder_name | text | GW_L35_L3_FD2 | Feeder name without the Ikeja substation prefix. |
+| feeder_raw | text | GW_L35_L3_FD2 | Feeder name exactly as printed in the order. |
+| service_band | text | E | Band as extracted (A to E, or ? when unreadable in a scan). |
+| cap_kwh | number | 127 | Maximum kWh a DisCo may bill an unmetered non-MD customer on this feeder for the month (Order NERC/307/2022). |
+| source_file | text | AEDC-Monthly-Energy-Cap-for-October-2022 | File name of the NERC PDF in raw/pdfs. |
+| source_page | number | 1 | Page of the PDF the row is on (1-based). |
+| source_sha16 | text | aee479b3125874c9 | First 16 hex characters of the source PDF's SHA-256. |
+| bu_inferred | number | 1 | 1 when the business unit was printed once for a group of rows (merged cells) and filled for this row from the nearest label. |
+| extraction_method | text | text | text (PDF text layer) or ocr (scanned page read with Apple Vision; text in raw/ocr_text). |
 
-| Column | Type | Example | Meaning | How it is derived |
-|---|---|---|---|---|
-| `period` | string | `2026-09` | Order month. | From the main table. |
-| `disco` | string | `AEDC` | Distribution company. | From the main table. |
-| `band_A` | integer | `331` | Rows in Band A. | Count of rows. |
-| `band_B` | integer | `168` | Rows in Band B. | Count of rows. |
-| `band_C` | integer | `79` | Rows in Band C. | Count of rows. |
-| `band_D` | integer | `64` | Rows in Band D. | Count of rows. |
-| `band_E` | integer | `0` | Rows in Band E. | Count of rows. |
-| `total` | integer | `642` | All rows for this DisCo and month. | Sum of the band counts. |
-| `band_a_share` | number | `0.5156` | Share of rows in Band A. | `band_A / total`, four decimals. |
+## `data/parsed/sources.csv`
 
-Counts are rows as printed, so a feeder printed twice is counted twice.
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| order_month | text | 2022-10 | Month of the NERC order (YYYY-MM). The cap applies to bills for this month. |
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| file | text | AEDC-Monthly-Energy-Cap-for-October-2022 | Source PDF file name. |
+| sha256 | text | aee479b3125874c9a40f19a7726f171c097a775d | SHA-256 of the source PDF. |
+| bytes | number | 1107535 | PDF size in bytes. |
+| pages | number | 23 | PDF page count. |
+| rows | number | 683 | Rows extracted (sources.csv) or records affected (qa table). |
+| unparsed_lines | number | 1 | Lines that looked like data but could not be parsed. |
+| extraction | text | text | Extraction methods used in the file: text, ocr or text+ocr. |
 
-## data/derived/band_changes.csv
+## `data/qa/unmapped_business_units.csv`
 
-One row per feeder whose band differs between two consecutive published orders of the same DisCo. "Consecutive" means consecutive among the months for which that DisCo has an order, so a gap month is skipped over.
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| bu_core | text | OFFICE | Business unit name normalised (upper case, words like BU, DISTRICT, AREA OFFICE removed). |
+| rows | number | 289 | Rows extracted (sources.csv) or records affected (qa table). |
 
-| Column | Type | Example | Meaning | How it is derived |
-|---|---|---|---|---|
-| `disco` | string | `AEDC` | Distribution company. | Main table. |
-| `feeder_key` | string | `GARKI AT3 H2 G4 7B` | Feeder match key. | Main table. Keys printed more than once in either order are skipped. |
-| `business_unit` | string | `GARKI` | Business unit in the later order. | Main table. |
-| `feeder_raw` | string | `AT3_H2_G4_7B` | Feeder text in the later order. | Main table. |
-| `from_period` | string | `2026-08` | Earlier order. | Main table. |
-| `to_period` | string | `2026-09` | Later order. | Main table. |
-| `from_band` | string | `B` | Band in the earlier order. | Main table. |
-| `to_band` | string | `A` | Band in the later order. | Main table. |
-| `direction` | string | `up` | `up` means towards Band A, `down` towards Band E. | Compares the band letters. |
-| `from_cap_kwh` | integer | `237` | Cap in the earlier order. | Main table. |
-| `to_cap_kwh` | integer | `451` | Cap in the later order. | Main table. |
+## `data/rankings/anomaly_low_band_high_cap_latest.csv`
 
-## data/derived/feeder_first_last_seen.csv
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco_name | text | Benin | Distribution company short name. |
+| state | text | DELTA | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| business_unit | text | KOKA | Business unit, district or area office as printed by the DisCo. |
+| feeder_raw | text | SIO | Feeder name exactly as printed in the order. |
+| band | text | D | Service band A to E. A promises at least 20 hours of supply a day; E the least. '?' only in data/parsed, where a scanned band letter could not be read. |
+| cap_kwh | number | 908 | Maximum kWh a DisCo may bill an unmetered non-MD customer on this feeder for the month (Order NERC/307/2022). |
+| disco_band_A_median | number | 478.0 | Median cap of Band A feeders in the same DisCo and month. |
 
-One row per `(disco, feeder_key)`.
+## `data/rankings/cap_distribution_by_band_latest.csv`
 
-| Column | Type | Example | Meaning | How it is derived |
-|---|---|---|---|---|
-| `disco` | string | `IKEDC` | Distribution company. | Main table. |
-| `feeder_key` | string | `ABULE EGBA BU 11 YIDIINJ T1 IJOKO` | Feeder match key. | Main table. |
-| `business_unit` | string | `ABULE-EGBA BU` | Business unit in the latest order. | Main table. |
-| `feeder_raw` | string | `11-YidiINJ-T1-Ijoko` | Feeder text in the latest order. | Main table. |
-| `first_seen` | string | `2026-09` | First order the key appears in. | Minimum `period`. |
-| `last_seen` | string | `2026-09` | Last order the key appears in. | Maximum `period`. |
-| `months_seen` | integer | `1` | Number of orders the key appears in. | Distinct `period` values. |
-| `first_band` | string | `D` | Band in the first order. | Main table. |
-| `last_band` | string | `D` | Band in the latest order. | Main table. |
-| `last_cap_kwh` | integer | `217` | Cap in the latest order. | Main table. |
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| band | text | A | Service band A to E. A promises at least 20 hours of supply a day; E the least. '?' only in data/parsed, where a scanned band letter could not be read. |
+| count | number | 644.0 | Number of feeders. |
+| 10% | number | 119.0 | 10th percentile of cap_kwh. |
+| 50% | number | 289.0 | Median cap_kwh. |
+| 90% | number | 774.7 | 90th percentile of cap_kwh. |
+| max | number | 1890.0 | Maximum cap_kwh. |
 
-## data/nerc_caps_unparsed.log
+## `data/rankings/discos_by_band_A_share_latest.csv`
 
-Plain text, one line per PDF line that could not be read as a row: `<file>:p<page>: <text>`.
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| disco_name | text | Abuja | Distribution company short name. |
+| feeders | number | 635.0 | Number of distinct feeders listed. |
+| band_A | number | 327.0 | Feeders in Band A. |
+| share_A_pct | number | 51.5 | Percent of feeders in Band A. |
+| band_B | number | 168.0 | Feeders in Band B. |
+| share_B_pct | number | 26.5 | Percent of feeders in Band B. |
+| band_C | number | 78.0 | Feeders in Band C. |
+| share_C_pct | number | 12.3 | Percent of feeders in Band C. |
+| band_D | number | 62.0 | Feeders in Band D. |
+| share_D_pct | number | 9.8 | Percent of feeders in Band D. |
+| band_E | number | 0.0 | Feeders in Band E. |
+| share_E_pct | number | 0.0 | Percent of feeders in Band E. |
+| median_cap_kwh | number | 260.0 | Median cap across all listed feeders. |
+| median_cap_A | number | 390.0 | Median cap of Band A feeders (kWh). |
+| median_cap_B | number | 238.5 | Median cap of Band B feeders (kWh). |
+| median_cap_C | number | 121.5 | Median cap of Band C feeders (kWh). |
+| median_cap_D | number | 132.5 | Median cap of Band D feeders (kWh). |
+| median_cap_E | number | 284.0 | Median cap of Band E feeders (kWh). |
 
-<!-- MAINTAINER: the band_changes examples are illustrative (no band change exists in a single month); replace them with a real row after the back-fill. -->
+## `data/rankings/discos_by_downgrades.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco_name | text | Abuja | Distribution company short name. |
+| downgrade | number | 173 | Band changes to a lower band. |
+| upgrade | number | 252 | Band changes to a higher band. |
+| net_upgrades | number | 79 | upgrade minus downgrade. |
+
+## `data/rankings/highest_caps_latest.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco_name | text | Abuja | Distribution company short name. |
+| state | text | FCT | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| business_unit | text | ASOKORO | Business unit, district or area office as printed by the DisCo. |
+| feeder_raw | text | AT5_ FDR4_B33_6A | Feeder name exactly as printed in the order. |
+| band | text | A | Service band A to E. A promises at least 20 hours of supply a day; E the least. '?' only in data/parsed, where a scanned band letter could not be read. |
+| cap_kwh | number | 1890 | Maximum kWh a DisCo may bill an unmetered non-MD customer on this feeder for the month (Order NERC/307/2022). |
+
+## `data/rankings/lowest_caps_latest.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco_name | text | Kaduna | Distribution company short name. |
+| state | text | SOKOTO | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| business_unit | text | SOKOTO NORTH | Business unit, district or area office as printed by the DisCo. |
+| feeder_raw | text | 11KV WURNO | Feeder name exactly as printed in the order. |
+| band | text | D | Service band A to E. A promises at least 20 hours of supply a day; E the least. '?' only in data/parsed, where a scanned band letter could not be read. |
+| cap_kwh | number | 52 | Maximum kWh a DisCo may bill an unmetered non-MD customer on this feeder for the month (Order NERC/307/2022). |
+
+## `data/rankings/most_volatile_feeders.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco_name | text | Abuja | Distribution company short name. |
+| state | text | NASARAWA | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| feeder_raw | text | AT7_FDR 1 (AKWANGA FDR)_PL_PL | Feeder name exactly as printed in the order. |
+| months_listed | number | 43 | Number of order months the feeder appears in. |
+| band_changes | number | 12 | Number of times the feeder's band changed between consecutive listings. |
+| best_band_ever | text | A | Highest band the feeder ever had (A is highest). |
+| worst_band_ever | text | D | Lowest band the feeder ever had. |
+| latest_band | text | A | Band in the feeder's last month. |
+
+## `data/rankings/states_by_band_A_share_latest.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| state | text | FCT | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| feeders | number | 601.0 | Number of distinct feeders listed. |
+| band_A | number | 320.0 | Feeders in Band A. |
+| share_A_pct | number | 53.2 | Percent of feeders in Band A. |
+| band_B | number | 159.0 | Feeders in Band B. |
+| share_B_pct | number | 26.5 | Percent of feeders in Band B. |
+| band_C | number | 78.0 | Feeders in Band C. |
+| share_C_pct | number | 13.0 | Percent of feeders in Band C. |
+| band_D | number | 44.0 | Feeders in Band D. |
+| share_D_pct | number | 7.3 | Percent of feeders in Band D. |
+| band_E | number | 0.0 | Feeders in Band E. |
+| share_E_pct | number | 0.0 | Percent of feeders in Band E. |
+| median_cap_kwh | number | 274.0 | Median cap across all listed feeders. |
+| median_cap_A | number | 395.0 | Median cap of Band A feeders (kWh). |
+| median_cap_B | number | 269.0 | Median cap of Band B feeders (kWh). |
+| median_cap_C | number | 121.5 | Median cap of Band C feeders (kWh). |
+| median_cap_D | number | 132.5 | Median cap of Band D feeders (kWh). |
+| median_cap_E | number | 100.5 | Median cap of Band E feeders (kWh). |
+
+## `data/reference/bu_state_manual.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco | text | JEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| bu_core | text | BUKURU | Business unit name normalised (upper case, words like BU, DISTRICT, AREA OFFICE removed). |
+| state | text | PLATEAU | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| source | text | manual: business unit or area office nam | Reason for the manual mapping. |
+
+## `data/reference/state_regulators.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| state | text | Enugu | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| regulator_name | text | Enugu State Electricity Regulatory Commi | State electricity regulator. |
+| regulator_acronym | text | EERC | Regulator acronym as used in NERC's order. |
+| nerc_order_no | text | NERC/2024/039 | NERC transfer order number(s). |
+| order_date | text | 2024-04-22 | Date the transfer order was signed. |
+| effective_date | text | 2024-10-22 | Completion deadline written in the order (or NERC's transition date, see effective_date_type). |
+| effective_date_type | text | completion_deadline | completion_deadline or transition_date_per_NERC. |
+| status | text | completed | completed, in transition, or not transferred. |
+| successor_entity | text | MainPower Electricity Distribution Limit | Company licensed by the state regulator to take over distribution, where known. |
+| parent_disco | text | EEDC | DisCo the successor was carved out of. |
+| sources | text | https://nerc.gov.ng/wp-content/uploads/2 | Source URLs, space separated. |
+| notes | text | Order commenced 2024-05-01. NERC lists t | Conflicts and caveats. |
+
+## `data/summary/band_transitions.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| feeder_id | text | 0007c605d90e | Stable id for a feeder across months (12 hex characters). Links the same feeder through renames. |
+| disco | text | EKEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| disco_name | text | Eko | Distribution company short name. |
+| state | text | LAGOS | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| feeder_raw | text | 11kV-ALAKIJA | Feeder name exactly as printed in the order. |
+| prev_month | text | 2023-01 | Order month of the previous listing. |
+| month | text | 2023-02 | Order month number. |
+| prev_band | text | E | Band at the previous listing. |
+| new_band | text | C | Band at this listing. |
+| direction | text | upgrade | upgrade (to a higher band) or downgrade. |
+| steps | number | 2 | Number of bands moved. |
+
+## `data/summary/coverage_by_month.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| order_month | text | 2022-10 | Month of the NERC order (YYYY-MM). The cap applies to bills for this month. |
+| pdfs | number | 11 | Source PDFs for the month. |
+| discos | number | 11 | DisCos with an order that month (comma list in state_jurisdiction). |
+| states | number | 35 | States with at least one feeder that month. |
+| feeders | number | 3130 | Number of distinct feeders listed. |
+
+## `data/summary/disco_month.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco | text | AEDC | Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power. |
+| disco_name | text | Abuja | Distribution company short name. |
+| order_month | text | 2022-10 | Month of the NERC order (YYYY-MM). The cap applies to bills for this month. |
+| feeders | number | 680.0 | Number of distinct feeders listed. |
+| band_A | number | 355.0 | Feeders in Band A. |
+| share_A_pct | number | 52.2 | Percent of feeders in Band A. |
+| band_B | number | 77.0 | Feeders in Band B. |
+| share_B_pct | number | 11.3 | Percent of feeders in Band B. |
+| band_C | number | 92.0 | Feeders in Band C. |
+| share_C_pct | number | 13.5 | Percent of feeders in Band C. |
+| band_D | number | 114.0 | Feeders in Band D. |
+| share_D_pct | number | 16.8 | Percent of feeders in Band D. |
+| band_E | number | 42.0 | Feeders in Band E. |
+| share_E_pct | number | 6.2 | Percent of feeders in Band E. |
+| median_cap_kwh | number | 144.5 | Median cap across all listed feeders. |
+| median_cap_A | number | 281.0 | Median cap of Band A feeders (kWh). |
+| median_cap_B | number | 135.0 | Median cap of Band B feeders (kWh). |
+| median_cap_C | number | 99.5 | Median cap of Band C feeders (kWh). |
+| median_cap_D | number | 99.5 | Median cap of Band D feeders (kWh). |
+| median_cap_E | number | 93.5 | Median cap of Band E feeders (kWh). |
+
+## `data/summary/like_for_like_trend.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| order_month | text | 2022-10 | Month of the NERC order (YYYY-MM). The cap applies to bills for this month. |
+| feeders | number | 2140.0 | Number of distinct feeders listed. |
+| band_A | number | 565.0 | Feeders in Band A. |
+| share_A_pct | number | 26.4 | Percent of feeders in Band A. |
+| band_B | number | 278.0 | Feeders in Band B. |
+| share_B_pct | number | 13.0 | Percent of feeders in Band B. |
+| band_C | number | 467.0 | Feeders in Band C. |
+| share_C_pct | number | 21.8 | Percent of feeders in Band C. |
+| band_D | number | 432.0 | Feeders in Band D. |
+| share_D_pct | number | 20.2 | Percent of feeders in Band D. |
+| band_E | number | 398.0 | Feeders in Band E. |
+| share_E_pct | number | 18.6 | Percent of feeders in Band E. |
+| median_cap_kwh | number | 159.0 | Median cap across all listed feeders. |
+| median_cap_A | number | 232.0 | Median cap of Band A feeders (kWh). |
+| median_cap_B | number | 181.0 | Median cap of Band B feeders (kWh). |
+| median_cap_C | number | 141.0 | Median cap of Band C feeders (kWh). |
+| median_cap_D | number | 136.5 | Median cap of Band D feeders (kWh). |
+| median_cap_E | number | 144.5 | Median cap of Band E feeders (kWh). |
+
+## `data/summary/state_jurisdiction.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| state | text | EKITI | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| first_month | text | 2022-10 | First order month the state appears in. |
+| last_month | text | 2025-09 | Last order month the state appears in. |
+| months_present | number | 32 | Order months the state appears in. |
+| discos | text | BEDC | DisCos with an order that month (comma list in state_jurisdiction). |
+| feeders_peak | number | 28 | Distinct feeders ever listed in the state. |
+| still_in_nerc_caps | text | False | True when the state appears in the latest month's orders. |
+| regulator_acronym | text | EERB | Regulator acronym as used in NERC's order. |
+| nerc_order_no | text | NERC/2024/041; NERC/2024/042 | NERC transfer order number(s). |
+| order_date | text | 2024-04-22 | Date the transfer order was signed. |
+| transfer_deadline | text | 2024-10-22 | Completion deadline of the state's NERC transfer order. |
+| transfer_status | text | completed | Status of the transfer. |
+| transferred | text | True | True when a transfer is completed or in transition. |
+| published_after_transfer_deadline | text | True | True when NERC still listed the state after the transfer deadline. |
+
+## `data/summary/state_month.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| state | text | ABIA | Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established. |
+| order_month | text | 2022-10 | Month of the NERC order (YYYY-MM). The cap applies to bills for this month. |
+| feeders | number | 49.0 | Number of distinct feeders listed. |
+| band_A | number | 5.0 | Feeders in Band A. |
+| share_A_pct | number | 10.2 | Percent of feeders in Band A. |
+| band_B | number | 2.0 | Feeders in Band B. |
+| share_B_pct | number | 4.1 | Percent of feeders in Band B. |
+| band_C | number | 17.0 | Feeders in Band C. |
+| share_C_pct | number | 34.7 | Percent of feeders in Band C. |
+| band_D | number | 19.0 | Feeders in Band D. |
+| share_D_pct | number | 38.8 | Percent of feeders in Band D. |
+| band_E | number | 6.0 | Feeders in Band E. |
+| share_E_pct | number | 12.2 | Percent of feeders in Band E. |
+| median_cap_kwh | number | 110.0 | Median cap across all listed feeders. |
+| median_cap_A | number | 132.0 | Median cap of Band A feeders (kWh). |
+| median_cap_B | number | 228.0 | Median cap of Band B feeders (kWh). |
+| median_cap_C | number | 121.0 | Median cap of Band C feeders (kWh). |
+| median_cap_D | number | 105.0 | Median cap of Band D feeders (kWh). |
+| median_cap_E | number | 82.0 | Median cap of Band E feeders (kWh). |
+
+## `data/summary/transitions_by_month.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| month | text | 2022-11 | Order month number. |
+| downgrade | number | 1 | Band changes to a lower band. |
+| upgrade | number | 7 | Band changes to a higher band. |
+
+## `data/parsed/nerc_caps_YYYY-MM.csv`
+
+Same columns as `data/parsed/nerc_caps_all.csv`, one file per order month.

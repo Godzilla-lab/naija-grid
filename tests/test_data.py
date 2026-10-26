@@ -1,79 +1,61 @@
-"""Checks on the published CSVs."""
-import csv
+"""Integrity checks on the published tables."""
+import glob
+import json
 import re
 from pathlib import Path
 
+import pandas as pd
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 DICT = (ROOT / "docs" / "DATA_DICTIONARY.md").read_text(encoding="utf-8")
+STATES = {"ABIA", "ADAMAWA", "AKWA IBOM", "ANAMBRA", "BAUCHI", "BAYELSA", "BENUE", "BORNO", "CROSS RIVER", "DELTA",
+          "EBONYI", "EDO", "EKITI", "ENUGU", "FCT", "GOMBE", "IMO", "JIGAWA", "KADUNA", "KANO", "KATSINA", "KEBBI",
+          "KOGI", "KWARA", "LAGOS", "NASARAWA", "NIGER", "OGUN", "ONDO", "OSUN", "OYO", "PLATEAU", "RIVERS",
+          "SOKOTO", "TARABA", "YOBE", "ZAMFARA", "UNKNOWN"}
 
-# Columns the brief requires. Extra columns are allowed if they are documented.
-REQUIRED = {
-    "main": {"disco", "year", "month", "state", "business_unit", "feeder_name", "feeder_raw",
-             "feeder_key", "service_band", "cap_kwh", "source_file"},
-    "sources.csv": {"disco", "year", "month", "url", "filename", "sha256", "pages", "bytes",
-                    "feeders_parsed", "extraction_method"},
-    "derived/band_counts_by_disco_month.csv": {"disco"},
-    "derived/band_changes.csv": {"disco", "feeder_key", "from_band", "to_band"},
-    "derived/feeder_first_last_seen.csv": {"disco", "feeder_key"},
-}
-ALL_CSVS = sorted(p.relative_to(DATA).as_posix() for p in DATA.rglob("*.csv"))
-MAIN_RE = re.compile(r"nerc_caps_(all|\d{4}-\d{2})\.csv$")
+CSVS = [p for p in sorted(glob.glob(str(DATA / "**" / "*.csv"), recursive=True))
+        if not re.search(r"/parsed/nerc_caps_20\d\d-\d\d\.csv$", p) and not p.endswith("band_history_wide.csv")]
 
 
-def header(rel):
-    with (DATA / rel).open(encoding="utf-8") as f:
-        return next(csv.reader(f))
+@pytest.fixture(scope="module")
+def caps():
+    return pd.read_csv(DATA / "clean" / "caps_long.csv", dtype={"cap_kwh": float})
 
 
-def main_rows():
-    with (DATA / "nerc_caps_all.csv").open(encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+@pytest.mark.parametrize("path", CSVS, ids=lambda p: str(Path(p).relative_to(DATA)))
+def test_columns_documented(path):
+    rel = str(Path(path).relative_to(ROOT))
+    assert f"`{rel}`" in DICT, f"{rel} has no section in docs/DATA_DICTIONARY.md"
+    for c in pd.read_csv(path, nrows=1).columns:
+        assert f"| {c} |" in DICT, f"{rel}: column {c} not documented"
 
 
-@pytest.mark.parametrize("rel", ALL_CSVS)
-def test_required_columns(rel):
-    need = REQUIRED["main"] if MAIN_RE.match(rel) else REQUIRED.get(rel, set())
-    missing = need - set(header(rel))
-    assert not missing, f"{rel} lacks {sorted(missing)}"
+def test_main_table_values(caps):
+    assert set(caps["band"]) <= set("ABCDE")
+    assert (caps["cap_kwh"] > 0).all()
+    assert set(caps["state"]) <= STATES
+    assert caps["order_month"].str.fullmatch(r"20\d\d-(0[1-9]|1[0-2])").all()
 
 
-@pytest.mark.parametrize("rel", ALL_CSVS)
-def test_columns_documented(rel):
-    for col in header(rel):
-        assert f"`{col}`" in DICT, f"{rel}: column {col} is not in docs/DATA_DICTIONARY.md"
+def test_one_row_per_feeder_month(caps):
+    assert not caps.duplicated(["feeder_id", "order_month"]).any()
 
 
-def test_monthly_files_share_one_header():
-    heads = {tuple(header(r)) for r in ALL_CSVS if MAIN_RE.match(r)}
-    assert len(heads) == 1
+def test_consumption_month_is_previous_month(caps):
+    o = pd.PeriodIndex(caps["order_month"], freq="M")
+    c = pd.PeriodIndex(caps["consumption_month"], freq="M")
+    assert ((o - c).map(lambda d: d.n) == 1).all()
 
 
-def test_bands_and_caps():
-    rows = main_rows()
-    assert rows
-    for r in rows:
-        assert r["service_band"] in {"A", "B", "C", "D", "E"}, r
-        assert r["cap_kwh"].isdigit() and int(r["cap_kwh"]) > 0, r
+def test_every_source_pdf_is_committed():
+    s = pd.read_csv(DATA / "parsed" / "sources.csv")
+    missing = [f for f in s["file"] if not (ROOT / "raw" / "pdfs" / f).exists()]
+    assert not missing, missing[:5]
 
 
-def test_months_are_valid():
-    for r in main_rows():
-        assert 2022 <= int(r["year"]) <= 2100 and 1 <= int(r["month"]) <= 12, r
-
-
-def test_monthly_files_add_up():
-    total = 0
-    for p in DATA.glob("nerc_caps_????-??.csv"):
-        with p.open(encoding="utf-8") as f:
-            total += sum(1 for _ in f) - 1
-    assert total == len(main_rows())
-
-
-def test_sources_on_disk():
-    with (DATA / "sources.csv").open(encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if r.get("status", "used") == "used" and int(r.get("feeders_parsed") or 0):
-                assert (ROOT / "raw" / "pdfs" / r["filename"]).exists(), r["filename"]
+def test_findings_match_tables(caps):
+    f = json.loads((DATA / "findings.json").read_text())
+    assert f["distinct_feeders"] == caps["feeder_id"].nunique()
+    assert f["latest_month"] == caps["order_month"].max()

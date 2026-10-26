@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to this project are recorded here. Versions follow [Semantic Versioning](https://semver.org/): a new month of data is not a version change; a change to columns, file layout or parsing that alters existing rows is.
+Versions follow [Semantic Versioning](https://semver.org/). A new month of data is not a version change; a change to columns, file layout or parsing that alters existing rows is.
 
 ## [0.1.0] - 2026-10-26
 
@@ -8,28 +8,29 @@ First public release.
 
 ### Data
 
-- `data/nerc_caps_all.csv` and `.parquet`: NERC Monthly Energy Cap orders, one row per feeder per month, {{FIRST_PERIOD}} to {{LATEST_PERIOD}}, {{N_ROWS}} rows from {{N_PDFS_USED}} PDFs.
-- `data/nerc_caps_YYYY-MM.csv`: the same rows split by month.
-- `data/sources.csv`: every source PDF with NERC URL, SHA-256, pages, bytes, rows parsed and extraction method.
-- `data/derived/`: band counts per DisCo per month, band changes between consecutive orders, first and last month each feeder is seen.
-- `raw/pdfs/`: the source PDFs, unmodified.
-- `datapackage.json`: Frictionless Data descriptor.
+- `data/clean/caps_long.csv` and `.parquet`: 145,795 feeder-month records, October 2022 to October 2026, 7,813 feeders linked across months, with quality flags (`state_source`, `extraction_method`, `id_link`).
+- `data/clean/feeders.csv` and `data/clean/band_history_wide.csv`: one row per feeder.
+- `data/summary/` and `data/rankings/`: monthly summaries by DisCo and state, the like-for-like trend, every band change, state jurisdiction, and latest-month rankings.
+- `data/reference/state_regulators.csv`: the 17 NERC transfer orders to state regulators, 15 read from the order PDFs.
+- `data/parsed/`: the raw extraction from 519 NERC PDFs, before cleaning, with `sources.csv`.
+- `raw/pdfs/` (the orders as downloaded) and `raw/ocr_text/` (recognised text of every scanned page).
+- `docs/ANALYSIS.md`: findings, method and limitations, with eight charts in `docs/charts/`.
 
-### Parser
+### Method
 
-- Discovery reads every page of NERC's paginated library search and selects documents by title, so all file naming styles from 2022 to 2026 are found.
-- The order month comes from the PDF header, not the file name.
-- Wrapped rows are joined, including when the second half looks like a row on its own.
-- Pages without a text layer are counted in `sources.csv` and sent to OCR when tesseract is installed. None of the published files needed it.
-- September 2026 parses to 2,309 feeders across 11 DisCos with no unparsed lines (checked in `tests/`).
+- Discovery reads every page of NERC's paginated library search and selects documents by title, so every file naming style from 2022 to 2026 is found.
+- Each order's month comes from its own title; two mislabeled files are placed by title.
+- Text PDFs are read with pypdf layout mode; 105 scanned orders (November 2025 to August 2026) with Apple Vision, row by row, words placed by the table's ruling lines.
+- Feeders are linked across months by a stable form of their name; 592 scanned rows by close-name matching.
+- State is printed (21.1 percent), learned from business units (63.4), mapped by hand (13.1) or unknown (2.4).
+- 652 rows that NERC printed twice in the same order are removed.
 
 ### Known limitations
 
-- From 2026, NERC's Ikeja, Eko and Enugu orders cover only feeders outside Lagos and Enugu states (Ogun and Ebonyi), so those DisCos are not comparable across years. The files are text PDFs, not scans.
-- {{N_UNPARSED}} unparsed lines, listed in `data/nerc_caps_unparsed.log`.
+- 506 scanned records have an unreadable band, marked `?` in `data/parsed/` and excluded from `data/clean/`.
+- No orders online for January to September 2022 or September to December 2023; Ikeja December 2022 is a dead link on NERC's site.
 
 ### Project
 
-- Scheduled refresh on the 1st and 3rd of each month (`.github/workflows/refresh.yml`) and tests on every push (`.github/workflows/ci.yml`).
-- Licences: MIT for code, CC BY 4.0 for data.
-- Data dictionary, citation file, contributing guide, code of conduct, issue and pull request templates.
+- Refresh on the 1st and 3rd of each month on a macOS runner; tests on every push.
+- MIT for code, CC BY 4.0 for data.

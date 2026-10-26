@@ -1,0 +1,33 @@
+STATE    BUSINESS    UNIT FEEDER NAME    SERVICE BAND NON-MD    (kWh) CAP
+LAGOS    ABULE-EGBA BU 33-OtaTCN-AMJE    A    816
+LAGOS    ABULE-EGBA BU 33-Oke-AroTCN-AKUTE    B    370
+LAGOS    ABULE-EGBA BU 33-0gbaTCN-ABEOKUTA EXP.    A    780
+LAGOS    ABULE-EGBA BU 11-YusufINJ-T2-Yusuf    C    414
+LAGOS    ABULE-EGBA BU 11-YusufINJ-T1-Akera    C    367
+LAGOS    ABULE-EGBA BU 11-YidilNJ-T1-Osoba    C    383
+LAGOS    ABULE-EGBA BU 11-YidiINJ-T1-Opeilu    D    184
+LAGOS    ABULE-EGBA BU 11-YidiINJ-T1-ljoko    D    234
+LAGOS    ABULE-EGBA BU 11-Ope lluINJ-T1-Adiyan    C    309
+LAGOS    ABULE-EGBA BU 11-Ope IlulNJ-T1-Aboro    C    265
+LAGOS    ABULE-EGBA BU 11-Obawole|NJ-T1-Youdeowei    A    595
+LAGOS    ABULE-EGBA BU 11-Obawole|NJ-T1-Shonubi    A    647
+LAGOS    ABULE-EGBA BU 11-LambelNJ-T1-Olambe    C    417
+LAGOS    ABULE-EGBA BU 11-LambelNJ-T1-Matogun    C    385
+LAGOS    ABULE-EGBA BU 11-LambelNJT1-Jolasco    C    359
+LAGOS    ABULE-EGBA BU 11-|juINJ-T2-Ishaga    C    526
+LAGOS    ABULE-EGBA BU 11-|juINJ-T2-Agbado 1    C    334
+LAGOS    ABULE-EGBA BU 11-ljuINJ-T1-Grailand    C    467
+LAGOS    ABULE-EGBA BU 11-ljuINJ-T1-Galilee    A    686
+LAGOS    ABULE-EGBA BU 11-ljuINJ-T1-Asore    B    453
+LAGOS    ABULE-EGBA BU 11-ljuINJ-T1-Ajuwon    A    676
+LAGOS    ABULE-EGBA BU 11-ljaiye OjokorolNJ-T2-Agbado 2    C    331
+LAGOS    ABULE-EGBA BU 11-ljaiye OjokorolNJ-T1-Jankara    B    429
+LAGOS    ABULE-EGBA BU 11-ljaiye OjokorolNJ-T1-Abeokuta Express    C    304
+LAGOS    ABULE-EGBA BU 11-BolorunpeluINJ-T3-Governor    B    594
+LAGOS    ABULE-EGBA BU 11-BeckleyINJ-T1-Beckley    B    664
+LAGOS    ABULE-EGBA BU 11-BeckleyINJ-T1-Agbe road    B    426
+LAGOS    ABULE-EGBA BU 11-Akute INJ-T1-Oyeyemi    C    317
+LAGOS    ABULE-EGBA BU 11-Akute INJ-T1-Ishashi    C    300
+LAGOS    ABULE-EGBA BU 11-AgegelNJ-T1-Oko Oba    B    555
+LAGOS    ABULE-EGBA BU 11-AgegelNJ-T1-lju Road    C    570
+LAGOS    ABULE-EGBA BU 11-Abule IrokolNJ-T1-Books    C    345

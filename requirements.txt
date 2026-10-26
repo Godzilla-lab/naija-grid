@@ -1,3 +1,6 @@
-# Runtime: the parser needs only pypdf. pyarrow is optional (writes the parquet copy).
+# Runtime for download, text extraction and analysis (versions the published data was built with).
 pypdf==6.21.2
+pandas==3.1.0
+matplotlib==3.11.2
 pyarrow==26.0.0
+numpy==2.5.4

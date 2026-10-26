@@ -1,0 +1,54 @@
+LAGOS    ABULE-EGBA BU    11-Abule IrokolNJ-T1-Alakuko    C    340
+LAGOS    ABULE-EGBA BU    11-Abule IrokolNJ-T1-Abule Iroko    C    244
+LAGOS    AKOWONJO BU 33-0gbaTCN-ABEOKUTA EXP.    B    839
+LAGOS    AKOWONJO BU 33-AyoboTCN-AMIKANLE    A    947
+LAGOS    AKOWONJO BU 33-AyoboTCN-ABULE TAYLOR    B    925
+LAGOS    AKOWONJO BU 33-AlimoshoTCN-AGEGE    A    478
+LAGOS    AKOWONJO BU 11-YusufINJ-T2-Agbefa    C    328
+LAGOS    AKOWONJO BU 11-ShashalNJ-T1-Orisunbare    C    434
+LAGOS    AKOWONJO BU 11-ShashalNJ-T1-Oguntade    B    493
+LAGOS    AKOWONJO BU 11-ShashalNJ-T1-Foursquare    C    465
+LAGOS    AKOWONJO BU 11-New GowonINJ-T1-Unity    C    681
+LAGOS    AKOWONJO BU 11-New Gowon|NJ-T1-Olorunadaba    A    702
+LAGOS    AKOWONJO BU 11-New GowonINJ-T1-Kuwait    C    459
+LAGOS    AKOWONJO BU 11-MongorolNJ-T1-Sule    C    454
+LAGOS    AKOWONJO BU 11-MongorolNJ-T1-New Dopemu    A    640
+LAGOS    AKOWONJO BU 11-MongorolNJ-T1-Capitol    C    478
+LAGOS    AKOWONJO BU 11-llapo|NJ-T1-llapo    A    348
+LAGOS    AKOWONJO BU 11-ljaiye OjokoroINJ-T1-Abeokuta Express    C    322
+LAGOS    AKOWONJO BU 11-HilltpINJ-71-Hiltop    A-    ?    737
+LAGOS    AKOWONJO BU 11-EkorolNJ-T2-Olota    C    371
+LAGOS    AKOWONJO BU 11-Ekoro|NJ-T2-Agbele    D    375
+LAGOS    AKOWONJO BU 11-EkoroINJ-T1-Oke Odo    D    504
+LAGOS    AKOWONJO BU 11-EkorolNJ-T1-Ekoro    C    386
+LAGOS    AKOWONJO BU 11-EkorolNJ-T1-Ajasa    C    357
+LAGOS    AKOWONJO BU 11-AyoboINJ-T1-Ikola    A    387
+LAGOS    AKOWONJO BU 11-AyobolNJ-T1-Ayobo    C    454
+LAGOS    AKOWONJO BU 11-AmikanleINJ-T1-Isoto    C    368
+LAGOS    AKOWONJO BU 11-AmikanlelNJ-T1-Ige    C    486
+LAGOS    AKOWONJO BU 11-AmikanleINJ-T1-Aiyetobi    D    480
+LAGOS    AKOWONJO BU 11-AlimosholNJ-T8-Wole Omo Osho    A    616
+LAGOS    AKOWONJO BU 11-AlimosholNJ-T8-Okunola    A    536
+LAGOS    AKOWONJO BU 11-AlimosholNJ-T8-Alimosho    A    727
+LAGOS    AKOWONJO BU 11-AlimosholNJ-T6-Shasha    B    486
+LAGOS    AKOWONJO BU 11-AlimoshoINJ-T6-Orelope    A    510
+LAGOS    AKOWONJO BU 11-Alimosho|NJ-T4-Oki    B    604
+LAGOS    AKOWONJO BU 11-AlimoshoINJ-T4-FHA    A    632
+LAGOS    AKOWONJO BU 11-AlimoshoINJ-T4-Akowonjo    A    485
+LAGOS    AKOWONJO BU 11-AlajalNJ-T1-Fadayomi    C    432
+LAGOS    AKOWONJO BU 11-AiyetorolNJ-T1-Itele    C    447
+LAGOS    AKOWONJO BU 11-AiyetorolNJ-T1-Bada    B    419
+LAGOS    AKOWONJO BU 11-AgegelNJ-T3-Tabon Tabon    D    488
+LAGOS    AKOWONJO BU 11-AgegelNJ-T3-Pen Cinema    C    485
+LAGOS    AKOWONJO BU 11-AgegelNJ-T2-Power Line    C    391
+LAGOS    AKOWONJO BU 11-AgegelNJ-T2-Orile Agege    D    502
+LAGOS    AKOWONJO BU 11-Agege|NJ-T2-Abule Egba    C    499
+LAGOS    AKOWONJO BU 11-AgegelNJ-T1-Oko Oba    ?    538
+LAGOS    AKOWONJO BU 11-AdaranijoINJ-T1-Oyewole    C    488
+LAGOS    AKOWONJO BU 11-AdaranijoINJ-T1-NYSC    C    556
+LAGOS    AKOWONJO BU 11-AdaranijoINJ-T1-Arigbanla    A    464
+LAGOS    AKOWONJO BU 11-Abule TaylorINJ-T1-Walter Anderm    C    502
+LAGOS    AKOWONJO BU 11-Abule TaylorINJ-T1-Bode Williams    A    491
+LAGOS    AKOWONJO BU 11-Abule IrokolNJ-T1-Alakuko    C    324
+LAGOS    AKOWONJO BU 11-AbesanINJ-T2-Shagari    A    497
+LAGOS    AKOWONJO BU 11-AbesanINJ-T2-Abesan    C    487

@@ -1,0 +1,29 @@
+STATE    BUSINESS    UNIT FEEDER NAME    NON-MD SERVICE BAND    (kWh) CAP
+OGUN    ABULE-EGBA BU    11-Abule Iroko|NJ-T1-Abule Iroko    C    257
+OGUN    ABULE-EGBA BU    11-Abule IrokoINJ-T1-Alakuko    C    359
+OGUN    ABULE-EGBA BU    11-Abule IrokolNJ-T1-Books    C    364
+OGUN    ABULE-EGBA BU    11-AgegelNJ-T1-|ju Road    C    602
+OGUN    ABULE-EGBA BU    11-AgegelNJ-T1-Oko Oba    B    587
+OGUN    ABULE-EGBA BU    11-Akute INJ-T1-Ishashi    C    317
+OGUN    ABULE-EGBA BU    11-Akute INJ-T1-Oyeyemi    C    335
+OGUN    ABULE-EGBA BU    11-BeckleyINJ-T1-Agbe road    B    450
+OGUN    ABULE-EGBA BU 11-BeckleyINJ-T1-Beckley    B    702
+OGUN    ABULE-EGBA BU    11-BolorunpeluINJ-T3-Governor    B    628
+OGUN    ABULE-EGBA BU    11 Express ljaiye OjokorolNJ-T1-Abeokuta    C    321
+OGUN    ABULE-EGBA BU    11-ljaiye OjokorolNJ-T1-Jankara    B    453
+OGUN    ABULE-EGBA BU    11-|jaiye OjokoroINJ-T2-Agbado 2    C    350
+OGUN    ABULE-EGBA BU    11-ljulNJ-T1-Ajuwon    A    714
+OGUN    ABULE-EGBA BU 11-ljulNJ-T1-Asore    B    478
+OGUN    ABULE-EGBA BU 11-ljulNJ-T1-Galilee    A    725
+OGUN    ABULE-EGBA BU    11-ljulNJ-T1-Grailand    C    494
+OGUN    ABULE-EGBA BU |    11-ljuINJ-T2-Agbado 1    C    353
+OGUN    ABULE-EGBA BU    11-lju|NJ-T2-Ishaga    C    555
+OGUN    ABULE-EGBA BU 11-Lambe|NJ-T1-Jolasco    C    380
+OGUN    ABULE-EGBA BU    11-LambelNJ-T1-Matogun    C    407
+OGUN    ABULE-EGBA BU 11-Lambe|NJ-T1-Olambe    C    441
+OGUN    ABULE-EGBA BU 11-ObawoleINJ-T1-Shonubi    A    683
+OGUN    ABULE-EGBA BU 11-ObawoleINJ-T1-Youdeowei    A    629
+OGUN    ABULE-EGBA BU    11-Ope IlulNJ-T1-Aboro    C    280
+OGUN    ABULE-EGBA BU    11-Ope IlulNJ-T1-Adiyan    C    326
+OGUN    ABULE-EGBA BU 11-YidilNJ-T1-ljoko    D    247
+OGUN    ABULE-EGBA BU 11-YidiINJ-T1-Opeilu    D    194

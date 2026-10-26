@@ -1,0 +1,30 @@
+STATE    BUSINESS    UNIT    FEEDER NAME    NON-MD SERVICE BAND    (kWh) CAP
+OGUN    ABULE-EGBA BU    33-OtaTCN-AMJE    A    767
+OGUN    ABULE-EGBA BU    33-Oke-AroTCN-AKUTE    B    348
+OGUN    ABULE-EGBA BU    33-OgbaTCN-ABEOKUTA EXP.    A    733
+OGUN    ABULE-EGBA BU    11-YusufINJ-T2-Yusuf    C    390
+OGUN    ABULE-EGBA BU    11-YusufINJ-T1-Akera    C    345
+OGUN    ABULE-EGBA BU    11-YidiINJ-T1-Osoba    C    360
+OGUN    ABULE-EGBA BU    11-YidiINJ-T1-Opeilu    D    173
+OGUN    ABULE-EGBA BU    11-YidiINJ-T1-lioko    D    220
+OGUN    ABULE-EGBA BU    11-Ope IluINJ-T1-Adiyan    C    290
+OGUN    ABULE-EGBA BU    11-Ope IluINJ-T1-Aboro    C    249
+OGUN    ABULE-EGBA BU    11-ObawoleINJ-T1-Youdeowei    A    559
+OGUN    ABULE-EGBA BU    11-ObawoleINJ-T1-Shonubi    A    608
+OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Olambe    ?    392
+OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Matogun    C    362
+OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Jolasco    C    338
+OGUN    ABULE-EGBA BU    11-|ju|NJ-T2-Ishaga    ?    494
+OGUN    ABULE-EGBA BU    11-ljuINJ-T2-Agbado 1    ?    314
+OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Grailand    C    439
+OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Galilee    A    645
+OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Asore    B    425
+OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Ajuwon    A    635
+OGUN    ABULE-EGBA BU    11-ljaiye OjokoroINJ-T2-Agbado 2    C    312
+OGUN    ABULE-EGBA BU    11-ljaiye OjokoroINJ-T1-Jankara    B    403
+OGUN    ABULE-EGBA BU 11-ljaiye Express OjokoroINJ-T1-Abeokuta    C    286
+OGUN    ABULE-EGBA BU    11-BolorunpeluINJ-T3-Governor    B    558
+OGUN    ABULE-EGBA BU    11-BeckleyINJ-T1-Beckley    B    624
+OGUN    ABULE-EGBA BU    11-BeckleyINJ-T1-Agbe road    B    401
+OGUN    ABULE-EGBA BU    11-Akute INJ-T1-Oyeyemi    C    298
+OGUN    ABULE-EGBA BU    11-Akute INJ-T1-Ishashi    C    282

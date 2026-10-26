@@ -2,7 +2,7 @@ name: refresh
 
 on:
   schedule:
-    # 07:00 UTC on the 1st and 3rd of every month. NERC usually posts the new orders in the first week.
+    # 07:00 UTC on the 1st and 3rd of every month. NERC usually posts new orders in the first week.
     - cron: "0 7 1,3 * *"
   workflow_dispatch:
     inputs:
@@ -20,8 +20,9 @@ concurrency:
 
 jobs:
   refresh:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # macOS: scanned orders are read with Apple's Vision framework.
+    runs-on: macos-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -30,31 +31,37 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-ocr.txt pytest==9.1.1
 
-      - name: Fetch and parse NERC energy cap orders
+      - name: Download new NERC cap orders
         env:
           MONTH: ${{ github.event.inputs.month }}
         run: |
           if [ -n "$MONTH" ]; then
             python scripts/nerc_caps.py --month "$MONTH"
           else
-            python scripts/nerc_caps.py
+            CUR=$(date -u +%Y-%m)
+            PREV=$(date -u -v-1m +%Y-%m)
+            python scripts/nerc_caps.py --from "$PREV" --to "$CUR"
           fi
 
-      - name: Rebuild derived tables
-        run: python scripts/derive.py
+      - name: Extract every order (scanned pages use committed OCR text, new ones are recognised)
+        run: python scripts/reparse.py
+
+      - name: Rebuild clean tables, rankings and charts
+        run: python scripts/analyze.py
+
+      - name: Test
+        run: python -m pytest -q
 
       - name: Commit if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data raw
+          git add -A data raw docs/charts
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
-          MONTH_LABEL="${{ github.event.inputs.month }}"
-          if [ -z "$MONTH_LABEL" ]; then MONTH_LABEL="$(date -u +%Y-%m)"; fi
-          git commit -m "data: NERC caps ${MONTH_LABEL}"
+          git commit -m "data: NERC caps refresh $(date -u +%Y-%m-%d)"
           git push

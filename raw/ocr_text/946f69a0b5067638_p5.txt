@@ -1,0 +1,55 @@
+LAGOS    OSHODI BU 33-EjigboTCN-IGANDO    A    1,519
+LAGOS    OSHODI BU 33-EjigboTCN-EGBE    A    1,017
+LAGOS    OSHODI BU 33-EjigboTCN-AGODO    A    1,000
+LAGOS    OSHODI BU 11-YusufINJ-T1-Akera    C    344
+LAGOS    OSHODI BU 11-YidiINJ-T1-Opeilu    D    186
+LAGOS    OSHODI BU 11-ShashalNJ-T1-Orisunbare    C    419
+LAGOS    OSHODI BU 11-SabolNJ-T1-Lasunwon    C    469
+LAGOS    OSHODI BU 11-Oke AfalNJ-T3-Ori Oke    D    370
+LAGOS    OSHODI BU 11-Oke AfalNJ-T3-NNPC    D    376
+LAGOS    OSHODI BU 11-Oke AfalNJ-T3-Bungalow    C    344
+LAGOS    OSHODI BU 11-Oke AfalNJ-T2-Osolo    B    699
+LAGOS    OSHODI BU 11-Oke AfalNJ-T2-Ilamoshe    C    464
+LAGOS    OSHODI BU 11-Oke AfalNJ-T1-LCHE    A    810
+LAGOS    OSHODI BU 11-Oke AfalNJ-T1-Ire-Akari    C    484
+LAGOS    OSHODI BU 11-Oke AfalNJ-T1-Ejigbo    D    320
+LAGOS    OSHODI BU 11-OdogunyanINJ-T1-Agodo    B    539
+LAGOS    OSHODI BU 11-MushinINJ-Aswani    D    694
+LAGOS    OSHODI BU 11-MafolukuINJ-T1-Saubana    D    692
+LAGOS    OSHODI BU 11-MafolukulNJ-T1-Makinde    C    695
+LAGOS    OSHODI BU 11-ItirelNJ-T3-Apena    C    591
+LAGOS    OSHODI BU 11-ItirelNJ-T3-Ago    A    812
+LAGOS    OSHODI BU 11-ItirelNJ-T2-Ibalex    C    402
+LAGOS    OSHODI BU 11-Itire|NJ-T2-Canal    A    824
+LAGOS    OSHODI BU 11-ItirelNJ-T1-Okota    A    755
+LAGOS    OSHODI BU 11-ItirelNJ-T1-Ademulegun    B    555
+LAGOS    OSHODI BU 11-llupejuINJ-T3-L & K    B    781
+LAGOS    OSHODI BU 11-ljegunINJ-T2-Pipeline    D    241
+LAGOS    OSHODI BU 11-liegunINJ-T2-Isheri Oshun    D    281
+LAGOS    OSHODI BU 11-ljegunINJ-T2-ljegun    D    215
+LAGOS    OSHODI BU 11-liegunINJ-T1-Okerube    D    293
+LAGOS    OSHODI BU 11-liegun|NJ-T1-Obalagbe    C    304
+LAGOS    OSHODI BU 11-ljegunINJ-T1-Ikotun    D    474
+LAGOS    OSHODI BU 11-IgandoINJ-T2-General Hospital    C    369
+LAGOS    OSHODI BU 11-IgandoINJ-T2-Akesan    D    304
+LAGOS    OSHODI BU 11-IgandoINJ-T2-Agric Road    D    235
+LAGOS    OSHODI BU 11-IgandoINJ-T1-Obadore    D    304
+LAGOS    OSHODI BU 11-IgandoINJ-T1-New Igando    D    291
+LAGOS    OSHODI BU 11-IgandoINJ-T1-Egan    D    240
+LAGOS    OSHODI BU 11-BolorunpeluINJ-T3-Liasu    B    469
+LAGOS    OSHODI BU 11-BolorunpeluINJ-T3-Governor    B    640
+LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Isijola    ?    459
+LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Idimu    C    464
+LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Abaranje    D    304
+LAGOS    OSHODI BU 11-AmuwoINJ-T2-Jakande 2    C    549
+LAGOS    OSHODI BU 11-AmuwoINJ-T2-Jakande 1    C    546
+LAGOS    OSHODI BU 11-AmuwoINJ-T1-Old Ojo Road    D    335
+LAGOS    OSHODI BU 11-AmuwoINJ-T1-ljesha Express    B    471
+LAGOS    OSHODI BU 11-AlasialNJ-T1-Owoseni    D    555
+LAGOS    OSHODI BU 11-AlasialNJ-T1-Council    D    458
+LAGOS    OSHODI BU 11-AlasialNJ-T1-Alasia    D    565
+LAGOS    OSHODI BU 11-AjaoINJ-T2-Sholanke    C    1,044
+LAGOS    OSHODI BU 11-AjaoINJ-T2-New Estate    C    1,019
+LAGOS    OSHODI BU 11-AjaoINJ-T1-Domino    C    1,059
+LAGOS    OSHODI BU 11-AjaoINJ-T1-Airport Road    B    1,028
+LAGOS    OSHODI BU 11-Agodo EgbelNJ-T1-Kudaki    A    560

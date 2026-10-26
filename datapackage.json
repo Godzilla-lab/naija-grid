@@ -1,9 +1,9 @@
 {
-  "name": "nerc-monthly-energy-caps",
-  "title": "NERC Monthly Energy Caps for unmetered customers, Nigeria, by feeder",
-  "description": "Feeder level monthly energy caps and service bands published by the Nigerian Electricity Regulatory Commission under Order NERC/307/2022, one row per feeder per month, parsed from the PDF orders in NERC's document library.",
+  "name": "naija-grid",
+  "title": "NERC monthly energy caps and service bands for every Nigerian feeder, 2022 to 2026",
+  "description": "Feeder-level monthly energy caps for unmetered customers and service bands A to E, from every Monthly Energy Cap order the Nigerian Electricity Regulatory Commission has published online (Order NERC/307/2022), linked across months.",
   "homepage": "https://github.com/Godzilla-lab/naija-grid",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "created": "2026-10-26",
   "licenses": [
     {
@@ -14,236 +14,102 @@
   ],
   "sources": [
     {
-      "title": "Nigerian Electricity Regulatory Commission, document library",
+      "title": "NERC Monthly Energy Cap orders",
       "path": "https://nerc.gov.ng/resources/?doc_term=monthly+energy+cap&ins=1"
-    }
-  ],
-  "contributors": [
-    {
-      "title": "Olamilekan Busari",
-      "role": "author",
-      "path": "https://github.com/Godzilla-lab"
     }
   ],
   "resources": [
     {
-      "name": "nerc_caps_all",
-      "path": "data/nerc_caps_all.csv",
+      "name": "caps_long",
+      "path": "data/clean/caps_long.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "schema": {
         "fields": [
           {
+            "name": "feeder_id",
+            "type": "string",
+            "description": "Stable id for a feeder across months (12 hex characters). Links the same feeder through renames."
+          },
+          {
             "name": "disco",
             "type": "string",
-            "description": "Distribution company code: AEDC, APLE, BEDC, EEDC, EKEDC, IBEDC, IKEDC, JEDC, KAEDC, KEDCO, PHED, YEDC",
-            "constraints": {
-              "required": true
-            }
+            "description": "Distribution company code: AEDC Abuja, BEDC Benin, EEDC Enugu, EKEDC Eko, IBEDC Ibadan, IKEDC Ikeja, JEDC Jos, KAEDC Kaduna, KEDCO Kano, PHED Port Harcourt, YEDC Yola, APLE Aba Power."
           },
           {
-            "name": "year",
-            "type": "integer",
-            "description": "Year of the cap order (the month the cap applies to)"
-          },
-          {
-            "name": "month",
-            "type": "integer",
-            "description": "Month of the cap order, 1 to 12"
-          },
-          {
-            "name": "period",
+            "name": "disco_name",
             "type": "string",
-            "description": "Order month as YYYY-MM",
-            "constraints": {
-              "required": true,
-              "pattern": "^20[0-9]{2}-[01][0-9]$"
-            }
+            "description": "Distribution company short name."
           },
           {
             "name": "state",
             "type": "string",
-            "description": "State, when the order prints a STATE column (2025 onward for most DisCos); blank otherwise"
+            "description": "Nigerian state of the feeder (36 states plus FCT), UNKNOWN when it could not be established."
           },
           {
-            "name": "business_unit",
+            "name": "order_month",
             "type": "string",
-            "description": "Business unit or area office, when it could be split from the feeder text"
+            "description": "Month of the NERC order (YYYY-MM). The cap applies to bills for this month."
           },
           {
-            "name": "voltage_kv",
+            "name": "consumption_month",
             "type": "string",
-            "description": "11 or 33 when stated in the feeder text"
+            "description": "Month whose consumption the cap covers: the month before order_month, as stated in each order's title."
           },
           {
-            "name": "injection_substation",
+            "name": "band",
             "type": "string",
-            "description": "Injection substation, Ikeja style feeder names only"
-          },
-          {
-            "name": "transformer",
-            "type": "string",
-            "description": "Injection transformer (T1, T2, ...), Ikeja style feeder names only"
-          },
-          {
-            "name": "feeder_name",
-            "type": "string",
-            "description": "Feeder name after removing state, business unit and voltage prefixes"
-          },
-          {
-            "name": "feeder_raw",
-            "type": "string",
-            "description": "Feeder text as printed, after state and business unit"
-          },
-          {
-            "name": "location_raw",
-            "type": "string",
-            "description": "Everything printed before the band column, whitespace collapsed"
-          },
-          {
-            "name": "feeder_key",
-            "type": "string",
-            "description": "Match key: business unit plus feeder, uppercase, punctuation other than / replaced by spaces, whitespace collapsed. Use with disco to follow a feeder across months"
-          },
-          {
-            "name": "service_band",
-            "type": "string",
-            "description": "NERC service band",
-            "constraints": {
-              "required": true,
-              "enum": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
-              ]
-            }
+            "description": "Service band A to E. A promises at least 20 hours of supply a day; E the least. '?' only in data/parsed, where a scanned band letter could not be read."
           },
           {
             "name": "cap_kwh",
             "type": "integer",
-            "description": "Monthly energy cap for an unmetered non-MD customer on this feeder, kWh",
-            "constraints": {
-              "required": true,
-              "minimum": 0
-            }
+            "description": "Maximum kWh a DisCo may bill an unmetered non-MD customer on this feeder for the month (Order NERC/307/2022)."
+          },
+          {
+            "name": "state_source",
+            "type": "string",
+            "description": "Where state comes from: printed (in the order), learned (from the same business unit in later orders), manual (data/reference/bu_state_manual.csv), unknown."
           },
           {
             "name": "extraction_method",
             "type": "string",
-            "description": "text (pypdf text layer) or ocr",
-            "constraints": {
-              "enum": [
-                "text",
-                "ocr"
-              ]
-            }
+            "description": "text (PDF text layer) or ocr (scanned page read with Apple Vision; text in raw/ocr_text)."
+          },
+          {
+            "name": "id_link",
+            "type": "string",
+            "description": "How the row was linked to its feeder: exact, fuzzy_ocr (scanned name matched to a text-month feeder at similarity 0.88 or more), fuzzy_ocr_conflict (a second scanned row matched the same feeder in the same month; kept as its own id)."
           },
           {
             "name": "source_file",
             "type": "string",
-            "description": "PDF file name in raw/pdfs/"
+            "description": "File name of the NERC PDF in raw/pdfs."
           },
           {
             "name": "source_page",
             "type": "integer",
-            "description": "Page of the PDF the row came from"
-          },
-          {
-            "name": "source_sha16",
-            "type": "string",
-            "description": "First 16 hex characters of the PDF SHA-256"
+            "description": "Page of the PDF the row is on (1-based)."
           }
+        ],
+        "primaryKey": [
+          "feeder_id",
+          "order_month"
         ]
       }
     },
     {
-      "name": "sources",
-      "path": "data/sources.csv",
+      "name": "feeders",
+      "path": "data/clean/feeders.csv",
       "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "disco",
-            "type": "string"
-          },
-          {
-            "name": "year",
-            "type": "integer"
-          },
-          {
-            "name": "month",
-            "type": "integer"
-          },
-          {
-            "name": "period",
-            "type": "string"
-          },
-          {
-            "name": "period_from",
-            "type": "string"
-          },
-          {
-            "name": "status",
-            "type": "string"
-          },
-          {
-            "name": "url",
-            "type": "string"
-          },
-          {
-            "name": "filename",
-            "type": "string"
-          },
-          {
-            "name": "title",
-            "type": "string"
-          },
-          {
-            "name": "published",
-            "type": "string"
-          },
-          {
-            "name": "sha256",
-            "type": "string"
-          },
-          {
-            "name": "pages",
-            "type": "integer"
-          },
-          {
-            "name": "bytes",
-            "type": "integer"
-          },
-          {
-            "name": "feeders_parsed",
-            "type": "integer"
-          },
-          {
-            "name": "extraction_method",
-            "type": "string"
-          },
-          {
-            "name": "text_pages",
-            "type": "integer"
-          },
-          {
-            "name": "image_only_pages",
-            "type": "integer"
-          },
-          {
-            "name": "unparsed_lines",
-            "type": "integer"
-          }
-        ],
-        "primaryKey": [
-          "url"
-        ]
-      }
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "state_regulators",
+      "path": "data/reference/state_regulators.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
     }
   ]
 }

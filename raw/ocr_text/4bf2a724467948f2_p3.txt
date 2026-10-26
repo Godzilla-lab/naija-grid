@@ -1,0 +1,49 @@
+LAGOS AKOWONJO BU 11-AbesanINJ-T2-Shagari    A    508
+LAGOS AKOWONJO BU 11-AbesanINJ-T2-Abesan    C    498
+LAGOS AKOWONJO BU 11-AbesanINJ-T1-Ipaja    C    482
+LAGOS AKOWONJO BU 11-AbesanINJ-T1-Baruwa    B    362
+LAGOS AKOWONJO BU 11-AbesanINJ-T1-Aboru    D    317
+LAGOS IKEJA BU 33-Oke-AroTCN-AKUTE    B    454
+LAGOS IKEJA BU 11-SecretariatINJ-T2-UAC    A    1,183
+LAGOS IKEJA BU 11-SecretariatINJ-T2-Agidingbi    A    1,158
+LAGOS IKEJA BU 11-SecretariatINJ-T2-7UP    A    1,073
+LAGOS IKEJA BU 11-SecretariatINJ-T1-Omole    A    1,190
+LAGOS IKEJA BU 11-Secretariat|NJ-T1-Lateef Jakande    A    1,118
+LAGOS IKEJA BU 11-SecretariatINJ-T1-Estate    A    1,236
+LAGOS IKEJA BU 11-PTCINJ-T3-Olowu    A    1,123
+LAGOS IKEJA BU 11-PTCINJ-T3-Oba Akinjobi    A-    ?    1,245
+LAGOS IKEJA BU 11-PTCINJ-T3-General Hospital    A-    ?    1,353
+LAGOS IKEJA BU 11-PTCINJ-T2-Medical    A    1,115
+LAGOS IKEJA BU 11-PTCINJ-T2-Awuse    A-    ?    1,417
+LAGOS IKEJA BU 11-PTCINJ-T1-Opebi    A    1,117
+LAGOS IKEJA BU 11-OpebilNJ-T1-Salvation    A    1,209
+LAGOS IKEJA BU 11-OpebilNJ-T1-Olusosun    B    1,127
+LAGOS IKEJA BU 11-OpebilNJ-T1-Agbaoku    A    1,162
+LAGOS IKEJA BU 11-Ope IluINJ-T1-Aboro    ?    258
+LAGOS IKEJA BU 11-Oke IralNJ-T2-Thomas Salako    ?    966
+LAGOS IKEJA BU 11-Oke IralNJ-T2-Kayode    A    1,124
+LAGOS IKEJA BU 11-Oke IralNJ-T2-Abiodun Jagun    C    1,001
+LAGOS IKEJA BU 11-Oke IralNJ-T1-Oke Ira    A    930
+LAGOS IKEJA BU 11-Oke IralNJ-T1-Nob Oluwa    C    918
+LAGOS IKEJA BU 11-OjoduINJ-T2-Yakoyo    B    909
+LAGOS IKEJA BU 11-OjoduINJ-T2-River Valley    A-    ?    1,147
+LAGOS IKEJA BU 11-OjoduINJ-T2-Express    A-    ?    1,104
+LAGOS IKEJA BU 11-OjoduINJ-T1-Oiodu    A    1,070
+LAGOS IKEJA BU 11-OjoduINJ-T1-King Avenue    A    1,006
+LAGOS IKEJA BU 11-OjoduINJ-T1-Alagbole    C    908
+LAGOS IKEJA BU 11-0gbalNJ-T3-Oba Akran    A    1,318
+LAGOS IKEJA BU 11-0gbalNJ-T2-Mangoro    A    1,115
+LAGOS IKEJA BU 11-0gbalNJ-T2-Ifako    C    1,145
+LAGOS IKEJA BU 11-0gbalNJ-T2-Agege    A    1,049
+LAGOS IKEJA BU 11-0gbalNJ-T1-Isokoko    C    1,077
+LAGOS IKEJA BU 11-0gbalNJ-T1-ljaye    B    1,121
+LAGOS IKEJA BU 11-New AlausalNJ-T6-Ogundana    A    1,228
+LAGOS IKEJA BU 11-New AlausalNJ-T6-Awolowo    A    1,160
+LAGOS IKEJA BU 11-New AlausalNJ-T5-Morrison    A    1,009
+LAGOS IKEJA BU 11-New AlausalNJ-T5-Kudirat    A    1,144
+LAGOS IKEJA BU 11-New AlausalNJ-T5-Alausa    B    1,267
+LAGOS IKEJA BU 11-New AlausaINJ-T4-Siyanbola    A    1,314
+LAGOS IKEJA BU 11-New AlausalNJ-T4-Oregun    A    1,348
+LAGOS IKEJA BU 11-New AlausaINJ-T4-Allen    A    1,248
+LAGOS IKEJA BU 11-MarylandINJ-T2-Ojota    A    1,072
+LAGOS IKEJA BU 11-MarylandINJ-T2-GRA    B    1,697
