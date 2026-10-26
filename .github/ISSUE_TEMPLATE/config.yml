@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: NERC document library (the source PDFs)
+    url: https://nerc.gov.ng/resources/?doc_term=monthly+energy+cap&ins=1
+    about: The official Monthly Energy Cap orders this dataset is parsed from.

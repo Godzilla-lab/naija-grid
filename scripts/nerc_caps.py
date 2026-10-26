@@ -125,6 +125,7 @@ _tls_relaxed = False
 def http(url: str, method: str = "GET", timeout: int = 90, retries: int = 3):
     """Return (status, headers, body). Retries timeouts and refused connections, never 404s."""
     global _tls_relaxed
+    url = urllib.parse.quote(url, safe=":/?&=%#+,;@!$'()*~")  # some NERC file names contain spaces
     last = None
     for attempt in range(retries):
         try:
@@ -310,7 +311,7 @@ def split_location(loc: str, has_state: bool) -> dict:
         out["business_unit"] = m.group("bu").strip()
         s = m.group("rest").strip()
     else:
-        m = re.match(r"^(?P<bu>[A-Za-z][A-Za-z .\-/&']+?)\s+(?P<rest>\d{1,2}-.+)$", s)
+        m = re.match(r"^(?P<bu>[A-Za-z][A-Za-z .\-/&']+?)\s+(?P<rest>\d{1,2}\s*(?:kV)?-.+)$", s, re.I)
         if m:
             out["business_unit"] = m.group("bu").strip()
             s = m.group("rest").strip()
@@ -334,6 +335,11 @@ def split_location(loc: str, has_state: bool) -> dict:
     # Key = business unit + feeder, state dropped (only some years print a state column).
     out["feeder_key"] = feeder_key(no_state)
     return out
+
+
+def starts_with_state(text: str) -> bool:
+    up = text.upper()
+    return any(up.startswith(st + " ") for st in STATES)
 
 
 _OCR_STATE: dict = {}
@@ -406,6 +412,21 @@ def parse_pdf(path: Path, disco: str | None = None, period: tuple[int, int] | No
         carry = ""
         for line in lines:
             m = ROW_RE.match(line)
+            if m and carry and not HEADER_RE.match(carry) and len(carry) < 160:
+                # A wrapped row whose second half also looks like a row on its own:
+                # "FCT APO AT3_H37_S26_BEHIND" + "TRANSMISSION A 838". Join it rather than drop
+                # the first half. In files with a STATE column, only when the first half starts
+                # with a state and the second half does not.
+                if not has_state or (starts_with_state(carry) and not starts_with_state(line)):
+                    joined = carry + " " + line
+                    mj = ROW_RE.match(joined)
+                    if mj:
+                        m, line = mj, joined
+                    else:
+                        unparsed.append(f"{path.name}:p{pno}: {carry}")
+                else:
+                    unparsed.append(f"{path.name}:p{pno}: {carry}")
+                carry = ""
             if not m and carry:
                 joined = carry + " " + line
                 m = ROW_RE.match(joined)

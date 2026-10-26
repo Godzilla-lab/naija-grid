@@ -1,0 +1,3 @@
+# Runtime: the parser needs only pypdf. pyarrow is optional (writes the parquet copy).
+pypdf==6.21.2
+pyarrow==26.0.0

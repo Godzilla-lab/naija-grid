@@ -1,0 +1,52 @@
+name: Data error
+description: A row in the CSV does not match the NERC PDF, or a feeder is missing.
+title: "Data error: <DisCo> <YYYY-MM>"
+labels: ["data error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Every row carries `source_file` and `source_page`, and every PDF is in `raw/pdfs/`, so a precise report can be checked in minutes.
+  - type: dropdown
+    id: disco
+    attributes:
+      label: DisCo
+      options: [AEDC, APLE, BEDC, EEDC, EKEDC, IBEDC, IKEDC, JEDC, KAEDC, KEDCO, PHED, YEDC]
+    validations:
+      required: true
+  - type: input
+    id: month
+    attributes:
+      label: Month (YYYY-MM)
+      placeholder: "2026-09"
+    validations:
+      required: true
+  - type: input
+    id: pdf
+    attributes:
+      label: PDF file name
+      description: As in raw/pdfs/ or the source_file column.
+      placeholder: "IE-Monthly-Energy-Cap-September-2026.pdf"
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: "1"
+    validations:
+      required: true
+  - type: textarea
+    id: pdf_says
+    attributes:
+      label: What the PDF says
+      description: Copy the row exactly as printed.
+    validations:
+      required: true
+  - type: textarea
+    id: csv_says
+    attributes:
+      label: What the CSV says
+      description: Paste the CSV row, or write "missing".
+    validations:
+      required: true
