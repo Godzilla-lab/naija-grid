@@ -148,11 +148,14 @@ def _table_lines(pdf_path: str, page_index: int, dpi: int = 300) -> list[str]:
             k[0] = sorted(k[0] + [b for b in l[0] if bx is None or b[1] + b[3] / 2 < bx - 0.02], key=lambda b: (b[1], b[2]))
         for g, _, yc in row_lines:
             cap = g[-1]
+            if len(g) >= 3 and g[-2][0] == "-" and re.fullmatch(r"[A-E]", g[-3][0]):
+                g = g[:-2] + [g[-1]]  # Ikeja's "A - Bilateral" band cell
             has_band = len(g) >= 2 and re.fullmatch(r"[A-E]", g[-2][0]) and (bx is None or abs(g[-2][1] + g[-2][3] / 2 - bx) < 0.04)
             body = g[:-2] if has_band else g[:-1]
             band = g[-2][0] if has_band else ""
             if not band and bx is not None:
-                band = _read_band_cell(page, bx, yc) or "?"
+                bounds = (y0, y1) if len(row_lines) == 1 else (yc - hb * 1.1, yc + hb * 1.1)
+                band = _read_band_cell(page, bx, yc, rows=bounds, cols=cols) or "?"
             elif not band:
                 band = "?"
             out.append(_join_words(body, hb, cols) + "    " + band + "    " + cap[0])
@@ -224,14 +227,66 @@ def _recognise(png: bytes, words: bool = False) -> list[tuple[str, float, float,
     return out
 
 
-def _read_band_cell(page, xb: float, yc: float, dpi: int = 600) -> str:
-    """OCR one band cell, cropped tight and zoomed; single letters survive this, unlike full pages."""
+BAND_CELL_RE = re.compile(r"^([A-E])(?:\s*-\s*(?:BILATERAL)?)?$")
+
+
+def _band_from_text(text: str) -> str:
+    """'B' -> 'B'; Ikeja's 'A -' / 'A - Bilateral' cells -> 'A'."""
+    m = BAND_CELL_RE.match(text.strip().upper().translate(CYRILLIC_TO_LATIN))
+    return m.group(1) if m else ""
+
+
+def _padded_png(page, clip, dpi: int, pad: int = 60) -> bytes:
+    """Render a clip and centre it on a white canvas; Vision reads lone letters far better with margin."""
+    pix = page.get_pixmap(dpi=dpi, clip=clip, colorspace=fitz.csRGB, alpha=False)
+    canvas = fitz.Pixmap(fitz.csRGB, fitz.IRect(0, 0, pix.width + 2 * pad, pix.height + 2 * pad), False)
+    canvas.clear_with(255)
+    pix.set_origin(pad, pad)
+    canvas.copy(pix, pix.irect)
+    return canvas.tobytes("png")
+
+
+def _read_band_cell(page, xb: float, yc: float, dpi: int = 600,
+                    rows: tuple[float, float] | None = None, cols: list[float] | None = None) -> str:
+    """OCR one band cell, cropped tight and zoomed; single letters survive this, unlike full pages.
+
+    Tries, in order: the old fixed crop; the cell between its own ruling lines, inset so the lines
+    themselves are left out, on a white margin, at two zoom levels. The first A to E found wins.
+    """
     r = page.rect
-    clip = fitz.Rect(r.width * (xb - 0.03), r.height * (yc - 0.012), r.width * (xb + 0.03), r.height * (yc + 0.012))
-    for text, *_ in _recognise(page.get_pixmap(dpi=dpi, clip=clip).tobytes("png")):
-        t = text.strip().upper()
-        if re.fullmatch(r"[A-E]", t):
-            return t
+    clips = [fitz.Rect(r.width * (xb - 0.03), r.height * (yc - 0.012), r.width * (xb + 0.03), r.height * (yc + 0.012))]
+    left, right = xb - 0.03, xb + 0.03
+    if cols:
+        lo = [c for c in cols if c < xb]
+        hi = [c for c in cols if c > xb]
+        if lo and hi and hi[0] - lo[-1] < 0.2:
+            left, right = lo[-1], hi[0]
+    top, bot = (rows if rows else (yc - 0.009, yc + 0.009))
+    w, h = right - left, bot - top
+    inner = fitz.Rect(r.width * (left + w * 0.08), r.height * (top + h * 0.12),
+                      r.width * (right - w * 0.08), r.height * (bot - h * 0.12))
+    for i, clip in enumerate(clips + [inner, inner]):
+        png = page.get_pixmap(dpi=dpi, clip=clip).tobytes("png") if i == 0 else _padded_png(page, clip, (400, 800)[i - 1])
+        texts = [t for t, *_ in _recognise(png)]
+        for text in texts + [" ".join(texts)]:
+            band = _band_from_text(text)
+            if band:
+                return band
+    # Vision often skips a lone letter it is shown alone but reads it in the context of its whole
+    # row, at some zoom levels and not others; take the A to E word whose centre sits in the band column.
+    xa, xz = (cols[0], cols[-1]) if cols and len(cols) >= 2 else (0.03, 0.97)
+    strip = fitz.Rect(r.width * xa, r.height * top, r.width * xz, r.height * bot)
+    for zoom in (200, 600, 400, 250):
+        for text, x, _y, w, _h in _recognise(_padded_png(page, strip, zoom), words=True):
+            band = _band_from_text(text)
+            if not band:
+                continue
+            # x is relative to the padded canvas; map back to the page
+            pw = strip.width * zoom / 72
+            pad = 60
+            cx = xa + ((x + w / 2) * (pw + 2 * pad) - pad) / pw * (xz - xa)
+            if abs(cx - xb) < 0.03:
+                return band
     return ""
 
 

@@ -9,7 +9,7 @@ FCT    ABAJI    GW_L36_L2_FD1    D    182
 FCT    ABAJI    GW_L36_L2_FD3    D    137
 FCT    ABAJI    GW_L36_L5_FD2    D    70
 FCT    ABAJI    GW_L36_PL_PL    B    99
-FCT    ADO    AT3_H21_PL_PL    ?    104
+FCT    ADO    AT3_H21_PL_PL    C    104
 FCT    ADO    AT3_H21_PL_PL    C    104
 FCT    ADO    AT8_UKE/MASAKAA_PL_PL    A    111
 FCT    ADO    AT9_KI_A22_FD4    B    781

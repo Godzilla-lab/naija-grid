@@ -16,7 +16,7 @@ LAGOS    AKOWONJO BU 11-MongorolNJ-T1-New Dopemu    A    640
 LAGOS    AKOWONJO BU 11-MongorolNJ-T1-Capitol    C    478
 LAGOS    AKOWONJO BU 11-llapo|NJ-T1-llapo    A    348
 LAGOS    AKOWONJO BU 11-ljaiye OjokoroINJ-T1-Abeokuta Express    C    322
-LAGOS    AKOWONJO BU 11-HilltpINJ-71-Hiltop    A-    ?    737
+LAGOS    AKOWONJO BU 11-HilltpINJ-71-Hiltop    A-    A    737
 LAGOS    AKOWONJO BU 11-EkorolNJ-T2-Olota    C    371
 LAGOS    AKOWONJO BU 11-Ekoro|NJ-T2-Agbele    D    375
 LAGOS    AKOWONJO BU 11-EkoroINJ-T1-Oke Odo    D    504
@@ -43,7 +43,7 @@ LAGOS    AKOWONJO BU 11-AgegelNJ-T3-Pen Cinema    C    485
 LAGOS    AKOWONJO BU 11-AgegelNJ-T2-Power Line    C    391
 LAGOS    AKOWONJO BU 11-AgegelNJ-T2-Orile Agege    D    502
 LAGOS    AKOWONJO BU 11-Agege|NJ-T2-Abule Egba    C    499
-LAGOS    AKOWONJO BU 11-AgegelNJ-T1-Oko Oba    ?    538
+LAGOS    AKOWONJO BU 11-AgegelNJ-T1-Oko Oba    C    538
 LAGOS    AKOWONJO BU 11-AdaranijoINJ-T1-Oyewole    C    488
 LAGOS    AKOWONJO BU 11-AdaranijoINJ-T1-NYSC    C    556
 LAGOS    AKOWONJO BU 11-AdaranijoINJ-T1-Arigbanla    A    464

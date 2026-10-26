@@ -11,11 +11,11 @@ OGUN    ABULE-EGBA BU    11-Ope IluINJ-T1-Adiyan    C    290
 OGUN    ABULE-EGBA BU    11-Ope IluINJ-T1-Aboro    C    249
 OGUN    ABULE-EGBA BU    11-ObawoleINJ-T1-Youdeowei    A    559
 OGUN    ABULE-EGBA BU    11-ObawoleINJ-T1-Shonubi    A    608
-OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Olambe    ?    392
+OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Olambe    C    392
 OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Matogun    C    362
 OGUN    ABULE-EGBA BU    11-LambeINJ-T1-Jolasco    C    338
-OGUN    ABULE-EGBA BU    11-|ju|NJ-T2-Ishaga    ?    494
-OGUN    ABULE-EGBA BU    11-ljuINJ-T2-Agbado 1    ?    314
+OGUN    ABULE-EGBA BU    11-|ju|NJ-T2-Ishaga    C    494
+OGUN    ABULE-EGBA BU    11-ljuINJ-T2-Agbado 1    C    314
 OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Grailand    C    439
 OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Galilee    A    645
 OGUN    ABULE-EGBA BU    11-ljuINJ-T1-Asore    B    425

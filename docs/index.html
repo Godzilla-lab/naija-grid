@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find Your Feeder</title>
+<meta name="description" content="Look up any Nigerian electricity feeder's NERC service band and monthly billing cap for unmetered customers, with its history since 2022.">
+<style>
+:root {
+  --bg: #f7f6f2; --card: #ffffff; --ink: #1c1b18; --muted: #6b6860; --line: #e3e0d8;
+  --accent: #0b6e4f; --accent-ink: #ffffff; --warn: #9a5b00; --warn-bg: #fff4e0;
+  --A: #0b6e4f; --B: #4a8c2a; --C: #b08900; --D: #c25e00; --E: #b3261e; --none: #d6d3cb;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141412; --card: #1e1d1a; --ink: #eceae4; --muted: #a29f96; --line: #33312c;
+    --accent: #3fbf8f; --accent-ink: #0d1a14; --warn: #f0b45a; --warn-bg: #2d2416; --none: #3a3833;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141412; --card: #1e1d1a; --ink: #eceae4; --muted: #a29f96; --line: #33312c;
+  --accent: #3fbf8f; --accent-ink: #0d1a14; --warn: #f0b45a; --warn-bg: #2d2416; --none: #3a3833;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
+.lede { color: var(--muted); margin: 0 0 24px; }
+.search { display: flex; gap: 8px; flex-wrap: wrap; }
+input, select { font: inherit; color: var(--ink); background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; padding: 12px 14px; }
+input { flex: 1 1 260px; min-width: 0; }
+select { flex: 0 1 200px; }
+input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.status { color: var(--muted); font-size: 14px; margin: 12px 0; min-height: 21px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 12px 0; }
+.row { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.name { font-weight: 600; word-break: break-word; }
+.meta { color: var(--muted); font-size: 14px; }
+.band { flex: none; width: 52px; height: 52px; border-radius: 12px; display: grid; place-items: center;
+  font-size: 26px; font-weight: 700; color: #fff; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px 16px; margin-top: 12px; font-size: 14px; }
+.facts b { display: block; font-size: 18px; }
+.history { display: flex; gap: 2px; margin-top: 12px; flex-wrap: wrap; }
+.history span { width: 12px; height: 18px; border-radius: 3px; background: var(--none); }
+.note { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 8px 12px; margin-top: 12px; font-size: 14px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; color: var(--muted); margin: 24px 0 8px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 32px; border-top: 1px solid var(--line); padding-top: 16px; }
+a { color: var(--accent); }
+button.more { font: inherit; background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 10px 14px; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Find your feeder</h1>
+  <p class="lede">Your feeder's NERC service band and the most an unmetered customer on it can legally be billed each month, with its history since October 2022.</p>
+
+  <div class="search">
+    <input id="q" type="search" placeholder="Feeder, area or business unit, e.g. Festac, Ikorodu, Bodija" autocomplete="off" aria-label="Search feeders">
+    <select id="disco" aria-label="Filter by DisCo"><option value="">All DisCos</option></select>
+  </div>
+  <div class="status" id="status" role="status">Loading feeders...</div>
+  <div id="results"></div>
+
+  <div class="legend" aria-label="Band legend">
+    <span><i style="background:var(--A)"></i>A: at least 20 hours a day</span>
+    <span><i style="background:var(--B)"></i>B: 16 hours</span>
+    <span><i style="background:var(--C)"></i>C: 12 hours</span>
+    <span><i style="background:var(--D)"></i>D: 8 hours</span>
+    <span><i style="background:var(--E)"></i>E: 4 hours</span>
+  </div>
+
+  <footer>
+    <p>The cap is the legal maximum monthly bill in kWh for an unmetered (estimated billing) customer on that feeder, set by NERC's Monthly Energy Cap order. If you were billed more, you can complain to your DisCo, then to NERC's Forum Office.</p>
+    <p>Data: <a href="https://github.com/Godzilla-lab/naija-grid">naija-grid</a>, from every NERC order published online, refreshed monthly. CC BY 4.0. Also on Telegram: <a href="https://t.me/naijagridbot">@naijagridbot</a>.</p>
+  </footer>
+</main>
+
+<script>
+const BASE = "https://raw.githubusercontent.com/Godzilla-lab/naija-grid/main/data/";
+const BAND_COLOR = { A: "var(--A)", B: "var(--B)", C: "var(--C)", D: "var(--D)", E: "var(--E)" };
+const $ = (id) => document.getElementById(id);
+let feeders = [], bandHist = {}, months = [], newest = "", transferred = {};
+
+function parseCSV(text) {
+  const rows = []; let row = [], cell = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) {
+      if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+      else if (c === '"') q = false;
+      else cell += c;
+    } else if (c === '"') q = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n") { row.push(cell); rows.push(row); row = []; cell = ""; }
+    else if (c !== "\r") cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  const head = rows.shift();
+  return { head, rows: rows.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]]))) };
+}
+
+const norm = (s) => (s || "").toUpperCase().replace(/[^A-Z0-9]+/g, " ").trim();
+const monthName = (m) => {
+  if (!m) return "";
+  const [y, mo] = m.split("-").map(Number);
+  return new Date(y, mo - 1, 1).toLocaleString("en-GB", { month: "short", year: "numeric" });
+};
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+async function load() {
+  try {
+    const [f, h, r] = await Promise.all([
+      fetch(BASE + "clean/feeders.csv").then(x => x.text()),
+      fetch(BASE + "clean/band_history_wide.csv").then(x => x.text()),
+      fetch(BASE + "reference/state_regulators.csv").then(x => x.text()).catch(() => ""),
+    ]);
+    feeders = parseCSV(f).rows;
+    const hw = parseCSV(h);
+    months = hw.head.filter(c => /^\d{4}-\d{2}$/.test(c));
+    hw.rows.forEach(r => { bandHist[r.feeder_id] = months.map(m => r[m] || ""); });
+    if (r) parseCSV(r).rows.forEach(s => { if (s.status !== "not transferred") transferred[s.state.toUpperCase()] = s; });
+    newest = feeders.reduce((m, x) => x.last_seen > m ? x.last_seen : m, "");
+    feeders.forEach(x => { x._key = norm([x.feeder_name, x.feeder_raw, x.business_unit, x.injection_substation, x.state, x.disco_name].join(" ")); });
+    const discos = [...new Set(feeders.map(x => x.disco_name))].sort();
+    discos.forEach(d => $("disco").insertAdjacentHTML("beforeend", `<option>${esc(d)}</option>`));
+    $("status").textContent = `${feeders.length.toLocaleString()} feeders loaded. Latest order: ${monthName(newest)}.`;
+    readHash();
+  } catch (e) {
+    $("status").textContent = "Could not load the data. Check your connection and refresh.";
+  }
+}
+
+let shown = 20;
+function search() {
+  const q = norm($("q").value), d = $("disco").value;
+  const out = $("results");
+  if (!q && !d) { out.innerHTML = ""; $("status").textContent = `${feeders.length.toLocaleString()} feeders. Type a name to search.`; return; }
+  const words = q.split(" ").filter(Boolean);
+  let hits = feeders.filter(x => (!d || x.disco_name === d) && words.every(w => x._key.includes(w)));
+  hits.sort((a, b) => (b.last_seen === newest) - (a.last_seen === newest) || b.last_seen.localeCompare(a.last_seen) || a.feeder_raw.localeCompare(b.feeder_raw));
+  $("status").textContent = hits.length ? `${hits.length.toLocaleString()} match${hits.length === 1 ? "" : "es"}` : "No feeder matches. Try a shorter name or the area.";
+  out.innerHTML = hits.slice(0, shown).map(card).join("") +
+    (hits.length > shown ? `<button class="more" id="more">Show more</button>` : "");
+  const more = $("more"); if (more) more.onclick = () => { shown += 40; search(); };
+}
+
+function card(x) {
+  const current = x.last_seen === newest;
+  const band = x.latest_band;
+  const hist = (bandHist[x.feeder_id] || []).map((b, i) =>
+    `<span title="${monthName(months[i])}: ${b ? "Band " + b : "not listed"}" style="${b && BAND_COLOR[b] ? "background:" + BAND_COLOR[b] : ""}"></span>`).join("");
+  let note = "";
+  if (!current) {
+    const t = transferred[(x.state || "").toUpperCase()];
+    note = `<div class="note">Not in NERC's ${monthName(newest)} orders; last listed ${monthName(x.last_seen)}.` +
+      (t ? ` ${esc(x.state)} has its own electricity regulator (${esc(t.regulator_acronym || t.regulator_name)}), which may now set this cap.` : "") + `</div>`;
+  }
+  return `<div class="card">
+    <div class="row">
+      <div><div class="name">${esc(x.feeder_raw)}</div>
+      <div class="meta">${esc(x.disco_name)} DisCo · ${esc(x.state || "State unknown")}${x.business_unit ? " · " + esc(x.business_unit) : ""}</div></div>
+      <div class="band" style="background:${BAND_COLOR[band] || "var(--none)"}" aria-label="Band ${esc(band)}">${esc(band || "?")}</div>
+    </div>
+    <div class="facts">
+      <div><b>${esc(x.latest_cap_kwh)} kWh</b>monthly cap, ${current ? "latest order" : monthName(x.last_seen)}</div>
+      <div><b>${esc(x.best_band_ever)} to ${esc(x.worst_band_ever)}</b>best to worst band seen</div>
+      <div><b>${esc(x.band_changes)}</b>band changes since ${monthName(x.first_seen)}</div>
+    </div>
+    <div class="history" aria-label="Band history by month">${hist}</div>
+    ${note}
+  </div>`;
+}
+
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  if (p.get("q")) $("q").value = p.get("q");
+  search();
+}
+let t;
+$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => { shown = 20; location.replace("#q=" + encodeURIComponent($("q").value)); search(); }, 150); });
+$("disco").addEventListener("change", () => { shown = 20; search(); });
+load();
+</script>
+</body>
+</html>

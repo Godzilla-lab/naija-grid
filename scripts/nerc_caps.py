@@ -317,6 +317,8 @@ def split_location(loc: str) -> dict:
 
 CELL_SPLIT = re.compile(r"\s{2,}")
 TAIL_RE = re.compile(r"^(?P<band>[A-E?])$")
+WRAP_BELOW_INDENT = 12  # characters of leading space: the line starts past the first column
+BILATERAL_RE = re.compile(r"^[A-E]\s*-\s*(?:BILATERAL)?$", re.I)
 CAP_RE = re.compile(r"^\d{1,3}(?:,\d{3})*$|^\d+$")
 
 
@@ -332,7 +334,9 @@ def _is_row(cells: list[str]) -> bool:
 
 
 def _split_tail(cells: list[str]) -> list[str]:
-    """Handle 'FEEDER C' + '226' or 'FEEDER C 226' squeezed into one cell."""
+    """Handle 'FEEDER C' + '226' or 'FEEDER C 226' squeezed into one cell, and Ikeja's 'A -' band."""
+    if len(cells) >= 2 and BILATERAL_RE.match(cells[-2]) and CAP_RE.match(cells[-1]):
+        cells = cells[:-2] + [cells[-2].strip()[0].upper(), cells[-1]]  # "A -" / "A - Bilateral" is Band A
     if len(cells) >= 1:
         m = re.match(r"^(?P<rest>.*?)\s+(?P<band>[A-E])\s+(?P<cap>\d[\d,]*)$", cells[-1])
         if m and not _is_row(cells):
@@ -390,8 +394,10 @@ def parse_pdf(path: Path, year: int | None = None, month: int | None = None) -> 
     rows: list[dict] = []
     unparsed: list[str] = []
     last_lead = [""] * n_lead
+    wrapped_below = 0
     for pno, text in enumerate(pages, start=1):
         carry: list[str] = []
+        prev_was_row = False
         for raw in text.splitlines():
             if not raw.strip():
                 continue
@@ -401,17 +407,37 @@ def parse_pdf(path: Path, year: int | None = None, month: int | None = None) -> 
                     or re.match(r"^\d+\s*\|?\s*P\s*a\s*g\s*e\b", flat, re.I)):
                 carry = []
                 continue
-            cells = _split_tail(_cells(raw))
+            if flat.upper() == "BILATERAL":
+                continue  # second line of Ikeja's "A - Bilateral" band cell
+            cells = [c for c in _split_tail(_cells(raw)) if c.upper() != "BILATERAL"]
             if not _is_row(cells):
+                indent = len(raw) - len(raw.lstrip())
+                if prev_was_row and not carry and rows and indent >= WRAP_BELOW_INDENT and len(cells) == 1:
+                    # The feeder name wrapped onto the line below its row ("ISAAC" / "JOHN"):
+                    # nothing in the first column, so it belongs to the row above, not the next one.
+                    rows[-1]["feeder_raw"] += " " + cells[0]
+                    rows[-1]["feeder_name"] += " " + cells[0]
+                    wrapped_below += 1
+                    prev_was_row = False
+                    continue
+                prev_was_row = False
                 if len(flat) > 2:
                     carry = carry + cells
                 continue
+            prev_was_row = True
             body = cells[:-2]
             band, cap = cells[-2], cells[-1]
             if carry:
                 # wrapped row: the previous line(s) hold the start of the lead cells and feeder name
                 body = carry + body
                 carry = []
+            if body and BILATERAL_RE.match(body[-1]):
+                body = body[:-1]  # Ikeja's "A - Bilateral" band cell, read by OCR as an extra "A-" cell
+            if has_state and 0 < len(body) < 3:
+                # OCR ran state, business unit and feeder together: "LAGOS IKEJA BU 11-PTCINJ-T3-Awuse"
+                m3 = re.match(r"^(?P<st>[A-Z][A-Z ]+?)\s+(?P<bu>[A-Z][A-Za-z .'-]*?\bBU)\s+(?P<f>.+)$", " ".join(body))
+                if m3 and m3.group("st").upper() in STATES:
+                    body = [m3.group("st"), m3.group("bu"), m3.group("f")]
             if len(body) >= n_lead + 1:
                 lead = body[:n_lead]
                 feeder = " ".join(body[n_lead:])

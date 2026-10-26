@@ -28,8 +28,8 @@ LAGOS    SHOMOLU    BU 11-OguduINJ-T3-Balogun    B    665
 LAGOS    SHOMOLU    BU 11-OguduINJ-T2-Oriola    A    705
 LAGOS    SHOMOLU    BU 11-OguduINJ-T2-Alapere    A    705
 LAGOS    SHOMOLU    BU 11-OguduINJ-T1-Ogudu    A    822
-LAGOS    SHOMOLU BU 11-OgudulNJ-T1-Express    A-    ?    1,054
-LAGOS    SHOMOLU BU 11-OguduINU-T1-CAC    A-    ?    1,086
+LAGOS    SHOMOLU BU 11-OgudulNJ-T1-Express    A-    A    1,054
+LAGOS    SHOMOLU BU 11-OguduINU-T1-CAC    A-    A    1,086
 LAGOS    SHOMOLU    BU 11-Nite|INJ-T1-Challenge    D    438
 LAGOS    SHOMOLU    BU 11-New YabalNJ-T2-Jibowu    B    711
 LAGOS    SHOMOLU    BU 11-New YabalNJ-T1-Fadeyi    D    368
@@ -45,6 +45,6 @@ LAGOS    SHOMOLU    BU 11-MarylandINJ-T2-Ojota    A    1,168
 LAGOS    SHOMOLU    BU 11-MarylandINJ-T1-Okupe    A    1,082
 LAGOS    SHOMOLU    BU 11-MarylandINJ-T1-Ketu    A    717
 LAGOS    SHOMOLU    BU 11-MagodoINJ-T2-CMD    A    1,052
-LAGOS    SHOMOLU BU 11-MagodolNJ-72-Bashiru    A-    ?    1,268
-LAGOS    SHOMOLU BU 11-MagodolN-T1-Shangisha    A-    ?    1,162
-LAGOS    SHOMOLU BU 11-MagodolNJ-T1-Owulade    A-    ?    1,078
+LAGOS    SHOMOLU BU 11-MagodolNJ-72-Bashiru    A-    A    1,268
+LAGOS    SHOMOLU BU 11-MagodolN-T1-Shangisha    A-    A    1,162
+LAGOS    SHOMOLU BU 11-MagodolNJ-T1-Owulade    A-    A    1,078

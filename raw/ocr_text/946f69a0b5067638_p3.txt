@@ -9,10 +9,10 @@ LAGOS IKEJA BU 11-SecretariatiNJ-T1-Omole    A    1,162
 LAGOS IKEJA BU 11-Secretariat|NJ-T1-Lateef Jakande    A    1,092
 LAGOS IKEJA BU 11-Secretariat|NJ-T1-Estate    A    1,207
 LAGOS IKEJA BU 11-PTCINJ-T3-Olowu    A    1,097
-LAGOS IKEJA BU 11-PTCINJ-T3-Oba Akinjobi    A-    ?    1,216
-LAGOS IKEJA BU 11.PTCINJ-T3-General Hospital    A-    ?    1,322
+LAGOS IKEJA BU 11-PTCINJ-T3-Oba Akinjobi    A-    A    1,216
+LAGOS IKEJA BU 11.PTCINJ-T3-General Hospital    A-    A    1,322
 LAGOS IKEJA BU 11-PTCINJ-T2-Medical    A    1,089
-LAGOS IKEJA BU 11-PTCINJ-T2-Awuse    A-    ?    1,384
+LAGOS IKEJA BU 11-PTCINJ-T2-Awuse    A-    A    1,384
 LAGOS IKEJA BU 11-PTCINJ-T1-Opebi    A    1,091
 LAGOS IKEJA BU 11-OpebilNJ-T1-Salvation    A    1,181
 LAGOS IKEJA BU 11-OpebilNJ-T1-Olusosun    B    1,101
@@ -24,8 +24,8 @@ LAGOS IKEJA BU 11-Oke IralNJ-T2-Abiodun Jagun    C    977
 LAGOS IKEJA BU 11-Oke IralNJ-T1-Oke Ira    A    908
 LAGOS IKEJA BU 11-Oke IralNJ-T1-Nob Oluwa    C    897
 LAGOS IKEJA BU 11-OjoduINJ-T2-Yakoyo    B    888
-LAGOS IKEJA BU 11-OjodulNJ-T2-River Valley    A-    ?    1,121
-LAGOS IKEJA BU 11-OjoduINJ-T2-Express    A-    ?    1,078
+LAGOS IKEJA BU 11-OjodulNJ-T2-River Valley    A-    A    1,121
+LAGOS IKEJA BU 11-OjoduINJ-T2-Express    A-    A    1,078
 LAGOS IKEJA BU 11-OjoduINJ-T1-Ojodu    A    1,045
 LAGOS IKEJA BU 11-OjoduINJ-T1-King Avenue    A    982
 LAGOS IKEJA BU 11-OjoduINJ-T1-Alagbole    C    887
@@ -45,5 +45,5 @@ LAGOS IKEJA BU 11-New AlausalNJ-T4-Oregun    A    1,317
 LAGOS IKEJA BU 11-New AlausalNJ-T4-Allen    A    1,219
 LAGOS IKEJA BU 11-MarylandINJ-T2-Ojota    A    1,047
 LAGOS IKEJA BU 11-MarylandINJ-T2-GRA    B    1,658
-LAGOS IKEJA BU 11-MarylandINJ-T1-PTC    A-    ?    1,295
+LAGOS IKEJA BU 11-MarylandINJ-T1-PTC    A-    A    1,295
 LAGOS IKEJA BU 11-IlupejuINJ-T4-Ikorodu    A    1,120

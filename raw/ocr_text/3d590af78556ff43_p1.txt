@@ -2,7 +2,7 @@ STATE    BUSINESS    UNIT FEEDER NAME    NON-MD SERVICE BAND    (kWh) CAP
 OGUN    ABULE-EGBA BU 11-Abule IrokolNJ-T1-Abule Iroko    C    235
 OGUN    ABULE-EGBA BU 11-Abule IrokolNJ-T1-Alakuko    C    328
 OGUN    ABULE-EGBA BU 11-Abule IrokolNJ-T1-Books    C    333
-OGUN    ABULE-EGBA BU |    11-Agege|NJ-T1-lju Road    ?    551
+OGUN    ABULE-EGBA BU |    11-Agege|NJ-T1-lju Road    C    551
 OGUN    ABULE-EGBA BU 11-Agege|NJ-T1-Oko Oba    B    537
 OGUN    ABULE-EGBA BU T    11-Akute INJ-T1-Ishashi    C    290
 OGUN    ABULE-EGBA BU 11-Akute INJ-T1-Oyeyemi    C    306
@@ -19,7 +19,7 @@ OGUN    ABULE-EGBA BU    11-ljulNJ-T1-Grailand    C    452
 OGUN    ABULE-EGBA BU 11-ljuINJ-T2-Agbado 1    C    323
 OGUN    ABULE-EGBA BU 11-ljuINJ-T2-Ishaga    C    508
 OGUN    ABULE-EGBA BU |11-LambeINJ-T1-Jolasco    C    347
-OGUN    ABULE-EGBA BU 11-LambelNJ-T1-Matogun    ?    372
+OGUN    ABULE-EGBA BU 11-LambelNJ-T1-Matogun    C    372
 OGUN    ABULE-EGBA BU 11-Lambe|NJ-T1-Olambe    C    403
 OGUN    ABULE-EGBA BU 11-ObawolelNJ-T1-Shonub    A    625
 OGUN    ABULE-EGBA BU 11-Obawole|NJ-T1-Youdeowei    A    575

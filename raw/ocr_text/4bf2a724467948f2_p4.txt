@@ -1,4 +1,4 @@
-LAGOS    IKEJA BU 11-MarylandINJ-T1-PTC    A-    ?    1,325
+LAGOS    IKEJA BU 11-MarylandINJ-T1-PTC    A-    A    1,325
 LAGOS    IKEJA BU 11-IlupejuNJ-T4-Ikorodu    A    1,147
 LAGOS    IKEJA BU 11-IlupejulNJ-T1-Bhojson    A    1,863
 LAGOS    IKEJA BU 11-AjaoINJ-T2-New Estate    C    1,010
@@ -7,8 +7,8 @@ LAGOS    IKEJA BU 11-AgegelNJ-T1-lju Road    C    637
 LAGOS    IKEJA BU 11-Adeniyi Jones|NJ-T1-Anifowoshe    A    1,087
 LAGOS    IKEJA BU 11-Adeniyi JonesINJ-T1-Ajao    A    1,220
 LAGOS    IKEJA BU 11-Adeniyi JonesINJ-T1-Adeniyi Jones    A    1,285
-LAGOS    IKEJA BU 11-Adekunle FajuyilNJ-T1-Oduduwa    A-    ?    1,270
-LAGOS IKEJA BU 11-Adekunle FajuyilNJ-TI-Isaac John    A-    ?    1,374
+LAGOS    IKEJA BU 11-Adekunle FajuyilNJ-T1-Oduduwa    A-    A    1,270
+LAGOS IKEJA BU 11-Adekunle FajuyilNJ-TI-Isaac John    A-    A    1,374
 LAGOS    IKEJA BU 11-AbesanINJ-T1-Aboru    D    272
 LAGOS IKORODU BU 33-OdogunyanTCN-AGBEDE    B    322
 LAGOS    IKORODU BU 33-MarylandTCN-AJEGUNLE    B    887
@@ -38,8 +38,8 @@ LAGOS IKORODU BU 11-OdogunyanINJ-T2-Cantoment    C    492
 LAGOS    IKORODU BU 11-OdogunyanINJ-T1-Industrial    D    506
 LAGOS IKORODU BU 11-OdogunyanINJ-T1-Agodo    B    517
 LAGOS IKORODU BU 11-|pakodo (Ebute)INJ-T1-WAEC    C    511
-LAGOS    IKORODU BU 11-Ipakodo (Ebute)INJ-T1-Ipakodo    ?    522
-LAGOS    IKORODU BU 11-|pakodo (Ebute)INJ-T1-Abuja    ?    379
+LAGOS    IKORODU BU 11-Ipakodo (Ebute)INJ-T1-Ipakodo    C    522
+LAGOS    IKORODU BU 11-|pakodo (Ebute)INJ-T1-Abuja    C    379
 LAGOS    IKORODU BU 11-liedeINJ-T1-Luwasa    D    282
 LAGOS    IKORODU BU 11-liedeINJ-T1-Gberibe    C    257
 LAGOS    IKORODU BU 11-IgbogbolNJ-T2-Odofin    D    344

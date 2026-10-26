@@ -59,3 +59,38 @@ def test_findings_match_tables(caps):
     f = json.loads((DATA / "findings.json").read_text())
     assert f["distinct_feeders"] == caps["feeder_id"].nunique()
     assert f["latest_month"] == caps["order_month"].max()
+
+
+def test_unreadable_bands_stay_rare():
+    """Scanned orders: a band the OCR could not read is written as '?'. A jump means the reader regressed."""
+    parsed = pd.read_csv(DATA / "parsed" / "nerc_caps_all.csv", usecols=["service_band", "extraction_method"])
+    ocr = parsed[parsed.extraction_method == "ocr"]
+    assert (ocr.service_band == "?").mean() < 0.005, (ocr.service_band == "?").sum()
+
+
+def test_recovered_band_letters():
+    """Rows the first OCR pass could not read, checked by eye against the scans."""
+    p = pd.read_csv(DATA / "parsed" / "nerc_caps_all.csv", usecols=["disco", "year", "month", "feeder_raw", "service_band", "cap_kwh"])
+    def band(disco, y, m, feeder, cap):
+        r = p[(p.disco == disco) & (p.year == y) & (p.month == m) & p.feeder_raw.str.contains(feeder, regex=False) & (p.cap_kwh == cap)]
+        assert len(r) == 1, (feeder, len(r))
+        return r.service_band.iloc[0]
+    assert band("YEDC", 2026, 7, "GRA MUBI", 179) == "C"
+    assert band("JEDC", 2026, 1, "MAKURDI TOWN", 127) == "B"
+    assert band("IKEDC", 2026, 2, "Shangisha", 1189) == "A"   # "A - Bilateral"
+
+
+def test_few_one_month_feeders(caps):
+    """Rows glued together or split apart by the parser show up as fake feeders listed in one month only.
+    In text months this was 20.5 percent before wrapped names were attached to the right row; now about 15."""
+    text = caps[caps.extraction_method == "text"]
+    months = text.groupby("feeder_id").order_month.nunique()
+    assert (months == 1).mean() < 0.17, round((months == 1).mean(), 3)
+
+
+def test_business_units_are_not_feeder_fragments():
+    """A business unit holding feeder text ('...INJ-', 'FEEDER', a kV tag) means cells shifted."""
+    p = pd.read_csv(DATA / "parsed" / "nerc_caps_all.csv", usecols=["business_unit", "extraction_method"], dtype=str).fillna("")
+    text = p[p.extraction_method == "text"]
+    bad = text.business_unit.str.upper().str.contains(r"INJ-|FEEDER|\bFDR|\b(?:11|33)\s*KV|BILATERAL", regex=True)
+    assert bad.mean() < 0.001, text.business_unit[bad].value_counts().head(10).to_dict()

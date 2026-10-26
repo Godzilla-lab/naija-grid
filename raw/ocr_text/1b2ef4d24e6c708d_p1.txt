@@ -14,7 +14,7 @@ FCT    ADO    AT3_H21_PL_PL    C    103
 FCT    ADO    AT8_UKE/MASAKAA_PL_PL    A    111
 FCT    ADO    AT9_K1_A22_FD4    B    779
 FCT    ADO    AT9_K2_PL_PL    B    90
-FCT    ADO    AT9_K3_PL_PL    ?    86
+FCT    ADO    AT9_K3_PL_PL    C    86
 FCT    ADO    AT9_K4_A23_FD9    C    406
 FCT    ADO    AT9_K4_J22_FD1    B    110
 FCT    ADO    AT9_K4_J22_FD2    B    189

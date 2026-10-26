@@ -1,6 +1,6 @@
-LAGOS    SHOMOLU BU 11-MagodoINJ-T1-Shangisha    A-    ?    1,189
-LAGOS    SHOMOLU BU 11-MagodoINJ-T1-Owulade    A-    ?    1,103
-LAGOS    SHOMOLU BU 11-MagodolNJ-T1-Emmanuel Keshi    A-    ?    1,228
+LAGOS    SHOMOLU BU 11-MagodoINJ-T1-Shangisha    A-    A    1,189
+LAGOS    SHOMOLU BU 11-MagodoINJ-T1-Owulade    A-    A    1,103
+LAGOS    SHOMOLU BU 11-MagodolNJ-T1-Emmanuel Keshi    A-    A    1,228
 LAGOS    SHOMOLU BU 11-IsherilNJ-T1-Isheri    A    1,014
 LAGOS    SHOMOLU BU 11-IsherilNJ-T1-Bankole    A    1,015
 LAGOS    SHOMOLU BU 11-Ilupeju|NJ-T3-Palmgrove    A    1,181
@@ -9,7 +9,7 @@ LAGOS    SHOMOLU BU 11-llupeju BypassINJ-T1-Obanikoro    A    1,102
 LAGOS    SHOMOLU BU 11-Ilupeju Bypass|NJ-T1-Industrial    A    698
 LAGOS    SHOMOLU BU 11-llupeju BypassINJ-T1-Bypass    A    1,151
 LAGOS    SHOMOLU BU 11-IgbobilNJ-T3-Railway    A    910
-LAGOS    SHOMOLU BU 11-IgbobilNJ-T3-Mushin    ?    530
+LAGOS    SHOMOLU BU 11-IgbobilNJ-T3-Mushin    C    530
 LAGOS    SHOMOLU BU 11-IgbobilNJ-T3-Ikorodu    C    546
 LAGOS    SHOMOLU BU 11-IgbobilNJ-T2-Orthopaedic    B    873
 LAGOS    SHOMOLU BU 11-IgbobilNJ-T2-Market    B    855
@@ -23,17 +23,17 @@ LAGOS    SHOMOLU BU 11-AkokalNJ-T1-Akoka    B    1,029
 OGUN    ABULE-EGBA BU 33-OtaTCN-AMJE    A    835
 OGUN    ABULE-EGBA BU 33-Oke-AroTCN-AKUTE    B    379
 OGUN    ABULE-EGBA BU 33-0gbaTCN-ABEOKUTA EXP.    A    799
-OGUN    ABULE-EGBA BU 11-YusufINJ-T2-Yusuf    ?    424
+OGUN    ABULE-EGBA BU 11-YusufINJ-T2-Yusuf    C    424
 OGUN    ABULE-EGBA BU 11-YusufINJ-T1-Akera    C    375
 OGUN    ABULE-EGBA BU 11-YidiINJ-T1-Osoba    C    392
 OGUN    ABULE-EGBA BU 11-YidiINJ-T1-Opeilu    D    188
 OGUN    ABULE-EGBA BU 11-YidiINJ-T1-lioko    D    240
 OGUN    ABULE-EGBA BU 11-Ope IluINJ-T1-Adiyan    C    316
-OGUN    ABULE-EGBA BU 11-Ope lluINJ-T1-Aboro    ?    271
+OGUN    ABULE-EGBA BU 11-Ope lluINJ-T1-Aboro    C    271
 OGUN    ABULE-EGBA BU 11-ObawoleINJ-T1-Youdeowei    A    609
 OGUN    ABULE-EGBA BU 11-ObawoleINJ-T1-Shonubi    A    662
 OGUN    ABULE-EGBA BU 11-LambeINJ-T1-Olambe    C    427
-OGUN    ABULE-EGBA BU 11-LambelNJ-T1-Matogun    ?    394
+OGUN    ABULE-EGBA BU 11-LambelNJ-T1-Matogun    C    394
 OGUN    ABULE-EGBA BU 11-LambelNJ-T1-Jolasco    C    368
 OGUN    ABULE-EGBA BU 11-|julNJ-T2-Ishaga    C    538
 OGUN    ABULE-EGBA BU 11-|ju|NJ-T2-Agbado 1    C    342
@@ -47,5 +47,5 @@ OGUN    ABULE-EGBA BU 11-ljaiye Express OjokorolNJ-T1-Abeokuta    C    311
 OGUN    ABULE-EGBA BU 11-BolorunpeluINJ-T3-Governor    B    608
 OGUN    ABULE-EGBA BU 11-BeckleyINJ-T1-Beckley    B    680
 OGUN    ABULE-EGBA BU 11-BeckleyINJ-T1-Agbe road    B    436
-OGUN    ABULE-EGBA BU 11-Akute INJ-T1-Oyeyemi    ?    324
+OGUN    ABULE-EGBA BU 11-Akute INJ-T1-Oyeyemi    C    324
 OGUN    ABULE-EGBA BU 11-Akute INJ-T1-Ishashi    C    307

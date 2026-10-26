@@ -3,7 +3,7 @@ LAGOS    ABULE-EGBA BU 33-OtaTCN-AMJE    A    835
 LAGOS    ABULE-EGBA BU 33-Oke-AroTCN-AKUTE    B    379
 LAGOS    ABULE-EGBA BU 33-0gbaTCN-ABEOKUTA EXP.    A    799
 LAGOS    ABULE-EGBA BU 11-YusufINJ-T2-Yusuf    C    424
-LAGOS    ABULE-EGBA BU 11-YusufINJ-T1-Akera    ?    375
+LAGOS    ABULE-EGBA BU 11-YusufINJ-T1-Akera    C    375
 LAGOS    ABULE-EGBA BU 11-YidilNJ-T1-Osoba    C    392
 LAGOS    ABULE-EGBA BU 11-YidiINJ-T1-Opeilu    D    188
 LAGOS    ABULE-EGBA BU 11-YidiINJ-T1-lioko    D    240
@@ -16,7 +16,7 @@ LAGOS    ABULE-EGBA BU 11-LambelNJ-T1-Matogun    C    394
 LAGOS    ABULE-EGBA BU 11-LambelNJ-T1-Jolasco    C    368
 LAGOS    ABULE-EGBA BU 11-|julNJ-T2-Ishaga    C    538
 LAGOS    ABULE-EGBA BU 11-|juINJ-T2-Agbado 1    C    342
-LAGOS    ABULE-EGBA BU 11-ljulNJ-T1-Grailand    ?    478
+LAGOS    ABULE-EGBA BU 11-ljulNJ-T1-Grailand    C    478
 LAGOS    ABULE-EGBA BU 11-ljulNJ-T1-Galilee    A    702
 LAGOS    ABULE-EGBA BU 11-ljulNJ-T1-Asore    B    463
 LAGOS    ABULE-EGBA BU 11-ljulNJ-T1-Ajuwon    A    692

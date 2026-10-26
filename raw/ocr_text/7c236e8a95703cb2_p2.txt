@@ -5,9 +5,9 @@ FCT    APO    AT3_H2_G32_7A    A    269
 FCT    APO    AT3_H2_G32_8B    A    87
 FCT    APO    AT3_H2_G4_7B    A    204
 FCT    APO    AT3_H2_PL_PL    A    789
-FCT    APO    AT3_H21_E2_FD2    ?    442
+FCT    APO    AT3_H21_E2_FD2    C    442
 FCT    APO    AT3_H21_E2_FD5    C    407
-FCT    APO    AT3_H21_PL_PL    ?    104
+FCT    APO    AT3_H21_PL_PL    C    104
 FCT    APO    AT3_H3_R5_4B    A    336
 FCT    APO    ATЗ_H31_PL_PL    A    458
 FCT    APO    AT3_H31_S22_4A    B    524
@@ -29,11 +29,11 @@ FCT    APO    AT3_H5_R3_4A    A    937
 FCT    APO    AT3_H5_R6_2B    A    1013
 FCT    APO    KUKWABA_L31_PL_PL    B    329
 FCT    APO    KUKWABA_L33_PL_PL    A    564
-FCT    APO    KUKWABA_S25_GV    ?    207
+FCT    APO    KUKWABA_S25_GV    C    207
 FCT    ASOKORO    AT3_H2_G32_2B    A    1342
 FCT    ASOKORO    AT3_H2_G4_2B    A    772
 FCT    ASOKORO    AT3_H21_E2_FD5    C    256
-FCT    ASOKORO    AT3_H21_PL_PL    ?    104
+FCT    ASOKORO    AT3_H21_PL_PL    C    104
 FCT    ASOKORO    AT3_H3_R4_FD4    A    570
 FCT    ASOKORO    AT3_H3_R4_FD6    A    904
 FCT    ASOKORO    ATЗ_H3_R5_3A    A    463

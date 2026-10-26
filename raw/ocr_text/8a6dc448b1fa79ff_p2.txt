@@ -16,7 +16,7 @@ KANO    KANO    EAST    11    KV FARAWA    C    209
 KANO    KANO    EAST    11    KV FEDERAL SECRETARIAT    C    209
 KANO    KANO    EAST    11    KV GADARKO    B    263
 KANO    KANO    EAST    11    KV GARKO    E    80
-KANO    KANO    EAST    11    KV HOTORO    ?    172
+KANO    KANO    EAST    11    KV HOTORO    C    172
 KANO    KANO    EAST    11    KV KUNDILA    C    203
 KANO    KANO    EAST    11    KV KUT    B    289
 KANO    KANO    EAST    11    KV LADANAI    C    123

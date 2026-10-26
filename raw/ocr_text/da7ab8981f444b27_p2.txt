@@ -4,7 +4,7 @@ FCT    APO    AT3_H2_G32_7A    A    265
 FCT    APO    AT3_H2_G32_8B    A    86
 FCT    APO    AT3_H2_G4_7B    A    201
 FCT    APO    AT3_H2_PL_PL    A    776
-FCT    APO    AT3_H21_E2_FD2    ?    434
+FCT    APO    AT3_H21_E2_FD2    C    434
 FCT    APO    AT3_H21_E2_FD5    C    400
 FCT    APO    AT3_H21_PL_PL    C    102
 FCT    APO    AT3_H3_R5_4B    A    330

@@ -38,7 +38,7 @@ LAGOS    OSHODI BU 11-IgandoINJ-T1-New Igando    D    291
 LAGOS    OSHODI BU 11-IgandoINJ-T1-Egan    D    240
 LAGOS    OSHODI BU 11-BolorunpeluINJ-T3-Liasu    B    469
 LAGOS    OSHODI BU 11-BolorunpeluINJ-T3-Governor    B    640
-LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Isijola    ?    459
+LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Isijola    C    459
 LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Idimu    C    464
 LAGOS    OSHODI BU 11-BolorunpeluINJ-T1-Abaranje    D    304
 LAGOS    OSHODI BU 11-AmuwoINJ-T2-Jakande 2    C    549

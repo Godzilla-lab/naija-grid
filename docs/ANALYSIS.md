@@ -4,16 +4,16 @@ Analysis of every Monthly Energy Cap order the Nigerian Electricity Regulatory C
 
 ## The data in one paragraph
 
-Since 2022, NERC has published a monthly order for each distribution company (DisCo) that lists every feeder with unmetered customers, the feeder's service band (A to E), and the maximum kWh a DisCo may bill an unmetered customer on that feeder that month (Order NERC/307/2022). Band A carries a promise of at least 20 hours of supply a day; bands B to E promise progressively fewer. We collected 520 of these orders, extracted 146,108 feeder-month records covering 7,813 distinct feeders across 45 months, and linked each feeder across time.
+Since 2022, NERC has published a monthly order for each distribution company (DisCo) that lists every feeder with unmetered customers, the feeder's service band (A to E), and the maximum kWh a DisCo may bill an unmetered customer on that feeder that month (Order NERC/307/2022). Band A carries a promise of at least 20 hours of supply a day; bands B to E promise progressively fewer. We collected 520 of these orders, extracted 147,079 feeder-month records covering 6,458 distinct feeders across 45 months, and linked each feeder across time.
 
 | | |
 |---|---|
 | Orders (PDFs) | 520, all 11 DisCos plus Aba Power |
 | Months covered | 45, October 2022 to October 2026 |
-| Feeder-month records | 146,108 |
-| Distinct feeders | 7,813 |
-| Feeders in the latest order (October 2026) | 2,296 |
-| State identified | 97.6 percent of records |
+| Feeder-month records | 147,079 |
+| Distinct feeders | 6,458 |
+| Feeders in the latest order (October 2026) | 2,295 |
+| State identified | 99.4 percent of records |
 
 ---
 
@@ -21,25 +21,25 @@ Since 2022, NERC has published a monthly order for each distribution company (Di
 
 ### 1. The biggest re-banding happened in July 2024
 
-The July 2024 orders changed the band of 747 feeders in a single month, 442 upgrades and 305 downgrades. No other month comes close: the next largest are February 2023 (194 changes) and February 2025 (166).
+The July 2024 orders changed the band of 755 feeders in a single month, 445 upgrades and 310 downgrades. No other month comes close: the next largest are February 2023 (192 changes) and February 2025 (159).
 
-The most common single move was Band A to Band B (185 feeders). Among the states that are still in NERC's orders today, the share of feeders in Band A fell from 30.1 percent in June 2024 to 24.1 percent in July 2024, while Band B rose from 12.2 to 18.8 percent. This followed NERC's April 2024 decision to charge Band A customers a much higher tariff than other bands, which put the 20-hour promise under scrutiny. Band A has since recovered to 28.0 percent.
+The most common single move was Band A to Band B (186 feeders). Among the states that are still in NERC's orders today, the share of feeders in Band A fell from 29.6 percent in June 2024 to 24.1 percent in July 2024, while Band B rose from 12.1 to 18.7 percent. This followed NERC's April 2024 decision to charge Band A customers a much higher tariff than other bands, which put the 20-hour promise under scrutiny. Band A has since recovered to 28.1 percent.
 
-Over the whole record, 628 feeders moved into Band A and 529 moved out of it.
+Over the whole record, 583 feeders moved into Band A and 495 moved out of it.
 
 ![Band changes per month](charts/05_band_changes_by_month.png)
 
-### 2. Caps per unmetered customer have risen by about 29 percent
+### 2. Caps per unmetered customer have risen by about 30 percent
 
-The median monthly cap, for states that are in the orders at both ends of the period, rose from 159 kWh in October 2022 to 204.5 kWh in October 2026. For Band A feeders it rose from 232 to 289 kWh; for Band E from 144.5 to 176.5 kWh. Because caps are derived from what metered neighbours on the same feeder actually consume, a higher cap means either more supply or more consumption on that feeder, and a higher maximum bill for unmetered households.
+The median monthly cap, for states that are in the orders at both ends of the period, rose from 158 kWh in October 2022 to 205 kWh in October 2026. For Band A feeders it rose from 224 to 289 kWh; for Band E from 143.5 to 177 kWh. Because caps are derived from what metered neighbours on the same feeder actually consume, a higher cap means either more supply or more consumption on that feeder, and a higher maximum bill for unmetered households.
 
 ![Median cap by band over time](charts/08_median_cap_by_band_over_time.png)
 
 ### 3. Caps follow bands at the top, but not at the bottom
 
-In the October 2026 orders the median cap is 289 kWh for Band A, 204 for B, 189 for C, 176 for D and 176.5 for E. Band A is clearly higher, but Bands D and E are indistinguishable. A band is a promise of hours; a cap is a measure of consumption. The two diverge at the bottom.
+In the October 2026 orders the median cap is 289 kWh for Band A, 204 for B, 189 for C, 176 for D and 177 for E. Band A is clearly higher, but Bands D and E are indistinguishable. A band is a promise of hours; a cap is a measure of consumption. The two diverge at the bottom.
 
-102 feeders in Bands D or E have a cap above their own DisCo's Band A median. Ibadan (37), Kaduna (25) and Port Harcourt (22) account for most of them; the highest is a Band D feeder in Delta (Benin DisCo) capped at 908 kWh, nearly double Benin's Band A median of 478 kWh. These are the feeders where a low supply promise sits next to a high billing ceiling, and they are listed in `data/rankings/anomaly_low_band_high_cap_latest.csv`.
+101 feeders in Bands D or E have a cap above their own DisCo's Band A median. Ibadan (37), Kaduna (24) and Port Harcourt (22) account for most of them; the highest is a Band D feeder in Delta (Benin DisCo) capped at 908 kWh, nearly double Benin's Band A median of 478 kWh. These are the feeders where a low supply promise sits next to a high billing ceiling, and they are listed in `data/rankings/anomaly_low_band_high_cap_latest.csv`.
 
 ![Cap by band](charts/04_cap_by_band_latest.png)
 
@@ -52,7 +52,7 @@ Share of each DisCo's listed feeders in Band A, October 2026 order, highest to l
 | Abuja | 635 | 51.5% | 0.0% | 260 |
 | Enugu (Ebonyi only) | 17 | 41.2% | 0.0% | 127 |
 | Port Harcourt | 236 | 31.4% | 7.2% | 390 |
-| Kaduna | 200 | 29.0% | 30.5% | 121.5 |
+| Kaduna | 199 | 29.1% | 30.2% | 121 |
 | Jos | 98 | 28.6% | 6.1% | 126.5 |
 | Ikeja (Ogun only) | 34 | 17.6% | 0.0% | 362 |
 | Eko (Ogun only) | 17 | 17.6% | 0.0% | 289 |
@@ -61,7 +61,7 @@ Share of each DisCo's listed feeders in Band A, October 2026 order, highest to l
 | Kano | 158 | 10.1% | 4.4% | 176 |
 | Benin | 243 | 7.0% | 23.0% | 300 |
 
-Kaduna is the most polarised: 29 percent of its feeders in Band A and 30.5 percent in Band E. It also re-banded 107 feeders in the October 2026 order alone (74 down, 33 up). Yola has the worst net record over four years, with 123 downgrades against 38 upgrades.
+Kaduna is the most polarised: 29.1 percent of its feeders in Band A and 30.2 percent in Band E. It also re-banded 106 feeders in the October 2026 order alone (73 down, 33 up), and has the most downgrades of any DisCo over four years (159). Yola has the worst net record, with 119 downgrades against 37 upgrades.
 
 ![DisCo band mix](charts/03_discos_band_mix_latest.png)
 
@@ -75,15 +75,15 @@ Under the Electricity Act 2023, NERC has issued transfer orders to 17 states (ta
 
 - **Eleven states dropped out of NERC's cap orders, all of them late.** Ekiti, Enugu and Ondo had transfer deadlines in October 2024 but stayed in NERC's orders until September 2025, eleven months later. Imo, Kogi, Niger and Plateau also left in September 2025. Lagos (deadline June 2025) stayed until February 2026, having disappeared in late 2025 and reappeared in January and February 2026. Abia, Bayelsa and Anambra left in February to April 2026.
 - **Six transferred states are still in NERC's orders.** Oyo and Edo (deadlines February 2025), Ogun (June 2025), Nasarawa (February 2026) and Gombe (July 2026) are all past their transfer deadlines but still listed in the October 2026 orders. Akwa Ibom is still within its transition period.
-- **The Ibadan footprint is shrinking inside the same states.** In the same states, NERC listed 858 Ibadan feeders in October 2025 and 509 in October 2026.
+- **The Ibadan footprint is shrinking inside the same states.** In the same states, NERC listed 861 Ibadan feeders in October 2025 and 509 in October 2026.
 
 For anyone living in Lagos, Enugu, Imo, Ondo, Ekiti, Kogi, Niger, Plateau, Abia, Bayelsa or Anambra, the federal cap no longer appears in NERC's orders. We found no published caps from the state regulators for those markets.
 
 ![State presence by month](charts/06_state_presence.png)
 
-### 6. Some feeders never settle
+### 6. Most feeders keep their band
 
-Some feeders change band again and again. The most volatile is Abuja's Akwanga feeder in Nasarawa (AT7_FDR 1), which changed band 12 times in 43 months, swinging between A and D. Minna's Maikunkele feeder changed 11 times in 31 months. The full list is in `data/rankings/most_volatile_feeders.csv`.
+Of the 3,896 feeders listed for at least a year, 62.8 percent never changed band and only 1.7 percent changed three times or more. The most changes by any feeder is five: Kaduna's Gwari Avenue feeder (between A and D, over 42 months) and Ubakala in Abia (between A and C, over 37 months). Band changes come in waves, such as July 2024, not as constant churn. The full list is in `data/rankings/most_volatile_feeders.csv`.
 
 ---
 
@@ -92,13 +92,14 @@ Some feeders change band again and again. The most volatile is Abuja's Akwanga f
 1. **Collection.** NERC's document library was searched year by year and page by page. 22 files that timed out were fetched again; one (Ikeja, December 2022) is a dead link on NERC's own site. NERC has not put January to September 2022 or September to December 2023 online.
 2. **Extraction.** 415 orders have a text layer and were read with pypdf in layout mode, which keeps the table columns apart. 105 orders from November 2025 to August 2026 are scanned images; they were read with Apple's Vision text recognition, one table row at a time, placing every word in its column from the table's ruling lines. The recognised text of every scanned page is committed in `raw/ocr_text/` so it can be checked and never needs to be re-run.
 3. **Month.** Each order's month is read from its own title, with the file name as fallback. Two files disagree with themselves: a Kano order named January 2024 whose title says January 2025, and an Enugu order named January 2025 whose title still says January 2024 (its caps match December 2024 and February 2025, not early 2024). Each is placed in the month where that DisCo has no other order; both land in January 2025, and the decision is logged in `data/parsed/reparse_qa.log`.
-4. **Feeder identity.** A feeder is matched across months by its DisCo and a stable form of its name (voltage tags, "FEEDER", case and punctuation removed), which links the same feeder through renames such as FESTAC 2, AJELE FESTAC 2 and AJELE 33kV-FESTAC 2. Where that stable name would merge two different feeders in the same month, the full printed name, business unit and position in the order are used instead. 592 scanned records were linked to their feeder by close-name matching (similarity at least 0.88) and are flagged `fuzzy_ocr`.
-5. **State.** The orders only print a state column from 2025. For earlier orders, state is learned from the business unit using the later orders (63.5 percent of records), or taken from a hand-written map of business units to states (13.0 percent, in `data/reference/bu_state_manual.csv`). 21.0 percent have the state printed; 2.4 percent remain unknown.
-6. **Cleaning.** 652 rows that NERC printed twice in the same order were removed.
+4. **Feeder identity.** A feeder is matched across months by its DisCo and a stable form of its name (voltage tags, "FEEDER", case and punctuation removed), which links the same feeder through renames such as FESTAC 2, AJELE FESTAC 2 and AJELE 33kV-FESTAC 2. Where that stable name would merge two different feeders in the same month, the full printed name, business unit and position in the order are used instead. 741 scanned records were linked to their feeder by close-name matching (similarity at least 0.88) and are flagged `fuzzy_ocr`.
+5. **State.** The orders only print a state column from 2025. For earlier orders, state is learned from the business unit using the later orders (68.3 percent of records), or taken from a hand-written map of business units to states (9.7 percent, in `data/reference/bu_state_manual.csv`). 21.4 percent have the state printed; 0.6 percent remain unknown.
+6. **Wrapped names.** When a feeder name is too long for its cell, the PDF text puts the rest on the line below the row (for example AT6_SULEJA, then TOWNSHIP_S3_HASSANDALATU). A line with text only in the feeder column, straight after a row, is joined to that row's name. Ikeja's `A - Bilateral` band cells are read as Band A.
+7. **Cleaning.** 634 rows that NERC printed twice in the same order were removed.
 
 ## Limitations
 
-- **Scanned months are less certain.** For November 2025 to August 2026, 506 records have a band that could not be read and are marked `?`; they are excluded from band statistics. Month-to-month feeder linkage is 93 to 98 percent for text months and 79 to 92 percent for scanned months.
+- **Scanned months are less certain.** For November 2025 to August 2026, band letters that Apple Vision skips when read alone are re-read in the context of their whole row; 18 records still have a band that could not be read and are marked `?`; they are excluded from band statistics. Month to month, the share of a month's feeders that are linked to the previous month (within the same DisCo and state) has a median of 98.9 percent for text months (lowest 81.9, January to February 2023) and 90.8 percent for scanned months (82.6 to 93.7).
 - **Coverage is not jurisdiction.** A state's presence in NERC's orders is what NERC published, not a legal statement of who regulates it.
 - **Caps are not bills.** A cap is the legal maximum for an unmetered customer, not what anyone was actually billed. The dataset says nothing about metered customers.
 - **Gaps.** No orders for January to September 2022 or September to December 2023 are online; December 2022 lacks Ikeja.

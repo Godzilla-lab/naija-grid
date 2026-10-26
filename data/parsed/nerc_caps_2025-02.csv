@@ -103,38 +103,38 @@ AEDC,2025,2,,Asokoro,,,,AT3_H5_R7_4A,AT3_H5_R7_4A,A,1130,Abuja-Electricity-Distr
 AEDC,2025,2,,Asokoro,,,,AT3_H5_R7_5B,AT3_H5_R7_5B,A,1080,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Asokoro,,,,AT3_H5_R7_6A,AT3_H5_R7_6A,A,1605,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Asokoro,,,,AT5_ FDR4_B33_6A,AT5_ FDR4_B33_6A,A,1933,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Asokoro,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,A,63,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT3_H5_R3_2A,,,,Asokoro AT5_FDR4_B33_6A,Asokoro AT5_FDR4_B33_6A,A,802,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Asokoro,,,,CUSTOMERS NOW BEING FED FROM AT3_H5_R3_2A,CUSTOMERS NOW BEING FED FROM AT3_H5_R3_2A,A,63,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Asokoro,,,,AT5_FDR4_B33_6A,AT5_FDR4_B33_6A,A,802,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Asokoro,,,,KUKWABA_L31_PL_PL,KUKWABA_L31_PL_PL,B,245,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Asokoro,,,,KUKWABA_L32_PL_PL,KUKWABA_L32_PL_PL,B,339,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,BIDA_AGAIE_PL_PL,BIDA_AGAIE_PL_PL,E,144,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,BIDA_DOKO_PL_PL,BIDA_DOKO_PL_PL,B,104,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,BIDA_KUTIGI_PL_PL,BIDA_KUTIGI_PL_PL,D,148,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Bida,,,,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISH,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISH,D,116,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,I FD,,,,Bida BIDA_T3_BIDA_ARMY BARRACK,Bida BIDA_T3_BIDA_ARMY BARRACK,C,130,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bida,,,,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISH I FD,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISH I FD,D,116,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bida,,,,BIDA_T3_BIDA_ARMY BARRACK,BIDA_T3_BIDA_ARMY BARRACK,C,130,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,BIDA_T3_BIDA_TOWN FDR,BIDA_T3_BIDA_TOWN FDR,B,161,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,BIDA_T4_BIDA_GRA_FDR,BIDA_T4_BIDA_GRA_FDR,B,142,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,MINNA_FUT_PL_PL,MINNA_FUT_PL_PL,B,192,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,MINNA_KATAREGI_PL_PL,MINNA_KATAREGI_PL_PL,A,128,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bida,,,,MINNA_LAPAI_PL_PL,MINNA_LAPAI_PL_PL,A,99,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Bida,,,,MINNA_POWER HOUSE,MINNA_POWER HOUSE,D,102,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_BOSSO ROAD,,,,Bida MINNA_POWER HOUSE,Bida MINNA_POWER HOUSE,D,92,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_MAITUMBI,,,,Bida MINNA_POWER HOUSE,Bida MINNA_POWER HOUSE,D,143,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_PIGGERY,,,,Bida MINNA_ZARUMAI_PL_PL,Bida MINNA_ZARUMAI_PL_PL,A,266,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Bosso,,,,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGER,D,116,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,U FDR,,,,Bosso BIDA_T3_BIDA_TOWN FDR,Bosso BIDA_T3_BIDA_TOWN FDR,B,175,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bida,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_BOSSO ROAD,MINNA_POWER HOUSE FDR_POWERHOUSE_BOSSO ROAD,D,102,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bida,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,D,92,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bida,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_PIGGERY,MINNA_POWER HOUSE FDR_POWERHOUSE_PIGGERY,D,143,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bida,,,,MINNA_ZARUMAI_PL_PL,MINNA_ZARUMAI_PL_PL,A,266,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGER U FDR,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGER U FDR,D,116,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,BIDA_T3_BIDA_TOWN FDR,BIDA_T3_BIDA_TOWN FDR,B,175,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,BIDA_T4_BIDA_GRA_FDR,BIDA_T4_BIDA_GRA_FDR,B,136,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_BIRIGI_PL_PL,MINNA_BIRIGI_PL_PL,D,135,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_FUT_PL_PL,MINNA_FUT_PL_PL,B,149,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_KATAREGI_PL_PL,MINNA_KATAREGI_PL_PL,A,125,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_M/KUNKELE FDR_PL_PL,MINNA_M/KUNKELE FDR_PL_PL,A,109,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Bosso,,,,MINNA_MAIKUNKELE,MINNA_MAIKUNKELE,A,225,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_MAIKUNKELE_AIRPORT,,,,Bosso MINNA_MAIKUNKELE,Bosso MINNA_MAIKUNKELE,C,140,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_MAIKUNKELE_MAIKUNKELE,,,,Bosso MINNA_MAIKUNKELE,Bosso MINNA_MAIKUNKELE,A,169,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_MAIKUNKELE_TUDUN FULANI,,,,Bosso MINNA_POWER HOUSE,Bosso MINNA_POWER HOUSE,C,102,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_BOSSO ROAD,,,,Bosso MINNA_POWER HOUSE,Bosso MINNA_POWER HOUSE,A,92,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_MAITUMBI,,,,Bosso MINNA_POWER HOUSE,Bosso MINNA_POWER HOUSE,C,150,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_TUNGA,,,,Bosso MINNA_T4_INJ_CHANCHAGA,Bosso MINNA_T4_INJ_CHANCHAGA,D,181,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_MAIKUNKELE FDR_MAIKUNKELE_AIRPORT,MINNA_MAIKUNKELE FDR_MAIKUNKELE_AIRPORT,A,225,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_MAIKUNKELE FDR_MAIKUNKELE_MAIKUNKELE,MINNA_MAIKUNKELE FDR_MAIKUNKELE_MAIKUNKELE,C,140,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_MAIKUNKELE FDR_MAIKUNKELE_TUDUN FULANI,MINNA_MAIKUNKELE FDR_MAIKUNKELE_TUDUN FULANI,A,169,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_BOSSO ROAD,MINNA_POWER HOUSE FDR_POWERHOUSE_BOSSO ROAD,C,102,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,A,92,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_TUNGA,MINNA_POWER HOUSE FDR_POWERHOUSE_TUNGA,C,150,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Bosso,,,,MINNA_T4_INJ_CHANCHAGA,MINNA_T4_INJ_CHANCHAGA,D,181,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_T4_TS_PARLIAMENTARY,MINNA_T4_TS_PARLIAMENTARY,D,125,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_ZARUMAI_PL_PL,MINNA_ZARUMAI_PL_PL,B,306,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Bosso,,,,MINNA_ZARUMAI_ZARUMAI_DUTSEN KURA,MINNA_ZARUMAI_ZARUMAI_DUTSEN KURA,D,155,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,322a4e3c3b711f17,0,text
@@ -278,9 +278,9 @@ AEDC,2025,2,,Gwarimpa,,,,AT4_DAWAKI FDR_T2_FD1,AT4_DAWAKI FDR_T2_FD1,A,399,Abuja
 AEDC,2025,2,,Gwarimpa,,,,AT4_KUBWA FDR_K2_FD1,AT4_KUBWA FDR_K2_FD1,B,1289,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Gwarimpa,,,,AT5_FDR 8_M2_2B,AT5_FDR 8_M2_2B,A,130,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Gwarimpa,,,,AT8_KEFFI_PL_PL,AT8_KEFFI_PL_PL,B,253,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Gwarimpa,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,B,101,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT2_LIFECAMP FDR_T1_LINE E,,,,Gwarimpa CUSTOMERS NOW BEING FED FROM,Gwarimpa CUSTOMERS NOW BEING FED FROM,B,251,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT4_DAWAKI FDR_M44_FD1,,,,Gwarimpa AT5_FDR 8_M2_2B,Gwarimpa AT5_FDR 8_M2_2B,A,599,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Gwarimpa,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,B,101,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Gwarimpa,,,,CUSTOMERS NOW BEING FED FROM AT4_DAWAKI FDR_M44_FD1,CUSTOMERS NOW BEING FED FROM AT4_DAWAKI FDR_M44_FD1,B,251,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Gwarimpa,,,,AT5_FDR 8_M2_2B,AT5_FDR 8_M2_2B,A,599,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Gwarimpa,,,,AT8_KEFFI_PL_PL,AT8_KEFFI_PL_PL,B,86,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Gwarimpa,,,,KUKWABA_L34_B6_6B,KUKWABA_L34_B6_6B,A,99,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Gwarimpa,,,,KUKWABA_L34_PL_PL,KUKWABA_L34_PL_PL,A,475,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,322a4e3c3b711f17,0,text
@@ -354,9 +354,9 @@ AEDC,2025,2,,Jahi,,,,AT5_FDR 7_PL_PL,AT5_FDR 7_PL_PL,A,538,Abuja-Electricity-Dis
 AEDC,2025,2,,Jahi,,,,AT5_FDR 8_M2_2B,AT5_FDR 8_M2_2B,A,134,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Jahi,,,,AT5_FDR 8_M2_6A,AT5_FDR 8_M2_6A,A,239,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Jahi,,,,AT6_T1_T/S_MINNA ROAD,AT6_T1_T/S_MINNA ROAD,D,75,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Jahi,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,A,386,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT2_LIFECAMP FDR_T1_LINE E,,,,Jahi CUSTOMERS NOW BEING FED FROM,Jahi CUSTOMERS NOW BEING FED FROM,B,293,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT2_LIFECAMP FDR_T1_LINE E,,,,Jahi GW_L36_PL_PL,Jahi GW_L36_PL_PL,B,1511,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Jahi,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,A,386,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Jahi,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,B,293,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Jahi,,,,GW_L36_PL_PL,GW_L36_PL_PL,B,1511,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Jahi,,,,AT5_FDR 8_M2_2B,AT5_FDR 8_M2_2B,A,601,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Jahi,,,,AT5_FDR 8_M2_3A,AT5_FDR 8_M2_3A,A,870,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Jahi,,,,AT5_FDR 8_M2_6A,AT5_FDR 8_M2_6A,A,631,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,10,322a4e3c3b711f17,0,text
@@ -435,13 +435,13 @@ AEDC,2025,2,,Katampe,,,,AT4_DEIDEI FDR_MOPOL_FD2,AT4_DEIDEI FDR_MOPOL_FD2,B,562,
 AEDC,2025,2,,Katampe,,,,AT4_DEIDEI FDR_PL_PL,AT4_DEIDEI FDR_PL_PL,B,116,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Katampe,,,,AT4_KUBWA FDR_K2_FD1,AT4_KUBWA FDR_K2_FD1,B,123,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Katampe,,,,AT9_K5_J32_FD7,AT9_K5_J32_FD7,D,135,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Katampe,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,A,183,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Katampe,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,B,205,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT2_LIFECAMP FDR_T1_LINE E,,,,Katampe GW_L36_L2_FD3,Katampe GW_L36_L2_FD3,D,150,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Katampe,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,A,183,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Katampe,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,B,205,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Katampe,,,,GW_L36_L2_FD3,GW_L36_L2_FD3,D,150,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Katampe,,,,GW_L36_L2_FD3,GW_L36_L2_FD3,D,398,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Katampe,,,,KUKWABA_L34_PL_PL,KUKWABA_L34_PL_PL,A,88,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Katampe,,,,MINNA_POWER HOUSE,MINNA_POWER HOUSE,C,555,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_MAITUMBI,,,,Keffi AT7_FDR 2(LAFIA)_L14_ FD1,Keffi AT7_FDR 2(LAFIA)_L14_ FD1,B,100,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Katampe,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,C,555,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Keffi,,,,AT7_FDR 2(LAFIA)_L14_ FD1,AT7_FDR 2(LAFIA)_L14_ FD1,B,100,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Keffi,,,,AT7_FDR 3(WATERBOARD)_PL_PL,AT7_FDR 3(WATERBOARD)_PL_PL,D,116,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Keffi,,,,AT7_FDR 2(LAFIA)_K34_FD1,AT7_FDR 2(LAFIA)_K34_FD1,D,189,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Keffi,,,,AT7_FDR 3(WATERBOARD)_PL_PL,AT7_FDR 3(WATERBOARD)_PL_PL,D,118,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
@@ -454,12 +454,12 @@ AEDC,2025,2,,Keffi,,,,AT8_NASARAWA FDR_K35_FD2,AT8_NASARAWA FDR_K35_FD2,D,159,Ab
 AEDC,2025,2,,Keffi,,,,AT8_NASARAWA FDR_K35_NAS-TOTO FDR,AT8_NASARAWA FDR_K35_NAS-TOTO FDR,D,291,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Keffi,,,,AT8_NASARAWA FDR_PL_PL,AT8_NASARAWA FDR_PL_PL,A,154,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Keffi,,,,AT8_UKE/MASAKA_PL_PL,AT8_UKE/MASAKA_PL_PL,C,171,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Kontagora,,,,KONTAGORA_KONTAGORA,KONTAGORA_KONTAGORA,C,201,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,TOWNSHIP_KONTAGORA_AY BARRACKS,,,,Kontagora KONTAGORA_KONTAGORA,Kontagora KONTAGORA_KONTAGORA,C,188,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,TOWNSHIP_KONTAGORA_GRA,,,,Kontagora KONTAGORA_KONTAGORA,Kontagora KONTAGORA_KONTAGORA,C,200,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,TOWNSHIP_KONTAGORA_TOWNSHIP,,,,Kontagora KONTAGORA_TOWN_PL_PL,Kontagora KONTAGORA_TOWN_PL_PL,A,271,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Kontagora,,,,KONTAGORA_KONTAGORA_KONTAGORA_,KONTAGORA_KONTAGORA_KONTAGORA_,C,271,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
-AEDC,2025,2,,GOJE,,,,Kontagora MINNA_BIRIGI_PL_PL,Kontagora MINNA_BIRIGI_PL_PL,D,160,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Kontagora,,,,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_AY BARRACKS,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_AY BARRACKS,C,201,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Kontagora,,,,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_GRA,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_GRA,C,188,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Kontagora,,,,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_TOWNSHIP,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_TOWNSHIP,C,200,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Kontagora,,,,KONTAGORA_TOWN_PL_PL,KONTAGORA_TOWN_PL_PL,A,271,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Kontagora,,,,KONTAGORA_KONTAGORA_KONTAGORA_ GOJE,KONTAGORA_KONTAGORA_KONTAGORA_ GOJE,C,271,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Kontagora,,,,MINNA_BIRIGI_PL_PL,MINNA_BIRIGI_PL_PL,D,160,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Kontagora,,,,MINNA_T4_INJ_CHANCHAGA,MINNA_T4_INJ_CHANCHAGA,D,166,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Kontagora,,,,TEGINA_KAGARA_PL_PL,TEGINA_KAGARA_PL_PL,B,332,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Kontagora,,,,TEGINA_MARIGA_PL_PL,TEGINA_MARIGA_PL_PL,B,147,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,322a4e3c3b711f17,0,text
@@ -526,8 +526,8 @@ AEDC,2025,2,,Life Camp,,,,AT5_FDR 8_M2_6A,AT5_FDR 8_M2_6A,A,198,Abuja-Electricit
 AEDC,2025,2,,Life Camp,,,,AT6_JIWA FDR_JIWA_FD1 DEI DEI SABURI,AT6_JIWA FDR_JIWA_FD1 DEI DEI SABURI,C,277,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Life Camp,,,,AT6_JIWA FDR_JIWA_FD3 GWAGWA,AT6_JIWA FDR_JIWA_FD3 GWAGWA,C,134,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Life Camp,,,,AT6_JIWA FDR_PL_PL,AT6_JIWA FDR_PL_PL,B,104,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Life Camp,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,A,129,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT2_LIFECAMP FDR_T1_LINE E,,,,Life Camp KUKWABA_L36_PL_PL,Life Camp KUKWABA_L36_PL_PL,A,283,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Life Camp,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,A,129,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Life Camp,,,,KUKWABA_L36_PL_PL,KUKWABA_L36_PL_PL,A,283,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokogoma,,,,AT3_H2_G4_1B,AT3_H2_G4_1B,A,380,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokogoma,,,,AT3_H21_E2_FD22,AT3_H21_E2_FD22,A,284,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokogoma,,,,AT3_H21_PL_PL,AT3_H21_PL_PL,C,107,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
@@ -542,9 +542,9 @@ AEDC,2025,2,,Lokogoma,,,,KUKWABA_L33_S25_GV,KUKWABA_L33_S25_GV,A,234,Abuja-Elect
 AEDC,2025,2,,Lokogoma,,,,KUKWABA_L36_PL_PL,KUKWABA_L36_PL_PL,A,344,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokoja,,,,AJAOKUTA_ADOGO_PL_PL,AJAOKUTA_ADOGO_PL_PL,A,123,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokoja,,,,AJAOKUTA_CONFLUENCE_PL_PL,AJAOKUTA_CONFLUENCE_PL_PL,A,113,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2,LOKOJA_FDR 2,D,540,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
-AEDC,2025,2,,LOKOJA_LOKOGOMA_GANAJA,,,,Lokoja LOKOJA_FDR 2,Lokoja LOKOJA_FDR 2,D,160,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
-AEDC,2025,2,,LOKOJA_LOKOGOMA_OTOKITI,,,,Lokoja LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD1,Lokoja LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD1,D,178,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2 LOKOJA_LOKOGOMA_GANAJA,LOKOJA_FDR 2 LOKOJA_LOKOGOMA_GANAJA,D,540,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2 LOKOJA_LOKOGOMA_OTOKITI,LOKOJA_FDR 2 LOKOJA_LOKOGOMA_OTOKITI,D,160,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD1,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD1,D,178,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD2,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD2,D,149,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD3,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD3,D,158,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Lokoja,,,,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD4,LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD4,D,194,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,322a4e3c3b711f17,0,text
@@ -608,9 +608,9 @@ AEDC,2025,2,,Maitama,,,,AT5_FDR 6_C4_5A,AT5_FDR 6_C4_5A,A,1414,Abuja-Electricity
 AEDC,2025,2,,Maitama,,,,AT5_FDR 6_PL_PL,AT5_FDR 6_PL_PL,A,1149,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Maitama,,,,AT5_FDR2_B33_10A,AT5_FDR2_B33_10A,A,253,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Maitama,,,,AT5_FDR2_B33_6B,AT5_FDR2_B33_6B,A,228,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Maitama,,,,CUSTOMERS NOW BEING FED FROM,CUSTOMERS NOW BEING FED FROM,A,77,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT2_LIFECAMP FDR_T1_LINE E,,,,Maitama CUSTOMERS NOW BEING FED FROM,Maitama CUSTOMERS NOW BEING FED FROM,A,211,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
-AEDC,2025,2,,AT5_FDR 6_C2_1B,,,,Maitama AT5_FDR2_B33_10A,Maitama AT5_FDR2_B33_10A,A,253,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Maitama,,,,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP FDR_T1_LINE E,A,77,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Maitama,,,,CUSTOMERS NOW BEING FED FROM AT5_FDR 6_C2_1B,CUSTOMERS NOW BEING FED FROM AT5_FDR 6_C2_1B,A,211,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Maitama,,,,AT5_FDR2_B33_10A,AT5_FDR2_B33_10A,A,253,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Maitama,,,,AT5_FDR2_B33_6B,AT5_FDR2_B33_6B,A,1055,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Mararaba,,,,AT3_H21_PL_PL,AT3_H21_PL_PL,C,64,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Mararaba,,,,AT8_UKE/MASAKAA_PL_PL,AT8_UKE/MASAKAA_PL_PL,C,358,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,322a4e3c3b711f17,0,text
@@ -641,18 +641,18 @@ AEDC,2025,2,,Masaka,,,,AT9_K5_J32_FD2,AT9_K5_J32_FD2,D,105,Abuja-Electricity-Dis
 AEDC,2025,2,,Minna,,,,BIDA_T4_BIDA_GRA FDR,BIDA_T4_BIDA_GRA FDR,C,223,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,BIDA_T4_BIDA_GRA_FDR,BIDA_T4_BIDA_GRA_FDR,D,440,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,GW_L35_L4_FD2,GW_L35_L4_FD2,D,259,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Minna,,,,KONTAGORA_KONTAGORA,KONTAGORA_KONTAGORA,D,96,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,TOWNSHIP_KONTAGORA_GRA,,,,Minna MINNA_BIRIGI_PL_PL,Minna MINNA_BIRIGI_PL_PL,A,129,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_GRA,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_GRA,D,96,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_BIRIGI_PL_PL,MINNA_BIRIGI_PL_PL,A,129,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,MINNA_FUT_PL_PL,MINNA_FUT_PL_PL,A,93,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,MINNA_KATAREGI_PL_PL,MINNA_KATAREGI_PL_PL,C,121,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,MINNA_LAPAI_PAIKO_PAIKO FD,MINNA_LAPAI_PAIKO_PAIKO FD,C,101,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Minna,,,,MINNA_MAIKUNKELE,MINNA_MAIKUNKELE,B,111,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_MAIKUNKELE_MAIKUNKELE,,,,Minna MINNA_NNPC_PL_PL,Minna MINNA_NNPC_PL_PL,A,264,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Minna,,,,MINNA_POWER HOUSE,MINNA_POWER HOUSE,C,203,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_BOSSO ROAD,,,,Minna MINNA_POWER HOUSE,Minna MINNA_POWER HOUSE,B,156,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Minna,,,,MINNA_POWER HOUSE,MINNA_POWER HOUSE,C,163,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_PIGGERY,,,,Minna MINNA_POWER HOUSE,Minna MINNA_POWER HOUSE,C,199,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
-AEDC,2025,2,,FDR_POWERHOUSE_TUNGA,,,,Minna MINNA_T4_INJ_CHANCHAGA,Minna MINNA_T4_INJ_CHANCHAGA,C,218,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_MAIKUNKELE FDR_MAIKUNKELE_MAIKUNKELE,MINNA_MAIKUNKELE FDR_MAIKUNKELE_MAIKUNKELE,B,111,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_NNPC_PL_PL,MINNA_NNPC_PL_PL,A,264,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_BOSSO ROAD,MINNA_POWER HOUSE FDR_POWERHOUSE_BOSSO ROAD,C,203,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,MINNA_POWER HOUSE FDR_POWERHOUSE_MAITUMBI,B,156,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_PIGGERY,MINNA_POWER HOUSE FDR_POWERHOUSE_PIGGERY,C,163,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_POWER HOUSE FDR_POWERHOUSE_TUNGA,MINNA_POWER HOUSE FDR_POWERHOUSE_TUNGA,C,199,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Minna,,,,MINNA_T4_INJ_CHANCHAGA,MINNA_T4_INJ_CHANCHAGA,C,218,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,MINNA_T4_TS_PARLIAMENTARY,MINNA_T4_TS_PARLIAMENTARY,C,180,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,MINNA_T4_TS_SHIRORO,MINNA_T4_TS_SHIRORO,B,158,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Minna,,,,MINNA_ZARUMAI_PL_PL,MINNA_ZARUMAI_PL_PL,A,156,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
@@ -684,8 +684,8 @@ AEDC,2025,2,,Okene,,,,OKENE_OSOSO_PL_PL,OKENE_OSOSO_PL_PL,D,141,Abuja-Electricit
 AEDC,2025,2,,Suleja,,,,AT3_H31_PL_PL,AT3_H31_PL_PL,A,114,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Suleja,,,,AT5_FDR 3_B32_FD1,AT5_FDR 3_B32_FD1,B,144,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Suleja,11,,,AT6_132/11kV MOBITRA_TS_WATERWORKS,AT6_132/11kV MOBITRA_TS_WATERWORKS,B,100,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
-AEDC,2025,2,,Suleja,,,,AT6_FIELD BASE_FIELDBASE_SULEIMAN,AT6_FIELD BASE_FIELDBASE_SULEIMAN,D,149,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
-AEDC,2025,2,,BARAU,,,,Suleja AT6_JERE FDR_DIKKO_NASARA FDR,Suleja AT6_JERE FDR_DIKKO_NASARA FDR,D,144,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Suleja,,,,AT6_FIELD BASE_FIELDBASE_SULEIMAN BARAU,AT6_FIELD BASE_FIELDBASE_SULEIMAN BARAU,D,149,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
+AEDC,2025,2,,Suleja,,,,AT6_JERE FDR_DIKKO_NASARA FDR,AT6_JERE FDR_DIKKO_NASARA FDR,D,144,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Suleja,,,,AT6_FIELDBASE_PL_PL,AT6_FIELDBASE_PL_PL,A,249,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Suleja,,,,AT6_JERE FDR_DIKKO_NASARA FDR,AT6_JERE FDR_DIKKO_NASARA FDR,D,100,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
 AEDC,2025,2,,Suleja,,,,AT6_JERE FDR_PL_PL,AT6_JERE FDR_PL_PL,B,107,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,322a4e3c3b711f17,0,text
@@ -793,8 +793,8 @@ APLE,2025,2,,ABA DISTRICT,11,,,NGWA ROAD 11KV,NGWA ROAD 11KV,A,395,Aba-Power-Ele
 APLE,2025,2,,ABA DISTRICT,11,,,OBOHIA 11KV ABA,OBOHIA 11KV ABA,B,275,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
 APLE,2025,2,,ABA DISTRICT,11,,,OMOBA 11KV,OMOBA 11KV,E,157,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
 APLE,2025,2,,ABA DISTRICT,11,,,OPOBO ROAD 11KV,OPOBO ROAD 11KV,D,246,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
-APLE,2025,2,,ABA DISTRICT,11,,,PORT HARCOURT ROAD 11KV,PORT HARCOURT ROAD 11KV,B,249,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
-APLE,2025,2,,(ABA),33,,,ABA DISTRICT UMUAFOR 33KV T-OFF,ABA DISTRICT UMUAFOR 33KV T-OFF,E,303,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
+APLE,2025,2,,ABA DISTRICT,11,,,PORT HARCOURT ROAD 11KV (ABA),PORT HARCOURT ROAD 11KV (ABA),B,249,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
+APLE,2025,2,,ABA DISTRICT,33,,,UMUAFOR 33KV T-OFF,UMUAFOR 33KV T-OFF,E,303,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
 APLE,2025,2,,ARIARIA DISTRICT,11,,,ABA BARRACKS 11KV(ARIARIA),ABA BARRACKS 11KV(ARIARIA),C,161,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
 APLE,2025,2,,ARIARIA DISTRICT,11,,,ABA GRA 11KV,ABA GRA 11KV,B,465,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
 APLE,2025,2,,ARIARIA DISTRICT,11,,,ABA INDUSTRIAL 11KV,ABA INDUSTRIAL 11KV,C,482,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,e49d884674849e5c,0,text
@@ -1246,14 +1246,14 @@ EEDC,2025,2,,MBAISE,33,,,OKIGWE 33KV(MBAISE),OKIGWE 33KV(MBAISE),C,200,Enugu-Ele
 EEDC,2025,2,,MBAISE,11,,,UMUIHI 11KV,UMUIHI 11KV,E,182,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,33,,,AIRPORT 33KV(NEW OWERRI),AIRPORT 33KV(NEW OWERRI),B,134,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,33,,,AIRPORT-IHIAGWA 33KV,AIRPORT-IHIAGWA 33KV,D,134,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
-EEDC,2025,2,,NEW OWERRI,33,,,CBN TEE OFF ON OGUTA 33KV(NEW,CBN TEE OFF ON OGUTA 33KV(NEW,A,172,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
-EEDC,2025,2,,OWERRI),11,,,NEW OWERRI CONCORD 11KV,NEW OWERRI CONCORD 11KV,B,200,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
+EEDC,2025,2,,NEW OWERRI,33,,,CBN TEE OFF ON OGUTA 33KV(NEW OWERRI),CBN TEE OFF ON OGUTA 33KV(NEW OWERRI),A,172,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
+EEDC,2025,2,,NEW OWERRI,11,,,CONCORD 11KV,CONCORD 11KV,B,200,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,11,,,IRETE 11KV,IRETE 11KV,C,83,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,11,,,IRETE INDUSTRIAL 11KV,IRETE INDUSTRIAL 11KV,A,115,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,11,,,NEW OWERRI 11KV (OWERRI),NEW OWERRI 11KV (OWERRI),D,174,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,11,,,OBINZE 11KV,OBINZE 11KV,D,87,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
-EEDC,2025,2,,NEW OWERRI,11,,,POLY TEE OFF ON NAZE 11KV_NEW,POLY TEE OFF ON NAZE 11KV_NEW,A,176,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
-EEDC,2025,2,,OWERRI,11,,,NEW OWERRI PORTHARCOURT NEW OWERRI 11KV,NEW OWERRI PORTHARCOURT NEW OWERRI 11KV,B,236,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
+EEDC,2025,2,,NEW OWERRI,11,,,POLY TEE OFF ON NAZE 11KV_NEW OWERRI,POLY TEE OFF ON NAZE 11KV_NEW OWERRI,A,176,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
+EEDC,2025,2,,NEW OWERRI,11,,,PORTHARCOURT NEW OWERRI 11KV,PORTHARCOURT NEW OWERRI 11KV,B,236,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NEW OWERRI,11,,,WORLD BANK NEW OWERRI 11KV,WORLD BANK NEW OWERRI 11KV,C,389,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NNEWI,11,,,IBOLO 11KV,IBOLO 11KV,C,148,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
 EEDC,2025,2,,NNEWI,11,,,MBANAGU 11KV,MBANAGU 11KV,D,110,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,108c640404879944,0,text
@@ -1370,8 +1370,8 @@ EEDC,2025,2,,ORLU,11,,,LIMCA OKIGWE 11KV,LIMCA OKIGWE 11KV,E,93,Enugu-Electricit
 EEDC,2025,2,,ORLU,33,,,OGUTA 33KV,OGUTA 33KV,B,78,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
 EEDC,2025,2,,ORLU,,,,OKIGWE 33(ORLU),OKIGWE 33(ORLU),E,68,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
 EEDC,2025,2,,ORLU,33,,,OKIGWE ORLU 33KV T-OFF,OKIGWE ORLU 33KV T-OFF,E,75,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
-EEDC,2025,2,,ORLU,33,,,ORLU 33KV AKOKWA -ARONDIZUOGU,ORLU 33KV AKOKWA -ARONDIZUOGU,E,98,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
-EEDC,2025,2,,LEG,33,,,ORLU ORLU 33KV AKOKWA LEG,ORLU ORLU 33KV AKOKWA LEG,E,197,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
+EEDC,2025,2,,ORLU,33,,,ORLU 33KV AKOKWA -ARONDIZUOGU LEG,ORLU 33KV AKOKWA -ARONDIZUOGU LEG,E,98,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
+EEDC,2025,2,,ORLU,33,,,ORLU 33KV AKOKWA LEG,ORLU 33KV AKOKWA LEG,E,197,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
 EEDC,2025,2,,ORLU,33,,,ORLU 33KV NKUME T OFF,ORLU 33KV NKUME T OFF,E,197,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
 EEDC,2025,2,,ORLU,33,,,ORLU LEG 33KV,ORLU LEG 33KV,C,231,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
 EEDC,2025,2,,ORLU,33,,,ORLU-NKWERRE T-OFF 33KV,ORLU-NKWERRE T-OFF 33KV,E,189,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,108c640404879944,0,text
@@ -1691,26 +1691,26 @@ IBEDC,2025,2,,APATA,11,,,BEMBO 11KV FEEDER,BEMBO 11KV FEEDER,D,268,Ibadan-Electr
 IBEDC,2025,2,,APATA,11,,,SEVEN UP 11KV FEEDER,SEVEN UP 11KV FEEDER,A,267,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,DUGBE INDUSTRIAL 11KV FEEDER,DUGBE INDUSTRIAL 11KV FEEDER,B,292,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER,ERUWA LANLATE 33KV FEEDER,A,559,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV,ERUWA LANLATE 33KV,E,251,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_ERUWA TOWN 33KV FEEDER,33,,,APATA ERUWA LANLATE 33KV FEEDER_ESTATE,APATA ERUWA LANLATE 33KV FEEDER_ESTATE,E,328,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER_ERUWA TOWN 33KV FEEDER,ERUWA LANLATE 33KV FEEDER_ERUWA TOWN 33KV FEEDER,E,251,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER_ESTATE,ERUWA LANLATE 33KV FEEDER_ESTATE,E,328,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER_OMI,ERUWA LANLATE 33KV FEEDER_OMI,E,255,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV,ERUWA LANLATE 33KV,E,165,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_OWODE 11KV,11,,,APATA IYAGANKU 11KV FEEDER,APATA IYAGANKU 11KV FEEDER,A,415,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER_OWODE 11KV,ERUWA LANLATE 33KV FEEDER_OWODE 11KV,E,165,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,11,,,IYAGANKU 11KV FEEDER,IYAGANKU 11KV FEEDER,A,415,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,LANLATE 11KV FEEDER,LANLATE 11KV FEEDER,E,177,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,ODO ONA 11KV FEEDER,ODO ONA 11KV FEEDER,D,341,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,OLOGUNERU 11KV FEEDER,OLOGUNERU 11KV FEEDER,D,206,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,OLORUNTUMO 11KV FEEDER,OLORUNTUMO 11KV FEEDER,D,424,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,OLUYOLE 11KV FEEDER,OLUYOLE 11KV FEEDER,B,337,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV,ERUWA LANLATE 33KV,E,289,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_LANLATE 11KV FEEDER,33,,,APATA OLUYOLE 33KV FEEDER,APATA OLUYOLE 33KV FEEDER,A,231,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV,ERUWA LANLATE 33KV,E,169,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_OWODE IIKV FEEDER,11,,,APATA ONIREKE 11KV FEEDER,APATA ONIREKE 11KV FEEDER,B,464,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER_LANLATE 11KV FEEDER,ERUWA LANLATE 33KV FEEDER_LANLATE 11KV FEEDER,E,289,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,33,,,OLUYOLE 33KV FEEDER,OLUYOLE 33KV FEEDER,A,231,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,33,,,ERUWA LANLATE 33KV FEEDER_OWODE IIKV FEEDER,ERUWA LANLATE 33KV FEEDER_OWODE IIKV FEEDER,E,169,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,APATA,11,,,ONIREKE 11KV FEEDER,ONIREKE 11KV FEEDER,B,464,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,OWODE 11KV FEEDER,OWODE 11KV FEEDER,D,347,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,APATA,11,,,RAILWAY 11KV FEEDER,RAILWAY 11KV FEEDER,C,309,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,BABOKO,11,,,ADEWOLE 11KV FEEDER,ADEWOLE 11KV FEEDER,C,184,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,BABOKO,,,,ADEWOLE_ADEWOLE,ADEWOLE_ADEWOLE,C,147,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,BABOKO,,,,GENERAL HOSPITAL_GENERAL,GENERAL HOSPITAL_GENERAL,A,559,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,HOSPITAL,11,,,BABOKO AIRPORT 11KV FEEDER,BABOKO AIRPORT 11KV FEEDER,E,199,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,BABOKO,,,,GENERAL HOSPITAL_GENERAL HOSPITAL,GENERAL HOSPITAL_GENERAL HOSPITAL,A,559,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,BABOKO,11,,,AIRPORT 11KV FEEDER,AIRPORT 11KV FEEDER,E,199,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,BABOKO,,,,AIRPORT_AIRPORT,AIRPORT_AIRPORT,D,158,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,BABOKO,11,,,BABOKO 11KV FEEDER,BABOKO 11KV FEEDER,D,143,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,BABOKO,11,,,BABOKO 11KV FEEDER_BABOKO,BABOKO 11KV FEEDER_BABOKO,D,95,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,b3227a13e9f6b4c8,0,text
@@ -1754,8 +1754,8 @@ IBEDC,2025,2,,CHALLENGE,11,,,BASIN 11KV FEEDER_BASIN 11KV,BASIN 11KV FEEDER_BASI
 IBEDC,2025,2,,CHALLENGE,33,,,CHALLENGE INDUSTRIAL 33KV FEEDER,CHALLENGE INDUSTRIAL 33KV FEEDER,A,197,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,CHALLENGE,33,,,GRA ILORIN 33KV FEEDER,GRA ILORIN 33KV FEEDER,A,430,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,CHALLENGE,11,,,DANIALU 11KV FEEDER,DANIALU 11KV FEEDER,C,240,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,CHALLENGE,11,,,DANIALU 11KV FEEDER_DANIALU,DANIALU 11KV FEEDER_DANIALU,C,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,11KV FEEDER,11,,,CHALLENGE GANMO 11KV FEEDER,CHALLENGE GANMO 11KV FEEDER,D,189,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,CHALLENGE,11,,,DANIALU 11KV FEEDER_DANIALU 11KV FEEDER,DANIALU 11KV FEEDER_DANIALU 11KV FEEDER,C,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,CHALLENGE,11,,,GANMO 11KV FEEDER,GANMO 11KV FEEDER,D,189,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,CHALLENGE,11,,,GOVT. HOUSE 11KV FEEDER,GOVT. HOUSE 11KV FEEDER,B,240,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,CHALLENGE,33,,,GRA ILORIN 33KV FEEDER,GRA ILORIN 33KV FEEDER,A,516,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,CHALLENGE,33,,,IDOFIAN 33KV FEEDER,IDOFIAN 33KV FEEDER,A,233,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,b3227a13e9f6b4c8,0,text
@@ -1830,9 +1830,9 @@ IBEDC,2025,2,,IJEBU,11,,,IGAN 11KV FEEDER,IGAN 11KV FEEDER,E,146,Ibadan-Electric
 IBEDC,2025,2,,IJEBU,11,,,IGAN 11KV_ITAMERIN,IGAN 11KV_ITAMERIN,E,219,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IJEBU,33,,,IJEBU IGBO 33KV FEEDER,IJEBU IGBO 33KV FEEDER,D,266,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IJEBU,11,,,IJEBU INDUSTRIAL 11KV FEEDER,IJEBU INDUSTRIAL 11KV FEEDER,A,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,IJEBU,11,,,IJEBU INDUSTRIAL 11KV,IJEBU INDUSTRIAL 11KV,A,306,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_FOLAGBADE,11,,,IJEBU IJEBU INDUSTRIAL 11KV,IJEBU IJEBU INDUSTRIAL 11KV,A,306,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_INDUSTRIAL,11,,,IJEBU IJEBU SABO 11KV FEEDER,IJEBU IJEBU SABO 11KV FEEDER,D,222,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IJEBU,11,,,IJEBU INDUSTRIAL 11KV FEEDER_FOLAGBADE,IJEBU INDUSTRIAL 11KV FEEDER_FOLAGBADE,A,306,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IJEBU,11,,,IJEBU INDUSTRIAL 11KV FEEDER_INDUSTRIAL,IJEBU INDUSTRIAL 11KV FEEDER_INDUSTRIAL,A,306,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IJEBU,11,,,IJEBU SABO 11KV FEEDER,IJEBU SABO 11KV FEEDER,D,222,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IJEBU,11,,,IJEBU TOWNSHIP 11KV FEEDER,IJEBU TOWNSHIP 11KV FEEDER,E,178,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IJEBU,33,,,IJEBU_ODE 33KV FEEDER,IJEBU_ODE 33KV FEEDER,A,290,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IJEBU,33,,,IJEBU-IGB 33KV_IJEBU-IGBO,IJEBU-IGB 33KV_IJEBU-IGBO,C,212,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,5,b3227a13e9f6b4c8,0,text
@@ -1879,18 +1879,18 @@ IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_AJABA,OSOGBO/IKIRUN 33KV_AJABA,D,11
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_DAGBOLU,OSOGBO/IKIRUN 33KV_DAGBOLU,B,140,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_EKO ENDE,OSOGBO/IKIRUN 33KV_EKO ENDE,D,127,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_EKOSIN,OSOGBO/IKIRUN 33KV_EKOSIN,D,159,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_ELESIN,OSOGBO/IKIRUN 33KV_ELESIN,D,183,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FUNFUN,33,,,IKIRUN OSOGBO/IKIRUN 33KV_EWETA,IKIRUN OSOGBO/IKIRUN 33KV_EWETA,D,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_ELESIN FUNFUN,OSOGBO/IKIRUN 33KV_ELESIN FUNFUN,D,183,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_EWETA,OSOGBO/IKIRUN 33KV_EWETA,D,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_IBA,OSOGBO/IKIRUN 33KV_IBA,D,163,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_IDI,OSOGBO/IKIRUN 33KV_IDI,D,170,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OGUNGUN,33,,,IKIRUN OSOGBO/IKIRUN 33KV_ILA,IKIRUN OSOGBO/IKIRUN 33KV_ILA,D,137,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_IDI OGUNGUN,OSOGBO/IKIRUN 33KV_IDI OGUNGUN,D,170,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_ILA,OSOGBO/IKIRUN 33KV_ILA,D,137,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_INISA,OSOGBO/IKIRUN 33KV_INISA,D,139,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_IREE,OSOGBO/IKIRUN 33KV_IREE,C,127,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_IRESI,OSOGBO/IKIRUN 33KV_IRESI,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_LABAB,OSOGBO/IKIRUN 33KV_LABAB,D,170,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_OKE ODO,OSOGBO/IKIRUN 33KV_OKE ODO,D,168,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_OTAN,OSOGBO/IKIRUN 33KV_OTAN,D,113,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,AYEGBAJU,33,,,ILEIFE IRON & STEEL 33KV FEEDER,ILEIFE IRON & STEEL 33KV FEEDER,A,172,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,IKIRUN,33,,,OSOGBO/IKIRUN 33KV_OTAN AYEGBAJU,OSOGBO/IKIRUN 33KV_OTAN AYEGBAJU,D,113,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IRON & STEEL 33KV FEEDER,IRON & STEEL 33KV FEEDER,A,172,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,APOMU 11KV FDR_ALAMO,APOMU 11KV FDR_ALAMO,D,129,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,6,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,APOMU 11KV FDR_ELEKAN,APOMU 11KV FDR_ELEKAN,D,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,APOMU 11KV FDR_OJU OJA APOMU,APOMU 11KV FDR_OJU OJA APOMU,D,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
@@ -1903,12 +1903,12 @@ IBEDC,2025,2,,ILEIFE,11,,,GBONGAN 11KV FEEDER,GBONGAN 11KV FEEDER,D,113,Ibadan-E
 IBEDC,2025,2,,ILEIFE,11,,,GBONGAN/ODE OMU 11KV FEEDER,GBONGAN/ODE OMU 11KV FEEDER,D,177,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,IBADAN ROAD 11KV FEEDER,IBADAN ROAD 11KV FEEDER,C,329,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,APOMU 11KV FDR_TOTAL,APOMU 11KV FDR_TOTAL,D,260,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,11,,,IBADAN ROAD 11KV,IBADAN ROAD 11KV,C,174,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AWOSUN,33,,,ILEIFE IKIRE/WASINMI 33KV FDR_FASINA,ILEIFE IKIRE/WASINMI 33KV FDR_FASINA,C,268,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,IBADAN ROAD 11KV FEEDER_AWOSUN,IBADAN ROAD 11KV FEEDER_AWOSUN,C,174,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_FASINA,IKIRE/WASINMI 33KV FDR_FASINA,C,268,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_OLAJOKUN,IKIRE/WASINMI 33KV FDR_OLAJOKUN,C,292,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ODE OMU 11KV FDR_EPITONE,ODE OMU 11KV FDR_EPITONE,D,548,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,11,,,IBADAN ROAD 11KV,IBADAN ROAD 11KV,C,175,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_MODOMO,11,,,ILEIFE IBADAN ROAD 11KV_FASINA,ILEIFE IBADAN ROAD 11KV_FASINA,C,329,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,IBADAN ROAD 11KV FEEDER_MODOMO,IBADAN ROAD 11KV FEEDER_MODOMO,C,175,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,IBADAN ROAD 11KV_FASINA,IBADAN ROAD 11KV_FASINA,C,329,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,,,,IBADAN ROAD_AJEBAMIDELE,IBADAN ROAD_AJEBAMIDELE,C,299,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,,,,IBADAN ROAD_OMISORE,IBADAN ROAD_OMISORE,C,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,33,,,IFE TOWNSHIP 33KV FEEDER,IFE TOWNSHIP 33KV FEEDER,A,206,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
@@ -1916,15 +1916,15 @@ IBEDC,2025,2,,ILEIFE,11,,,IKIRE 11KV FEEDER,IKIRE 11KV FEEDER,D,202,Ibadan-Elect
 IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_ADIFA,IKIRE/WASINMI 33KV FDR_ADIFA,C,223,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_ALAMO,IKIRE/WASINMI 33KV FDR_ALAMO,C,191,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_AWOTEDO,IKIRE/WASINMI 33KV FDR_AWOTEDO,C,168,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_IKOYI,IKIRE/WASINMI 33KV FDR_IKOYI,C,181,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,TOWN,33,,,ILEIFE IKIRE/WASINMI 33KV FDR_SOLEX,ILEIFE IKIRE/WASINMI 33KV FDR_SOLEX,C,186,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_IKOYI TOWN,IKIRE/WASINMI 33KV FDR_IKOYI TOWN,C,181,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FDR_SOLEX,IKIRE/WASINMI 33KV FDR_SOLEX,C,186,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER,IKIRE/WASINMI 33KV FEEDER,A,209,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER_BACK,IKIRE/WASINMI 33KV FEEDER_BACK,A,254,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,DAMICO,33,,,ILEIFE IKIRE/WASINMI 33KV,ILEIFE IKIRE/WASINMI 33KV,A,278,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_DAMICO,33,,,ILEIFE IKIRE/WASINMI 33KV FEEDER_FASINA,ILEIFE IKIRE/WASINMI 33KV FEEDER_FASINA,C,115,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER_BACK DAMICO,IKIRE/WASINMI 33KV FEEDER_BACK DAMICO,A,254,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER_DAMICO,IKIRE/WASINMI 33KV FEEDER_DAMICO,A,278,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER_FASINA,IKIRE/WASINMI 33KV FEEDER_FASINA,C,115,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER_IKOYI,IKIRE/WASINMI 33KV FEEDER_IKOYI,C,115,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV,IKIRE/WASINMI 33KV,C,115,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_OLAJOKUN,11,,,ILEIFE IPETUMODU 11KV FEEDER,ILEIFE IPETUMODU 11KV FEEDER,D,174,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,33,,,IKIRE/WASINMI 33KV FEEDER_OLAJOKUN,IKIRE/WASINMI 33KV FEEDER_OLAJOKUN,C,115,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,IPETUMODU 11KV FEEDER,IPETUMODU 11KV FEEDER,D,174,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ISARE 11KV FEEDER,ISARE 11KV FEEDER,D,201,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ITA OOSA 11KV_ITA OOSA,ITA OOSA 11KV_ITA OOSA,D,194,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ITA OSA 11KV FEEDER,ITA OSA 11KV FEEDER,D,213,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,b3227a13e9f6b4c8,0,text
@@ -1946,11 +1946,11 @@ IBEDC,2025,2,,ILEIFE,11,,,ODE OMU 11KV FDR_OKE OWU,ODE OMU 11KV FDR_OKE OWU,D,21
 IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER,ODEOMU RD 11KV FEEDER,D,190,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_BARALE,ODEOMU RD 11KV FEEDER_BARALE,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_EPITONE,ODEOMU RD 11KV FEEDER_EPITONE,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_OKE,ODEOMU RD 11KV FEEDER_OKE,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ABATA,11,,,ILEIFE ODEOMU RD 11KV FEEDER_OKE OLA,ILEIFE ODEOMU RD 11KV FEEDER_OKE OLA,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_OKE ABATA,ODEOMU RD 11KV FEEDER_OKE ABATA,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_OKE OLA,ODEOMU RD 11KV FEEDER_OKE OLA,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_OKE OWU,ODEOMU RD 11KV FEEDER_OKE OWU,D,136,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_POLICE,ODEOMU RD 11KV FEEDER_POLICE,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,STATION,11,,,ILEIFE OPA 11KV FEEDER,ILEIFE OPA 11KV FEEDER,A,202,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,ODEOMU RD 11KV FEEDER_POLICE STATION,ODEOMU RD 11KV FEEDER_POLICE STATION,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ILEIFE,11,,,OPA 11KV FEEDER,OPA 11KV FEEDER,A,202,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,OPA 11KV FEEDER_ALADANLA,OPA 11KV FEEDER_ALADANLA,D,136,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,OPA 11KV FEEDER_SEMINARY OPA,OPA 11KV FEEDER_SEMINARY OPA,D,136,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,ILEIFE,11,,,OPA 11KV_OPA,OPA 11KV_OPA,D,372,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,b3227a13e9f6b4c8,0,text
@@ -1985,9 +1985,9 @@ IBEDC,2025,2,,JEBBA,33,,,DOGONGERI 33KV FEEDER,DOGONGERI 33KV FEEDER,A,362,Ibada
 IBEDC,2025,2,,JEBBA,11,,,JEBBA PAPER MILL 11KV FEEDER,JEBBA PAPER MILL 11KV FEEDER,C,734,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,JEBBA,11,,,JEBBA TOWNSHIP 11KV FEEDER,JEBBA TOWNSHIP 11KV FEEDER,A,754,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,JEBBA,33,,,JEBBA/BACITA 33KV FEEDER,JEBBA/BACITA 33KV FEEDER,A,152,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,JEBBA,33,,,Jebba/Bacita 33KVA_BACITA/BODE,Jebba/Bacita 33KVA_BACITA/BODE,D,202,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAADU T-OFF,33,,,JEBBA JEBBA/BACITA 33KVA_LAFIAGI/PATIGI,JEBBA JEBBA/BACITA 33KVA_LAFIAGI/PATIGI,E,263,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,T-OFF,33,,,JEBBA JEBBA/BACITA 33KVA_SHARE T-OFF,JEBBA JEBBA/BACITA 33KVA_SHARE T-OFF,D,148,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,JEBBA,33,,,Jebba/Bacita 33KVA_BACITA/BODE SAADU T-OFF,Jebba/Bacita 33KVA_BACITA/BODE SAADU T-OFF,D,202,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,JEBBA,33,,,JEBBA/BACITA 33KVA_LAFIAGI/PATIGI T-OFF,JEBBA/BACITA 33KVA_LAFIAGI/PATIGI T-OFF,E,263,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,JEBBA,33,,,JEBBA/BACITA 33KVA_SHARE T-OFF,JEBBA/BACITA 33KVA_SHARE T-OFF,D,148,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,JEBBA,33,,,JEBBA/BACITA 33KVA_TSONGA T-OFF,JEBBA/BACITA 33KVA_TSONGA T-OFF,D,148,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,JEBBA,11,,,KAINJI ROAD 11KV FEEDER,KAINJI ROAD 11KV FEEDER,C,270,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,JEBBA,33,,,MOKWA 33KV FEEDER,MOKWA 33KV FEEDER,B,310,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,9,b3227a13e9f6b4c8,0,text
@@ -2076,10 +2076,10 @@ IBEDC,2025,2,,OJOO,11,,,AGBOWO 11KV FEEDER,AGBOWO 11KV FEEDER,D,149,Ibadan-Elect
 IBEDC,2025,2,,OJOO,11,,,BASORUN 11KV FEEDER,BASORUN 11KV FEEDER,A,153,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OJOO,11,,,BODIJA 11KV FEEDER,BODIJA 11KV FEEDER,C,152,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OJOO,33,,,IBADAN NORTH 33KV FEEDER,IBADAN NORTH 33KV FEEDER,A,205,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OJOO,33,,,IBADAN NORTH 33KV,IBADAN NORTH 33KV,E,137,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_ARUNLOGUN 33KV,33,,,OJOO IBADAN NORTH 33KV FEEDER_LABI,OJOO IBADAN NORTH 33KV FEEDER_LABI,C,141,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,33KV,33,,,OJOO IGBOOLOYIN 33KV,OJOO IGBOOLOYIN 33KV,E,135,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_ARUNLOGUN 33KV,11,,,OJOO IWO ROAD 11KV FEEDER,OJOO IWO ROAD 11KV FEEDER,C,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OJOO,33,,,IBADAN NORTH 33KV FEEDER_ARUNLOGUN 33KV,IBADAN NORTH 33KV FEEDER_ARUNLOGUN 33KV,E,137,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OJOO,33,,,IBADAN NORTH 33KV FEEDER_LABI 33KV,IBADAN NORTH 33KV FEEDER_LABI 33KV,C,141,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OJOO,33,,,IGBOOLOYIN 33KV FEEDER_ARUNLOGUN 33KV,IGBOOLOYIN 33KV FEEDER_ARUNLOGUN 33KV,E,135,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OJOO,11,,,IWO ROAD 11KV FEEDER,IWO ROAD 11KV FEEDER,C,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OJOO,33,,,MONIYA 33KV FEEDER_LABI 33KV,MONIYA 33KV FEEDER_LABI 33KV,C,309,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OJOO,33,,,NBL 33KV FEEDER,NBL 33KV FEEDER,C,382,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OJOO,33,,,NEW ASEJIRE 33KV FEEDER,NEW ASEJIRE 33KV FEEDER,B,142,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
@@ -2088,23 +2088,23 @@ IBEDC,2025,2,,OJOO,11,,,SECRETARIAT 11KV FEEDER,SECRETARIAT 11KV FEEDER,B,180,Ib
 IBEDC,2025,2,,OJOO,11,,,SHASHA 11KV FEEDER,SHASHA 11KV FEEDER,D,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OJOO,33,,,UI/NISER 33KV FEEDER,UI/NISER 33KV FEEDER,A,286,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,AKE 11KV FEEDER,AKE 11KV FEEDER,E,224,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OLUMO,11,,,AKINOLUGBADE 11KV,AKINOLUGBADE 11KV,B,248,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AKINOLUGBADE 11KV FEEDER,11,,,OLUMO AKINOLUGBADE 11KV,OLUMO AKINOLUGBADE 11KV,A,290,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,AKINOLUGBADE 11KV FEEDER_AKINOLUGBADE 11KV FEEDER,AKINOLUGBADE 11KV FEEDER_AKINOLUGBADE 11KV FEEDER,B,248,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,AKINOLUGBADE 11KV FEEDER_AKINOLUGBADE 11KV FEEDER,AKINOLUGBADE 11KV FEEDER_AKINOLUGBADE 11KV FEEDER,A,290,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,11,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,AYETORO 11KV FEEDER,AYETORO 11KV FEEDER,E,130,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,BREWERY 11KV FEEDER,BREWERY 11KV FEEDER,E,190,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,33,,,CEMENT 33KV FEEDER,CEMENT 33KV FEEDER,C,166,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,33,,,FUNAAB 33KV FEEDER,FUNAAB 33KV FEEDER,A,195,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OLUMO,33,,,HILL-TOP 33KV FEEDER_FUNAAB,HILL-TOP 33KV FEEDER_FUNAAB,D,120,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,MAWUKO 33KV TAILEND,11,,,OLUMO IBEREKODO 11KV FEEDER,OLUMO IBEREKODO 11KV FEEDER,E,264,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,33,,,HILL-TOP 33KV FEEDER_FUNAAB MAWUKO 33KV TAILEND,HILL-TOP 33KV FEEDER_FUNAAB MAWUKO 33KV TAILEND,D,120,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,IBEREKODO 11KV FEEDER,IBEREKODO 11KV FEEDER,E,264,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,33,,,ILARO 33KV FEEDER,ILARO 33KV FEEDER,B,143,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,33,,,IMEKO 33 KV_IMEKO 33KV TAILEND,IMEKO 33 KV_IMEKO 33KV TAILEND,D,193,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,33,,,IMEKO 33KV FEEDER,IMEKO 33KV FEEDER,A,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,ITA OSHIN 11KV FEEDER,ITA OSHIN 11KV FEEDER,D,235,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OLUMO,11,,,ITA OSHIN 11KV FEEDER_OLOMORE,ITA OSHIN 11KV FEEDER_OLOMORE,C,172,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,11KV FEEDER,11,,,OLUMO ITA-OSHIN 11KV FEEDER,OLUMO ITA-OSHIN 11KV FEEDER,D,104,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,ITA OSHIN 11KV FEEDER_OLOMORE 11KV FEEDER,ITA OSHIN 11KV FEEDER_OLOMORE 11KV FEEDER,C,172,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,ITA-OSHIN 11KV FEEDER,ITA-OSHIN 11KV FEEDER,D,104,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,ITA-OSHIN 11KV FEEDER_ITA OSHIN,ITA-OSHIN 11KV FEEDER_ITA OSHIN,C,133,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OLUMO,11,,,ITA-OSHIN 11KV FEEDER_OLOMORE,ITA-OSHIN 11KV FEEDER_OLOMORE,C,134,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,11KV FEEDER,11,,,OLUMO ITAOSHIN_ITA OSHIN 11KV FEEDER,OLUMO ITAOSHIN_ITA OSHIN 11KV FEEDER,C,206,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,ITA-OSHIN 11KV FEEDER_OLOMORE 11KV FEEDER,ITA-OSHIN 11KV FEEDER_OLOMORE 11KV FEEDER,C,134,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OLUMO,11,,,ITAOSHIN_ITA OSHIN 11KV FEEDER,ITAOSHIN_ITA OSHIN 11KV FEEDER,C,206,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,JOGA 11KV FEEDER,JOGA 11KV FEEDER,E,208,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,KOLOBO 11KV FEEDER,KOLOBO 11KV FEEDER,D,210,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OLUMO,11,,,KOLOBO 11KV FEEDER_KOLOBO 11KV,KOLOBO 11KV FEEDER_KOLOBO 11KV,C,256,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
@@ -2129,8 +2129,8 @@ IBEDC,2025,2,,OMUARAN,33,,,LAMODI 33KV FEEDER,LAMODI 33KV FEEDER,A,153,Ibadan-El
 IBEDC,2025,2,,OMUARAN,11,,,OFFA 11KV FEEDER,OFFA 11KV FEEDER,E,181,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OMUARAN,11,,,OFFA 11KV FEEDER_OFFA,OFFA 11KV FEEDER_OFFA,D,167,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,12,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OMUARAN,11,,,OFFA INDUSTRIAL 11KV FEEDER,OFFA INDUSTRIAL 11KV FEEDER,D,210,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OMUARAN,,,,OFFA INDUSTRIAL FEEDER_OFFA,OFFA INDUSTRIAL FEEDER_OFFA,D,108,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,INDUSTRIAL,11,,,OMUARAN OGS 11KV FEEDER,OMUARAN OGS 11KV FEEDER,D,316,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OMUARAN,,,,OFFA INDUSTRIAL FEEDER_OFFA INDUSTRIAL,OFFA INDUSTRIAL FEEDER_OFFA INDUSTRIAL,D,108,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OMUARAN,11,,,OGS 11KV FEEDER,OGS 11KV FEEDER,D,316,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OMUARAN,11,,,OJOKU 11KV FEEDER,OJOKU 11KV FEEDER,D,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OMUARAN,33,,,OMU ARAN 33KV FEEDER,OMU ARAN 33KV FEEDER,B,177,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OMUARAN,11,,,OMUARAN OWODE 11KV FEEDER,OMUARAN OWODE 11KV FEEDER,D,175,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,13,b3227a13e9f6b4c8,0,text
@@ -2177,8 +2177,8 @@ IBEDC,2025,2,,OYO,33,,,OYO 33KV FEEDER,OYO 33KV FEEDER,B,188,Ibadan-Electricity-
 IBEDC,2025,2,,OYO,33,,,SAKI 33KV FEEDER,SAKI 33KV FEEDER,B,158,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OYO,11,,,SANGO 11KV FEEDER,SANGO 11KV FEEDER,B,126,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OYO,11,,,OWODE 11KV FEEDER,OWODE 11KV FEEDER,D,145,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OYO,33,,,ADO AWAYE 33KV FEEDER_OKEHO,ADO AWAYE 33KV FEEDER_OKEHO,E,106,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SUB FEEDER,11,,,OYO ALAAFIN 11KV FEEDER,OYO ALAAFIN 11KV FEEDER,E,190,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OYO,33,,,ADO AWAYE 33KV FEEDER_OKEHO SUB FEEDER,ADO AWAYE 33KV FEEDER_OKEHO SUB FEEDER,E,106,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,OYO,11,,,ALAAFIN 11KV FEEDER,ALAAFIN 11KV FEEDER,E,190,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OYO,11,,,ARAROMI 11KV FEEDER,ARAROMI 11KV FEEDER,E,186,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OYO,11,,,AWE 11KV FEEDER,AWE 11KV FEEDER,E,211,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OYO,11,,,BARRACKS 11KV FEEDER,BARRACKS 11KV FEEDER,E,104,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
@@ -2195,9 +2195,9 @@ IBEDC,2025,2,,OYO,33,,,SAKI 33KV FEEDER_AGO-ARE SUB,SAKI 33KV FEEDER_AGO-ARE SUB
 IBEDC,2025,2,,OYO,33,,,SAKI 33KV FEEDER_OTUU SUB FEEDER,SAKI 33KV FEEDER_OTUU SUB FEEDER,E,112,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,OYO,11,,,SANGA 11KV FEEDER,SANGA 11KV FEEDER,E,196,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,11,,,IGBOBI 11KV FEEDER,IGBOBI 11KV FEEDER,D,208,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,11,,,IGBOBI 11KV FEEDER_INTERNATIONAL,IGBOBI 11KV FEEDER_INTERNATIONAL,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,MARKET,11,,,SAGAMU IGBOBI 11KV FEEDER_LAGOS IBADAN,SAGAMU IGBOBI 11KV FEEDER_LAGOS IBADAN,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,EXPRESS,33,,,SAGAMU IKENNE 33KV FEEDER,SAGAMU IKENNE 33KV FEEDER,B,183,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,11,,,IGBOBI 11KV FEEDER_INTERNATIONAL MARKET,IGBOBI 11KV FEEDER_INTERNATIONAL MARKET,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,11,,,IGBOBI 11KV FEEDER_LAGOS IBADAN EXPRESS,IGBOBI 11KV FEEDER_LAGOS IBADAN EXPRESS,D,119,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER,IKENNE 33KV FEEDER,B,183,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER_ECCO CENTER,IKENNE 33KV FEEDER_ECCO CENTER,C,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER,SAGAMU 33KV FEEDER,B,260,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER_IJESHA,IKENNE 33KV FEEDER_IJESHA,C,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
@@ -2207,8 +2207,8 @@ IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER_O&A,IKENNE 33KV FEEDER_O&A,C,104,Ib
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER_OKE OLA,IKENNE 33KV FEEDER_OKE OLA,E,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_AJEGUNLE,IKENNE 33KV_AJEGUNLE,C,277,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,14,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER_OLOPOMERIN,IKENNE 33KV FEEDER_OLOPOMERIN,C,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV,IKENNE 33KV,C,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_OLOWOPOROKU,33,,,SAGAMU IKENNE 33KV_ABA,SAGAMU IKENNE 33KV_ABA,C,171,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV FEEDER_OLOWOPOROKU,IKENNE 33KV FEEDER_OLOWOPOROKU,C,124,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_ABA,IKENNE 33KV_ABA,C,171,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_ADRON,IKENNE 33KV_ADRON,C,116,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_AGADA,IKENNE 33KV_AGADA,C,217,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_AGO ILARA,IKENNE 33KV_AGO ILARA,C,361,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
@@ -2240,74 +2240,74 @@ IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_PALACE JUNCTION,IKENNE 33KV_PALACE JUNCTIO
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_POLICE STATION,IKENNE 33KV_POLICE STATION,C,262,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_SABO,IKENNE 33KV_SABO,C,189,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_SHAGO,IKENNE 33KV_SHAGO,E,162,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_INTERNATIONAL,SAGAMU 33KV_INTERNATIONAL,C,226,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,MARKET,33,,,SAGAMU IKENNE 33KV_TOWN PLANNING,SAGAMU IKENNE 33KV_TOWN PLANNING,C,132,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_INTERNATIONAL MARKET,SAGAMU 33KV_INTERNATIONAL MARKET,C,226,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_TOWN PLANNING,IKENNE 33KV_TOWN PLANNING,C,132,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_UREN,IKENNE 33KV_UREN,C,130,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_WINNERS,IKENNE 33KV_WINNERS,C,164,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER,NNPC/OGIJO 33KV FEEDER,A,193,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_ABAFON,NNPC/OGIJO 33KV FEEDER_ABAFON,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AFRIGIR,NNPC/OGIJO 33KV FEEDER_AFRIGIR,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,15,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AGBEDURU II,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AGBOWA EREFUN,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AIYEGBAMI,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_ANU-,SAGAMU NNPC/OGIJO 33KV FEEDER_ANU-,E,101,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OLUWAPO,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AROGBEJA,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_AYOMIDE,SAGAMU NNPC/OGIJO 33KV FEEDER_AYOMIDE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AGBEDURU II,NNPC/OGIJO 33KV FEEDER_AGBEDURU II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AGBOWA EREFUN,NNPC/OGIJO 33KV FEEDER_AGBOWA EREFUN,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AIYEGBAMI,NNPC/OGIJO 33KV FEEDER_AIYEGBAMI,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_ANU- OLUWAPO,NNPC/OGIJO 33KV FEEDER_ANU- OLUWAPO,E,101,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AROGBEJA,NNPC/OGIJO 33KV FEEDER_AROGBEJA,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AYOMIDE,NNPC/OGIJO 33KV FEEDER_AYOMIDE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_MAYFLOWER SCHOOL,IKENNE 33KV_MAYFLOWER SCHOOL,C,338,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,IKENNE 33KV_OLOWOPOROKU,IKENNE 33KV_OLOWOPOROKU,C,220,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,MCPHERSON 33KV FEEDER,MCPHERSON 33KV FEEDER,A,401,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AYOMIKUN,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_AYOMIKUN I,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_DEJUWOGBO,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_EBUWAWA,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_EMERALD/GARDEN ESTATE,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_ESKOBA,SAGAMU NNPC/OGIJO 33KV FEEDER_ESKOBA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_EWU_JAGUN,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_EYITA,SAGAMU NNPC/OGIJO 33KV FEEDER_EYITA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_GEORGE,NNPC/OGIJO 33KV FEEDER_GEORGE,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,BUSH,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_IDIMOGUN,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_IDIMOGUN I,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_IDIMOGUN MALLOT,33,,,SAGAMU NNPC/OGIJO 33KV_AFISURU,SAGAMU NNPC/OGIJO 33KV_AFISURU,E,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AYOMIKUN,NNPC/OGIJO 33KV FEEDER_AYOMIKUN,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_AYOMIKUN I,NNPC/OGIJO 33KV FEEDER_AYOMIKUN I,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_DEJUWOGBO,NNPC/OGIJO 33KV FEEDER_DEJUWOGBO,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_EBUWAWA,NNPC/OGIJO 33KV FEEDER_EBUWAWA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_EMERALD/GARDEN ESTATE,NNPC/OGIJO 33KV FEEDER_EMERALD/GARDEN ESTATE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_ESKOBA,NNPC/OGIJO 33KV FEEDER_ESKOBA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_EWU_JAGUN,NNPC/OGIJO 33KV FEEDER_EWU_JAGUN,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_EYITA,NNPC/OGIJO 33KV FEEDER_EYITA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_GEORGE BUSH,NNPC/OGIJO 33KV FEEDER_GEORGE BUSH,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IDIMOGUN,NNPC/OGIJO 33KV FEEDER_IDIMOGUN,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IDIMOGUN I,NNPC/OGIJO 33KV FEEDER_IDIMOGUN I,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IDIMOGUN MALLOT,NNPC/OGIJO 33KV FEEDER_IDIMOGUN MALLOT,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AFISURU,NNPC/OGIJO 33KV_AFISURU,E,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AFRIGIR,NNPC/OGIJO 33KV_AFRIGIR,E,224,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_IDIMOGUN_IFESOWAPO,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_IDIMOGUN_IGBOLOLO/OKES,33,,,ULU SAGAMU NNPC/OGIJO 33KV FEEDER_ILARA,ULU SAGAMU NNPC/OGIJO 33KV FEEDER_ILARA,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_IPA/GIWA,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_IPETORO,SAGAMU NNPC/OGIJO 33KV FEEDER_IPETORO,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IDIMOGUN_IFESOWAPO,NNPC/OGIJO 33KV FEEDER_IDIMOGUN_IFESOWAPO,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IDIMOGUN_IFOKANBALE,NNPC/OGIJO 33KV FEEDER_IDIMOGUN_IFOKANBALE,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,16,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IDIMOGUN_IGBOLOLO/OKES,NNPC/OGIJO 33KV FEEDER_IDIMOGUN_IGBOLOLO/OKES,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,ULU,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_ILARA,SAGAMU NNPC/OGIJO 33KV FEEDER_ILARA,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IPA/GIWA,NNPC/OGIJO 33KV FEEDER_IPA/GIWA,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IPETORO,NNPC/OGIJO 33KV FEEDER_IPETORO,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_IREWOLE,NNPC/OGIJO 33KV FEEDER_IREWOLE,E,87,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_JIGAYE,NNPC/OGIJO 33KV FEEDER_JIGAYE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_KADESH,NNPC/OGIJO 33KV FEEDER_KADESH,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_LABORI,NNPC/OGIJO 33KV FEEDER_LABORI,E,100,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OLOJA,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_LAGUNSE,SAGAMU NNPC/OGIJO 33KV FEEDER_LAGUNSE,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_LABORI OLOJA,NNPC/OGIJO 33KV FEEDER_LABORI OLOJA,E,100,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_LAGUNSE,NNPC/OGIJO 33KV FEEDER_LAGUNSE,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_LIKOSI I,NNPC/OGIJO 33KV FEEDER_LIKOSI I,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MAGBO,NNPC/OGIJO 33KV FEEDER_MAGBO,E,142,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,131,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_MAIN/LINE,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_MALLOT,SAGAMU NNPC/OGIJO 33KV FEEDER_MALLOT,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MARKET,NNPC/OGIJO 33KV FEEDER_MARKET,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,RD I,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_MARKET,SAGAMU NNPC/OGIJO 33KV FEEDER_MARKET,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,RD II,33,,,SAGAMU NNPC/OGIJO 33KV,SAGAMU NNPC/OGIJO 33KV,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_MOLATORI II,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_MORO I,SAGAMU NNPC/OGIJO 33KV FEEDER_MORO I,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MAGBO RD,NNPC/OGIJO 33KV FEEDER_MAGBO RD,E,142,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MAIN/LINE,NNPC/OGIJO 33KV FEEDER_MAIN/LINE,E,131,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MALLOT,NNPC/OGIJO 33KV FEEDER_MALLOT,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MARKET RD I,NNPC/OGIJO 33KV FEEDER_MARKET RD I,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MARKET RD II,NNPC/OGIJO 33KV FEEDER_MARKET RD II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MOLATORI II,NNPC/OGIJO 33KV FEEDER_MOLATORI II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MORO I,NNPC/OGIJO 33KV FEEDER_MORO I,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MORO II,NNPC/OGIJO 33KV FEEDER_MORO II,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV,NNPC/OGIJO 33KV,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_MULERUWA,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_NEW,SAGAMU NNPC/OGIJO 33KV FEEDER_NEW,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ESTATE,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_OGEDE,SAGAMU NNPC/OGIJO 33KV FEEDER_OGEDE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OKE-OBA,NNPC/OGIJO 33KV FEEDER_OKE-OBA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_MULERUWA,NNPC/OGIJO 33KV FEEDER_MULERUWA,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_NEW ESTATE,NNPC/OGIJO 33KV FEEDER_NEW ESTATE,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OGEDE,NNPC/OGIJO 33KV FEEDER_OGEDE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OKE-OBA II,NNPC/OGIJO 33KV FEEDER_OKE-OBA II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OKE-OKO,NNPC/OGIJO 33KV FEEDER_OKE-OKO,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OLOGUN,NNPC/OGIJO 33KV FEEDER_OLOGUN,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_ORI-,NNPC/OGIJO 33KV FEEDER_ORI-,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OKUTA,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_ORI-,SAGAMU NNPC/OGIJO 33KV FEEDER_ORI-,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,OKUTA II,33,,,SAGAMU NNPC/OGIJO 33KV FEEDER_OSHODI,SAGAMU NNPC/OGIJO 33KV FEEDER_OSHODI,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ADENUGA,NNPC/OGIJO 33KV_ADENUGA,E,230,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,AGBO,33,,,SAGAMU NNPC/OGIJO 33KV_AGBEDURU,SAGAMU NNPC/OGIJO 33KV_AGBEDURU,E,182,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OLOGUN II,NNPC/OGIJO 33KV FEEDER_OLOGUN II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_ORI- OKUTA,NNPC/OGIJO 33KV FEEDER_ORI- OKUTA,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_ORI- OKUTA II,NNPC/OGIJO 33KV FEEDER_ORI- OKUTA II,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV FEEDER_OSHODI,NNPC/OGIJO 33KV FEEDER_OSHODI,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,17,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ADENUGA AGBO,NNPC/OGIJO 33KV_ADENUGA AGBO,E,230,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AGBEDURU,NNPC/OGIJO 33KV_AGBEDURU,E,182,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AIGE RD,NNPC/OGIJO 33KV_AIGE RD,E,105,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AIGE RD II,NNPC/OGIJO 33KV_AIGE RD II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ANU-OLUWAPO,NNPC/OGIJO 33KV_ANU-OLUWAPO,E,157,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ARIGBABU,NNPC/OGIJO 33KV_ARIGBABU,E,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ATAN,NNPC/OGIJO 33KV_ATAN,E,155,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_BASANRI/EWU-,NNPC/OGIJO 33KV_BASANRI/EWU-,E,150,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,LOSI,33,,,SAGAMU NNPC/OGIJO 33KV_EWU-ERUKU,SAGAMU NNPC/OGIJO 33KV_EWU-ERUKU,E,276,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_BASANRI/EWU- LOSI,NNPC/OGIJO 33KV_BASANRI/EWU- LOSI,E,150,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_EWU-ERUKU,NNPC/OGIJO 33KV_EWU-ERUKU,E,276,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_EWU-OLOJA,NNPC/OGIJO 33KV_EWU-OLOJA,E,164,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_EWU-OLOYE,NNPC/OGIJO 33KV_EWU-OLOYE,E,242,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_GBADEBO,NNPC/OGIJO 33KV_GBADEBO,E,184,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
@@ -2320,12 +2320,12 @@ IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MAGBO RD,NNPC/OGIJO 33KV_MAGBO RD,E,19
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MAINLINE,NNPC/OGIJO 33KV_MAINLINE,E,265,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MIRACLE,NNPC/OGIJO 33KV_MIRACLE,E,208,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MOLATORI,NNPC/OGIJO 33KV_MOLATORI,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ODE-,NNPC/OGIJO 33KV_ODE-,E,143,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,LEMO/IGBOLO,33,,,SAGAMU NNPC/OGIJO 33KV_ODOFIN,SAGAMU NNPC/OGIJO 33KV_ODOFIN,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ODE- LEMO/IGBOLO,NNPC/OGIJO 33KV_ODE- LEMO/IGBOLO,E,143,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ODOFIN,NNPC/OGIJO 33KV_ODOFIN,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AIYEGBAMI,NNPC/OGIJO 33KV_AIYEGBAMI,E,185,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_OGUNLARU,NNPC/OGIJO 33KV_OGUNLARU,E,155,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_OKO-OBA,NNPC/OGIJO 33KV_OKO-OBA,E,709,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_OLD IKORODU,NNPC/OGIJO 33KV_OLD IKORODU,E,129,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_OLD IKORODU RD,NNPC/OGIJO 33KV_OLD IKORODU RD,E,129,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AYOMIKUN,NNPC/OGIJO 33KV_AYOMIKUN,E,656,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_OLOGBUN,NNPC/OGIJO 33KV_OLOGBUN,E,175,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_DEJUWOGBO,NNPC/OGIJO 33KV_DEJUWOGBO,E,498,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
@@ -2336,7 +2336,7 @@ IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_PALM OLISA,NNPC/OGIJO 33KV_PALM OLISA,
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_PELEKE,NNPC/OGIJO 33KV_PELEKE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_POOLO II,NNPC/OGIJO 33KV_POOLO II,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_IFESOWAPO,NNPC/OGIJO 33KV_IFESOWAPO,E,1707,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SAINT,NNPC/OGIJO 33KV_SAINT,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SAINT JOHN/HOSPITAL RD,NNPC/OGIJO 33KV_SAINT JOHN/HOSPITAL RD,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,18,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_KADESH,NNPC/OGIJO 33KV_KADESH,E,148,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SANTOSH,NNPC/OGIJO 33KV_SANTOSH,E,158,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_LAGUNSE,NNPC/OGIJO 33KV_LAGUNSE,E,201,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
@@ -2347,8 +2347,8 @@ IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MALLOT,NNPC/OGIJO 33KV_MALLOT,E,1512,I
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SEDU II,NNPC/OGIJO 33KV_SEDU II,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SIMAWA,NNPC/OGIJO 33KV_SIMAWA,E,101,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MORO II,NNPC/OGIJO 33KV_MORO II,E,266,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,,,,NNPC/OGIJO,NNPC/OGIJO,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,33KV_SIMAWA/LOOTO RD,33,,,SAGAMU NNPC/OGIJO 33KV_SIWAMA,SAGAMU NNPC/OGIJO 33KV_SIWAMA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,,,,NNPC/OGIJO 33KV_SIMAWA/LOOTO RD,NNPC/OGIJO 33KV_SIMAWA/LOOTO RD,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SIWAMA,NNPC/OGIJO 33KV_SIWAMA,E,149,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_OGEDE,NNPC/OGIJO 33KV_OGEDE,E,354,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_TEACHER ESTATE,NNPC/OGIJO 33KV_TEACHER ESTATE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_TOLUWALASE,NNPC/OGIJO 33KV_TOLUWALASE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
@@ -2357,25 +2357,25 @@ IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_TOLUWALASE I,NNPC/OGIJO 33KV_TOLUWALAS
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_TUNDE FARM,NNPC/OGIJO 33KV_TUNDE FARM,E,166,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ZION STONE,NNPC/OGIJO 33KV_ZION STONE,E,218,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,OGUNMAKIN/AJEBO 33KV FEEDER,OGUNMAKIN/AJEBO 33KV FEEDER,A,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SAINT,NNPC/OGIJO 33KV_SAINT,E,419,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,JOHN/HOSPITAL RD,33,,,SAGAMU OWODE EGBA 33KV FEEDER,SAGAMU OWODE EGBA 33KV FEEDER,C,132,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SAINT JOHN/HOSPITAL RD,NNPC/OGIJO 33KV_SAINT JOHN/HOSPITAL RD,E,419,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,OWODE EGBA 33KV FEEDER,OWODE EGBA 33KV FEEDER,C,132,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SEDU I,NNPC/OGIJO 33KV_SEDU I,E,185,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ABAFON,NNPC/OGIJO 33KV_ABAFON,E,141,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AGBOWA,NNPC/OGIJO 33KV_AGBOWA,E,191,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,EREFUN,33,,,SAGAMU NNPC/OGIJO 33KV_ESKOBA,SAGAMU NNPC/OGIJO 33KV_ESKOBA,E,151,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_AGBOWA EREFUN,NNPC/OGIJO 33KV_AGBOWA EREFUN,E,191,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_ESKOBA,NNPC/OGIJO 33KV_ESKOBA,E,151,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_IDIMOGUN I,NNPC/OGIJO 33KV_IDIMOGUN I,E,263,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_IDIMOGUN,NNPC/OGIJO 33KV_IDIMOGUN,E,270,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,MALLOT,33,,,SAGAMU NNPC/OGIJO 33KV_LABORI OLOJA,SAGAMU NNPC/OGIJO 33KV_LABORI OLOJA,E,322,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_IDIMOGUN MALLOT,NNPC/OGIJO 33KV_IDIMOGUN MALLOT,E,270,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_LABORI OLOJA,NNPC/OGIJO 33KV_LABORI OLOJA,E,322,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_LIKOSI I,NNPC/OGIJO 33KV_LIKOSI I,E,155,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MARKET RD I,NNPC/OGIJO 33KV_MARKET RD I,E,170,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_MOLATORI II,NNPC/OGIJO 33KV_MOLATORI II,E,232,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_NEW ESTATE,NNPC/OGIJO 33KV_NEW ESTATE,E,200,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV FEEDER,REMO 33KV FEEDER,B,204,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,NNPC/OGIJO 33KV_SEDU II,NNPC/OGIJO 33KV_SEDU II,E,749,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,,,,NNPC/OGIJO,NNPC/OGIJO,E,354,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,33KV_SIMAWA/LOOTO RD,33,,,SAGAMU REMO 33KV FEEDER_ADEBUTU,SAGAMU REMO 33KV FEEDER_ADEBUTU,C,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV FEEDER_ALAGBALA,REMO 33KV FEEDER_ALAGBALA,C,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,JUNCTION,33,,,SAGAMU REMO 33KV_ CAPTAIN ADESINA,SAGAMU REMO 33KV_ CAPTAIN ADESINA,C,142,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,,,,NNPC/OGIJO 33KV_SIMAWA/LOOTO RD,NNPC/OGIJO 33KV_SIMAWA/LOOTO RD,E,354,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV FEEDER_ADEBUTU,REMO 33KV FEEDER_ADEBUTU,C,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,19,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV FEEDER_ALAGBALA JUNCTION,REMO 33KV FEEDER_ALAGBALA JUNCTION,C,187,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV_ CAPTAIN ADESINA,REMO 33KV_ CAPTAIN ADESINA,C,142,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV_AGBELE,REMO 33KV_AGBELE,C,174,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV_AKAKA JUCTION,REMO 33KV_AKAKA JUCTION,C,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV_CAPTAIN ADESINA,REMO 33KV_CAPTAIN ADESINA,C,166,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
@@ -2387,16 +2387,16 @@ IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV_OGERE JUNCTION,REMO 33KV_OGERE JUNCTION,C,15
 IBEDC,2025,2,,SAGAMU,33,,,REMO 33KV_SHASHA,REMO 33KV_SHASHA,C,148,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER,SAGAMU 33KV FEEDER,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_IGBOBI,SAGAMU 33KV FEEDER_IGBOBI,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV,SAGAMU 33KV,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_INTERNATIONAL MARKET,33,,,SAGAMU SAGAMU 33KV FEEDER_IWELEPE,SAGAMU SAGAMU 33KV FEEDER_IWELEPE,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_INTERNATIONAL MARKET,SAGAMU 33KV FEEDER_INTERNATIONAL MARKET,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_IWELEPE,SAGAMU 33KV FEEDER_IWELEPE,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_MAIN/LINE,SAGAMU 33KV FEEDER_MAIN/LINE,A,267,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_PAPALANTO,SAGAMU 33KV FEEDER_PAPALANTO,E,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ROAD,33,,,SAGAMU SAGAMU 33KV FEEDER_SAGAMU,SAGAMU SAGAMU 33KV FEEDER_SAGAMU,C,125,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,ABEOKUTA EXPRESS 2,33,,,SAGAMU SAGAMU 33KV FEEDER_TOLL GATE,SAGAMU SAGAMU 33KV FEEDER_TOLL GATE,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_LAGOS IBADAN,SAGAMU 33KV_LAGOS IBADAN,C,157,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,EXPRESS,33,,,SAGAMU SAGAMU 33KV_MAIN LINE,SAGAMU SAGAMU 33KV_MAIN LINE,A,207,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_SAGAMU ABEOKUTA,SAGAMU 33KV_SAGAMU ABEOKUTA,C,184,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,EXPRESS,11,,,SAGAMU SAGAMU EXPRESS 11KV FEEDER,SAGAMU SAGAMU EXPRESS 11KV FEEDER,D,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_PAPALANTO ROAD,SAGAMU 33KV FEEDER_PAPALANTO ROAD,E,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_SAGAMU ABEOKUTA EXPRESS 2,SAGAMU 33KV FEEDER_SAGAMU ABEOKUTA EXPRESS 2,C,125,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV FEEDER_TOLL GATE,SAGAMU 33KV FEEDER_TOLL GATE,C,173,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_LAGOS IBADAN EXPRESS,SAGAMU 33KV_LAGOS IBADAN EXPRESS,C,157,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_MAIN LINE,SAGAMU 33KV_MAIN LINE,A,207,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,33,,,SAGAMU 33KV_SAGAMU ABEOKUTA EXPRESS,SAGAMU 33KV_SAGAMU ABEOKUTA EXPRESS,C,184,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SAGAMU,11,,,SAGAMU EXPRESS 11KV FEEDER,SAGAMU EXPRESS 11KV FEEDER,D,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,11,,,SAGAMU INDUSTRIAL 11KV FEEDER,SAGAMU INDUSTRIAL 11KV FEEDER,C,138,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SAGAMU,11,,,SAGAMU SABO 11KV FEEDER,SAGAMU SABO 11KV FEEDER,D,190,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,11,,,ABEOKUTA 11KV_ABEOKUTA 11KV,ABEOKUTA 11KV_ABEOKUTA 11KV,E,158,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
@@ -2411,8 +2411,8 @@ IBEDC,2025,2,,SANGO,33,,,IJOKO 33KV FEEDER,IJOKO 33KV FEEDER,A,408,Ibadan-Electr
 IBEDC,2025,2,,SANGO,33,,,IJOKO 33KV_GASLINE,IJOKO 33KV_GASLINE,A,191,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,IJOKO 33KV_IJOKO 33KV,IJOKO 33KV_IJOKO 33KV,A,214,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,ILARO 33KV FEEDER,ILARO 33KV FEEDER,B,198,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,20,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SANGO,33,,,ILARO 33KV FEEDER_OLORUNSOGO,ILARO 33KV FEEDER_OLORUNSOGO,D,134,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,11KV,33,,,SANGO ILARO 33KV_IBOGUN,SANGO ILARO 33KV_IBOGUN,D,179,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,33,,,ILARO 33KV FEEDER_OLORUNSOGO 11KV,ILARO 33KV FEEDER_OLORUNSOGO 11KV,D,134,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,33,,,ILARO 33KV_IBOGUN,ILARO 33KV_IBOGUN,D,179,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,ILARO 33KV_IGBOGILA,ILARO 33KV_IGBOGILA,E,128,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,ILARO 33KV_ILARO 33KV,ILARO 33KV_ILARO 33KV,B,167,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,ILARO 33KV_OJA ODAN,ILARO 33KV_OJA ODAN,D,247,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
@@ -2420,9 +2420,9 @@ IBEDC,2025,2,,SANGO,33,,,ILARO 33KV_PAPALANTO,ILARO 33KV_PAPALANTO,D,168,Ibadan-
 IBEDC,2025,2,,SANGO,33,,,DOLPHIN 33KV FEEDER,DOLPHIN 33KV FEEDER,B,379,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,11,,,ILARO TOWNSHIP 11KV FEEDER,ILARO TOWNSHIP 11KV FEEDER,E,207,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,11,,,ILARO ROAD 11KV_PAPALANTO,ILARO ROAD 11KV_PAPALANTO,E,212,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SANGO,11,,,ILARO TOWNSHIP 11KV,ILARO TOWNSHIP 11KV,E,141,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,FEEDER_11KVA,11,,,SANGO ILARO TOWNSHIP 11KV FEEDER_ILARO,SANGO ILARO TOWNSHIP 11KV FEEDER_ILARO,B,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,33KV,11,,,SANGO OKE ELA 11KV FEEDR,SANGO OKE ELA 11KV FEEDR,D,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,11,,,ILARO TOWNSHIP 11KV FEEDER_11KVA,ILARO TOWNSHIP 11KV FEEDER_11KVA,E,141,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,11,,,ILARO TOWNSHIP 11KV FEEDER_ILARO 33KV,ILARO TOWNSHIP 11KV FEEDER_ILARO 33KV,B,154,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,11,,,OKE ELA 11KV FEEDR,OKE ELA 11KV FEEDR,D,160,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,11,,,OLORUNSOGO 11KV FEEDER,OLORUNSOGO 11KV FEEDER,E,225,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,11,,,OTA 11KV FEEDER,OTA 11KV FEEDER,E,201,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV FEEDER,OTA INDUSTRIAL 33KV FEEDER,D,195,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
@@ -2430,8 +2430,8 @@ IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_AJIBODE,OTA INDUSTRIAL 33KV_AJIBODE
 IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_IFO 11 KVA,OTA INDUSTRIAL 33KV_IFO 11 KVA,E,256,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_IYANAILOGBO,OTA INDUSTRIAL 33KV_IYANAILOGBO,E,156,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_OLOMU,OTA INDUSTRIAL 33KV_OLOMU,E,162,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_OTA,OTA INDUSTRIAL 33KV_OTA,C,169,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
-IBEDC,2025,2,,INDUSTRIAL 33KV,33,,,SANGO OTA INDUSTRIAL 33KV_OWODE,SANGO OTA INDUSTRIAL 33KV_OWODE,E,181,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_OTA INDUSTRIAL 33KV,OTA INDUSTRIAL 33KV_OTA INDUSTRIAL 33KV,C,169,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
+IBEDC,2025,2,,SANGO,33,,,OTA INDUSTRIAL 33KV_OWODE,OTA INDUSTRIAL 33KV_OWODE,E,181,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,SANGO 33KV FEEDER,SANGO 33KV FEEDER,A,238,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,11,,,SANGO ILARO ROAD 11KV FEEDER,SANGO ILARO ROAD 11KV FEEDER,E,163,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
 IBEDC,2025,2,,SANGO,33,,,TOLL GATE 33KV FEEDER,TOLL GATE 33KV FEEDER,A,256,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,21,b3227a13e9f6b4c8,0,text
@@ -2507,7 +2507,8 @@ IKEDC,2025,2,,AKOWONJO BU,11,Ekoro,T1,Ekoro,11-EkoroINJ-T1-Ekoro,C,393,Ikeja-Ele
 IKEDC,2025,2,,AKOWONJO BU,11,Ekoro,T1,Oke Odo,11-EkoroINJ-T1-Oke Odo,D,513,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,AKOWONJO BU,11,Ekoro,T2,Agbele,11-EkoroINJ-T2-Agbele,D,381,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,AKOWONJO BU,11,Ekoro,T2,Olota,11-EkoroINJ-T2-Olota,C,377,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,AKOWONJO BU,11,Hilltop,T1,Hilltop A - Bilateral 750 AKOWONJO BU 11-Ijaiye OjokoroINJ-T1-Abeokuta Express,11-HilltopINJ-T1-Hilltop A - Bilateral 750 AKOWONJO BU 11-Ijaiye OjokoroINJ-T1-Abeokuta Express,C,328,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,AKOWONJO BU,11,Hilltop,T1,Hilltop,11-HilltopINJ-T1-Hilltop,A,750,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,AKOWONJO BU,11,Ijaiye Ojokoro,T1,Abeokuta Express,11-Ijaiye OjokoroINJ-T1-Abeokuta Express,C,328,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,AKOWONJO BU,11,Ilapo,T1,Ilapo,11-IlapoINJ-T1-Ilapo,A,354,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,AKOWONJO BU,11,Mongoro,T1,Capitol,11-MongoroINJ-T1-Capitol,D,486,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,AKOWONJO BU,,,,33-AyoboTCN-ABULE TAYLOR,33-AyoboTCN-ABULE TAYLOR,B,941,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,23a0e42698c3ab5a,0,text
@@ -2529,14 +2530,17 @@ IKEDC,2025,2,,IKEJA BU,11,Secretariat,T2,7UP,11-SecretariatINJ-T2-7UP,A,1066,Ike
 IKEDC,2025,2,,IKEJA BU,11,Secretariat,T1,Omole,11-SecretariatINJ-T1-Omole,A,1182,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Secretariat,T1,Lateef Jakande,11-SecretariatINJ-T1-Lateef Jakande,A,1111,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Abesan,T1,Aboru,11-AbesanINJ-T1-Aboru,D,270,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,IKEJA BU,11,Adekunle Fajuyi,T1,Isaac John A - Bilateral 1366 IKEJA BU 11-Adekunle FajuyiINJ-T1-Oduduwa A - Bilateral 1262 IKEJA BU 11-Adeniyi JonesINJ-T1-Adeniyi Jones,11-Adekunle FajuyiINJ-T1-Isaac John A - Bilateral 1366 IKEJA BU 11-Adekunle FajuyiINJ-T1-Oduduwa A - Bilateral 1262 IKEJA BU 11-Adeniyi JonesINJ-T1-Adeniyi Jones,A,1277,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Adekunle Fajuyi,T1,Isaac John,11-Adekunle FajuyiINJ-T1-Isaac John,A,1366,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Adekunle Fajuyi,T1,Oduduwa,11-Adekunle FajuyiINJ-T1-Oduduwa,A,1262,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Adeniyi Jones,T1,Adeniyi Jones,11-Adeniyi JonesINJ-T1-Adeniyi Jones,A,1277,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,PTC,T3,Olowu,11-PTCINJ-T3-Olowu,A,1116,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Agege,T1,Iju Road,11-AgegeINJ-T1-Iju Road,C,633,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Agege,T3,Oyemekun,11-AgegeINJ-T3-Oyemekun,B,708,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ajao,T2,New Estate,11-AjaoINJ-T2-New Estate,C,1004,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ilupeju,T1,Bhojson,11-IlupejuINJ-T1-Bhojson,A,1851,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ilupeju,T4,Ikorodu,11-IlupejuINJ-T4-Ikorodu,A,1140,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,IKEJA BU,11,Maryland,T1,PTC A - Bilateral 1317 IKEJA BU 11-PTCINJ-T2-Medical,11-MarylandINJ-T1-PTC A - Bilateral 1317 IKEJA BU 11-PTCINJ-T2-Medical,A,1108,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Maryland,T1,PTC,11-MarylandINJ-T1-PTC,A,1317,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,PTC,T2,Medical,11-PTCINJ-T2-Medical,A,1108,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,New Alausa,T4,Allen,11-New AlausaINJ-T4-Allen,A,1240,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,New Alausa,T4,Oregun,11-New AlausaINJ-T4-Oregun,A,1339,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,New Alausa,T4,Siyanbola,11-New AlausaINJ-T4-Siyanbola,A,1306,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
@@ -2552,7 +2556,9 @@ IKEDC,2025,2,,IKEJA BU,11,Opebi,T1,Agbaoku,11-OpebiINJ-T1-Agbaoku,A,1155,Ikeja-E
 IKEDC,2025,2,,IKEJA BU,11,Ojodu,T1,Alagbole,11-OjoduINJ-T1-Alagbole,C,903,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ojodu,T1,King Avenue,11-OjoduINJ-T1-King Avenue,A,999,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,3,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Oke Ira,T2,Thomas Salako,11-Oke IraINJ-T2-Thomas Salako,C,960,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,IKEJA BU,11,Ojodu,T2,Express A - Bilateral 1097 IKEJA BU 11-OjoduINJ-T2-River Valley A - Bilateral 1140 IKEJA BU 11-OjoduINJ-T2-Yakoyo,11-OjoduINJ-T2-Express A - Bilateral 1097 IKEJA BU 11-OjoduINJ-T2-River Valley A - Bilateral 1140 IKEJA BU 11-OjoduINJ-T2-Yakoyo,B,903,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Ojodu,T2,Express,11-OjoduINJ-T2-Express,A,1097,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Ojodu,T2,River Valley,11-OjoduINJ-T2-River Valley,A,1140,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Ojodu,T2,Yakoyo,11-OjoduINJ-T2-Yakoyo,B,903,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Oke Ira,T2,Kayode,11-Oke IraINJ-T2-Kayode,A,1117,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Oke Ira,T2,Abiodun Jagun,11-Oke IraINJ-T2-Abiodun Jagun,C,994,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Oke Ira,T1,Oke Ira,11-Oke IraINJ-T1-Oke Ira,A,924,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
@@ -2560,7 +2566,10 @@ IKEDC,2025,2,,IKEJA BU,11,Oke Ira,T1,Nob Oluwa,11-Oke IraINJ-T1-Nob Oluwa,C,913,
 IKEDC,2025,2,,IKEJA BU,11,Ope Ilu,T1,Aboro,11-Ope IluINJ-T1-Aboro,C,257,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ojodu,T1,Ojodu,11-OjoduINJ-T1-Ojodu,A,1064,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,PTC,T1,Opebi,11-PTCINJ-T1-Opebi,A,1110,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,IKEJA BU,11,PTC,T2,Awuse A - Bilateral 1408 IKEJA BU 11-PTCINJ-T3-General Hospital A - Bilateral 1345 IKEJA BU 11-PTCINJ-T3-Oba Akinjobi A - Bilateral 1237 IKEJA BU 11-OgbaINJ-T3-Oba Akran,11-PTCINJ-T2-Awuse A - Bilateral 1408 IKEJA BU 11-PTCINJ-T3-General Hospital A - Bilateral 1345 IKEJA BU 11-PTCINJ-T3-Oba Akinjobi A - Bilateral 1237 IKEJA BU 11-OgbaINJ-T3-Oba Akran,A,1310,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,PTC,T2,Awuse,11-PTCINJ-T2-Awuse,A,1408,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,PTC,T3,General Hospital,11-PTCINJ-T3-General Hospital,A,1345,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,PTC,T3,Oba Akinjobi,11-PTCINJ-T3-Oba Akinjobi,A,1237,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,IKEJA BU,11,Ogba,T3,Oba Akran,11-OgbaINJ-T3-Oba Akran,A,1310,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Secretariat,T1,Estate,11-SecretariatINJ-T1-Estate,A,1228,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ogba,T2,Mangoro,11-OgbaINJ-T2-Mangoro,A,1108,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,IKEJA BU,11,Ogba,T1,Ijaye,11-OgbaINJ-T1-Ijaye,B,1114,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,4,23a0e42698c3ab5a,0,text
@@ -2711,7 +2720,11 @@ IKEDC,2025,2,,SHOMOLU BU,11,Ilupeju,T3,Coker,11-IlupejuINJ-T3-Coker,A,1188,Ikeja
 IKEDC,2025,2,,SHOMOLU BU,11,Ilupeju,T3,Palmgrove,11-IlupejuINJ-T3-Palmgrove,A,1174,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,,,,11-IlupejuLocal-T1-Industrial,11-IlupejuLocal-T1-Industrial,C,1149,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,,,,11-IlupejuLocal-T1-Obanikoro,11-IlupejuLocal-T1-Obanikoro,A,1077,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,SHOMOLU BU,11,Magodo,T1,Emmanuel Keshi A - Bilateral 1220 SHOMOLU BU 11-MagodoINJ-T1-Owulade A - Bilateral 1096 SHOMOLU BU 11-MagodoINJ-T1-Shangisha A - Bilateral 1182 SHOMOLU BU 11-MagodoINJ-T2-Bashiru A - Bilateral 1290 SHOMOLU BU 11-MarylandINJ-T1-Okupe,11-MagodoINJ-T1-Emmanuel Keshi A - Bilateral 1220 SHOMOLU BU 11-MagodoINJ-T1-Owulade A - Bilateral 1096 SHOMOLU BU 11-MagodoINJ-T1-Shangisha A - Bilateral 1182 SHOMOLU BU 11-MagodoINJ-T2-Bashiru A - Bilateral 1290 SHOMOLU BU 11-MarylandINJ-T1-Okupe,A,1100,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Magodo,T1,Emmanuel Keshi,11-MagodoINJ-T1-Emmanuel Keshi,A,1220,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Magodo,T1,Owulade,11-MagodoINJ-T1-Owulade,A,1096,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Magodo,T1,Shangisha,11-MagodoINJ-T1-Shangisha,A,1182,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Magodo,T2,Bashiru,11-MagodoINJ-T2-Bashiru,A,1290,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Maryland,T1,Okupe,11-MarylandINJ-T1-Okupe,A,1100,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Maryland,T2,Westex,11-MarylandINJ-T2-Westex,A,1137,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Maryland,T3,Demurin,11-MarylandINJ-T3-Demurin,A,1033,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,7,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Maryland,T3,Ikosi,11-MarylandINJ-T3-Ikosi,B,735,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
@@ -2723,7 +2736,9 @@ IKEDC,2025,2,,SHOMOLU BU,11,New Oworo,T1,Odunsi,11-New OworoINJ-T1-Odunsi,B,641,
 IKEDC,2025,2,,SHOMOLU BU,11,New Yaba,T1,Fadeyi,11-New YabaINJ-T1-Fadeyi,D,374,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,New Yaba,T2,Jibowu,11-New YabaINJ-T2-Jibowu,B,723,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Nitel,T1,Challenge,11-NitelINJ-T1-Challenge,D,445,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
-IKEDC,2025,2,,SHOMOLU BU,11,Ogudu,T1,CAC A - Bilateral 1105 SHOMOLU BU 11-OguduINJ-T1-Express A - Bilateral 1072 SHOMOLU BU 11-AlapereINJ-T1-Bakare,11-OguduINJ-T1-CAC A - Bilateral 1105 SHOMOLU BU 11-OguduINJ-T1-Express A - Bilateral 1072 SHOMOLU BU 11-AlapereINJ-T1-Bakare,B,718,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Ogudu,T1,CAC,11-OguduINJ-T1-CAC,A,1105,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Ogudu,T1,Express,11-OguduINJ-T1-Express,A,1072,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
+IKEDC,2025,2,,SHOMOLU BU,11,Alapere,T1,Bakare,11-AlapereINJ-T1-Bakare,B,718,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Alapere,T1,Araba,11-AlapereINJ-T1-Araba,B,713,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Ogudu,T2,Oriola,11-OguduINJ-T2-Oriola,A,718,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
 IKEDC,2025,2,,SHOMOLU BU,11,Ogudu,T3,Balogun,11-OguduINJ-T3-Balogun,C,677,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,8,23a0e42698c3ab5a,0,text
@@ -2787,8 +2802,8 @@ JEDC,2025,2,,BUKURU,,,,DENGI TOWN,DENGI TOWN,E,56,Jos-Electricity-Distribution-P
 JEDC,2025,2,,BUKURU,,,,DOROWA,DOROWA,B,137,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
 JEDC,2025,2,,BUKURU,33,,,DOROWA 33KV II,DOROWA 33KV II,B,97,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
 JEDC,2025,2,,BUKURU,,,,GANAWURI (NESCO),GANAWURI (NESCO),E,82,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
-JEDC,2025,2,,BUKURU,,,,GENERAL HOSPITAL,GENERAL HOSPITAL,D,63,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
-JEDC,2025,2,,PANKSHIN,,,,BUKURU GINDIRI,BUKURU GINDIRI,C,84,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
+JEDC,2025,2,,BUKURU,,,,GENERAL HOSPITAL PANKSHIN,GENERAL HOSPITAL PANKSHIN,D,63,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
+JEDC,2025,2,,BUKURU,,,,GINDIRI,GINDIRI,C,84,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
 JEDC,2025,2,,BUKURU,,,,GRA SHENDAM,GRA SHENDAM,E,57,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
 JEDC,2025,2,,BUKURU,,,,GURA TOP/MAZ.,GURA TOP/MAZ.,A,143,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
 JEDC,2025,2,,BUKURU,,,,HWOLSHE,HWOLSHE,A,139,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,26ee45b2065fafae,0,text
@@ -2933,8 +2948,8 @@ KAEDC,2025,2,,KAFANCHAN,11,,,11KV MANCHOK,11KV MANCHOK,E,74,Kaduna-Electricity-D
 KAEDC,2025,2,,KAFANCHAN,11,,,11KV SAMINAKA,11KV SAMINAKA,C,76,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,4078925949354ccf,0,text
 KAEDC,2025,2,,KAFANCHAN,11,,,11KV ZONKWA,11KV ZONKWA,E,65,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,4078925949354ccf,0,text
 KAEDC,2025,2,,KAFANCHAN,33,,,33KKV NNPC SAMINAKA 50 KAFANCHAN 33KV KAFANCHAN,33KKV NNPC SAMINAKA 50 KAFANCHAN 33KV KAFANCHAN,A,190,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
-KAEDC,2025,2,,KAFANCHAN,33,,,33KV NNPC SAMINAKA - UM -11KV,33KV NNPC SAMINAKA - UM -11KV,E,99,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
-KAEDC,2025,2,,SAMINAKA,11,,,KAWO 11KV AHMADU BELLO WAY,KAWO 11KV AHMADU BELLO WAY,A,200,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
+KAEDC,2025,2,,KAFANCHAN,33,,,33KV NNPC SAMINAKA - UM -11KV SAMINAKA,33KV NNPC SAMINAKA - UM -11KV SAMINAKA,E,99,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
+KAEDC,2025,2,,KAWO,11,,,11KV AHMADU BELLO WAY,11KV AHMADU BELLO WAY,A,200,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
 KAEDC,2025,2,,KAWO,11,,,11KV ISA KAITA,11KV ISA KAITA,A,195,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
 KAEDC,2025,2,,KAWO,11,,,11KV KAWO,11KV KAWO,D,190,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
 KAEDC,2025,2,,KAWO,11,,,11KV KURMIN MASHI,11KV KURMIN MASHI,C,125,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,2,4078925949354ccf,0,text
@@ -3112,8 +3127,8 @@ KEDCO,2025,2,,JIGAWA SOUTH,11,,,11 KV SANI ABACHA WAY,11 KV SANI ABACHA WAY,B,98
 KEDCO,2025,2,,JIGAWA SOUTH,11,,,11 KV SCHOOL OF NURSING,11 KV SCHOOL OF NURSING,C,112,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
 KEDCO,2025,2,,JIGAWA SOUTH,11,,,11 KV TAKUR,11 KV TAKUR,B,84,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
 KEDCO,2025,2,,JIGAWA SOUTH,11,,,11KV GARU,11KV GARU,B,112,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
-KEDCO,2025,2,,JIGAWA SOUTH,11,,,11KV GOVERNMENT HOUSE,11KV GOVERNMENT HOUSE,B,129,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
-KEDCO,2025,2,,DUTSE,11,,,JIGAWA SOUTH 11KV LIMAWA,JIGAWA SOUTH 11KV LIMAWA,C,105,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
+KEDCO,2025,2,,JIGAWA SOUTH,11,,,11KV GOVERNMENT HOUSE DUTSE,11KV GOVERNMENT HOUSE DUTSE,B,129,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
+KEDCO,2025,2,,JIGAWA SOUTH,11,,,11KV LIMAWA,11KV LIMAWA,C,105,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
 KEDCO,2025,2,,JIGAWA SOUTH,33,,,33KV BIRNIN KUDU,33KV BIRNIN KUDU,B,103,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
 KEDCO,2025,2,,JIGAWA SOUTH,33,,,33KV GUJUNGU,33KV GUJUNGU,A,178,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text
 KEDCO,2025,2,,JIGAWA SOUTH,33,,,33KV JAHUN,33KV JAHUN,D,143,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-February-2025.pdf,1,c257f75dc042ff57,0,text

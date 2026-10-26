@@ -6,13 +6,13 @@ LAGOS    OSHODI BU 33-EjigboTCN-EGBE    A    1,041
 LAGOS    OSHODI BU 33-EjigboTCN-AGODO    A    1,024
 LAGOS    OSHODI BU 11-YusufINJ-T1-Akera    C    352
 LAGOS    OSHODI BU 11-YidiINJ-T1-Opeilu    D    190
-LAGOS    OSHODI BU 11-ShashalNJ-T1-Orisunbare    ?    429
+LAGOS    OSHODI BU 11-ShashalNJ-T1-Orisunbare    C    429
 LAGOS    OSHODI BU 11-SabolNJ-T1-Lasunwon    C    481
 LAGOS    OSHODI BU 11-Oke AfalNJ-T3-Ori Oke    D    379
 LAGOS    OSHODI BU 11-Oke AfaINJ-T3-NNPC    D    385
 LAGOS    OSHODI BU 11-Oke AfalNJ-T3-Bungalow    C    353
 LAGOS    OSHODI BU 11-Oke AfalNJ-T2-Osolo    B    715
-LAGOS    OSHODI BU 11-Oke AfalNJ-T2-Ilamoshe    ?    475
+LAGOS    OSHODI BU 11-Oke AfalNJ-T2-Ilamoshe    C    475
 LAGOS    OSHODI BU 11-Oke AfalNJ-T1-LCHE    A    829
 LAGOS    OSHODI BU 11-Oke AfalNJ-T1-Ire-Akari    C    495
 LAGOS    OSHODI BU 11-Oke AfalNJ-T1-Ejigbo    D    327
@@ -20,9 +20,9 @@ LAGOS    OSHODI BU 11-OdogunyanINJ-T1-Agodo    B    551
 LAGOS    OSHODI BU 11-MushinINJ-Aswani    D    710
 LAGOS    OSHODI BU 11-MafolukuINJ-T1-Saubana    D    709
 LAGOS    OSHODI BU 11-MafolukuINJ-T1-Makinde    C    712
-LAGOS    OSHODI BU 11-ItirelNJ-T3-Apena    ?    605
+LAGOS    OSHODI BU 11-ItirelNJ-T3-Apena    C    605
 LAGOS    OSHODI BU 11-Itire|NJ-T3-Ago    A    831
-LAGOS    OSHODI BU 11-ltire|NJ-T2-Ibalex    ?    411
+LAGOS    OSHODI BU 11-ltire|NJ-T2-Ibalex    C    411
 LAGOS    OSHODI BU 11-ItirelNJ-T2-Canal    A    844
 LAGOS    OSHODI BU 11-Itire|NJ-T1-Okota    A    773
 LAGOS    OSHODI BU 11-ItirelNJ-T1-Ademulegun    B    568
@@ -33,7 +33,7 @@ LAGOS    OSHODI BU 11-ljegunINJ-T2-ljegun    D    220
 LAGOS    OSHODI BU 11-ljegunINJ-T1-Okerube    D    300
 LAGOS    OSHODI BU 11-ljegunINJ-T1-Obalagbe    C    311
 LAGOS    OSHODI BU 11-ljegunINJ-T1-Ikotun    D    485
-LAGOS    OSHODI BU 11-IgandoINJ-T2-General Hospital    ?    378
+LAGOS    OSHODI BU 11-IgandoINJ-T2-General Hospital    C    378
 LAGOS    OSHODI BU 11-IgandoINJ-T2-Akesan    D    311
 LAGOS    OSHODI BU 11-IgandolNJ-T2-Agric Road    D    241
 LAGOS    OSHODI BU 11-IgandoINJ-T1-Obadore    D    311

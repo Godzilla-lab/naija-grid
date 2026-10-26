@@ -26,6 +26,9 @@ jobs:
     timeout-minutes: 90
     env:
       GH_TOKEN: ${{ github.token }}
+      # Optional: set both repository secrets to push each new month to Kaggle as well.
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -61,6 +64,7 @@ jobs:
         run: python -m pytest -q
 
       - name: Commit (always, so data/last_checked.json keeps the schedule alive)
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -69,8 +73,18 @@ jobs:
             echo "No changes."
             exit 0
           fi
+          if git diff --cached --name-only | grep -qv '^data/last_checked.json$'; then
+            echo "data_changed=true" >> "$GITHUB_OUTPUT"
+          fi
           git commit -m "data: NERC caps refresh $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Push a new version to Kaggle (only when the data changed)
+        if: steps.commit.outputs.data_changed == 'true' && env.KAGGLE_KEY != ''
+        run: |
+          pip install kaggle==2.2.5
+          python scripts/kaggle_package.py --owner "$KAGGLE_USERNAME"
+          kaggle datasets version -p build/kaggle -r zip -m "NERC caps refresh $(date -u +%Y-%m-%d)"
 
       - name: Health check, open an issue if anything looks wrong
         run: |

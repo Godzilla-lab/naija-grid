@@ -23,6 +23,6 @@ FCT    ADO    AT9_K4_J22_FD4    D    126
 FCT    ADO    AT9_K4_PL_PL    B    181
 FCT    ADO    AT9_K5_J32_FD1    D    112
 FCT    ADO    AT9_K5_J32_FD2    D    128
-FCT    ADO    AT9_K5_J32_FD7    ?    117
+FCT    ADO    AT9_K5_J32_FD7    C    117
 FCT    ADO    AT9_K5_J32_FD8    D    129
 FCT    ADO    AT9_K5_PL_PL    B    92

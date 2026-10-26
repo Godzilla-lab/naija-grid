@@ -2,22 +2,22 @@
  "months_covered": 45,
  "first_month": "2022-10",
  "latest_month": "2026-10",
- "rows": 146108,
+ "rows": 147079,
  "pdf_files": 520,
- "distinct_feeders": 7813,
- "exact_duplicates_dropped": 652,
+ "distinct_feeders": 6458,
+ "exact_duplicates_dropped": 634,
  "id_link_counts": {
-  "exact": 145507,
-  "fuzzy_ocr": 592,
-  "fuzzy_ocr_conflict": 9
+  "exact": 146323,
+  "fuzzy_ocr": 741,
+  "fuzzy_ocr_conflict": 15
  },
  "state_source_rows": {
-  "learned": 92740,
-  "printed": 30753,
-  "manual": 19052,
-  "unknown": 3563
+  "learned": 100457,
+  "printed": 31430,
+  "manual": 14254,
+  "unknown": 938
  },
- "duplicate_feeder_month_rows": 34,
+ "duplicate_feeder_month_rows": 10,
  "months_with_data": [
   "2022-10",
   "2022-11",
@@ -247,29 +247,28 @@
   "RIVERS",
   "SOKOTO",
   "TARABA",
-  "UNKNOWN",
   "YOBE",
   "ZAMFARA"
  ],
- "transitions_total": 2114,
- "upgrades": 1333,
- "downgrades": 781,
+ "transitions_total": 1977,
+ "upgrades": 1252,
+ "downgrades": 725,
  "top_transition_months": {
-  "2024-07": 747,
-  "2023-02": 194,
-  "2025-02": 166,
-  "2026-10": 110,
-  "2024-10": 103
+  "2024-07": 755,
+  "2023-02": 192,
+  "2025-02": 159,
+  "2026-10": 106,
+  "2024-10": 100
  },
- "into_A": 628,
- "out_of_A": 529,
- "latest_feeders": 2296,
+ "into_A": 583,
+ "out_of_A": 495,
+ "latest_feeders": 2295,
  "latest_band_counts": {
   "A": 644,
   "B": 465,
   "C": 472,
   "D": 457,
-  "E": 258
+  "E": 257
  },
  "latest_discos": [
   {
@@ -295,10 +294,10 @@
   },
   {
    "disco_name": "Kaduna",
-   "feeders": 200.0,
-   "share_A_pct": 29.0,
-   "share_E_pct": 30.5,
-   "median_cap_kwh": 121.5
+   "feeders": 199.0,
+   "share_A_pct": 29.1,
+   "share_E_pct": 30.2,
+   "median_cap_kwh": 121.0
   },
   {
    "disco_name": "Jos",
@@ -377,11 +376,6 @@
    "share_A_pct": 33.9
   },
   {
-   "state": "UNKNOWN",
-   "feeders": 3.0,
-   "share_A_pct": 33.3
-  },
-  {
    "state": "ZAMFARA",
    "feeders": 25.0,
    "share_A_pct": 32.0
@@ -400,13 +394,18 @@
    "state": "ADAMAWA",
    "feeders": 51.0,
    "share_A_pct": 27.5
+  },
+  {
+   "state": "BENUE",
+   "feeders": 40.0,
+   "share_A_pct": 27.5
   }
  ],
  "latest_states_bottom": [
   {
-   "state": "KEBBI",
-   "feeders": 35.0,
-   "share_A_pct": 17.1
+   "state": "OGUN",
+   "feeders": 198.0,
+   "share_A_pct": 17.2
   },
   {
    "state": "BORNO",
@@ -424,11 +423,6 @@
    "share_A_pct": 12.5
   },
   {
-   "state": "JIGAWA",
-   "feeders": 21.0,
-   "share_A_pct": 9.5
-  },
-  {
    "state": "DELTA",
    "feeders": 129.0,
    "share_A_pct": 9.3
@@ -436,6 +430,11 @@
   {
    "state": "YOBE",
    "feeders": 33.0,
+   "share_A_pct": 9.1
+  },
+  {
+   "state": "JIGAWA",
+   "feeders": 22.0,
    "share_A_pct": 9.1
   },
   {
@@ -484,50 +483,44 @@
    "max": 908.0
   },
   "E": {
-   "count": 258.0,
-   "10%": 89.0,
-   "50%": 176.0,
-   "90%": 305.0,
+   "count": 257.0,
+   "10%": 88.0,
+   "50%": 177.0,
+   "90%": 306.0,
    "max": 794.0
   }
  },
- "anomaly_low_band_high_cap": 102,
+ "anomaly_low_band_high_cap": 101,
  "discos_by_downgrades": [
   {
-   "disco_name": "Abuja",
-   "downgrade": 173,
-   "upgrade": 252,
-   "net_upgrades": 79
+   "disco_name": "Kaduna",
+   "downgrade": 159,
+   "upgrade": 130,
+   "net_upgrades": -29
   },
   {
-   "disco_name": "Kaduna",
-   "downgrade": 162,
-   "upgrade": 135,
-   "net_upgrades": -27
+   "disco_name": "Abuja",
+   "downgrade": 147,
+   "upgrade": 221,
+   "net_upgrades": 74
   },
   {
    "disco_name": "Yola",
-   "downgrade": 123,
-   "upgrade": 38,
-   "net_upgrades": -85
+   "downgrade": 119,
+   "upgrade": 37,
+   "net_upgrades": -82
   },
   {
    "disco_name": "Ibadan",
-   "downgrade": 100,
-   "upgrade": 104,
-   "net_upgrades": 4
+   "downgrade": 82,
+   "upgrade": 88,
+   "net_upgrades": 6
   },
   {
    "disco_name": "Enugu",
    "downgrade": 57,
    "upgrade": 110,
    "net_upgrades": 53
-  },
-  {
-   "disco_name": "Ikeja",
-   "downgrade": 36,
-   "upgrade": 181,
-   "net_upgrades": 145
   },
   {
    "disco_name": "Jos",
@@ -542,10 +535,16 @@
    "net_upgrades": 32
   },
   {
+   "disco_name": "Ikeja",
+   "downgrade": 32,
+   "upgrade": 156,
+   "net_upgrades": 124
+  },
+  {
    "disco_name": "Eko",
    "downgrade": 23,
-   "upgrade": 204,
-   "net_upgrades": 181
+   "upgrade": 203,
+   "net_upgrades": 180
   },
   {
    "disco_name": "Kano",
@@ -555,9 +554,9 @@
   },
   {
    "disco_name": "Aba Power",
-   "downgrade": 13,
-   "upgrade": 24,
-   "net_upgrades": 11
+   "downgrade": 12,
+   "upgrade": 22,
+   "net_upgrades": 10
   },
   {
    "disco_name": "Benin",
@@ -592,21 +591,20 @@
    "RIVERS",
    "SOKOTO",
    "TARABA",
-   "UNKNOWN",
    "YOBE",
    "ZAMFARA"
   ],
   "first": {
    "order_month": "2022-10",
-   "feeders": 2140.0,
-   "share_A_pct": 26.4,
-   "median_cap_kwh": 159.0
+   "feeders": 1901.0,
+   "share_A_pct": 25.9,
+   "median_cap_kwh": 158.0
   },
   "latest": {
    "order_month": "2026-10",
-   "feeders": 2296.0,
-   "share_A_pct": 28.0,
-   "median_cap_kwh": 204.5
+   "feeders": 2295.0,
+   "share_A_pct": 28.1,
+   "median_cap_kwh": 205.0
   }
  }
 }
