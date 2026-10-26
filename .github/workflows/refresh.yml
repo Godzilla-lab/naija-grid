@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: refresh
@@ -20,9 +21,11 @@ concurrency:
 
 jobs:
   refresh:
-    # macOS: scanned orders are read with Apple's Vision framework.
+    # macOS: scanned orders and images are read with Apple's Vision framework.
     runs-on: macos-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +36,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-ocr.txt pytest==9.1.1
 
-      - name: Download new NERC cap orders
+      - name: OCR self-test (reads a known scanned page from scratch)
+        run: python scripts/ocr_selftest.py
+
+      - name: Download new NERC cap orders (PDF, JPG, PNG or ZIP)
         env:
           MONTH: ${{ github.event.inputs.month }}
         run: |
@@ -45,7 +51,7 @@ jobs:
             python scripts/nerc_caps.py --from "$PREV" --to "$CUR"
           fi
 
-      - name: Extract every order (scanned pages use committed OCR text, new ones are recognised)
+      - name: Extract every order (scans and images are recognised; known pages reuse raw/ocr_text)
         run: python scripts/reparse.py
 
       - name: Rebuild clean tables, rankings and charts
@@ -54,7 +60,7 @@ jobs:
       - name: Test
         run: python -m pytest -q
 
-      - name: Commit if anything changed
+      - name: Commit (always, so data/last_checked.json keeps the schedule alive)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -65,3 +71,19 @@ jobs:
           fi
           git commit -m "data: NERC caps refresh $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Health check, open an issue if anything looks wrong
+        run: |
+          python scripts/check_refresh.py > report.md
+          if [ -s report.md ]; then
+            cat report.md
+            gh issue create --title "Refresh needs a look: $(date -u +%Y-%m-%d)" --body-file report.md
+          else
+            echo "All clear."
+          fi
+
+      - name: Open an issue if the refresh failed
+        if: failure()
+        run: |
+          gh issue create --title "Refresh FAILED: $(date -u +%Y-%m-%d)" \
+            --body "The scheduled refresh failed at a step. Log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

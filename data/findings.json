@@ -2,19 +2,19 @@
  "months_covered": 45,
  "first_month": "2022-10",
  "latest_month": "2026-10",
- "rows": 145795,
- "pdf_files": 519,
+ "rows": 146108,
+ "pdf_files": 520,
  "distinct_feeders": 7813,
  "exact_duplicates_dropped": 652,
  "id_link_counts": {
-  "exact": 145194,
+  "exact": 145507,
   "fuzzy_ocr": 592,
   "fuzzy_ocr_conflict": 9
  },
  "state_source_rows": {
-  "learned": 92576,
+  "learned": 92740,
   "printed": 30753,
-  "manual": 18903,
+  "manual": 19052,
   "unknown": 3563
  },
  "duplicate_feeder_month_rows": 34,
@@ -257,7 +257,7 @@
  "top_transition_months": {
   "2024-07": 747,
   "2023-02": 194,
-  "2025-02": 170,
+  "2025-02": 166,
   "2026-10": 110,
   "2024-10": 103
  },

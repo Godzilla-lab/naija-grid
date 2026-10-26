@@ -4,13 +4,13 @@ Analysis of every Monthly Energy Cap order the Nigerian Electricity Regulatory C
 
 ## The data in one paragraph
 
-Since 2022, NERC has published a monthly order for each distribution company (DisCo) that lists every feeder with unmetered customers, the feeder's service band (A to E), and the maximum kWh a DisCo may bill an unmetered customer on that feeder that month (Order NERC/307/2022). Band A carries a promise of at least 20 hours of supply a day; bands B to E promise progressively fewer. We collected 519 of these orders, extracted 145,795 feeder-month records covering 7,813 distinct feeders across 45 months, and linked each feeder across time.
+Since 2022, NERC has published a monthly order for each distribution company (DisCo) that lists every feeder with unmetered customers, the feeder's service band (A to E), and the maximum kWh a DisCo may bill an unmetered customer on that feeder that month (Order NERC/307/2022). Band A carries a promise of at least 20 hours of supply a day; bands B to E promise progressively fewer. We collected 520 of these orders, extracted 146,108 feeder-month records covering 7,813 distinct feeders across 45 months, and linked each feeder across time.
 
 | | |
 |---|---|
-| Orders (PDFs) | 519, all 11 DisCos plus Aba Power |
+| Orders (PDFs) | 520, all 11 DisCos plus Aba Power |
 | Months covered | 45, October 2022 to October 2026 |
-| Feeder-month records | 145,795 |
+| Feeder-month records | 146,108 |
 | Distinct feeders | 7,813 |
 | Feeders in the latest order (October 2026) | 2,296 |
 | State identified | 97.6 percent of records |
@@ -21,7 +21,7 @@ Since 2022, NERC has published a monthly order for each distribution company (Di
 
 ### 1. The biggest re-banding happened in July 2024
 
-The July 2024 orders changed the band of 747 feeders in a single month, 442 upgrades and 305 downgrades. No other month comes close: the next largest are February 2023 (194 changes) and February 2025 (170).
+The July 2024 orders changed the band of 747 feeders in a single month, 442 upgrades and 305 downgrades. No other month comes close: the next largest are February 2023 (194 changes) and February 2025 (166).
 
 The most common single move was Band A to Band B (185 feeders). Among the states that are still in NERC's orders today, the share of feeders in Band A fell from 30.1 percent in June 2024 to 24.1 percent in July 2024, while Band B rose from 12.2 to 18.8 percent. This followed NERC's April 2024 decision to charge Band A customers a much higher tariff than other bands, which put the 20-hour promise under scrutiny. Band A has since recovered to 28.0 percent.
 
@@ -90,10 +90,10 @@ Some feeders change band again and again. The most volatile is Abuja's Akwanga f
 ## How the data was built
 
 1. **Collection.** NERC's document library was searched year by year and page by page. 22 files that timed out were fetched again; one (Ikeja, December 2022) is a dead link on NERC's own site. NERC has not put January to September 2022 or September to December 2023 online.
-2. **Extraction.** 414 orders have a text layer and were read with pypdf in layout mode, which keeps the table columns apart. 105 orders from November 2025 to August 2026 are scanned images; they were read with Apple's Vision text recognition, one table row at a time, placing every word in its column from the table's ruling lines. The recognised text of every scanned page is committed in `raw/ocr_text/` so it can be checked and never needs to be re-run.
-3. **Month.** Each order's month is read from its own title. Two files carry the wrong month in their file name (a Kano January 2025 order named January 2024, and an Enugu January 2024 order named January 2025) and are placed by their title.
+2. **Extraction.** 415 orders have a text layer and were read with pypdf in layout mode, which keeps the table columns apart. 105 orders from November 2025 to August 2026 are scanned images; they were read with Apple's Vision text recognition, one table row at a time, placing every word in its column from the table's ruling lines. The recognised text of every scanned page is committed in `raw/ocr_text/` so it can be checked and never needs to be re-run.
+3. **Month.** Each order's month is read from its own title, with the file name as fallback. Two files disagree with themselves: a Kano order named January 2024 whose title says January 2025, and an Enugu order named January 2025 whose title still says January 2024 (its caps match December 2024 and February 2025, not early 2024). Each is placed in the month where that DisCo has no other order; both land in January 2025, and the decision is logged in `data/parsed/reparse_qa.log`.
 4. **Feeder identity.** A feeder is matched across months by its DisCo and a stable form of its name (voltage tags, "FEEDER", case and punctuation removed), which links the same feeder through renames such as FESTAC 2, AJELE FESTAC 2 and AJELE 33kV-FESTAC 2. Where that stable name would merge two different feeders in the same month, the full printed name, business unit and position in the order are used instead. 592 scanned records were linked to their feeder by close-name matching (similarity at least 0.88) and are flagged `fuzzy_ocr`.
-5. **State.** The orders only print a state column from 2025. For earlier orders, state is learned from the business unit using the later orders (63.4 percent of records), or taken from a hand-written map of business units to states (13.1 percent, in `data/reference/bu_state_manual.csv`). 21.1 percent have the state printed; 2.4 percent remain unknown.
+5. **State.** The orders only print a state column from 2025. For earlier orders, state is learned from the business unit using the later orders (63.5 percent of records), or taken from a hand-written map of business units to states (13.0 percent, in `data/reference/bu_state_manual.csv`). 21.0 percent have the state printed; 2.4 percent remain unknown.
 6. **Cleaning.** 652 rows that NERC printed twice in the same order were removed.
 
 ## Limitations

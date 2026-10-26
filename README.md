@@ -10,9 +10,9 @@ The Nigerian Electricity Regulatory Commission (NERC) publishes a monthly order 
 
 | | |
 |---|---|
-| Source orders | 519 PDFs, all 11 DisCos plus Aba Power |
+| Source orders | 520 PDFs, all 11 DisCos plus Aba Power |
 | Months | 45, October 2022 to October 2026 |
-| Feeder-month records | 145,795 |
+| Feeder-month records | 146,108 |
 | Distinct feeders | 7,813 |
 | Feeders in the October 2026 orders | 2,296 |
 
@@ -92,10 +92,20 @@ The order for month M caps energy consumed in month M minus 1; both are in the m
 ## How it is built
 
 1. `scripts/nerc_caps.py` finds each month's orders in NERC's document library and downloads them.
-2. `scripts/reparse.py` extracts every table: text PDFs with pypdf in layout mode; scanned PDFs (November 2025 to August 2026) with Apple Vision OCR via `scripts/ocr_vision.py`, one table row at a time. Each order's month comes from its own title.
+2. `scripts/reparse.py` extracts every table: text PDFs with pypdf in layout mode; scanned PDFs (November 2025 to August 2026) with Apple Vision OCR via `scripts/ocr_vision.py`, one table row at a time. Each order's month comes from its own title, or its file name when the two disagree in a way the data resolves.
 3. `scripts/analyze.py` cleans, links feeders across months, infers state for older orders, builds the tables and rankings, and draws the charts.
 
-A GitHub Action re-runs the pipeline on the 1st and 3rd of every month on a macOS runner (needed for the OCR) and commits any new orders.
+### Automatic updates
+
+A GitHub Action runs on the 1st and 3rd of every month on a macOS runner and needs no one at a keyboard:
+
+1. **OCR self-test.** Reads a known scanned page from scratch and checks four known rows, so a broken OCR setup stops the run before any data is touched.
+2. **Download.** Finds the current and previous month's orders by title in NERC's library and downloads them. PDFs, JPG or PNG images and ZIP bundles are all accepted; images are wrapped as PDFs and read by OCR. If Python's downloader rejects NERC's certificate chain, it falls back to curl.
+3. **Extract, rebuild, test.** Text pages are read directly, scanned pages and images by OCR; the clean tables, rankings, charts and findings are rebuilt and the tests run.
+4. **Commit.** New data is committed. `data/last_checked.json` changes on every run, which also stops GitHub from switching off the schedule after 60 quiet days.
+5. **Alert.** A health check opens a GitHub issue (which emails the repository owner) if a download failed, an order produced 0 rows, a DisCo's feeder count fell by more than 40 percent or vanished, or more than 10 percent of bands could not be read. A failed run also opens an issue.
+
+The Telegram bot reloads `data/clean/feeders.csv` every morning, so it follows the repository within a day.
 
 ```bash
 pip install -r requirements.txt          # macOS also needs requirements-ocr.txt for scanned orders

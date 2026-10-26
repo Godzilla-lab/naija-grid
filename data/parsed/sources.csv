@@ -274,6 +274,7 @@ order_month,disco,file,sha256,bytes,pages,rows,unparsed_lines,extraction
 2025-01,AEDC,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,d02c9fd3cfe35ebe20de77aa767a4d3a7b365d21233c60a2977165e8f2650ac2,478853,22,788,0,text
 2025-01,APLE,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,ce5ef1f741aac37c805635cfd778b24d1003ea8473ffa375748f709112f4a848,34393,1,30,0,text
 2025-01,BEDC,Benin-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,b6b665fbf2fb6acf1e95f0ce05b0e107c245eb73f9af227c020826da010b4ac7,220351,9,307,0,text
+2025-01,EEDC,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,294247f7894ee649cdba9b84b7adcdfa58dcb8df88abf3e160c8a2f0886826aa,226713,8,313,0,text
 2025-01,EKEDC,Eko-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,b6605a1247519ff03c3d62bc645a4d0e3f57205a616ebb218c014a6485adbe3d,180493,7,234,0,text
 2025-01,IBEDC,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,74aa13d68eae0c9147f73fb42bb24f9f2b0a59a205d1534da0614016c19a5d44,484826,21,776,0,text
 2025-01,IKEDC,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2025.pdf,48e8de41a11bfbeabf2c48cc05065921e3cdc5a13d4b268625f40f2afa64f705,247146,8,307,0,text

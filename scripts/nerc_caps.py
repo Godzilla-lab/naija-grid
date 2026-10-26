@@ -83,16 +83,27 @@ def log(msg: str) -> None:
 
 
 def http_get(url: str, timeout: int = 60, retries: int = 3) -> bytes:
+    """GET with retries. NERC's TLS chain is incomplete and Python sometimes rejects it, so after the
+    urllib attempts fail we fall back to curl (present on macOS and Linux runners)."""
+    import subprocess
+    safe = urllib.parse.quote(url, safe=":/?&=%#+,")
     last = None
     for attempt in range(retries):
         try:
-            safe = urllib.parse.quote(url, safe=":/?&=%#+,")
             req = urllib.request.Request(safe, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except Exception as e:  # noqa: BLE001
             last = e
             time.sleep(2 + attempt * 3)
+    for extra in ([], ["-k"]):  # verified first; unverified only if the chain itself is the problem
+        try:
+            out = subprocess.run(["curl", "-sSL", "--max-time", str(timeout * 2), "--retry", "2", "-A", UA, *extra, safe],
+                                 capture_output=True, check=True)
+            if out.stdout:
+                return out.stdout
+        except Exception as e:  # noqa: BLE001
+            last = e
     raise RuntimeError(f"GET failed {url}: {last}")
 
 
@@ -157,13 +168,33 @@ def list_year(year: int) -> list[dict]:
     return docs
 
 
+ACCEPTED = (".pdf", ".jpg", ".jpeg", ".png", ".zip")
+
+
 def find_month_pdfs(year: int, month: int) -> list[str]:
-    """PDF URLs of the cap orders for one month (zip bundles are skipped; the PDFs are listed too)."""
-    out = []
-    for d in list_year(year) + (list_year(year + 1) if month == 12 else []):
-        if d["year"] == year and d["month"] == month and d["url"].lower().endswith(".pdf"):
-            out.append(d["url"])
-    return sorted(set(out))
+    """URLs of the cap orders for one month: PDFs, images (JPG, PNG) and ZIP bundles.
+    If a month has both a ZIP and the individual files, the ZIP is skipped."""
+    docs = [d for d in list_year(year) + (list_year(year + 1) if month == 12 else [])
+            if d["year"] == year and d["month"] == month and d["url"].lower().endswith(ACCEPTED)]
+    urls = sorted({d["url"] for d in docs})
+    singles = [u for u in urls if not u.lower().endswith(".zip")]
+    return singles if singles else urls
+
+
+DISCO_TITLE = [("ABA POWER", "APLE"), ("ABUJA", "AEDC"), ("BENIN", "BEDC"), ("ENUGU", "EEDC"), ("EKO", "EKEDC"),
+               ("IBADAN", "IBEDC"), ("IKEJA", "IKEDC"), ("JOS", "JEDC"), ("KADUNA", "KAEDC"), ("KANO", "KEDCO"),
+               ("PORT HARCOURT", "PHED"), ("YOLA", "YEDC")]
+
+
+def disco_from_text(text: str) -> str:
+    """DisCo from an order's opening lines, e.g. 'Ikeja Electricity Distribution Plc - Monthly Energy Cap'."""
+    up = " ".join(str(text or "").upper().split())
+    i = up.find("MONTHLY ENERGY CAP")
+    head = up[max(0, i - 120):i] if i > 0 else up[:250]
+    for key, code in DISCO_TITLE:
+        if re.search(rf"\b{key}\b", head):
+            return code
+    return ""
 
 
 def disco_from_filename(name: str) -> str:
@@ -178,15 +209,71 @@ def disco_from_filename(name: str) -> str:
     return first
 
 
-def download(url: str) -> Path:
-    PDF_DIR.mkdir(parents=True, exist_ok=True)
-    name = urllib.parse.unquote(Path(urllib.parse.urlparse(url).path).name)
-    dest = PDF_DIR / re.sub(r"[^A-Za-z0-9._-]+", "-", name)
-    if dest.exists() and dest.stat().st_size > 1000:
-        return dest
-    data = http_get(url)
-    dest.write_bytes(data)
+def _safe(name: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "-", urllib.parse.unquote(name))
+
+
+def _ensure_month_in_name(name: str, year: int | None, month: int | None) -> str:
+    """Converted files must carry the month in their name, because an image has no title text."""
+    if not year or not month:
+        return name
+    low = name.lower()
+    if str(year) in low and (MONTHS[month - 1] in low or MONTHS[month - 1][:3] in low):
+        return name
+    stem, ext = name.rsplit(".", 1)
+    return f"{stem}-{MONTHS[month - 1].capitalize()}-{year}.{ext}"
+
+
+def _image_to_pdf(img_bytes: bytes, dest: Path) -> Path:
+    import pymupdf as fitz
+    img = fitz.open(stream=img_bytes)
+    pdf = fitz.open("pdf", img.convert_to_pdf())
+    pdf.save(dest)
     return dest
+
+
+def download_all(url: str, year: int | None = None, month: int | None = None) -> list[Path]:
+    """Download one listed document and return the PDF(s) to parse.
+
+    PDF: saved as is. Image: original kept in raw/images, wrapped in a one-page PDF (scanned, so OCR
+    reads it). ZIP: every PDF or image inside is handled the same way, names prefixed by the ZIP."""
+    import io
+    import zipfile
+    PDF_DIR.mkdir(parents=True, exist_ok=True)
+    name = _safe(Path(urllib.parse.urlparse(url).path).name)
+    low = name.lower()
+    if low.endswith(".pdf"):
+        dest = PDF_DIR / name
+        if not (dest.exists() and dest.stat().st_size > 1000):
+            dest.write_bytes(http_get(url))
+        return [dest]
+    img_dir = ROOT / "raw" / "images"
+    img_dir.mkdir(parents=True, exist_ok=True)
+    data = http_get(url)
+    out = []
+    if low.endswith(".zip"):
+        with zipfile.ZipFile(io.BytesIO(data)) as z:
+            for member in z.namelist():
+                m = _safe(Path(member).name)
+                ml = m.lower()
+                if ml.endswith(".pdf"):
+                    dest = PDF_DIR / _ensure_month_in_name(f"{m[:-4]}__from-{name[:-4]}.pdf", year, month)
+                    dest.write_bytes(z.read(member))
+                    out.append(dest)
+                elif ml.endswith((".jpg", ".jpeg", ".png")):
+                    raw = z.read(member)
+                    (img_dir / f"{m.rsplit('.', 1)[0]}__from-{name[:-4]}.{m.rsplit('.', 1)[1]}").write_bytes(raw)
+                    pdf_name = _ensure_month_in_name(f"{m.rsplit('.', 1)[0]}__from-{name[:-4]}.pdf", year, month)
+                    out.append(_image_to_pdf(raw, PDF_DIR / pdf_name))
+        return out
+    (img_dir / name).write_bytes(data)  # image
+    pdf_name = _ensure_month_in_name(name.rsplit(".", 1)[0] + ".pdf", year, month)
+    return [_image_to_pdf(data, PDF_DIR / pdf_name)]
+
+
+def download(url: str) -> Path:
+    """Backward compatible: first file only."""
+    return download_all(url)[0]
 
 
 def split_location(loc: str) -> dict:
@@ -268,6 +355,7 @@ def parse_pdf(path: Path, year: int | None = None, month: int | None = None) -> 
     reader = pypdf.PdfReader(str(path))
     disco = disco_from_filename(path.name)
     sha = hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+    known = {v for v in DISCO_ALIASES.values()}
     pages = [(pg.extract_text(extraction_mode="layout") or "") for pg in reader.pages]
     methods = ["text"] * len(pages)
     if any(len(t.strip()) < 20 for t in pages):
@@ -295,6 +383,8 @@ def parse_pdf(path: Path, year: int | None = None, month: int | None = None) -> 
                 pages[i] = "\n".join(lines)
                 methods[i] = "ocr"
     head = "\n".join(pages[:1]).upper()
+    if disco not in known:  # file name did not say (e.g. a file from a ZIP bundle): read the title
+        disco = disco_from_text(head) or disco
     has_state = bool(re.search(r"\bSTATE\b", head))
     n_lead = 2 if has_state else 1  # cells before the feeder name
     rows: list[dict] = []
@@ -393,17 +483,25 @@ def write_csv(path: Path, rows: list[dict]) -> None:
             w.writerow({k: r.get(k, "") for k in FIELDS})
 
 
+FAILED_DOWNLOADS: list[str] = []
+LISTED: dict[str, int] = {}
+
+
 def run_month(year: int, month: int, sleep: float = 1.5) -> list[dict]:
     urls = find_month_pdfs(year, month)
-    log(f"{year}-{month:02d}: {len(urls)} cap PDFs listed")
+    log(f"{year}-{month:02d}: {len(urls)} cap documents listed")
+    LISTED[f"{year:04d}-{month:02d}"] = len(urls)
     all_rows: list[dict] = []
     all_unparsed: list[str] = []
+    files: list[Path] = []
     for u in urls:
         try:
-            p = download(u)
+            files.extend(download_all(u, year, month))
         except Exception as e:  # noqa: BLE001
             log(f"  download failed {u}: {e}")
-            continue
+            FAILED_DOWNLOADS.append(u)
+        time.sleep(sleep)
+    for p in files:
         rows, unparsed = parse_pdf(p, year, month)
         bands = {}
         for r in rows:
@@ -411,13 +509,21 @@ def run_month(year: int, month: int, sleep: float = 1.5) -> list[dict]:
         log(f"  {p.name}: {len(rows)} feeders, bands {dict(sorted(bands.items()))}, unparsed {len(unparsed)}")
         all_rows.extend(rows)
         all_unparsed.extend(unparsed)
-        time.sleep(sleep)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     write_csv(OUT_DIR / f"nerc_caps_{year}-{month:02d}.csv", all_rows)
     if all_unparsed:
         with (OUT_DIR / "nerc_caps_unparsed.log").open("a", encoding="utf-8") as f:
             f.write("\n".join(all_unparsed) + "\n")
     return all_rows
+
+
+def write_heartbeat() -> None:
+    """data/last_checked.json changes on every run. It records what was found, and the commit it
+    causes keeps the scheduled workflow alive (GitHub disables schedules after 60 idle days)."""
+    from datetime import datetime, timezone
+    hb = {"checked_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+          "documents_listed": LISTED, "failed_downloads": FAILED_DOWNLOADS}
+    (ROOT / "data" / "last_checked.json").write_text(json.dumps(hb, indent=1))
 
 
 def rebuild_all() -> None:
@@ -468,6 +574,7 @@ def main() -> None:
         t = date.today()
         run_month(t.year, t.month)
     rebuild_all()
+    write_heartbeat()
 
 
 if __name__ == "__main__":

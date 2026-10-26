@@ -73,33 +73,65 @@ def main() -> None:
     by_month: dict[str, list[Path]] = defaultdict(list)
     qa_moves: list[str] = []
     skipped = []
+    conflicts = []
     for p in sorted(n.PDF_DIR.glob("*.pdf")):
         mm_name = month_of(p.name)
-        mm = month_from_title(p) or mm_name
-        if mm_name and mm != mm_name:
-            qa_moves.append(f"{p.name}: file name says {mm_name[0]}-{mm_name[1]:02d}, title says {mm[0]}-{mm[1]:02d}; using title")
+        mm_title = month_from_title(p)
+        mm = mm_title or mm_name
         if not mm:
             skipped.append(p.name)
+            continue
+        if mm_name and mm_title and mm_name != mm_title:
+            conflicts.append((p, mm_name, mm_title))
             continue
         key = f"{mm[0]:04d}-{mm[1]:02d}"
         if args.only and key != args.only:
             continue
         by_month[key].append(p)
 
+    # File name and title disagree (NERC has done both: a stale title, and a wrong file name).
+    # Put the order in whichever of the two months has no other order from the same DisCo.
+    for p, mm_name, mm_title in conflicts:
+        d = n.disco_from_filename(p.name)
+        k_name, k_title = (f"{a:04d}-{b:02d}" for a, b in (mm_name, mm_title))
+        has = lambda k: any(n.disco_from_filename(x.name) == d for x in by_month.get(k, []))
+        if has(k_title) and not has(k_name):
+            key, why = k_name, f"title says {k_title} but that month already has a {d} order"
+        elif has(k_name) and not has(k_title):
+            key, why = k_title, f"file name says {k_name} but that month already has a {d} order"
+        else:
+            key, why = k_title, "ambiguous; using the title"
+        qa_moves.append(f"{p.name}: placed in {key} ({why})")
+        if not args.only or key == args.only:
+            by_month[key].append(p)
+
     sources = []
     qa = list(qa_moves)
     for key in sorted(by_month):
         y, m = map(int, key.split("-"))
         rows_all = []
-        seen_disco = {}
+        # Keep every file for the month except true reposts: the same bytes, or a text PDF whose
+        # extracted text is identical to one already kept. (An order posted as several page images
+        # is several files for one DisCo, and all of them must be kept.)
+        kept: list[tuple[str, Path]] = []
+        seen_hash: set[str] = set()
+        seen_text: set[str] = set()
         for p in by_month[key]:
             d = n.disco_from_filename(p.name)
-            # NERC sometimes posts a duplicate under a second name; keep the larger file per DisCo
-            if d in seen_disco and seen_disco[d].stat().st_size >= p.stat().st_size:
-                qa.append(f"{key} duplicate file skipped for {d}: {p.name}")
+            h = hashlib.sha256(p.read_bytes()).hexdigest()
+            try:
+                txt = "".join((pg.extract_text() or "") for pg in n.pypdf.PdfReader(str(p)).pages)
+            except Exception:  # noqa: BLE001
+                txt = ""
+            tkey = hashlib.sha256(txt.encode()).hexdigest() if len(txt.strip()) > 200 else None
+            if h in seen_hash or (tkey and tkey in seen_text):
+                qa.append(f"{key} repost skipped for {d}: {p.name}")
                 continue
-            seen_disco[d] = p
-        for d, p in sorted(seen_disco.items()):
+            seen_hash.add(h)
+            if tkey:
+                seen_text.add(tkey)
+            kept.append((d, p))
+        for d, p in sorted(kept, key=lambda t: (t[0], t[1].name)):
             t0 = time.time()
             try:
                 rows, unparsed = n.parse_pdf(p, y, m)

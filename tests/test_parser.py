@@ -67,3 +67,23 @@ def test_scanned_order_uses_committed_ocr_text():
     assert len(rows) >= 34
     first = [(r["feeder_raw"], r["service_band"], r["cap_kwh"]) for r in rows[:3]]
     assert first[2][1:] == ("B", 117)  # ABA BARRACKS, band letter recovered by the cell re-read
+
+
+@pytest.mark.parametrize("title,code", [
+    ("Ikeja Electricity Distribution Plc - Monthly Energy Cap (September 2026)", "IKEDC"),
+    ("Aba Power Electricity Distribution Plc - Monthly Energy Cap (December 2025)", "APLE"),
+    ("Eko Electricity Distribution Plc - Monthly Energy Cap- for October 2022", "EKEDC"),
+    ("Port Harcourt Electricity Distribution Plc - Monthly Energy Cap", "PHED"),
+])
+def test_disco_from_title(title, code):
+    assert nerc_caps.disco_from_text(title) == code
+
+
+def test_month_conflicts_resolved_to_free_slot():
+    """Kano named January 2024 (title January 2025) and Enugu named January 2025 (title January 2024)
+    both belong in January 2025, where neither DisCo has another order."""
+    import pandas as pd
+    s = pd.read_csv(ROOT / "data" / "parsed" / "sources.csv")
+    assert not s.duplicated(["order_month", "disco"]).any()
+    jan25 = s[s["order_month"] == "2025-01"]
+    assert {"EEDC", "KEDCO"} <= set(jan25["disco"])
