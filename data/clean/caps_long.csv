@@ -41846,7 +41846,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 4c7e19e23a0d,IBEDC,Ibadan,OGUN,2025-10,2025-09,E,177,printed,text,exact,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2025.pdf,11
 4c7e19e23a0d,IBEDC,Ibadan,OGUN,2025-11,2025-10,E,178,printed,ocr,exact,IBEDC-monthly-energy-caps-November-2025.pdf,12
 4c83677b7809,KAEDC,Kaduna,KEBBI,2025-10,2025-09,C,151,learned,text,exact,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2025.pdf,4
-4c83677b7809,KAEDC,Kaduna,KEBBI,2026-01,2025-12,C,153,printed,ocr,exact,KAEDC-monthly-energy-caps-Jan-2026.pdf,3
+4c83677b7809,KAEDC,Kaduna,KEBBI,2026-01,2025-12,C,153,learned,ocr,fuzzy_ocr,KAEDC-monthly-energy-caps-Jan-2026.pdf,3
 4c83677b7809,KAEDC,Kaduna,KEBBI,2026-02,2026-01,C,160,printed,ocr,exact,KAEDC-monthly-energy-caps-Feb-2026.pdf,3
 4c83677b7809,KAEDC,Kaduna,KEBBI,2026-09,2026-08,C,153,learned,text,exact,KAEDC-Monthly-Energy-Cap-September-2026.pdf,4
 4c83677b7809,KAEDC,Kaduna,KEBBI,2026-10,2026-09,E,150,learned,text,exact,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2026.pdf,4
@@ -53650,7 +53650,6 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 5ef6cc1a3a87,KEDCO,Kano,JIGAWA,2024-04,2024-03,B,187,learned,text,exact,Kano-Electricity-Distribution-Company-plc.-Monthly-Energy-Cap-April-2024.pdf,1
 5ef6cc1a3a87,KEDCO,Kano,JIGAWA,2024-05,2024-04,B,165,learned,text,exact,Kano-Electricity-Distribution-Company-Plc.-Monthly-Energy-Cap-May-2024-1.pdf,1
 5ef6cc1a3a87,KEDCO,Kano,JIGAWA,2024-06,2024-05,B,170,learned,text,exact,Kano-Electricity-Distribution-Company-Plc.-Monthly-Energy-cap-June-2024.pdf,1
-5f05c99d1575,PHED,Port Harcourt,RIVERS,2026-05,2026-04,C,258,printed,ocr,exact,PHED-monthly-energs-cap-May-2026.pdf,6
 5f0c5dd039ba,KEDCO,Kano,KANO,2025-11,2025-10,B,249,printed,ocr,exact,KEDCO-monthly-energy-caps-November-2025.pdf,2
 5f0c5dd039ba,KEDCO,Kano,KANO,2025-12,2025-11,B,258,printed,ocr,exact,KEDCO-monthly-energy-caps-December-2025.pdf,2
 5f0c5dd039ba,KEDCO,Kano,KANO,2026-01,2025-12,B,264,printed,ocr,exact,KEDCO-monthly-energy-caps-Jan-2026.pdf,2

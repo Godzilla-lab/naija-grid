@@ -103,13 +103,7 @@ Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-January-2024.pdf: file nam
 2024-09 unparsed Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-September-2024.pdf:p1: TOWN 33KV FEEDER
 2024-10 unparsed Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Caps-October-2024.pdf:p1: (TOWNSHIP)
 2024-12 unparsed Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-December-2024.pdf:p1: YOUDEOWEI
-2025-11 unparsed APLE-monthly-energy-cap-November-2025.pdf:p3: B.L.
 2025-12 PHED-monthly-energy-caps-December-2025.pdf FAILED IndexError('list index out of range')
-2026-01 unparsed IE-monthly-energy-caps-Jan-2026.pdf:p8: B.L.
-2026-01 unparsed PHED-monthly-energy-caps-Jan-2026.pdf:p6: B.L.
-2026-02 unparsed IBEDC-monthly-energy-caps-Feb-2026.pdf:p11: B.K.
-2026-02 unparsed PHED-monthly-energy-caps-Feb-2026.pdf:p6: B.L.
 2026-03 PHED-monthly-energy-caps-Mar-2026.pdf FAILED IndexError('list index out of range')
 2026-04 unparsed IE-monthly-energy-caps-April-2026.pdf:p2: OGUN | ABULE-EGBA BU | 33-OtaTCN-AMJE | A
 2026-04 PHED-monthly-energy-caps-April-2026.pdf FAILED IndexError('list index out of range')
-2026-05 unparsed PHED-monthly-energs-cap-May-2026.pdf:p6: B.L.

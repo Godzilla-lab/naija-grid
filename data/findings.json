@@ -2,18 +2,18 @@
  "months_covered": 45,
  "first_month": "2022-10",
  "latest_month": "2026-10",
- "rows": 145795,
+ "rows": 145794,
  "pdf_files": 519,
- "distinct_feeders": 7813,
+ "distinct_feeders": 7812,
  "exact_duplicates_dropped": 652,
  "id_link_counts": {
-  "exact": 145194,
+  "exact": 145193,
   "fuzzy_ocr": 592,
   "fuzzy_ocr_conflict": 9
  },
  "state_source_rows": {
   "learned": 92576,
-  "printed": 30753,
+  "printed": 30752,
   "manual": 18903,
   "unknown": 3563
  },
