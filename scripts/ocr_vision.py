@@ -77,6 +77,9 @@ def table_lines(pdf_path: str, page_index: int, dpi: int = 300) -> list[str]:
     if f.exists():
         return f.read_text(encoding="utf-8").splitlines()
     lines = _table_lines(pdf_path, page_index, dpi)
+    if not lines:
+        # No ruled table found (for example a last page holding a single row): read the whole page.
+        lines = page_lines(pdf_path, page_index, dpi)
     CACHE.mkdir(parents=True, exist_ok=True)
     f.write_text("\n".join(lines), encoding="utf-8")
     return lines
