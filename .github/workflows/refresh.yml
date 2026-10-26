@@ -1,0 +1,60 @@
+name: refresh
+
+on:
+  schedule:
+    # 07:00 UTC on the 1st and 3rd of every month. NERC usually posts the new orders in the first week.
+    - cron: "0 7 1,3 * *"
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Month to fetch as YYYY-MM (blank means the current and previous month)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pypdf pyarrow
+
+      - name: Fetch and parse NERC energy cap orders
+        env:
+          MONTH: ${{ github.event.inputs.month }}
+        run: |
+          if [ -n "$MONTH" ]; then
+            python scripts/nerc_caps.py --month "$MONTH"
+          else
+            python scripts/nerc_caps.py
+          fi
+
+      - name: Rebuild derived tables
+        run: python scripts/derive.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data raw
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          MONTH_LABEL="${{ github.event.inputs.month }}"
+          if [ -z "$MONTH_LABEL" ]; then MONTH_LABEL="$(date -u +%Y-%m)"; fi
+          git commit -m "data: NERC caps ${MONTH_LABEL}"
+          git push
