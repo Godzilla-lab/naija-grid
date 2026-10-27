@@ -1762,63 +1762,63 @@ IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,33-Oke-AroTCN-AKUTE,33-Oke-AroTCN-AKUTE,B,37
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,33-0gbaTCN-ABEOKUTA EXP.,33-0gbaTCN-ABEOKUTA EXP.,A,799,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Yusuf,T2,Yusuf,11-YusufINJ-T2-Yusuf,C,424,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Yusuf,T1,Akera,11-YusufINJ-T1-Akera,C,375,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-YidilNJ-T1-Osoba,11-YidilNJ-T1-Osoba,C,392,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Yidi,T1,Osoba,11-YidiINJ-T1-Osoba,C,392,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Yidi,T1,Opeilu,11-YidiINJ-T1-Opeilu,D,188,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Yidi,T1,lioko,11-YidiINJ-T1-lioko,D,240,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Ope Ilu,T1,Adiyan,11-Ope IluINJ-T1-Adiyan,C,316,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Ope Ilu,T1,Aboro,11-Ope IluINJ-T1-Aboro,C,271,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Obawole,T1,Youdeowei,11-ObawoleINJ-T1-Youdeowei,A,609,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Obawole,T1,Shonubi,11-ObawoleINJ-T1-Shonubi,A,662,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-LambelNJ-T1-Olambe,11-LambelNJ-T1-Olambe,C,427,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-LambelNJ-T1-Matogun,11-LambelNJ-T1-Matogun,C,394,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-LambelNJ-T1-Jolasco,11-LambelNJ-T1-Jolasco,C,368,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-|julNJ-T2-Ishaga,11-|julNJ-T2-Ishaga,C,538,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Lambe,T1,Olambe,11-LambeINJ-T1-Olambe,C,427,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Lambe,T1,Matogun,11-LambeINJ-T1-Matogun,C,394,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Lambe,T1,Jolasco,11-LambeINJ-T1-Jolasco,C,368,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,|ju,T2,Ishaga,11-|juINJ-T2-Ishaga,C,538,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,|ju,T2,Agbado 1,11-|juINJ-T2-Agbado 1,C,342,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-ljulNJ-T1-Grailand,11-ljulNJ-T1-Grailand,C,478,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-ljulNJ-T1-Galilee,11-ljulNJ-T1-Galilee,A,702,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-ljulNJ-T1-Asore,11-ljulNJ-T1-Asore,B,463,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-ljulNJ-T1-Ajuwon,11-ljulNJ-T1-Ajuwon,A,692,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,ljaiye Ojokoro,T2,Agbado 2,11-ljaiye OjokoroINJ-T2-Agbado 2,C,339,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,ljaiye Ojokoro,T1,Jankara,11-ljaiye OjokoroINJ-T1-Jankara,B,439,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-ljaiye Express OjokorolNJ-T1-Abeokuta,11-ljaiye Express OjokorolNJ-T1-Abeokuta,C,311,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Iju,T1,Grailand,11-IjuINJ-T1-Grailand,C,478,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Iju,T1,Galilee,11-IjuINJ-T1-Galilee,A,702,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Iju,T1,Asore,11-IjuINJ-T1-Asore,B,463,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Iju,T1,Ajuwon,11-IjuINJ-T1-Ajuwon,A,692,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Ijaiye Ojokoro,T2,Agbado 2,11-Ijaiye OjokoroINJ-T2-Agbado 2,C,339,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Ijaiye Ojokoro,T1,Jankara,11-Ijaiye OjokoroINJ-T1-Jankara,B,439,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Ijaiye Express Ojokoro,T1,Abeokuta,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,C,311,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Bolorunpelu,T3,Governor,11-BolorunpeluINJ-T3-Governor,B,608,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Beckley,T1,Beckley,11-BeckleyINJ-T1-Beckley,B,680,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Beckley,T1,Agbe road,11-BeckleyINJ-T1-Agbe road,B,436,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Akute,T1,Oyeyemi,11-Akute INJ-T1-Oyeyemi,C,324,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Akute,T1,Ishashi,11-Akute INJ-T1-Ishashi,C,307,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Agege,T1,Oko Oba,11-AgegeINJ-T1-Oko Oba,B,569,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Agege,T1,lju Road,11-AgegeINJ-T1-lju Road,C,583,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Agege,T1,Iju Road,11-AgegeINJ-T1-Iju Road,C,583,IE-monthly-energy-caps-Feb-2026.pdf,1,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Abule Iroko,T1,Books,11-Abule IrokoINJ-T1-Books,C,353,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Abule Iroko,T1,Alakuko,11-Abule IrokoINJ-T1-Alakuko,C,348,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,ABULE-EGBA BU,,,,11-Abule IrokolNJ-T1-Abule Iroko,11-Abule IrokolNJ-T1-Abule Iroko,C,249,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,ABULE-EGBA BU,11,Abule Iroko,T1,Abule Iroko,11-Abule IrokoINJ-T1-Abule Iroko,C,249,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,33-0gbaTCN-ABEOKUTA EXP.,33-0gbaTCN-ABEOKUTA EXP.,B,859,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,33-AyoboTCN-AMIKANLE,33-AyoboTCN-AMIKANLE,A,970,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,33-AyoboTCN-ABULE TAYLOR,33-AyoboTCN-ABULE TAYLOR,B,947,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,33-AlimoshoTCN-AGEGE,33-AlimoshoTCN-AGEGE,A,489,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Yusuf,T2,Agbefa,11-YusufINJ-T2-Agbefa,C,336,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-ShashalNJ-T1-Orisunbare,11-ShashalNJ-T1-Orisunbare,C,444,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-ShashalNJ-T1-Oguntade,11-ShashalNJ-T1-Oguntade,B,505,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-ShashalNJ-T1-Foursquare,11-ShashalNJ-T1-Foursquare,C,476,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Shasha,T1,Orisunbare,11-ShashaINJ-T1-Orisunbare,C,444,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Shasha,T1,Oguntade,11-ShashaINJ-T1-Oguntade,B,505,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Shasha,T1,Foursquare,11-ShashaINJ-T1-Foursquare,C,476,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,New Gowon,T1,Unity,11-New GowonINJ-T1-Unity,C,698,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,New Gowon,T1,Olorunadaba,11-New GowonINJ-T1-Olorunadaba,A,718,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,New Gowon,T1,Kuwait,11-New GowonINJ-T1-Kuwait,C,470,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-MongorolNJ-T1-Sule,11-MongorolNJ-T1-Sule,C,464,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Mongoro,T1,Sule,11-MongoroINJ-T1-Sule,C,464,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Mongoro,T1,New Dopemu,11-MongoroINJ-T1-New Dopemu,A,655,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Mongoro,T1,Capitol,11-MongoroINJ-T1-Capitol,C,489,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-llapo|NJ-T1-llapo,11-llapo|NJ-T1-llapo,A,356,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-ljaiye Express OjokorolNJ-T1-Abeokuta,11-ljaiye Express OjokorolNJ-T1-Abeokuta,C,330,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ijaiye Express Ojokoro,T1,Abeokuta,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,C,330,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Hilltop,T1,Hilltop,11-HilltopINJ-T1-Hilltop,A,755,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ekoro,T2,Olota,11-EkoroINJ-T2-Olota,C,380,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-Ekoro|NJ-T2-Agbele,11-Ekoro|NJ-T2-Agbele,D,384,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ekoro,T1,Oke Odo,11-EkoroINJ-T1-Oke Odo,D,516,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ekoro,T1,Ekoro,11-EkoroINJ-T1-Ekoro,C,395,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-EkorolNJ-T1-Ajasa,11-EkorolNJ-T1-Ajasa,C,366,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AyobolNJ-T1-Ikola,11-AyobolNJ-T1-Ikola,A,397,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AyobolNJ-T1-Ayobo,11-AyobolNJ-T1-Ayobo,C,465,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ekoro,T1,Ajasa,11-EkoroINJ-T1-Ajasa,C,366,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ayobo,T1,Ikola,11-AyoboINJ-T1-Ikola,A,397,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Ayobo,T1,Ayobo,11-AyoboINJ-T1-Ayobo,C,465,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Amikanle,T1,Isoto,11-AmikanleINJ-T1-Isoto,C,376,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Amikanle,T1,Ige,11-AmikanleINJ-T1-Ige,C,497,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Amikanle,T1,Aiyetobi,11-AmikanleINJ-T1-Aiyetobi,D,491,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AlimosholNJ-T8-Wole Omo Osho,11-AlimosholNJ-T8-Wole Omo Osho,A,630,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T8,Wole Omo Osho,11-AlimoshoINJ-T8-Wole Omo Osho,A,630,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T8,Okunola,11-AlimoshoINJ-T8-Okunola,A,549,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T8,Alimosho,11-AlimoshoINJ-T8-Alimosho,A,744,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T6,Shasha,11-AlimoshoINJ-T6-Shasha,B,498,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
@@ -1826,21 +1826,21 @@ IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T6,Orelope,11-AlimoshoINJ-T6-Orelope,
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T4,Oki,11-AlimoshoINJ-T4-Oki,B,619,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T4,FHA,11-AlimoshoINJ-T4-FHA,A,647,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alimosho,T4,Akowonjo,11-AlimoshoINJ-T4-Akowonjo,A,496,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AlajalNJ-T1-Fadayomi,11-AlajalNJ-T1-Fadayomi,C,442,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Alaja,T1,Fadayomi,11-AlajaINJ-T1-Fadayomi,C,442,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Aiyetoro,T1,Itele,11-AiyetoroINJ-T1-Itele,C,457,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AiyetorolNJ-T1-Bada,11-AiyetorolNJ-T1-Bada,B,428,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Aiyetoro,T1,Bada,11-AiyetoroINJ-T1-Bada,B,428,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Agege,T3,Tabon Tabon,11-AgegeINJ-T3-Tabon Tabon,D,499,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AgegelNJ-T3-Pen Cinema,11-AgegelNJ-T3-Pen Cinema,C,497,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AgegelNJ-T2-Power Line,11-AgegelNJ-T2-Power Line,C,401,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AgegelNJ-T2-Orile Agege,11-AgegelNJ-T2-Orile Agege,D,513,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AgegelNJ-T2-Abule Egba,11-AgegelNJ-T2-Abule Egba,C,510,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-AgegelNJ-T1-Oko Oba,11-AgegelNJ-T1-Oko Oba,C,551,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Agege,T3,Pen Cinema,11-AgegeINJ-T3-Pen Cinema,C,497,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Agege,T2,Power Line,11-AgegeINJ-T2-Power Line,C,401,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Agege,T2,Orile Agege,11-AgegeINJ-T2-Orile Agege,D,513,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Agege,T2,Abule Egba,11-AgegeINJ-T2-Abule Egba,C,510,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Agege,T1,Oko Oba,11-AgegeINJ-T1-Oko Oba,C,551,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Adaranijo,T1,Oyewole,11-AdaranijoINJ-T1-Oyewole,C,500,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Adaranijo,T1,NYSC,11-AdaranijoINJ-T1-NYSC,C,570,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Adaranijo,T1,Arigbanla,11-AdaranijoINJ-T1-Arigbanla,A,475,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Abule Taylor,T1,Walter Anderm,11-Abule TaylorINJ-T1-Walter Anderm,C,514,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Abule Taylor,T1,Bode Williams,11-Abule TaylorINJ-T1-Bode Williams,A,503,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,AKOWONJO BU,,,,11-Abule IrokolNJ-T1-Alakuko,11-Abule IrokolNJ-T1-Alakuko,C,332,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Abule Iroko,T1,Alakuko,11-Abule IrokoINJ-T1-Alakuko,C,332,IE-monthly-energy-caps-Feb-2026.pdf,2,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Abesan,T2,Shagari,11-AbesanINJ-T2-Shagari,A,508,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Abesan,T2,Abesan,11-AbesanINJ-T2-Abesan,C,498,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,AKOWONJO BU,11,Abesan,T1,Ipaja,11-AbesanINJ-T1-Ipaja,C,482,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
@@ -1859,47 +1859,47 @@ IKEDC,2026,2,LAGOS,IKEJA BU,11,PTC,T3,General Hospital,11-PTCINJ-T3-General Hosp
 IKEDC,2026,2,LAGOS,IKEJA BU,11,PTC,T2,Medical,11-PTCINJ-T2-Medical,A,1115,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,PTC,T2,Awuse,11-PTCINJ-T2-Awuse,A,1417,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,PTC,T1,Opebi,11-PTCINJ-T1-Opebi,A,1117,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-OpebilNJ-T1-Salvation,11-OpebilNJ-T1-Salvation,A,1209,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-OpebilNJ-T1-Olusosun,11-OpebilNJ-T1-Olusosun,B,1127,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-OpebilNJ-T1-Agbaoku,11-OpebilNJ-T1-Agbaoku,A,1162,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Opebi,T1,Salvation,11-OpebiINJ-T1-Salvation,A,1209,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Opebi,T1,Olusosun,11-OpebiINJ-T1-Olusosun,B,1127,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Opebi,T1,Agbaoku,11-OpebiINJ-T1-Agbaoku,A,1162,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ope Ilu,T1,Aboro,11-Ope IluINJ-T1-Aboro,C,258,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Oke IralNJ-T2-Thomas Salako,11-Oke IralNJ-T2-Thomas Salako,C,966,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Oke IralNJ-T2-Kayode,11-Oke IralNJ-T2-Kayode,A,1124,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Oke IralNJ-T2-Abiodun Jagun,11-Oke IralNJ-T2-Abiodun Jagun,C,1001,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Oke IralNJ-T1-Oke Ira,11-Oke IralNJ-T1-Oke Ira,A,930,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Oke IralNJ-T1-Nob Oluwa,11-Oke IralNJ-T1-Nob Oluwa,C,918,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Oke Ira,T2,Thomas Salako,11-Oke IraINJ-T2-Thomas Salako,C,966,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Oke Ira,T2,Kayode,11-Oke IraINJ-T2-Kayode,A,1124,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Oke Ira,T2,Abiodun Jagun,11-Oke IraINJ-T2-Abiodun Jagun,C,1001,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Oke Ira,T1,Oke Ira,11-Oke IraINJ-T1-Oke Ira,A,930,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Oke Ira,T1,Nob Oluwa,11-Oke IraINJ-T1-Nob Oluwa,C,918,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ojodu,T2,Yakoyo,11-OjoduINJ-T2-Yakoyo,B,909,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ojodu,T2,River Valley,11-OjoduINJ-T2-River Valley,A,1147,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ojodu,T2,Express,11-OjoduINJ-T2-Express,A,1104,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ojodu,T1,Oiodu,11-OjoduINJ-T1-Oiodu,A,1070,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ojodu,T1,King Avenue,11-OjoduINJ-T1-King Avenue,A,1006,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ojodu,T1,Alagbole,11-OjoduINJ-T1-Alagbole,C,908,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-0gbalNJ-T3-Oba Akran,11-0gbalNJ-T3-Oba Akran,A,1318,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-0gbalNJ-T2-Mangoro,11-0gbalNJ-T2-Mangoro,A,1115,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-0gbalNJ-T2-Ifako,11-0gbalNJ-T2-Ifako,C,1145,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-0gbalNJ-T2-Agege,11-0gbalNJ-T2-Agege,A,1049,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-0gbalNJ-T1-Isokoko,11-0gbalNJ-T1-Isokoko,C,1077,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-0gbalNJ-T1-ljaye,11-0gbalNJ-T1-ljaye,B,1121,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-New AlausalNJ-T6-Ogundana,11-New AlausalNJ-T6-Ogundana,A,1228,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-New AlausalNJ-T6-Awolowo,11-New AlausalNJ-T6-Awolowo,A,1160,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-New AlausalNJ-T5-Morrison,11-New AlausalNJ-T5-Morrison,A,1009,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-New AlausalNJ-T5-Kudirat,11-New AlausalNJ-T5-Kudirat,A,1144,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-New AlausalNJ-T5-Alausa,11-New AlausalNJ-T5-Alausa,B,1267,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,0gba,T3,Oba Akran,11-0gbaINJ-T3-Oba Akran,A,1318,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,0gba,T2,Mangoro,11-0gbaINJ-T2-Mangoro,A,1115,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,0gba,T2,Ifako,11-0gbaINJ-T2-Ifako,C,1145,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,0gba,T2,Agege,11-0gbaINJ-T2-Agege,A,1049,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,0gba,T1,Isokoko,11-0gbaINJ-T1-Isokoko,C,1077,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,0gba,T1,Ijaye,11-0gbaINJ-T1-Ijaye,B,1121,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T6,Ogundana,11-New AlausaINJ-T6-Ogundana,A,1228,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T6,Awolowo,11-New AlausaINJ-T6-Awolowo,A,1160,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T5,Morrison,11-New AlausaINJ-T5-Morrison,A,1009,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T5,Kudirat,11-New AlausaINJ-T5-Kudirat,A,1144,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T5,Alausa,11-New AlausaINJ-T5-Alausa,B,1267,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T4,Siyanbola,11-New AlausaINJ-T4-Siyanbola,A,1314,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-New AlausalNJ-T4-Oregun,11-New AlausalNJ-T4-Oregun,A,1348,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T4,Oregun,11-New AlausaINJ-T4-Oregun,A,1348,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,New Alausa,T4,Allen,11-New AlausaINJ-T4-Allen,A,1248,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Maryland,T2,Ojota,11-MarylandINJ-T2-Ojota,A,1072,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Maryland,T2,GRA,11-MarylandINJ-T2-GRA,B,1697,IE-monthly-energy-caps-Feb-2026.pdf,3,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Maryland,T1,PTC,11-MarylandINJ-T1-PTC,A,1325,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-IlupejuNJ-T4-Ikorodu,11-IlupejuNJ-T4-Ikorodu,A,1147,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-IlupejulNJ-T1-Bhojson,11-IlupejulNJ-T1-Bhojson,A,1863,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Ilupeju,T1,Bhojson,11-IlupejuINJ-T1-Bhojson,A,1863,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Ajao,T2,New Estate,11-AjaoINJ-T2-New Estate,C,1010,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-AgegelNJ-T3-Oyemekun,11-AgegelNJ-T3-Oyemekun,B,712,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-AgegelNJ-T1-lju Road,11-AgegelNJ-T1-lju Road,C,637,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Agege,T3,Oyemekun,11-AgegeINJ-T3-Oyemekun,B,712,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Agege,T1,Iju Road,11-AgegeINJ-T1-Iju Road,C,637,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Adeniyi Jones|NJ-T1-Anifowoshe,11-Adeniyi Jones|NJ-T1-Anifowoshe,A,1087,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Adeniyi Jones,T1,Ajao,11-Adeniyi JonesINJ-T1-Ajao,A,1220,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Adeniyi Jones,T1,Adeniyi Jones,11-Adeniyi JonesINJ-T1-Adeniyi Jones,A,1285,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Adekunle FajuyilNJ-T1-Oduduwa,11-Adekunle FajuyilNJ-T1-Oduduwa,A,1270,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKEJA BU,11,Adekunle Fajuyi,T1,Oduduwa,11-Adekunle FajuyiINJ-T1-Oduduwa,A,1270,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,,,,11-Adekunle FajuyilNJ-TI-Isaac John,11-Adekunle FajuyilNJ-TI-Isaac John,A,1374,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKEJA BU,11,Abesan,T1,Aboru,11-AbesanINJ-T1-Aboru,D,272,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,33-OdogunyanTCN-AGBEDE,33-OdogunyanTCN-AGBEDE,B,322,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
@@ -1910,20 +1910,20 @@ IKEDC,2026,2,LAGOS,IKORODU BU,,,,33-IkoroduTCN-IJEDE,33-IkoroduTCN-IJEDE,C,350,I
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,33-IkoroduTCN-IBESHE,33-IkoroduTCN-IBESHE,B,590,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,33-IkoroduTCN-FAKALE Source,33-IkoroduTCN-FAKALE Source,A,778,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,33-IkoroduTCN-AGBOWA,33-IkoroduTCN-AGBOWA,D,294,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-SabolNJ-T2-Lagos Road,11-SabolNJ-T2-Lagos Road,C,547,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-SabolNJ-T2-Ladega,11-SabolNJ-T2-Ladega,D,366,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T2,Lagos Road,11-SaboINJ-T2-Lagos Road,C,547,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T2,Ladega,11-SaboINJ-T2-Ladega,D,366,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T2,Igbogbo,11-SaboINJ-T2-Igbogbo,D,298,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T2,Eyita,11-SaboINJ-T2-Eyita,B,615,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-SabolNJ-T2-Erunwen,11-SabolNJ-T2-Erunwen,D,425,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-SabolNJ-T1-Mary Hill,11-SabolNJ-T1-Mary Hill,C,602,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-SabolNJ-T1-Lasunwon,11-SabolNJ-T1-Lasunwon,C,548,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T2,Erunwen,11-SaboINJ-T2-Erunwen,D,425,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T1,Mary Hill,11-SaboINJ-T1-Mary Hill,C,602,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T1,Lasunwon,11-SaboINJ-T1-Lasunwon,C,548,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T1,liebu Ode,11-SaboINJ-T1-liebu Ode,D,409,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-SabolNJ-T1-Ayangburen,11-SabolNJ-T1-Ayangburen,C,605,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-OwutulNJ-T2-Majidun,11-OwutulNJ-T2-Majidun,B,513,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-OwutulNJ-T2-Isawo,11-OwutulNJ-T2-Isawo,D,304,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Sabo,T1,Ayangburen,11-SaboINJ-T1-Ayangburen,C,605,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Owutu,T2,Majidun,11-OwutuINJ-T2-Majidun,B,513,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Owutu,T2,Isawo,11-OwutuINJ-T2-Isawo,D,304,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Owutu,T2,Asolo,11-OwutuINJ-T2-Asolo,C,354,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-OwutulNJ-T1-Ori Okuta,11-OwutulNJ-T1-Ori Okuta,C,476,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-OwutulNJ-T1-Agric,11-OwutulNJ-T1-Agric,B,353,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Owutu,T1,Ori Okuta,11-OwutuINJ-T1-Ori Okuta,C,476,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Owutu,T1,Agric,11-OwutuINJ-T1-Agric,B,353,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Odogunyan,T2,Ita Oluwo,11-OdogunyanINJ-T2-Ita Oluwo,D,503,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Odogunyan,T2,Centex,11-OdogunyanINJ-T2-Centex,A,1097,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,Odogunyan,T2,Cantoment,11-OdogunyanINJ-T2-Cantoment,C,492,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
@@ -1934,9 +1934,9 @@ IKEDC,2026,2,LAGOS,IKORODU BU,11,Ipakodo (Ebute),T1,Ipakodo,11-Ipakodo (Ebute)IN
 IKEDC,2026,2,LAGOS,IKORODU BU,11,|pakodo (Ebute),T1,Abuja,11-|pakodo (Ebute)INJ-T1-Abuja,C,379,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,liede,T1,Luwasa,11-liedeINJ-T1-Luwasa,D,282,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,11,liede,T1,Gberibe,11-liedeINJ-T1-Gberibe,C,257,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-IgbogbolNJ-T2-Odofin,11-IgbogbolNJ-T2-Odofin,D,344,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Igbogbo,T2,Odofin,11-IgbogboINJ-T2-Odofin,D,344,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-Igbogbo|NJ-T2-Agbele,11-Igbogbo|NJ-T2-Agbele,D,357,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-IgbogbolNJ-T1-Ofin,11-IgbogbolNJ-T1-Ofin,D,359,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,IKORODU BU,11,Igbogbo,T1,Ofin,11-IgbogboINJ-T1-Ofin,D,359,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-Igbogbo|NJ-T1-Bayeku,11-Igbogbo|NJ-T1-Bayeku,D,242,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-Epe|NJ-T1-Water Works,11-Epe|NJ-T1-Water Works,E,240,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,IKORODU BU,,,,11-Epe|NJ-T1-Township,11-Epe|NJ-T1-Township,E,237,IE-monthly-energy-caps-Feb-2026.pdf,4,4bf2a724467948f2,0,ocr
@@ -1950,36 +1950,36 @@ IKEDC,2026,2,LAGOS,OSHODI BU,,,,33-EjigboTCN-EGBE,33-EjigboTCN-EGBE,A,1041,IE-mo
 IKEDC,2026,2,LAGOS,OSHODI BU,,,,33-EjigboTCN-AGODO,33-EjigboTCN-AGODO,A,1024,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Yusuf,T1,Akera,11-YusufINJ-T1-Akera,C,352,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Yidi,T1,Opeilu,11-YidiINJ-T1-Opeilu,D,190,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-ShashalNJ-T1-Orisunbare,11-ShashalNJ-T1-Orisunbare,C,429,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-SabolNJ-T1-Lasunwon,11-SabolNJ-T1-Lasunwon,C,481,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T3-Ori Oke,11-Oke AfalNJ-T3-Ori Oke,D,379,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Shasha,T1,Orisunbare,11-ShashaINJ-T1-Orisunbare,C,429,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Sabo,T1,Lasunwon,11-SaboINJ-T1-Lasunwon,C,481,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T3,Ori Oke,11-Oke AfaINJ-T3-Ori Oke,D,379,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T3,NNPC,11-Oke AfaINJ-T3-NNPC,D,385,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T3-Bungalow,11-Oke AfalNJ-T3-Bungalow,C,353,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T2-Osolo,11-Oke AfalNJ-T2-Osolo,B,715,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T2-Ilamoshe,11-Oke AfalNJ-T2-Ilamoshe,C,475,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T1-LCHE,11-Oke AfalNJ-T1-LCHE,A,829,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T1-Ire-Akari,11-Oke AfalNJ-T1-Ire-Akari,C,495,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Oke AfalNJ-T1-Ejigbo,11-Oke AfalNJ-T1-Ejigbo,D,327,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T3,Bungalow,11-Oke AfaINJ-T3-Bungalow,C,353,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T2,Osolo,11-Oke AfaINJ-T2-Osolo,B,715,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T2,Ilamoshe,11-Oke AfaINJ-T2-Ilamoshe,C,475,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T1,LCHE,11-Oke AfaINJ-T1-LCHE,A,829,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T1,Ire-Akari,11-Oke AfaINJ-T1-Ire-Akari,C,495,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Oke Afa,T1,Ejigbo,11-Oke AfaINJ-T1-Ejigbo,D,327,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Odogunyan,T1,Agodo,11-OdogunyanINJ-T1-Agodo,B,551,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-MushinINJ-Aswani,11-MushinINJ-Aswani,D,710,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Mafoluku,T1,Saubana,11-MafolukuINJ-T1-Saubana,D,709,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Mafoluku,T1,Makinde,11-MafolukuINJ-T1-Makinde,C,712,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-ItirelNJ-T3-Apena,11-ItirelNJ-T3-Apena,C,605,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Itire,T3,Apena,11-ItireINJ-T3-Apena,C,605,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Itire|NJ-T3-Ago,11-Itire|NJ-T3-Ago,A,831,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-ltire|NJ-T2-Ibalex,11-ltire|NJ-T2-Ibalex,C,411,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-ItirelNJ-T2-Canal,11-ItirelNJ-T2-Canal,A,844,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Itire,T2,Canal,11-ItireINJ-T2-Canal,A,844,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-Itire|NJ-T1-Okota,11-Itire|NJ-T1-Okota,A,773,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-ItirelNJ-T1-Ademulegun,11-ItirelNJ-T1-Ademulegun,B,568,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Itire,T1,Ademulegun,11-ItireINJ-T1-Ademulegun,B,568,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Ilupeju,T3,L & K,11-IlupejuINJ-T3-L & K,B,800,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,11,ljegun,T2,Pipeline,11-ljegunINJ-T2-Pipeline,D,247,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,11,ljegun,T2,Isheri Oshun,11-ljegunINJ-T2-Isheri Oshun,D,288,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,11,ljegun,T2,ljegun,11-ljegunINJ-T2-ljegun,D,220,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,11,ljegun,T1,Okerube,11-ljegunINJ-T1-Okerube,D,300,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,11,ljegun,T1,Obalagbe,11-ljegunINJ-T1-Obalagbe,C,311,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,11,ljegun,T1,Ikotun,11-ljegunINJ-T1-Ikotun,D,485,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Ijegun,T2,Pipeline,11-IjegunINJ-T2-Pipeline,D,247,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Ijegun,T2,Isheri Oshun,11-IjegunINJ-T2-Isheri Oshun,D,288,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Ijegun,T2,Ijegun,11-IjegunINJ-T2-Ijegun,D,220,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Ijegun,T1,Okerube,11-IjegunINJ-T1-Okerube,D,300,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Ijegun,T1,Obalagbe,11-IjegunINJ-T1-Obalagbe,C,311,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Ijegun,T1,Ikotun,11-IjegunINJ-T1-Ikotun,D,485,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Igando,T2,General Hospital,11-IgandoINJ-T2-General Hospital,C,378,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Igando,T2,Akesan,11-IgandoINJ-T2-Akesan,D,311,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-IgandolNJ-T2-Agric Road,11-IgandolNJ-T2-Agric Road,D,241,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Igando,T2,Agric Road,11-IgandoINJ-T2-Agric Road,D,241,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Igando,T1,Obadore,11-IgandoINJ-T1-Obadore,D,311,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Igando,T1,New Igando,11-IgandoINJ-T1-New Igando,D,298,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,|gando,T1,Egan,11-|gandoINJ-T1-Egan,D,246,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
@@ -1992,38 +1992,38 @@ IKEDC,2026,2,LAGOS,OSHODI BU,11,Amuwo,T2,Jakande 2,11-AmuwoINJ-T2-Jakande 2,C,56
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Amuwo,T2,Jakande 1,11-AmuwoINJ-T2-Jakande 1,C,559,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Amuwo,T1,Old Ojo Road,11-AmuwoINJ-T1-Old Ojo Road,D,343,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Amuwo,T1,liesha Express,11-AmuwoINJ-T1-liesha Express,B,483,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-AlasialNJ-T1-Owoseni,11-AlasialNJ-T1-Owoseni,D,568,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-AlasialNJ-T1-Council,11-AlasialNJ-T1-Council,D,469,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI BU,,,,11-AlasialNJ-T1-Alasia,11-AlasialNJ-T1-Alasia,D,579,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Alasia,T1,Owoseni,11-AlasiaINJ-T1-Owoseni,D,568,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Alasia,T1,Council,11-AlasiaINJ-T1-Council,D,469,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI BU,11,Alasia,T1,Alasia,11-AlasiaINJ-T1-Alasia,D,579,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Ajao,T2,Sholanke,11-AjaoINJ-T2-Sholanke,C,1069,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI BU,11,Ajao,T2,New Estate,11-AjaoINJ-T2-New Estate,C,1044,IE-monthly-energy-caps-Feb-2026.pdf,5,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-AjaoINJ-T1-Domino,BU 11-AjaoINJ-T1-Domino,C,1085,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-AjaoINJ-T1-Airport Road,BU 11-AjaoINJ-T1-Airport Road,B,1053,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Agodo EgbelNJ-T1-Kudaki,BU 11-Agodo EgbelNJ-T1-Kudaki,A,573,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Agodo EgbelNJ-T1-Abanishe,BU 11-Agodo EgbelNJ-T1-Abanishe,B,493,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotalNJ-T2-Oke Ogbere,BU 11-Ago OkotalNJ-T2-Oke Ogbere,C,490,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotalNJ-T2-Lake View,BU 11-Ago OkotalNJ-T2-Lake View,C,668,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotalNJ-T1-Fasheun,BU 11-Ago OkotalNJ-T1-Fasheun,B,494,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotalNJ-T1-Amuwo Ind.,BU 11-Ago OkotalNJ-T1-Amuwo Ind.,B,536,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Agodo EgbeINJ-T1-Kudaki,BU 11-Agodo EgbeINJ-T1-Kudaki,A,573,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Agodo EgbeINJ-T1-Abanishe,BU 11-Agodo EgbeINJ-T1-Abanishe,B,493,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotaINJ-T2-Oke Ogbere,BU 11-Ago OkotaINJ-T2-Oke Ogbere,C,490,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotaINJ-T2-Lake View,BU 11-Ago OkotaINJ-T2-Lake View,C,668,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotaINJ-T1-Fasheun,BU 11-Ago OkotaINJ-T1-Fasheun,B,494,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,OSHODI,,,,BU 11-Ago OkotaINJ-T1-Amuwo Ind.,BU 11-Ago OkotaINJ-T1-Amuwo Ind.,B,536,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 33-Oke-AroTCN-AKUTE,BU 33-Oke-AroTCN-AKUTE,B,424,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 33-MarylandTCN-AJEGUNLE INTERFACE,BU 33-MarylandTCN-AJEGUNLE INTERFACE,B,588,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 33-MarylandTCN-AJEGUNLE,BU 33-MarylandTCN-AJEGUNLE,B,860,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 33-AlausaTCN-OPIC,BU 33-AlausaTCN-OPIC,A,1057,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimilNJ-T2-Wasimi,BU 11-WasimilNJ-T2-Wasimi,B,522,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimiINJ-T2-Wasimi,BU 11-WasimiINJ-T2-Wasimi,B,522,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimiINJ-T2-Agidi,BU 11-WasimiINJ-T2-Agidi,B,699,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimilNJ-T1-Araromi,BU 11-WasimilNJ-T1-Araromi,A,943,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimilNJ-T1-Akanimodo,BU 11-WasimilNJ-T1-Akanimodo,B,651,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimilNJ-T1-Agiliti,BU 11-WasimilNJ-T1-Agiliti,C,532,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T3-Gbagada,BU 11-OworolNJ-T3-Gbagada,A,1156,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T3-Bariga,BU 11-OworolNJ-T3-Bariga,C,512,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimiINJ-T1-Araromi,BU 11-WasimiINJ-T1-Araromi,A,943,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimiINJ-T1-Akanimodo,BU 11-WasimiINJ-T1-Akanimodo,B,651,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-WasimiINJ-T1-Agiliti,BU 11-WasimiINJ-T1-Agiliti,C,532,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T3-Gbagada,BU 11-OworoINJ-T3-Gbagada,A,1156,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T3-Bariga,BU 11-OworoINJ-T3-Bariga,C,512,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T2-Pedro,BU 11-OworoINJ-T2-Pedro,C,717,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T2-Oworo,BU 11-OworolNJ-T2-Oworo,B,706,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T2-Ladilac,BU 11-OworolNJ-T2-Ladilac,B,697,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T1-Ifako,BU 11-OworolNJ-T1-Ifako,B,731,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T1-Hospital,BU 11-OworolNJ-T1-Hospital,B,1079,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworolNJ-T1-Anthony,BU 11-OworolNJ-T1-Anthony,A,1130,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OloworalNJ-T1-UNILAG,BU 11-OloworalNJ-T1-UNILAG,A,1040,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OloworalNJ-T1-Orisha,BU 11-OloworalNJ-T1-Orisha,B,1077,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T2-Oworo,BU 11-OworoINJ-T2-Oworo,B,706,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T2-Ladilac,BU 11-OworoINJ-T2-Ladilac,B,697,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T1-Ifako,BU 11-OworoINJ-T1-Ifako,B,731,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T1-Hospital,BU 11-OworoINJ-T1-Hospital,B,1079,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OworoINJ-T1-Anthony,BU 11-OworoINJ-T1-Anthony,A,1130,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OloworaINJ-T1-UNILAG,BU 11-OloworaINJ-T1-UNILAG,A,1040,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OloworaINJ-T1-Orisha,BU 11-OloworaINJ-T1-Orisha,B,1077,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OguduINJ-T3-Soluyi,BU 11-OguduINJ-T3-Soluyi,A,1053,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OguduINJ-T3-Kola Adeshina,BU 11-OguduINJ-T3-Kola Adeshina,A,730,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-Ogudu|NJ-T3-Balogun,BU 11-Ogudu|NJ-T3-Balogun,B,681,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
@@ -2033,10 +2033,10 @@ IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-OguduINJ-T1-Ogudu,BU 11-OguduINJ-T1-Ogudu,A,
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-Ogudu|NJ-T1-Express,BU 11-Ogudu|NJ-T1-Express,A,1079,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-Ogudu|NJ-T1-CAC,BU 11-Ogudu|NJ-T1-CAC,A,1112,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-Nite|INJ-T1-Challenge,BU 11-Nite|INJ-T1-Challenge,D,448,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New YabalNJ-T2-Jibowu,BU 11-New YabalNJ-T2-Jibowu,B,728,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New YabalNJ-T1-Fadeyi,BU 11-New YabalNJ-T1-Fadeyi,D,376,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New OworolNJ-T1-Odunsi,BU 11-New OworolNJ-T1-Odunsi,B,645,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New OworolNJ-T1-Finbars,BU 11-New OworolNJ-T1-Finbars,B,731,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New YabaINJ-T2-Jibowu,BU 11-New YabaINJ-T2-Jibowu,B,728,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New YabaINJ-T1-Fadeyi,BU 11-New YabaINJ-T1-Fadeyi,D,376,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New OworoINJ-T1-Odunsi,BU 11-New OworoINJ-T1-Odunsi,B,645,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-New OworoINJ-T1-Finbars,BU 11-New OworoINJ-T1-Finbars,B,731,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-MushinINJ-T1-Mushin 2,BU 11-MushinINJ-T1-Mushin 2,C,402,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-MushinINJ-T1-Mushin,BU 11-MushinINJ-T1-Mushin,C,440,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-MarylandINJ-T3-Sylvia,BU 11-MarylandINJ-T3-Sylvia,A,1159,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
@@ -2050,26 +2050,26 @@ IKEDC,2026,2,LAGOS,SHOMOLU,,,,BU 11-MagodoINJ-T2-CMD,BU 11-MagodoINJ-T2-CMD,A,10
 IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Magodo,T2,Bashiru,11-MagodoINJ-T2-Bashiru,A,1298,IE-monthly-energy-caps-Feb-2026.pdf,6,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Magodo,T1,Shangisha,11-MagodoINJ-T1-Shangisha,A,1189,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Magodo,T1,Owulade,11-MagodoINJ-T1-Owulade,A,1103,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-MagodolNJ-T1-Emmanuel Keshi,11-MagodolNJ-T1-Emmanuel Keshi,A,1228,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IsherilNJ-T1-Isheri,11-IsherilNJ-T1-Isheri,A,1014,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IsherilNJ-T1-Bankole,11-IsherilNJ-T1-Bankole,A,1015,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Magodo,T1,Emmanuel Keshi,11-MagodoINJ-T1-Emmanuel Keshi,A,1228,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Isheri,T1,Isheri,11-IsheriINJ-T1-Isheri,A,1014,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Isheri,T1,Bankole,11-IsheriINJ-T1-Bankole,A,1015,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-Ilupeju|NJ-T3-Palmgrove,11-Ilupeju|NJ-T3-Palmgrove,A,1181,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IlupejulNJ-T3-Coker,11-IlupejulNJ-T3-Coker,A,1196,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Ilupeju,T3,Coker,11-IlupejuINJ-T3-Coker,A,1196,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,11,llupeju Bypass,T1,Obanikoro,11-llupeju BypassINJ-T1-Obanikoro,A,1102,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-Ilupeju Bypass|NJ-T1-Industrial,11-Ilupeju Bypass|NJ-T1-Industrial,A,698,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,11,llupeju Bypass,T1,Bypass,11-llupeju BypassINJ-T1-Bypass,A,1151,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T3-Railway,11-IgbobilNJ-T3-Railway,A,910,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T3-Mushin,11-IgbobilNJ-T3-Mushin,C,530,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T3-Ikorodu,11-IgbobilNJ-T3-Ikorodu,C,546,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T2-Orthopaedic,11-IgbobilNJ-T2-Orthopaedic,B,873,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T2-Market,11-IgbobilNJ-T2-Market,B,855,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T1-Military,11-IgbobilNJ-T1-Military,B,890,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-IgbobilNJ-T1-Apata,11-IgbobilNJ-T1-Apata,A,924,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-AlaperelNJ-T1-Bakare,11-AlaperelNJ-T1-Bakare,B,723,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-AlaperelNJ-T1-Araba,11-AlaperelNJ-T1-Araba,B,718,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T3,Railway,11-IgbobiINJ-T3-Railway,A,910,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T3,Mushin,11-IgbobiINJ-T3-Mushin,C,530,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T3,Ikorodu,11-IgbobiINJ-T3-Ikorodu,C,546,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T2,Orthopaedic,11-IgbobiINJ-T2-Orthopaedic,B,873,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T2,Market,11-IgbobiINJ-T2-Market,B,855,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T1,Military,11-IgbobiINJ-T1-Military,B,890,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Igbobi,T1,Apata,11-IgbobiINJ-T1-Apata,A,924,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Alapere,T1,Bakare,11-AlapereINJ-T1-Bakare,B,723,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Alapere,T1,Araba,11-AlapereINJ-T1-Araba,B,718,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-Alapere|NJ-T1-Agboyi,11-Alapere|NJ-T1-Agboyi,B,502,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-AkokalNJ-T1-Community,11-AkokalNJ-T1-Community,A,543,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,LAGOS,SHOMOLU BU,,,,11-AkokalNJ-T1-Akoka,11-AkokalNJ-T1-Akoka,B,1029,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Akoka,T1,Community,11-AkokaINJ-T1-Community,A,543,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,LAGOS,SHOMOLU BU,11,Akoka,T1,Akoka,11-AkokaINJ-T1-Akoka,B,1029,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,33-OtaTCN-AMJE,33-OtaTCN-AMJE,A,835,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,33-Oke-AroTCN-AKUTE,33-Oke-AroTCN-AKUTE,B,379,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,33-0gbaTCN-ABEOKUTA EXP.,33-0gbaTCN-ABEOKUTA EXP.,A,799,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
@@ -2083,27 +2083,27 @@ IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Ope llu,T1,Aboro,11-Ope lluINJ-T1-Aboro,C,271
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Obawole,T1,Youdeowei,11-ObawoleINJ-T1-Youdeowei,A,609,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Obawole,T1,Shonubi,11-ObawoleINJ-T1-Shonubi,A,662,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Lambe,T1,Olambe,11-LambeINJ-T1-Olambe,C,427,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-LambelNJ-T1-Matogun,11-LambelNJ-T1-Matogun,C,394,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-LambelNJ-T1-Jolasco,11-LambelNJ-T1-Jolasco,C,368,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-|julNJ-T2-Ishaga,11-|julNJ-T2-Ishaga,C,538,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Lambe,T1,Matogun,11-LambeINJ-T1-Matogun,C,394,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Lambe,T1,Jolasco,11-LambeINJ-T1-Jolasco,C,368,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,|ju,T2,Ishaga,11-|juINJ-T2-Ishaga,C,538,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-|ju|NJ-T2-Agbado 1,11-|ju|NJ-T2-Agbado 1,C,342,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,liu,T1,Grailand,11-liuINJ-T1-Grailand,C,478,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,lju,T1,Galilee,11-ljuINJ-T1-Galilee,A,702,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Iju,T1,Galilee,11-IjuINJ-T1-Galilee,A,702,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,liu,T1,Asore,11-liuINJ-T1-Asore,B,463,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-liulNJ-T1-Ajuwon,11-liulNJ-T1-Ajuwon,A,692,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-|jaiye OjokorolNJ-T2-Agbado 2,11-|jaiye OjokorolNJ-T2-Agbado 2,C,339,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-ljaiye OjokorolNJ-T1-Jankara,11-ljaiye OjokorolNJ-T1-Jankara,B,439,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-ljaiye Express OjokorolNJ-T1-Abeokuta,11-ljaiye Express OjokorolNJ-T1-Abeokuta,C,311,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,liu,T1,Ajuwon,11-liuINJ-T1-Ajuwon,A,692,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,|jaiye Ojokoro,T2,Agbado 2,11-|jaiye OjokoroINJ-T2-Agbado 2,C,339,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Ijaiye Ojokoro,T1,Jankara,11-Ijaiye OjokoroINJ-T1-Jankara,B,439,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Ijaiye Express Ojokoro,T1,Abeokuta,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,C,311,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Bolorunpelu,T3,Governor,11-BolorunpeluINJ-T3-Governor,B,608,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Beckley,T1,Beckley,11-BeckleyINJ-T1-Beckley,B,680,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Beckley,T1,Agbe road,11-BeckleyINJ-T1-Agbe road,B,436,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Akute,T1,Oyeyemi,11-Akute INJ-T1-Oyeyemi,C,324,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
 IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Akute,T1,Ishashi,11-Akute INJ-T1-Ishashi,C,307,IE-monthly-energy-caps-Feb-2026.pdf,7,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-AgegelNJ-T1-Oko Oba,11-AgegelNJ-T1-Oko Oba,B,569,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-AgegelNJ-T1-lju Road,11-AgegelNJ-T1-lju Road,C,583,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-Abule IrokolNJ-T1-Books,11-Abule IrokolNJ-T1-Books,C,353,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-Abule IrokolNJ-T1-Alakuko,11-Abule IrokolNJ-T1-Alakuko,C,348,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
-IKEDC,2026,2,OGUN,ABULE-EGBA BU,,,,11-Abule IrokolNJ-T1-Abule Iroko,11-Abule IrokolNJ-T1-Abule Iroko,C,249,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Agege,T1,Oko Oba,11-AgegeINJ-T1-Oko Oba,B,569,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Agege,T1,Iju Road,11-AgegeINJ-T1-Iju Road,C,583,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Books,11-Abule IrokoINJ-T1-Books,C,353,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Alakuko,11-Abule IrokoINJ-T1-Alakuko,C,348,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
+IKEDC,2026,2,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Abule Iroko,11-Abule IrokoINJ-T1-Abule Iroko,C,249,IE-monthly-energy-caps-Feb-2026.pdf,8,4bf2a724467948f2,0,ocr
 JEDC,2026,2,BAUCHI,AZARE,,,,AZARE,AZARE,B,153,JED-monthly-energy-caps-Feb-2026.pdf,1,abf9ae4cd34694fe,0,ocr
 JEDC,2026,2,BAUCHI,AZARE,,,,AZARE TOWN,AZARE TOWN,B,116,JED-monthly-energy-caps-Feb-2026.pdf,1,abf9ae4cd34694fe,0,ocr
 JEDC,2026,2,BAUCHI,AZARE,,,,COE/FIRE SERVICE,COE/FIRE SERVICE,C,147,JED-monthly-energy-caps-Feb-2026.pdf,1,abf9ae4cd34694fe,0,ocr

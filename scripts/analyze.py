@@ -168,6 +168,13 @@ def load() -> pd.DataFrame:
     # the feeder is keyed on its full printed name + business unit + its position among same-named
     # rows in the order (NERC lists some codes twice with different caps every month, e.g. AT5_FDR 8_M2_3A).
     df["feeder_core"] = df["feeder_raw"].map(feeder_core)
+    # OCR and typesetting split or join words ('11KV AJI YA' / '11KV AJIYA', '33 KV' / '33KV'). Within a DisCo,
+    # names that differ only by spaces are one feeder: fold them into their most common spelling, which keeps
+    # the existing feeder_id of that spelling.
+    nospace = df["feeder_core"].str.replace(" ", "", regex=False)
+    common = (df.groupby([df["disco"], nospace])["feeder_core"]
+              .agg(lambda s: s.value_counts().index[0]))
+    df["feeder_core"] = [common[(d, k)] for d, k in zip(df["disco"], nospace)]
     df["raw_key"] = df["feeder_raw"].map(norm_key)
     # NERC rows use clashes among NERC rows only, so adding state rows never changes a NERC feeder_id;
     # state rows also count clashes with each other and with NERC rows in the same month.
@@ -331,7 +338,8 @@ def state_regulator_findings(dfu_all: pd.DataFrame, F: dict) -> None:
 
 FEEDER_COLS = ["feeder_id", "disco", "disco_name", "state", "business_unit", "voltage_kv", "injection_substation",
                "feeder_name", "feeder_raw", "first_seen", "last_seen", "months_listed", "latest_band",
-               "latest_cap_kwh", "best_band_ever", "worst_band_ever", "band_changes", "regulator", "latest_band_source"]
+               "latest_cap_kwh", "best_band_ever", "worst_band_ever", "band_changes", "regulator", "latest_band_source",
+               "latest_tariff_naira_per_kwh", "latest_max_bill_naira"]
 
 
 def feeder_table(d: pd.DataFrame) -> pd.DataFrame:
@@ -349,11 +357,48 @@ def feeder_table(d: pd.DataFrame) -> pd.DataFrame:
         best_band_ever=("band_rank", "min"), worst_band_ever=("band_rank", "max"),
         band_changes=("band", lambda s: int((s != s.shift()).sum() - 1)),
     )
-    f = f.join(pr).reset_index()
+    f = f.join(pr)
+    # The latest row's naira figures, blank when that month is unpriced (groupby 'last' would skip blanks
+    # and show an older month's bill as the latest)
+    lr = d.drop_duplicates("feeder_id", keep="last").set_index("feeder_id")
+    f["latest_tariff_naira_per_kwh"] = lr["tariff_naira_per_kwh"] if "tariff_naira_per_kwh" in lr else pd.NA
+    f["latest_max_bill_naira"] = lr["max_bill_naira"] if "max_bill_naira" in lr else pd.NA
+    f = f.reset_index()
     for c in ("best_band_ever", "worst_band_ever"):
         f[c] = f[c].map(lambda r: BANDS[int(r)] if pd.notna(r) else "")
     f["band_changes"] = f["band_changes"].fillna(0).astype(int)
     return f[FEEDER_COLS]
+
+
+VAT_RATE = 0.075  # Nigeria Tax Act 2025 kept VAT on electricity at 7.5 percent (secondary sources; see docs)
+TARIFFS = ROOT / "data" / "reference" / "tariffs_non_md.csv"
+
+
+def attach_tariffs(d: pd.DataFrame) -> pd.DataFrame:
+    """Add the allowed Non-MD tariff for the feeder's regulator, DisCo, band and order month, and the
+    maximum legal bill in naira (cap x tariff x 1.075). Only rows with a printed band are priced: a
+    carried band (Enugu) may no longer be the feeder's band, and pricing it could over- or understate."""
+    d = d.copy()
+    d["tariff_naira_per_kwh"] = pd.NA
+    d["tariff_source"] = ""
+    if not TARIFFS.exists():
+        d["max_bill_naira"] = pd.NA
+        return d
+    t = pd.read_csv(TARIFFS, dtype=str).fillna("")
+    last = d["order_month"].max()
+    rate: dict = {}
+    for r in t.itertuples():
+        start = pd.Period(r.effective_from, "M")
+        end = pd.Period(r.effective_to or last, "M")
+        for p in pd.period_range(start, end, freq="M"):
+            rate[(r.regulator, r.disco, r.band, str(p))] = (float(r.naira_per_kwh), r.source_file)
+    hits = [rate.get((g, di, b, m)) if s == "printed" else None
+            for g, di, b, m, s in zip(d["regulator"], d["disco"], d["band"], d["order_month"], d["band_source"])]
+    d["tariff_naira_per_kwh"] = [h[0] if h else pd.NA for h in hits]
+    d["tariff_source"] = [h[1] if h else "" for h in hits]
+    d["tariff_naira_per_kwh"] = pd.to_numeric(d["tariff_naira_per_kwh"])
+    d["max_bill_naira"] = (d["cap_kwh"] * d["tariff_naira_per_kwh"] * (1 + VAT_RATE)).round().astype("Int64")
+    return d
 
 
 def main() -> None:
@@ -392,12 +437,14 @@ def main() -> None:
                                "same_cap_and_band": int(((ov["cap_kwh"] == ov["nerc_cap_kwh"]) & (ov["band"] == ov["nerc_band"])).sum())}
     df_all = df_all[~both]
     dfu_all = df_all.sort_values("cap_kwh", ascending=False).drop_duplicates(["feeder_id", "order_month"])
+    dfu_all = attach_tariffs(dfu_all)
     dfu = dfu_all[dfu_all["regulator"] == "NERC"]
 
     # ---------- clean tables (NERC and state regulator rows) ----------
     caps_long = dfu_all[["feeder_id", "disco", "disco_name", "state", "order_month", "consumption_month",
                          "band", "cap_kwh", "state_source", "extraction_method", "id_link",
-                         "source_file", "source_page", "regulator", "band_source"]].sort_values(["feeder_id", "order_month"])
+                         "source_file", "source_page", "regulator", "band_source",
+                         "tariff_naira_per_kwh", "max_bill_naira", "tariff_source"]].sort_values(["feeder_id", "order_month"])
     write(caps_long, "clean/caps_long.csv")
     try:
         caps_long.to_parquet(OUT / "clean" / "caps_long.parquet", index=False)
@@ -407,6 +454,25 @@ def main() -> None:
     feeders_all = feeder_table(dfu_all)
     write(feeders_all.sort_values(["disco", "state", "feeder_raw"]), "clean/feeders.csv")
     feeders = feeder_table(dfu)  # NERC-only, for the rankings below
+
+    # ---------- naira caps ----------
+    pr = dfu_all[dfu_all["band_source"] == "printed"]
+    nl = dfu[dfu["order_month"] == latest]
+    F["naira_caps"] = {
+        "vat_rate": VAT_RATE,
+        "rows_priced": int(dfu_all["max_bill_naira"].notna().sum()),
+        "rows_with_printed_band": int(len(pr)),
+        "first_priced_month": str(dfu_all.loc[dfu_all["max_bill_naira"].notna(), "order_month"].min()),
+        "unpriced_months_nerc": sorted(set(dfu["order_month"]) - set(dfu.loc[dfu["max_bill_naira"].notna(), "order_month"])),
+        "latest_median_max_bill_by_band": {b: int(g["max_bill_naira"].median()) for b, g in nl.groupby("band")
+                                           if g["max_bill_naira"].notna().any()},
+        "latest_median_cap_by_band": {b: float(g["cap_kwh"].median()) for b, g in nl.groupby("band")},
+    }
+    bills = (nl.dropna(subset=["max_bill_naira"]).groupby(["disco_name", "band"])
+             .agg(feeders=("feeder_id", "nunique"), median_cap_kwh=("cap_kwh", "median"),
+                  tariff_naira_per_kwh=("tariff_naira_per_kwh", "first"), median_max_bill_naira=("max_bill_naira", "median"))
+             .reset_index())
+    write(bills, "summary/max_bill_by_disco_band_latest.csv")
 
     printed = dfu_all[dfu_all["band_source"] == "printed"]
     wide = printed.pivot_table(index="feeder_id", columns="order_month", values="band", aggfunc="first")

@@ -74,7 +74,7 @@ def download_laserc() -> list[dict]:
         status = "have"
         if not dest.exists():
             data = _fetch(url.replace(" ", "%20"))
-            if data and data[:4] == b"%PDF":
+            if data and n.pdf_complete(data):
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(data)
                 status = "downloaded"
@@ -105,7 +105,7 @@ def download_eerc() -> list[dict]:
             if pdf:
                 url = pdf.group(1) if pdf.group(1).startswith("http") else "https://eerc.en.gov.ng" + pdf.group(1)
                 data = _fetch(url)
-                if data and data[:4] == b"%PDF":
+                if data and n.pdf_complete(data):
                     dest.parent.mkdir(parents=True, exist_ok=True)
                     dest.write_bytes(data)
                     status = "downloaded"

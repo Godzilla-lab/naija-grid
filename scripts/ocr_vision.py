@@ -167,6 +167,10 @@ def _join_words(words: list[tuple], hb: float, cols: list[float] | None = None) 
     """Join words left to right. A column break (four spaces) goes wherever a ruling line lies between
     two words, or, without ruling lines, wherever the horizontal gap is wide."""
     words = sorted(words, key=lambda b: b[1])
+    if not words:
+        # A row where OCR found only the band and the cap (PHED Dec 2025, Mar and Apr 2026): return an
+        # empty name so the row is logged as unparsed, instead of crashing and losing the whole order.
+        return ""
     parts = [words[0][0]]
     for prev, cur in zip(words, words[1:]):
         end, start = prev[1] + prev[3], cur[1]

@@ -98,3 +98,46 @@ def test_business_units_are_not_feeder_fragments():
     text = p[p.extraction_method == "text"]
     bad = text.business_unit.str.upper().str.contains(r"INJ-|FEEDER|\bFDR|\b(?:11|33)\s*KV|BILATERAL", regex=True)
     assert bad.mean() < 0.001, text.business_unit[bad].value_counts().head(10).to_dict()
+
+
+def test_no_order_failed_to_extract():
+    """A crash while reading one order used to drop it silently (PHED Dec 2025, Mar and Apr 2026)."""
+    log = (DATA / "parsed" / "reparse_qa.log").read_text(encoding="utf-8")
+    assert "FAILED" not in log, [l for l in log.splitlines() if "FAILED" in l]
+
+
+def test_every_pdf_is_in_sources():
+    src = pd.read_csv(DATA / "parsed" / "sources.csv", dtype=str)
+    listed = set(src["file"])
+    log = (DATA / "parsed" / "reparse_qa.log").read_text(encoding="utf-8")
+    missing = [p.name for p in (ROOT / "raw" / "pdfs").glob("*.pdf")
+               if p.name not in listed and p.name not in log]  # reposts are skipped on purpose and logged
+    assert not missing, missing
+
+
+def test_feeder_areas():
+    """Service-level appendices: Lagos read in full from ruling lines; every DisCo present."""
+    a = pd.read_csv(DATA / "reference" / "feeder_areas.csv", dtype=str).fillna("")
+    lag = a[a["regulator"] == "LASERC"]
+    assert len(lag[lag["disco"] == "IKEDC"]) >= 300 and len(lag[lag["disco"] == "EKEDC"]) >= 380
+    assert set(a["disco"]) >= {"AEDC", "BEDC", "EEDC", "EKEDC", "IBEDC", "IKEDC", "JEDC", "KAEDC", "KEDCO", "PHED", "YEDC"}
+    assert (a["band_in_source"].isin(list("ABCDE")) | (a["band_in_source"] == "")).all()
+    assert not a["source_feeder_name"].str.contains("COMPENSATE").any()
+
+
+def test_feeder_area_matching():
+    """Known wrong pairs must never be matched (docs/KNOWN_EXTRACTION_ERRORS.md rows 33 and 34)."""
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import feeder_areas as fa
+    for a, b in [("AWADA 2, 33KV", "AWADA 11KV"), ("33-ITIRETCN-AGO II", "33-ItireTCN-AGO I"), ("LEOPARD", "LEOPARD B"),
+                 ("NEW GOVERNMENT HOUSE 11KV", "GOVERNMENT HOUSE 11KV")]:
+        assert fa.markers(a) != fa.markers(b), (a, b)
+    assert fa.markers("IGABAYE ROAD 11KV FEEDER") == fa.markers("IGBAYE ROAD 11KV FEEDER")
+    assert fa.kv_of("33KV NUMAN") != fa.kv_of("11KV NUMAN")
+    assert fa.code_tail("132KV APO TS_33KV FDR H37_S26_K10") == fa.code_tail("APO AT3_H37_S26_K10")
+    a = pd.read_csv(DATA / "reference" / "feeder_areas.csv", dtype=str).fillna("")
+    f = pd.read_csv(DATA / "clean" / "feeders.csv", dtype=str).set_index("feeder_id")
+    linked = a[a["feeder_id"] != ""]
+    assert linked["feeder_id"].isin(f.index).all()
+    assert (f.loc[linked["feeder_id"], "disco"].values == linked["disco"].values).all()

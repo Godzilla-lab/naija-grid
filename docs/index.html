@@ -42,6 +42,9 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1p
   font-size: 26px; font-weight: 700; color: #fff; }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px 16px; margin-top: 12px; font-size: 14px; }
 .facts b { display: block; font-size: 18px; }
+.bill { margin-top: 12px; font-size: 15px; }
+.bill b { font-size: 20px; display: block; }
+.area { margin-top: 10px; font-size: 14px; }
 .history { display: flex; gap: 2px; margin-top: 12px; flex-wrap: wrap; }
 .history span { width: 12px; height: 18px; border-radius: 3px; background: var(--none); }
 .note { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 8px 12px; margin-top: 12px; font-size: 14px; }
@@ -55,10 +58,10 @@ button.more { font: inherit; background: none; border: 1px solid var(--line); co
 <body>
 <main>
   <h1>Find your feeder</h1>
-  <p class="lede">Your feeder's NERC service band and the most an unmetered customer on it can legally be billed each month, with its history since October 2022.</p>
+  <p class="lede">Search your street or area to find your feeder, its service band, and the most an unmetered (estimated billing) customer on it can legally be charged each month, in kWh and in naira, with its history since October 2022.</p>
 
   <div class="search">
-    <input id="q" type="search" placeholder="Feeder, area or business unit, e.g. Festac, Ikorodu, Bodija" autocomplete="off" aria-label="Search feeders">
+    <input id="q" type="search" placeholder="Your street, area or feeder, e.g. Adeola Odeku, Bodija, Festac" autocomplete="off" aria-label="Search feeders">
     <select id="disco" aria-label="Filter by DisCo"><option value="">All DisCos</option></select>
   </div>
   <div class="status" id="status" role="status">Loading feeders...</div>
@@ -83,7 +86,7 @@ const BASE = "https://raw.githubusercontent.com/Godzilla-lab/naija-grid/main/dat
 const REGULATOR = { NERC: "NERC", LASERC: "LASERC (Lagos)", EERC: "EERC (Enugu)" };
 const BAND_COLOR = { A: "var(--A)", B: "var(--B)", C: "var(--C)", D: "var(--D)", E: "var(--E)" };
 const $ = (id) => document.getElementById(id);
-let feeders = [], bandHist = {}, months = [], newest = "", transferred = {};
+let feeders = [], bandHist = {}, months = [], newest = "", transferred = {}, areaById = {}, unlinked = [];
 
 function parseCSV(text) {
   const rows = []; let row = [], cell = "", q = false;
@@ -113,18 +116,28 @@ const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<":
 
 async function load() {
   try {
-    const [f, h, r] = await Promise.all([
+    const [f, h, r, a] = await Promise.all([
       fetch(BASE + "clean/feeders.csv").then(x => x.text()),
       fetch(BASE + "clean/band_history_wide.csv").then(x => x.text()),
       fetch(BASE + "reference/state_regulators.csv").then(x => x.text()).catch(() => ""),
+      fetch(BASE + "reference/feeder_areas.csv").then(x => x.ok ? x.text() : "").catch(() => ""),
     ]);
     feeders = parseCSV(f).rows;
+    const discoName = Object.fromEntries(feeders.map(x => [x.disco, x.disco_name]));
+    if (a) parseCSV(a).rows.forEach(x => {
+      if (x.feeder_id) (areaById[x.feeder_id] = areaById[x.feeder_id] || []).push(x);
+      else unlinked.push({ _unlinked: true, feeder_raw: x.source_feeder_name, disco_name: discoName[x.disco] || x.disco,
+        latest_band: x.band_in_source, location: x.location, streets: x.streets, regulator: x.regulator,
+        source_month: x.source_month, last_seen: "" });
+    });
     const hw = parseCSV(h);
     months = hw.head.filter(c => /^\d{4}-\d{2}$/.test(c));
     hw.rows.forEach(r => { bandHist[r.feeder_id] = months.map(m => r[m] || ""); });
     if (r) parseCSV(r).rows.forEach(s => { if (s.status !== "not transferred") transferred[s.state.toUpperCase()] = s; });
     newest = feeders.reduce((m, x) => x.last_seen > m ? x.last_seen : m, "");
-    feeders.forEach(x => { x._key = norm([x.feeder_name, x.feeder_raw, x.business_unit, x.injection_substation, x.state, x.disco_name].join(" ")); });
+    feeders.forEach(x => { x._key = norm([x.feeder_name, x.feeder_raw, x.business_unit, x.injection_substation, x.state, x.disco_name,
+      ...(areaById[x.feeder_id] || []).map(r => r.location + " " + r.streets)].join(" ")); });
+    unlinked.forEach(x => { x._key = norm([x.feeder_raw, x.disco_name, x.location, x.streets].join(" ")); });
     const discos = [...new Set(feeders.map(x => x.disco_name))].sort();
     discos.forEach(d => $("disco").insertAdjacentHTML("beforeend", `<option>${esc(d)}</option>`));
     $("status").textContent = `${feeders.length.toLocaleString()} feeders loaded. Latest order: ${monthName(newest)}.`;
@@ -140,7 +153,7 @@ function search() {
   const out = $("results");
   if (!q && !d) { out.innerHTML = ""; $("status").textContent = `${feeders.length.toLocaleString()} feeders. Type a name to search.`; return; }
   const words = q.split(" ").filter(Boolean);
-  let hits = feeders.filter(x => (!d || x.disco_name === d) && words.every(w => x._key.includes(w)));
+  let hits = feeders.concat(unlinked).filter(x => (!d || x.disco_name === d) && words.every(w => x._key.includes(w)));
   hits.sort((a, b) => (b.last_seen === newest) - (a.last_seen === newest) || b.last_seen.localeCompare(a.last_seen) || a.feeder_raw.localeCompare(b.feeder_raw));
   $("status").textContent = hits.length ? `${hits.length.toLocaleString()} match${hits.length === 1 ? "" : "es"}` : "No feeder matches. Try a shorter name or the area.";
   out.innerHTML = hits.slice(0, shown).map(card).join("") +
@@ -148,7 +161,29 @@ function search() {
   const more = $("more"); if (more) more.onclick = () => { shown += 40; search(); };
 }
 
+const naira = (v) => "\u20a6" + Math.round(Number(v)).toLocaleString("en-NG");
+
+function areaLine(rows) {
+  if (!rows || !rows.length) return "";
+  const r = rows[0];
+  return `<div class="area"><b>Area</b> ${esc([r.location, r.streets].filter(Boolean).join(": "))}
+    <span class="meta">(from the ${esc(r.regulator)} tariff order, ${monthName(r.source_month)})</span></div>`;
+}
+
+function unlinkedCard(x) {
+  return `<div class="card">
+    <div class="row">
+      <div><div class="name">${esc(x.feeder_raw)}</div>
+      <div class="meta">${esc(x.disco_name)} DisCo</div></div>
+      <div class="band" style="background:${BAND_COLOR[x.latest_band] || "var(--none)"}">${esc(x.latest_band || "?")}</div>
+    </div>
+    ${areaLine([x])}
+    <div class="note">Listed in the ${esc(x.regulator)} tariff order, but not yet linked to a feeder in the cap orders, so its cap is not shown. Search a nearby street or the feeder's short name.</div>
+  </div>`;
+}
+
 function card(x) {
+  if (x._unlinked) return unlinkedCard(x);
   const current = x.last_seen === newest;
   const band = x.latest_band;
   const hist = (bandHist[x.feeder_id] || []).map((b, i) =>
@@ -177,6 +212,8 @@ function card(x) {
       ${x.best_band_ever ? `<div><b>${esc(x.best_band_ever)} to ${esc(x.worst_band_ever)}</b>best to worst band seen</div>
       <div><b>${esc(x.band_changes)}</b>band changes since ${monthName(x.first_seen)}</div>` : `<div><b>Unknown</b>band</div>`}
     </div>
+    ${x.latest_max_bill_naira ? `<div class="bill"><b>${naira(x.latest_max_bill_naira)}</b> the most an unmetered home on this feeder can legally be billed for the month (${esc(x.latest_cap_kwh)} kWh at \u20a6${Number(x.latest_tariff_naira_per_kwh).toFixed(2)}/kWh, VAT included)</div>` : ""}
+    ${areaLine(areaById[x.feeder_id])}
     <div class="history" aria-label="Band history by month">${hist}</div>
     ${note}
   </div>`;

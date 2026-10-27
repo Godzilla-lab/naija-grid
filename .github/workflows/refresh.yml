@@ -63,6 +63,9 @@ jobs:
       - name: Rebuild clean tables, rankings and charts
         run: python scripts/analyze.py
 
+      - name: Feeder areas from the latest tariff orders (LASERC text; NERC appendix OCR is committed)
+        run: python scripts/feeder_areas.py --download
+
       - name: Test
         run: python -m pytest -q
 

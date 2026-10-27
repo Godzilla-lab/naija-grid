@@ -107,6 +107,36 @@ def http_get(url: str, timeout: int = 60, retries: int = 3) -> bytes:
     raise RuntimeError(f"GET failed {url}: {last}")
 
 
+# Letter confusions Apple Vision makes in scanned NERC orders (see docs/KNOWN_EXTRACTION_ERRORS.md).
+# Each rule is safe only because the wrong form never occurs in real names.
+OCR_NAME_FIXES = [
+    (re.compile(r"(?<=\S)l(NJ|N)(?=-?\s*T\d)"), "INJ"),  # Ikeja injection tag: 'AgegelNJ-T1' -> 'AgegeINJ-T1'
+    (re.compile(r"(?<![A-Za-z])lj"), "Ij"),                # 'ljaiye' -> 'Ijaiye' (no Nigerian name starts with lj)
+]
+
+
+def fix_ocr_name(s: str) -> str:
+    for rx, rep in OCR_NAME_FIXES:
+        s = rx.sub(rep, s)
+    return s
+
+
+def pdf_complete(data: bytes) -> bool:
+    """A cut-off download still starts with %PDF and often still opens, with blank pages where the table
+    should be (seen with NERC tariff orders, 2026-10-27). A complete file ends with %%EOF."""
+    return data[:4] == b"%PDF" and b"%%EOF" in data[-2048:]
+
+
+def get_pdf(url: str, tries: int = 3) -> bytes:
+    """Download a PDF and refuse truncated bodies, retrying with a longer timeout."""
+    for attempt in range(tries):
+        data = http_get(url, timeout=120 * (attempt + 1))
+        if pdf_complete(data):
+            return data
+        log(f"incomplete PDF ({len(data)} bytes), retrying: {url}")
+    raise RuntimeError(f"PDF still incomplete after {tries} tries: {url}")
+
+
 MONTH_ABBR = {m[:3]: i + 1 for i, m in enumerate(MONTHS)}
 _year_cache: dict[int, list[dict]] = {}
 
@@ -244,8 +274,8 @@ def download_all(url: str, year: int | None = None, month: int | None = None) ->
     low = name.lower()
     if low.endswith(".pdf"):
         dest = PDF_DIR / name
-        if not (dest.exists() and dest.stat().st_size > 1000):
-            dest.write_bytes(http_get(url))
+        if not (dest.exists() and pdf_complete(dest.read_bytes())):
+            dest.write_bytes(get_pdf(url))
         return [dest]
     img_dir = ROOT / "raw" / "images"
     img_dir.mkdir(parents=True, exist_ok=True)
@@ -464,6 +494,8 @@ def parse_pdf(path: Path, year: int | None = None, month: int | None = None) -> 
                 last_lead = lead
             state = (lead[0] if has_state else "") if lead else ""
             bu = lead[-1] if lead else ""
+            if methods[pno - 1] == "ocr":
+                feeder = fix_ocr_name(feeder)
             loc = split_location(feeder) if False else {}
             m = re.match(r"^(?P<kv>\d{1,2})-(?P<inj>.+?)\s*INJ-?\s*T(?P<tx>\d+)-(?P<f>.+)$", feeder, re.I)
             kvm = re.search(r"(\d{2})\s*KV", feeder, re.I)

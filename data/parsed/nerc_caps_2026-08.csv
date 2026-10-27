@@ -1417,31 +1417,31 @@ IBEDC,2026,8,OYO,OYO,33,,,(UNMANNED) SAKI 33KV FEEDER_OTUN 11KV FEEDER,(UNMANNED
 IBEDC,2026,8,OYO,OYO,33,,,SAKI 33KV FEEDER_OTUU SUB FEEDER,SAKI 33KV FEEDER_OTUU SUB FEEDER,E,102,IBEDC-monthly-energy-caps-Aug-2026.pdf,12,98cd40af812169db,0,ocr
 IBEDC,2026,8,OYO,OYO,11,,,SANGA 11KV FEEDER,SANGA 11KV FEEDER,E,180,IBEDC-monthly-energy-caps-Aug-2026.pdf,12,98cd40af812169db,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Abule Iroko,11-Abule IrokoINJ-T1-Abule Iroko,C,232,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-Abule IrokolNJ-T1-Alakuko,11-Abule IrokolNJ-T1-Alakuko,C,323,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Alakuko,11-Abule IrokoINJ-T1-Alakuko,C,323,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Books,11-Abule IrokoINJ-T1-Books,C,328,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-AgegelNJ-T1-lju Road,11-AgegelNJ-T1-lju Road,C,542,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-AgegelNJ-T1-Oko Oba,11-AgegelNJ-T1-Oko Oba,B,529,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Agege,T1,Iju Road,11-AgegeINJ-T1-Iju Road,C,542,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Agege,T1,Oko Oba,11-AgegeINJ-T1-Oko Oba,B,529,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Akute,T1,Ishashi,11-Akute INJ-T1-Ishashi,C,286,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Akute,T1,Oyeyemi,11-Akute INJ-T1-Oyeyemi,C,302,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Beckley,T1,Agbe road,11-BeckleyINJ-T1-Agbe road,B,406,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Beckley,T1,Beckley,11-BeckleyINJ-T1-Beckley,B,632,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Bolorunpelu,T3,Governor,11-BolorunpeluINJ-T3-Governor,B,566,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-ljaiye Ojokoro|NJ-T1-Abeokuta Express,11-ljaiye Ojokoro|NJ-T1-Abeokuta Express,C,290,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,ljaiye Ojokoro,T1,Jankara,11-ljaiye OjokoroINJ-T1-Jankara,B,409,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,ljaiye Ojokoro,T2,Agbado 2,11-ljaiye OjokoroINJ-T2-Agbado 2,C,316,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-ljulNJ-T1-Ajuwon,11-ljulNJ-T1-Ajuwon,A,644,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-ljulNJ-T1-Asore,11-ljulNJ-T1-Asore,B,431,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-Ijaiye Ojokoro|NJ-T1-Abeokuta Express,11-Ijaiye Ojokoro|NJ-T1-Abeokuta Express,C,290,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Ijaiye Ojokoro,T1,Jankara,11-Ijaiye OjokoroINJ-T1-Jankara,B,409,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Ijaiye Ojokoro,T2,Agbado 2,11-Ijaiye OjokoroINJ-T2-Agbado 2,C,316,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Iju,T1,Ajuwon,11-IjuINJ-T1-Ajuwon,A,644,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Iju,T1,Asore,11-IjuINJ-T1-Asore,B,431,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,liu,T1,Galilee,11-liuINJ-T1-Galilee,A,653,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,lju,T1,Grailand,11-ljuINJ-T1-Grailand,C,445,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,lju,T2,Agbado 1,11-ljuINJ-T2-Agbado 1,C,318,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-ljulNJ-T2-Ishaga,11-ljulNJ-T2-Ishaga,C,501,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Iju,T1,Grailand,11-IjuINJ-T1-Grailand,C,445,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Iju,T2,Agbado 1,11-IjuINJ-T2-Agbado 1,C,318,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Iju,T2,Ishaga,11-IjuINJ-T2-Ishaga,C,501,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-Lambe|NJ-T1-Jolasco,11-Lambe|NJ-T1-Jolasco,C,342,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-LambelNJ-T1-Matogun,11-LambelNJ-T1-Matogun,C,367,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Lambe,T1,Matogun,11-LambeINJ-T1-Matogun,C,367,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Lambe,T1,Olambe,11-LambeINJ-T1-Olambe,C,397,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-Obawole|NJ-T1-Shonubi,11-Obawole|NJ-T1-Shonubi,A,616,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-Obawole|NJ-T1-Youdeowei,11-Obawole|NJ-T1-Youdeowei,A,567,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Ope Ilu,T1,Aboro,11-Ope IluINJ-T1-Aboro,C,252,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
-IKEDC,2026,8,OGUN,ABULE-EGBA BU,,,,11-Ope llulNJ-T1-Adiyan,11-Ope llulNJ-T1-Adiyan,C,294,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
+IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Ope llu,T1,Adiyan,11-Ope lluINJ-T1-Adiyan,C,294,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Yidi,T1,lioko,11-YidiINJ-T1-lioko,D,223,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Yidi,T1,Opeilu,11-YidiINJ-T1-Opeilu,D,175,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr
 IKEDC,2026,8,OGUN,ABULE-EGBA BU,11,Yidi,T1,Osoba,11-YidiINJ-T1-Osoba,C,365,IE-monthly-energy-caps-Aug-2026.pdf,1,e75c5574c981afe0,0,ocr

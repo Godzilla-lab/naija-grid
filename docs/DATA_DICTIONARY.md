@@ -28,6 +28,9 @@ Every column of every published CSV. `data/clean/caps_long.csv` is the main tabl
 | source_page | number | 19 | Page of the PDF the row is on (1-based). |
 | regulator | text | NERC | Who set the cap: NERC, or the state regulator for states that took over (LASERC Lagos, EERC Enugu). |
 | band_source | text | printed | printed (band printed in the order); carried_from_nerc_YYYY-MM (Enugu: EERC prints no band, so the band is the one NERC last printed for the feeder, in that month); not_published (no band anywhere, band left blank). Only printed bands count in band statistics. |
+| tariff_naira_per_kwh | number | 209.5 | Allowed Non-MD tariff for the feeder's regulator, DisCo and band in the order month, from `data/reference/tariffs_non_md.csv`. Blank when the band is not printed (Enugu) or no verified tariff covers the month. |
+| max_bill_naira | number | 55734 | Maximum legal monthly bill in naira for an unmetered non-MD customer: cap_kwh x tariff_naira_per_kwh x 1.075 (7.5 percent VAT), rounded. Lifeline (50 kWh or less) and maximum-demand customers are on other rates. |
+| tariff_source | text | IE_HOLDCO_YSS_September_2026_093.pdf | Tariff order the rate was read from. |
 
 ## `data/clean/feeders.csv`
 
@@ -52,6 +55,8 @@ Every column of every published CSV. `data/clean/caps_long.csv` is the main tabl
 | band_changes | number | 0 | Number of times the feeder's band changed between consecutive listings. |
 | regulator | text | NERC | Regulator of the feeder's latest row (NERC, LASERC or EERC). |
 | latest_band_source | text | printed | band_source of the latest row (see caps_long). |
+| latest_tariff_naira_per_kwh | number | 209.5 | tariff_naira_per_kwh of the feeder's latest row. |
+| latest_max_bill_naira | number | 55734 | max_bill_naira of the feeder's latest row; blank when that month is unpriced. |
 
 ## `data/parsed/nerc_caps_all.csv`
 
@@ -437,3 +442,55 @@ Caps follow metered consumption and move with the seasons, so state caps are com
 | vs_month | text | 2025-08 | The same month a year earlier (a NERC order). |
 | feeders_compared | number | 278 | Feeders present in both months. |
 | median_change_pct | number | -11.4 | Median percent change in the feeder's cap over the year; blank when no feeder could be compared. |
+
+## `data/reference/tariffs_non_md.csv`
+
+Allowed end-user tariffs for Non-MD customers (the class the energy caps apply to), read from the regulators' tariff orders. Every value was read from the rendered table by eye; the checked pages are in raw/tariff_pages. A period runs to the next order, or to today when effective_to is blank.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| regulator | text | NERC | NERC, LASERC (Lagos) or EERC (Enugu). |
+| disco | text | IKEDC | DisCo code of the feeders the tariff applies to (Lagos and Enugu successors map back as in caps_long). |
+| band | text | A | Service band. |
+| effective_from | text | 2024-08 | First month (YYYY-MM) the rate applies. |
+| effective_to | text | 2024-07 | Last month; blank means still in force. |
+| naira_per_kwh | number | 209.50 | Allowed tariff, naira per kWh, before VAT. |
+| period_as_printed | text | Aug 2024 to Sep 2026 | The period label as printed in the order. |
+| source_file | text | IE_HOLDCO_YSS_September_2026_093.pdf | Tariff order. |
+| source_url | text | https://nerc.gov.ng/wp-content/uploads/... | Where the order is published. |
+| source_table | text | Table 3, Approved Allowed Tariffs, Sep 2026 order | Table read. |
+| checked | text | read from the rendered table by eye | How the value was verified. |
+| notes | text | The order prints no Band A rate for July 2024. | Gaps, typos and assumptions in the source. |
+
+## `data/summary/max_bill_by_disco_band_latest.csv`
+
+Latest NERC order month: the median maximum legal bill by DisCo and band.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| disco_name | text | Ikeja | DisCo. |
+| band | text | A | Service band. |
+| feeders | number | 6 | Feeders priced. |
+| median_cap_kwh | number | 616.5 | Median cap. |
+| tariff_naira_per_kwh | number | 209.5 | Allowed Non-MD tariff. |
+| median_max_bill_naira | number | 138835 | Median maximum legal bill, VAT included. |
+
+
+## `data/reference/feeder_areas.csv`
+
+Where each feeder is and the main streets it serves, from the "Service Level Commitment" appendix of the latest tariff orders (`scripts/feeder_areas.py`): LASERC for Lagos (text PDFs, read from the table's ruling lines), NERC for the other DisCos and Ogun (scanned; OCR text in raw/area_text). One row per feeder listed by the regulator.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| feeder_id | text | 0a3fc2d52f43 | The matching feeder in `data/clean/feeders.csv`; blank when no safe match was found. |
+| regulator | text | LASERC | Regulator whose order lists the feeder. |
+| disco | text | EKEDC | DisCo code. |
+| source_feeder_name | text | ALAGBON TS_FOWLER 1_FOWLER_SHAW ROAD | Feeder name as printed in the order. |
+| band_in_source | text | A | Band printed in the order; blank when OCR lost it. |
+| location | text | IKOYI | Feeder location as printed. |
+| streets | text | OLUWA ROAD/THOMPSON AVENUE GLOVER ROAD | Major streets served, as printed (partial lists; spelling as printed). |
+| min_hours | number | 20 | Minimum hours of supply a day committed for the band. |
+| match | text | exact | How feeder_id was found: exact (name), eko_tail (last segment of LASERC's Eko name), aedc_code (Abuja feeder code), fuzzy (similarity 0.90 or more and every number, numeral and distinguishing word equal), none. |
+| match_score | number | 1.00 | Similarity for fuzzy matches; 1.00 otherwise. |
+| source_file | text | AEDC_HOLDCO_YSS_September_2026_088.pdf | Tariff order. |
+| source_month | text | 2026-09 | Month of the order. |

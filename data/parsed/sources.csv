@@ -412,6 +412,7 @@ order_month,disco,file,sha256,bytes,pages,rows,unparsed_lines,extraction
 2025-12,JEDC,JED-monthly-energy-caps-December-2025.pdf,d6ec3fa70398c9148e01baaab6d1505af266536f92f8d08d26cdd9a83daaf0f9,346527,3,98,0,ocr
 2025-12,KAEDC,KAEDC-monthly-energy-caps-December-2025.pdf,81f6cf960ac8871ec3567fec3b0c33b9e05d39f7bceee2b590764d4395b631e1,857071,5,206,0,ocr
 2025-12,KEDCO,KEDCO-monthly-energy-caps-December-2025.pdf,250b2a7c10c8a2294e506caf0ae70bb2037d617bebd268a0ba692086423d79df,671551,4,158,0,ocr
+2025-12,PHED,PHED-monthly-energy-caps-December-2025.pdf,9964fdbf985a3b9e33eb4de8ff5c84d6f71599538b1036f19de1e4713b89b3e3,608810,6,249,0,ocr
 2025-12,YEDC,YEDC-monthly-energy-caps-December-2025.pdf,3d515a076821a7313ec7f8671f3f2183cef986c2811dcdf42b573981d290694b,623686,4,148,0,ocr
 2026-01,AEDC,AEDC-monthly-energy-caps-Jan-2026.pdf,1c37b28e8c8e874da34439da37a5bcdfc7fabbde9f474e06dbfe743684902a3a,2016967,15,643,0,ocr
 2026-01,APLE,APLE-monthly-energy-caps-Jan-2026.pdf,208c61d00dcd3b1db2e9aa9f61121c1ef77adc4e6f01b16793d036d4e4a53d92,310976,2,36,0,ocr
@@ -444,6 +445,7 @@ order_month,disco,file,sha256,bytes,pages,rows,unparsed_lines,extraction
 2026-03,JEDC,JED-monthly-energy-caps-Mar-2026.pdf,2f0f2c4a4a3dc07eddb1806099a9629ed01175bff2368b0c518ad4523b129337,319259,3,98,0,ocr
 2026-03,KAEDC,KAEDC-monthly-energy-caps-Mar-2026.pdf,4300067680fec85993d3d640d30cc99e4d6f33ddd1c111fe52596d1479fca338,859667,5,206,0,ocr
 2026-03,KEDCO,KEDCO-monthly-energy-caps-Mar-2026.pdf,0b9e7d3694bb6f41cac81ca1409a1f575e7fd251ee283d44e9c4c1db3507169a,660395,4,158,0,ocr
+2026-03,PHED,PHED-monthly-energy-caps-Mar-2026.pdf,52acc4fc4419ac142b4403fb6429fe02295e107b113e402f179ad06fe545b45b,608807,6,249,0,ocr
 2026-03,YEDC,YEDC-monthly-energy-caps-Mar-2026.pdf,1055ecd0259c4020340637a9b765bde0b67101f7fc33e3d794815ddacf61deb4,614680,4,149,0,ocr
 2026-04,AEDC,AEDC-monthly-energy-caps-April-2026.pdf,d1f9adaf2a56580a436f94cfaaae2d1346889449687ed65a9cc0861ec5743a56,2005757,15,642,0,ocr
 2026-04,BEDC,BEDC-monthly-energy-caps-April-2026.pdf,287ef6b56bd7c77380c8172fb8b12a6a1be817fa5a95c74b9e5abfbbc7654247,912421,6,243,0,ocr
@@ -454,6 +456,7 @@ order_month,disco,file,sha256,bytes,pages,rows,unparsed_lines,extraction
 2026-04,JEDC,JED-monthly-energy-caps-April-2026.pdf,6ca8d33b6730900d3e116a8889f04f732c54006d3d9644eca2ae393c1e1e84cb,356173,3,98,0,ocr
 2026-04,KAEDC,KAEDC-monthly-energy-caps-April-2026.pdf,7d6533d35195b21ec1b3bc689ab4b8c453f1e680af645ad983f8b204ce96bed5,854901,5,206,0,ocr
 2026-04,KEDCO,KEDCO-monthly-energy-caps-April-2026.pdf,3a6deacea1096a7108b7031e9630f4ee79ef26765fc592dcd421b129f6ad6fb3,658599,4,158,0,ocr
+2026-04,PHED,PHED-monthly-energy-caps-April-2026.pdf,7868d51addab7465db87dbc4047c805a8559b4f49b9f6f6625a99f7003f263b1,609813,6,249,0,ocr
 2026-04,YEDC,YEDC-monthly-energy-caps-April-2026.pdf,03c4da41c107142635af7b1a84e805cf33ccf05738be24c6781f59047e04e7b9,618012,4,149,0,ocr
 2026-05,AEDC,AEDC-monthly-energy-caps-May-2026.pdf,c89bb1352ffa906cfe99bacf675adeb350b561dfcd3bb85911ddae477a238b37,2033937,15,642,0,ocr
 2026-05,BEDC,BEDC-monthly-energy-caps-May-2026.pdf,b22b3bfe123467ec124f29177776cf1fe189d0710ccddb46641c718c1f49cfae,918079,6,243,0,ocr

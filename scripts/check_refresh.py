@@ -55,6 +55,13 @@ unp = cur["unparsed_lines"].sum()
 if unp > 10:
     issues.append(f"{unp} unparsed lines in {latest}; see data/parsed/reparse_qa.log.")
 
+# Any order that crashed during extraction, in any month
+qa = ROOT / "data" / "parsed" / "reparse_qa.log"
+if qa.exists():
+    failed = [l for l in qa.read_text().splitlines() if "FAILED" in l]
+    if failed:
+        issues.append("Orders that failed to extract (their rows are missing):\n" + "\n".join(f"- {l}" for l in failed))
+
 # State regulators: a newly listed file that could not be fetched (older ones are known to be private)
 sl = ROOT / "data" / "parsed" / "state_listed.csv"
 if sl.exists():
