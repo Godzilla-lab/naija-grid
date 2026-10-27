@@ -142,7 +142,7 @@ Details in [docs/ANALYSIS.md](docs/ANALYSIS.md#limitations).
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). Suggested: *Busari, O. (2026). naija-grid: NERC monthly energy caps and service bands for every Nigerian feeder, 2022 to 2026 (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23675284*
+See [CITATION.cff](CITATION.cff). Suggested: *Busari, O. (2026). naija-grid: NERC monthly energy caps and service bands for every Nigerian feeder, 2022 to 2026 (Version 0.2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23675284*
 
 ## Licence
 

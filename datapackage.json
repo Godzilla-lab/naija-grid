@@ -3,7 +3,7 @@
   "title": "NERC monthly energy caps and service bands for every Nigerian feeder, 2022 to 2026",
   "description": "Feeder-level monthly energy caps for unmetered customers and service bands A to E, from every Monthly Energy Cap order the Nigerian Electricity Regulatory Commission has published online (Order NERC/307/2022), linked across months.",
   "homepage": "https://github.com/Godzilla-lab/naija-grid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "created": "2026-10-26",
   "licenses": [
     {

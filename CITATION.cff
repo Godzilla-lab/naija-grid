@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below. The underlying orders are published by the Nigerian Electricity Regulatory Commission."
 type: dataset
 title: naija-grid
-abstract: "Feeder level monthly energy caps and service bands for Nigeria's electricity distribution companies, parsed from the Nigerian Electricity Regulatory Commission Monthly Energy Cap orders (Order NERC/307/2022), with the source PDFs kept as provenance."
+abstract: "Feeder level monthly energy caps and service bands for Nigeria's electricity distribution companies, parsed from the Nigerian Electricity Regulatory Commission Monthly Energy Cap orders (Order NERC/307/2022) and the caps set by the Lagos and Enugu state regulators, with each cap priced in naira from the allowed tariffs and each feeder linked to the areas and streets it serves. The source PDFs are kept as provenance."
 authors:
   - family-names: Busari
     given-names: Olamilekan
@@ -18,8 +18,8 @@ identifiers:
     value: 10.5281/zenodo.23675285
     description: Version 0.1.0
 license: CC-BY-4.0
-version: 0.1.0
-date-released: "2026-10-26"
+version: 0.2.0
+date-released: "2026-10-27"
 keywords:
   - Nigeria
   - electricity

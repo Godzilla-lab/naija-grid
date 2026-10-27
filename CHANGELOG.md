@@ -4,6 +4,8 @@ Versions follow [Semantic Versioning](https://semver.org/). A new month of data 
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-27
+
 ### Added
 
 - Caps set by state regulators: Lagos (LASERC, IE Energy Lagos and Excel feeders) and Enugu (EERC, MainPower), July to October 2026, from `scripts/state_caps.py`; files in `raw/state/`.
