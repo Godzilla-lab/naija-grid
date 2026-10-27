@@ -33,7 +33,9 @@ def test_columns_documented(path):
 
 
 def test_main_table_values(caps):
-    assert set(caps["band"]) <= set("ABCDE")
+    banded = caps["band_source"] != "not_published"
+    assert set(caps.loc[banded, "band"]) <= set("ABCDE")
+    assert caps.loc[~banded, "band"].isna().all()  # a state regulator printed no band and NERC never listed it
     assert (caps["cap_kwh"] > 0).all()
     assert set(caps["state"]) <= STATES
     assert caps["order_month"].str.fullmatch(r"20\d\d-(0[1-9]|1[0-2])").all()
@@ -56,9 +58,11 @@ def test_every_source_pdf_is_committed():
 
 
 def test_findings_match_tables(caps):
+    """Findings are NERC-only; state regulator rows only add to the clean tables."""
     f = json.loads((DATA / "findings.json").read_text())
-    assert f["distinct_feeders"] == caps["feeder_id"].nunique()
-    assert f["latest_month"] == caps["order_month"].max()
+    nerc = caps[caps["regulator"] == "NERC"]
+    assert f["distinct_feeders"] == nerc["feeder_id"].nunique()
+    assert f["latest_month"] == nerc["order_month"].max()
 
 
 def test_unreadable_bands_stay_rare():

@@ -4,7 +4,7 @@
  "latest_month": "2026-10",
  "rows": 147079,
  "pdf_files": 520,
- "distinct_feeders": 6458,
+ "distinct_feeders": 6456,
  "exact_duplicates_dropped": 634,
  "id_link_counts": {
   "exact": 146323,
@@ -12,12 +12,102 @@
   "fuzzy_ocr_conflict": 15
  },
  "state_source_rows": {
-  "learned": 100457,
+  "learned": 100459,
   "printed": 31430,
   "manual": 14254,
-  "unknown": 938
+  "unknown": 936
  },
  "duplicate_feeder_month_rows": 10,
+ "state_nerc_overlap": {
+  "rows": 39,
+  "feeders": 10,
+  "same_cap_and_band": 39
+ },
+ "state_regulators": {
+  "EERC": {
+   "months": [
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10"
+   ],
+   "rows": 289,
+   "feeders": 73,
+   "feeders_latest": 73,
+   "linked_latest": 70,
+   "nerc_last_months": [
+    "2023-01",
+    "2025-09"
+   ],
+   "median_change_first_month_pct": -14.1,
+   "median_change_latest_pct": -27.4,
+   "median_cap_latest": 126.0,
+   "median_nerc_last_cap": 165.5,
+   "band_source_rows": {
+    "carried_from_nerc": 277,
+    "not_published": 12
+   }
+  },
+  "LASERC": {
+   "months": [
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10"
+   ],
+   "rows": 2081,
+   "feeders": 521,
+   "feeders_latest": 520,
+   "linked_latest": 496,
+   "nerc_last_months": [
+    "2025-09",
+    "2026-01",
+    "2026-02"
+   ],
+   "median_change_first_month_pct": -5.8,
+   "median_change_latest_pct": -11.7,
+   "median_cap_latest": 519.0,
+   "median_nerc_last_cap": 619.0,
+   "band_source_rows": {
+    "printed": 2081
+   },
+   "band_vs_nerc_latest": {
+    "same": 496,
+    "higher": 0,
+    "lower": 0
+   }
+  }
+ },
+ "state_year_on_year": {
+  "EERC": {
+   "months": [
+    "2026-07",
+    "2026-08",
+    "2026-09"
+   ],
+   "min_pct": -32.5,
+   "max_pct": -21.5
+  },
+  "LASERC": {
+   "months": [
+    "2026-07",
+    "2026-08",
+    "2026-09"
+   ],
+   "min_pct": -15.6,
+   "max_pct": -11.4
+  },
+  "NERC": {
+   "months": [
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10"
+   ],
+   "min_pct": -10.9,
+   "max_pct": -1.3
+  }
+ },
  "months_with_data": [
   "2022-10",
   "2022-11",

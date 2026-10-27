@@ -4,14 +4,15 @@ Analysis of every Monthly Energy Cap order the Nigerian Electricity Regulatory C
 
 ## The data in one paragraph
 
-Since 2022, NERC has published a monthly order for each distribution company (DisCo) that lists every feeder with unmetered customers, the feeder's service band (A to E), and the maximum kWh a DisCo may bill an unmetered customer on that feeder that month (Order NERC/307/2022). Band A carries a promise of at least 20 hours of supply a day; bands B to E promise progressively fewer. We collected 520 of these orders, extracted 147,079 feeder-month records covering 6,458 distinct feeders across 45 months, and linked each feeder across time.
+Since 2022, NERC has published a monthly order for each distribution company (DisCo) that lists every feeder with unmetered customers, the feeder's service band (A to E), and the maximum kWh a DisCo may bill an unmetered customer on that feeder that month (Order NERC/307/2022). Band A carries a promise of at least 20 hours of supply a day; bands B to E promise progressively fewer. We collected 520 of these orders, extracted 147,079 feeder-month records covering 6,456 distinct feeders across 45 months, and linked each feeder across time.
 
 | | |
 |---|---|
 | Orders (PDFs) | 520, all 11 DisCos plus Aba Power |
 | Months covered | 45, October 2022 to October 2026 |
 | Feeder-month records | 147,079 |
-| Distinct feeders | 6,458 |
+| Distinct feeders | 6,456 |
+| Caps set by state regulators (Lagos and Enugu, July to October 2026) | 2,370 records, 594 feeders |
 | Feeders in the latest order (October 2026) | 2,295 |
 | State identified | 99.4 percent of records |
 
@@ -77,7 +78,7 @@ Under the Electricity Act 2023, NERC has issued transfer orders to 17 states (ta
 - **Six transferred states are still in NERC's orders.** Oyo and Edo (deadlines February 2025), Ogun (June 2025), Nasarawa (February 2026) and Gombe (July 2026) are all past their transfer deadlines but still listed in the October 2026 orders. Akwa Ibom is still within its transition period.
 - **The Ibadan footprint is shrinking inside the same states.** In the same states, NERC listed 861 Ibadan feeders in October 2025 and 509 in October 2026.
 
-For anyone living in Lagos, Enugu, Imo, Ondo, Ekiti, Kogi, Niger, Plateau, Abia, Bayelsa or Anambra, the federal cap no longer appears in NERC's orders. We found no published caps from the state regulators for those markets.
+For anyone living in Lagos, Enugu, Imo, Ondo, Ekiti, Kogi, Niger, Plateau, Abia, Bayelsa or Anambra, the federal cap no longer appears in NERC's orders. Only two of those state regulators publish caps of their own, Lagos and Enugu (section 7). The other nine publish no caps, bands or tariff orders (checked 26 October 2026; what was checked is in `data/reference/state_regulators.csv`). Ekiti follows NERC's tariffs by interim order and Anambra has adopted NERC's instruments by order; Abia's regulator website could not be checked.
 
 ![State presence by month](charts/06_state_presence.png)
 
@@ -86,6 +87,15 @@ For anyone living in Lagos, Enugu, Imo, Ondo, Ekiti, Kogi, Niger, Plateau, Abia,
 Of the 3,896 feeders listed for at least a year, 62.8 percent never changed band and only 1.7 percent changed three times or more. The most changes by any feeder is five: Kaduna's Gwari Avenue feeder (between A and D, over 42 months) and Ubakala in Abia (between A and C, over 37 months). Band changes come in waves, such as July 2024, not as constant churn. The full list is in `data/rankings/most_volatile_feeders.csv`.
 
 ---
+
+### 7. Lagos and Enugu set their own caps, and they are lower
+
+Two state regulators publish monthly caps: the Lagos State Electricity Regulatory Commission (LASERC) for the two Lagos successor companies (IE Energy Lagos and Excel Electricity Distribution, the former Ikeja and Eko networks), and the Enugu Electricity Regulatory Commission (EERC) for MainPower. Both are in the dataset from July to October 2026, with a `regulator` column, and each feeder is linked to its NERC history.
+
+- **Lagos.** LASERC's files list 520 feeders in October 2026 and print a band for each. 496 of them link to a feeder in NERC's orders, and every one of those has the same band NERC last gave it. LASERC lists older files back to October 2025, but its storage now refuses them and no archive has copies, so March to June 2026 is a gap for Lagos.
+- **Enugu.** EERC lists 73 feeders, 70 of which link to NERC's history. Its files print no band, so the dataset carries each feeder's last NERC band, flags it in `band_source`, and leaves those rows out of band statistics. Under Order EERC/2026/001, EERC sets each cap from the feeder's average metered consumption with outliers removed, plus 15 percent. From October 2024 to May 2026 EERC had adopted NERC's caps by order.
+
+Caps follow consumption and move with the seasons, so the fair comparison is the same feeder twelve months earlier, when NERC still set its cap. From July to September 2026, the median Enugu cap was 21.5 to 32.5 percent lower than a year before, and the median Lagos cap 11.4 to 15.6 percent lower. Over the same months, caps in the states NERC still covers fell by 3.5 to 10.9 percent. Lagos's caps fell a little faster than the national trend; Enugu's new method cut them by about a quarter. The month-by-month figures are in `data/summary/state_vs_nerc_year_on_year.csv`.
 
 ## How the data was built
 

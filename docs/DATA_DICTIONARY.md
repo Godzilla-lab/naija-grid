@@ -26,6 +26,8 @@ Every column of every published CSV. `data/clean/caps_long.csv` is the main tabl
 | id_link | text | exact | How the row was linked to its feeder: exact, fuzzy_ocr (scanned name matched to a text-month feeder at similarity 0.88 or more), fuzzy_ocr_conflict (a second scanned row matched the same feeder in the same month; kept as its own id). |
 | source_file | text | AEDC-Monthly-Energy-Cap-for-April-2023.p | File name of the NERC PDF in raw/pdfs. |
 | source_page | number | 19 | Page of the PDF the row is on (1-based). |
+| regulator | text | NERC | Who set the cap: NERC, or the state regulator for states that took over (LASERC Lagos, EERC Enugu). |
+| band_source | text | printed | printed (band printed in the order); carried_from_nerc_YYYY-MM (Enugu: EERC prints no band, so the band is the one NERC last printed for the feeder, in that month); not_published (no band anywhere, band left blank). Only printed bands count in band statistics. |
 
 ## `data/clean/feeders.csv`
 
@@ -48,6 +50,8 @@ Every column of every published CSV. `data/clean/caps_long.csv` is the main tabl
 | best_band_ever | text | A | Highest band the feeder ever had (A is highest). |
 | worst_band_ever | text | A | Lowest band the feeder ever had. |
 | band_changes | number | 0 | Number of times the feeder's band changed between consecutive listings. |
+| regulator | text | NERC | Regulator of the feeder's latest row (NERC, LASERC or EERC). |
+| latest_band_source | text | printed | band_source of the latest row (see caps_long). |
 
 ## `data/parsed/nerc_caps_all.csv`
 
@@ -232,6 +236,11 @@ Every column of every published CSV. `data/clean/caps_long.csv` is the main tabl
 | parent_disco | text | EEDC | DisCo the successor was carved out of. |
 | sources | text | https://nerc.gov.ng/wp-content/uploads/2 | Source URLs, space separated. |
 | notes | text | Order commenced 2024-05-01. NERC lists t | Conflicts and caveats. |
+| publishes_caps | text | yes | Whether the state regulator publishes its own monthly energy caps: yes, no or unverified (site could not be checked). |
+| publishes_bands | text | no | Whether it publishes feeder service bands. |
+| publishes_tariffs | text | yes | Whether it publishes its own tariff orders. |
+| publishing_notes | text | Interim order follows NERC tariffs. | What was found and where. |
+| checked_on | date | 2026-10-26 | Date the regulator's website and news coverage were checked. |
 
 ## `data/summary/band_transitions.csv`
 
@@ -361,3 +370,70 @@ Every column of every published CSV. `data/clean/caps_long.csv` is the main tabl
 ## `data/parsed/nerc_caps_YYYY-MM.csv`
 
 Same columns as `data/parsed/nerc_caps_all.csv`, one file per order month.
+
+## `data/parsed/state_caps_all.csv`
+
+Raw extraction of state regulators' cap files (`scripts/state_caps.py`), before cleaning. Same columns as `data/parsed/nerc_caps_all.csv`, plus:
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| regulator | text | LASERC | LASERC (Lagos State Electricity Regulatory Commission) or EERC (Enugu Electricity Regulatory Commission). |
+| band_source | text | printed | As in `data/clean/caps_long.csv`. |
+
+## `data/parsed/state_sources.csv`
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| regulator | text | LASERC | State regulator that published the file. |
+| order_month, disco, file, sha256, rows, unparsed_lines | | | As in `data/parsed/sources.csv`; files are in raw/state/. |
+
+## `data/parsed/state_listed.csv`
+
+Every cap file a state regulator lists, and whether it could be downloaded.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| regulator | text | LASERC | State regulator. |
+| order_month | text | 2026-10 | Month of the cap order. |
+| disco | text | IKEDC | DisCo code of the feeders in the file (Lagos successors map back: IE Energy Lagos to IKEDC, Excel to EKEDC). |
+| status | text | have | have or downloaded (in raw/state), unavailable (listed but the regulator's storage refuses it). |
+| title | text | Lagos State_IE Monthly Energy Cap, October 2026 | Title as listed by the regulator. |
+| url | text | https://eerc.en.gov.ng/... | Where it is listed or stored. |
+
+## `data/qa/state_nerc_overlap.csv`
+
+Feeder-months published by both NERC and a state regulator (Ogun feeders that LASERC's Ikeja file also lists). The NERC row is kept in the clean tables.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| regulator | text | LASERC | State regulator that also listed the feeder. |
+| nerc_state | text | OGUN | State in NERC's order. |
+| nerc_band | text | C | Band in NERC's order. |
+| nerc_cap_kwh | number | 357 | Cap in NERC's order. |
+| nerc_source_file | text | IE-monthly-energy-caps-Aug-2026.pdf | NERC PDF. |
+
+## `data/summary/state_regulator_caps.csv`
+
+One row per state regulator file month: how its caps compare with the last cap NERC set for the same feeders.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| regulator | text | EERC | State regulator. |
+| linked_to_nerc | number | 70 | Feeders in the month that link to a feeder in NERC's orders. |
+| nerc_last_month | text | 2025-09 | NERC's last order month for those feeders. |
+| median_nerc_last_cap_kwh | number | 165.5 | Median of the last NERC cap for the linked feeders. |
+| median_change_vs_nerc_pct | number | -27.4 | Median percent change from the last NERC cap to the state regulator's cap, same feeder. |
+
+
+## `data/summary/state_vs_nerc_year_on_year.csv`
+
+Caps follow metered consumption and move with the seasons, so state caps are compared with NERC's cap for the same feeder twelve months earlier, next to the same comparison for the states NERC still covers.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| group | text | LASERC | LASERC, EERC, or NERC (all feeders still in NERC's orders). |
+| disco | text | IKEDC | DisCo code, or all for the NERC group. |
+| order_month | text | 2026-08 | Month compared. |
+| vs_month | text | 2025-08 | The same month a year earlier (a NERC order). |
+| feeders_compared | number | 278 | Feeders present in both months. |
+| median_change_pct | number | -11.4 | Median percent change in the feeder's cap over the year; blank when no feeder could be compared. |

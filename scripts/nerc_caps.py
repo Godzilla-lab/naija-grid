@@ -412,6 +412,18 @@ def parse_pdf(path: Path, year: int | None = None, month: int | None = None) -> 
             cells = [c for c in _split_tail(_cells(raw)) if c.upper() != "BILATERAL"]
             if not _is_row(cells):
                 indent = len(raw) - len(raw.lstrip())
+                if (prev_was_row and not carry and rows and cells and cells[0] == "BU"
+                        and not rows[-1]["business_unit"].upper().endswith("BU")):
+                    # The business unit wrapped onto the line below its row ("ABULE-EGBA" / "BU"),
+                    # sometimes with the end of the feeder name beside it ("BU   Express"): both
+                    # belong to the row above (LASERC's July and August 2026 Ikeja files).
+                    rows[-1]["business_unit"] += " BU"
+                    if len(cells) > 1:
+                        rows[-1]["feeder_raw"] += " " + " ".join(cells[1:])
+                        rows[-1]["feeder_name"] += " " + " ".join(cells[1:])
+                        wrapped_below += 1
+                    prev_was_row = False
+                    continue
                 if prev_was_row and not carry and rows and indent >= WRAP_BELOW_INDENT and len(cells) == 1:
                     # The feeder name wrapped onto the line below its row ("ISAAC" / "JOHN"):
                     # nothing in the first column, so it belongs to the row above, not the next one.

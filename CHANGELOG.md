@@ -2,6 +2,21 @@
 
 Versions follow [Semantic Versioning](https://semver.org/). A new month of data is not a version change; a change to columns, file layout or parsing that alters existing rows is.
 
+## [Unreleased]
+
+### Added
+
+- Caps set by state regulators: Lagos (LASERC, IE Energy Lagos and Excel feeders) and Enugu (EERC, MainPower), July to October 2026, from `scripts/state_caps.py`; files in `raw/state/`.
+- Columns `regulator` and `band_source` in `data/clean/caps_long.csv`; `regulator` and `latest_band_source` in `data/clean/feeders.csv`.
+- `data/reference/state_regulators.csv`: whether each state regulator publishes caps, bands and tariffs, and when it was checked.
+- `data/summary/state_regulator_caps.csv` and `state_vs_nerc_year_on_year.csv`; `data/qa/state_nerc_overlap.csv`; `data/parsed/state_caps_all.csv`, `state_sources.csv`, `state_listed.csv`.
+- The refresh fetches state regulator files each month and reports a newly listed file it could not download.
+- The lookup page says who set each cap and where an Enugu band comes from.
+
+### Changed
+
+- An Ikeja business unit that wraps onto the next line (`AKOWONJO` / `BU`) is joined back to its row; distinct NERC feeders 6,456 (was 6,458). NERC findings are otherwise unchanged and stay NERC-only.
+
 ## [0.1.0] - 2026-10-26
 
 First public release.

@@ -2,7 +2,7 @@
 
 Open data on Nigeria's electricity distribution grid: every feeder's service band and its legal monthly billing cap for unmetered customers, from every NERC Monthly Energy Cap order published online, October 2022 to October 2026, with analysis.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23675284.svg)](https://doi.org/10.5281/zenodo.23675284) ![code: MIT](https://img.shields.io/badge/code-MIT-blue) ![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-green) ![months: 45](https://img.shields.io/badge/months-45-informational) ![feeders: 6,458](https://img.shields.io/badge/feeders-6%2C458-informational) [![refresh](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml/badge.svg)](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23675284.svg)](https://doi.org/10.5281/zenodo.23675284) ![code: MIT](https://img.shields.io/badge/code-MIT-blue) ![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-green) ![months: 45](https://img.shields.io/badge/months-45-informational) ![feeders: 6,456](https://img.shields.io/badge/feeders-6%2C456-informational) [![refresh](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml/badge.svg)](https://github.com/Godzilla-lab/naija-grid/actions/workflows/refresh.yml)
 
 ## What this is
 
@@ -13,7 +13,8 @@ The Nigerian Electricity Regulatory Commission (NERC) publishes a monthly order 
 | Source orders | 520 PDFs, all 11 DisCos plus Aba Power |
 | Months | 45, October 2022 to October 2026 |
 | Feeder-month records | 147,079 |
-| Distinct feeders | 6,458 |
+| Distinct feeders | 6,456 |
+| Caps set by state regulators (Lagos, Enugu) | 2,370 records, July to October 2026 |
 | Feeders in the October 2026 orders | 2,295 |
 
 **Look up your feeder:** [godzilla-lab.github.io/naija-grid](https://godzilla-lab.github.io/naija-grid/) · **Kaggle:** [godzilla1215/naija-grid](https://www.kaggle.com/datasets/godzilla1215/naija-grid) · **Telegram:** [@naijagridbot](https://t.me/naijagridbot)
@@ -27,6 +28,7 @@ Full report with charts: **[docs/ANALYSIS.md](docs/ANALYSIS.md)**.
 3. **Bands D and E have the same median cap** (176 and 177 kWh), and 101 Band D or E feeders have a cap above their own DisCo's Band A median.
 4. **Abuja has the most Band A feeders (51.5 percent); Benin the fewest (7.0 percent).** Kaduna is the most split, with 29.1 percent of feeders in Band A and 30.2 percent in Band E.
 5. **Seventeen states have taken over electricity regulation from NERC.** Eleven have dropped out of NERC's cap orders, each months after its transfer deadline. Six are still listed after theirs, including Oyo, Edo and Ogun.
+6. **Only Lagos and Enugu publish their own caps, and they are lower.** Against the same month a year earlier, Enugu's caps fell 21.5 to 32.5 percent and Lagos's 11.4 to 15.6 percent, while caps in states NERC still covers fell 3.5 to 10.9 percent (July to September 2026). The other nine states that left NERC's orders publish no caps at all.
 
 | DisCo (October 2026 order) | Feeders | Band A | Band E | Median cap (kWh) |
 |---|---:|---:|---:|---:|
@@ -80,7 +82,8 @@ Look up one feeder over time: open `data/clean/band_history_wide.csv` in Excel o
 | `data/clean/band_history_wide.csv` | Feeders down, months across, band letters |
 | `data/summary/` | Coverage by month; band mix and caps by DisCo and by state per month; the like-for-like trend; every band change; state jurisdiction |
 | `data/rankings/` | Latest-month rankings, highest to lowest: DisCos and states by Band A share, highest and lowest caps, low-band feeders with high caps, most volatile feeders, DisCos by downgrades |
-| `data/reference/state_regulators.csv` | The 17 NERC transfer orders to state regulators: order number, dates, status, successor company, sources |
+| `data/reference/state_regulators.csv` | The 17 NERC transfer orders to state regulators: order number, dates, status, successor company, sources, and whether each state regulator publishes caps, bands and tariffs |
+| `raw/state/` | Cap files from state regulators (LASERC Lagos, EERC Enugu), read by `scripts/state_caps.py` |
 | `data/reference/bu_state_manual.csv` | Hand-made map from business unit to state for older orders without a state column |
 | `data/parsed/` | Raw extraction, one CSV per month, before cleaning; `sources.csv` lists every PDF with its hash and extraction method |
 | `data/findings.json` | Every number quoted in the analysis |
@@ -124,6 +127,7 @@ python -m pytest -q
 - A state appearing in NERC's orders is what NERC published, not a statement of who legally regulates it.
 - A cap is the legal maximum bill for an unmetered customer, not an actual bill.
 - NERC has not put January to September 2022 or September to December 2023 online. Ikeja's December 2022 order is a dead link on NERC's site.
+- Lagos has a gap from March to June 2026: NERC stopped listing it after February, and LASERC's files before July 2026 are no longer downloadable. Enugu's regulator prints no bands; its rows carry the feeder's last NERC band, flagged in `band_source`.
 
 Details in [docs/ANALYSIS.md](docs/ANALYSIS.md#limitations).
 

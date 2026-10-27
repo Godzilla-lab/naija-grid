@@ -55,6 +55,18 @@ unp = cur["unparsed_lines"].sum()
 if unp > 10:
     issues.append(f"{unp} unparsed lines in {latest}; see data/parsed/reparse_qa.log.")
 
+# State regulators: a newly listed file that could not be fetched (older ones are known to be private)
+sl = ROOT / "data" / "parsed" / "state_listed.csv"
+if sl.exists():
+    st = pd.read_csv(sl, dtype=str)
+    newest = st["order_month"].max()
+    bad = st[(st["order_month"] == newest) & (st["status"] == "unavailable")]
+    for r in bad.itertuples():
+        issues.append(f"{r.regulator} lists its {r.order_month} caps for {r.disco} but the file could not be downloaded: {r.url}")
+    sq = (ROOT / "data" / "parsed" / "state_qa.log")
+    if sq.exists() and len([l for l in sq.read_text().splitlines() if l.strip()]) > 10:
+        issues.append("More than 10 unparsed lines in state regulator files; see data/parsed/state_qa.log.")
+
 if issues:
     print(f"## naija-grid refresh needs a look ({latest})\n")
     print("\n\n".join(issues))
