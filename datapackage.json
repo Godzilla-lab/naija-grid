@@ -108,6 +108,21 @@
             "name": "band_source",
             "type": "string",
             "description": "printed, carried_from_nerc_YYYY-MM (Enugu: last NERC band) or not_published."
+          },
+          {
+            "name": "tariff_naira_per_kwh",
+            "type": "number",
+            "description": "Allowed Non-MD tariff for the band and month (naira per kWh)."
+          },
+          {
+            "name": "max_bill_naira",
+            "type": "integer",
+            "description": "cap_kwh x tariff x 1.075 (VAT), rounded: the most an unmetered non-MD customer can legally be billed."
+          },
+          {
+            "name": "tariff_source",
+            "type": "string",
+            "description": "Tariff order the rate comes from."
           }
         ],
         "primaryKey": [

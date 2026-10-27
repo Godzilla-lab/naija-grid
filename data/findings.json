@@ -2,26 +2,50 @@
  "months_covered": 45,
  "first_month": "2022-10",
  "latest_month": "2026-10",
- "rows": 147079,
- "pdf_files": 520,
- "distinct_feeders": 6456,
- "exact_duplicates_dropped": 634,
+ "rows": 147815,
+ "pdf_files": 523,
+ "distinct_feeders": 6309,
+ "exact_duplicates_dropped": 645,
  "id_link_counts": {
-  "exact": 146323,
-  "fuzzy_ocr": 741,
-  "fuzzy_ocr_conflict": 15
+  "exact": 147304,
+  "fuzzy_ocr": 500,
+  "fuzzy_ocr_conflict": 11
  },
  "state_source_rows": {
-  "learned": 100459,
-  "printed": 31430,
+  "learned": 100460,
+  "printed": 32162,
   "manual": 14254,
-  "unknown": 936
+  "unknown": 939
  },
  "duplicate_feeder_month_rows": 10,
  "state_nerc_overlap": {
-  "rows": 39,
-  "feeders": 10,
-  "same_cap_and_band": 39
+  "rows": 43,
+  "feeders": 11,
+  "same_cap_and_band": 43
+ },
+ "naira_caps": {
+  "vat_rate": 0.075,
+  "rows_priced": 141843,
+  "rows_with_printed_band": 149887,
+  "first_priced_month": "2022-12",
+  "unpriced_months_nerc": [
+   "2022-10",
+   "2022-11"
+  ],
+  "latest_median_max_bill_by_band": {
+   "A": 65086,
+   "B": 14676,
+   "C": 10763,
+   "D": 6556,
+   "E": 6281
+  },
+  "latest_median_cap_by_band": {
+   "A": 289.0,
+   "B": 204.0,
+   "C": 189.0,
+   "D": 176.0,
+   "E": 177.0
+  }
  },
  "state_regulators": {
   "EERC": {
@@ -55,9 +79,9 @@
     "2026-09",
     "2026-10"
    ],
-   "rows": 2081,
-   "feeders": 521,
-   "feeders_latest": 520,
+   "rows": 2077,
+   "feeders": 520,
+   "feeders_latest": 519,
    "linked_latest": 496,
    "nerc_last_months": [
     "2025-09",
@@ -66,10 +90,10 @@
    ],
    "median_change_first_month_pct": -5.8,
    "median_change_latest_pct": -11.7,
-   "median_cap_latest": 519.0,
-   "median_nerc_last_cap": 619.0,
+   "median_cap_latest": 520.0,
+   "median_nerc_last_cap": 624.5,
    "band_source_rows": {
-    "printed": 2081
+    "printed": 2077
    },
    "band_vs_nerc_latest": {
     "same": 496,
@@ -204,7 +228,7 @@
    "state": "BAYELSA",
    "regulator_acronym": "BYERA",
    "transfer_deadline": "2026-02-20",
-   "last_month": "2026-02"
+   "last_month": "2026-04"
   },
   {
    "state": "EKITI",
@@ -297,11 +321,6 @@
    "discos": "APLE,EEDC"
   },
   {
-   "state": "BAYELSA",
-   "last_month": "2026-02",
-   "discos": "PHED"
-  },
-  {
    "state": "LAGOS",
    "last_month": "2026-02",
    "discos": "EKEDC,IKEDC"
@@ -310,6 +329,11 @@
    "state": "ANAMBRA",
    "last_month": "2026-04",
    "discos": "EEDC"
+  },
+  {
+   "state": "BAYELSA",
+   "last_month": "2026-04",
+   "discos": "PHED"
   }
  ],
  "states_remaining": [
@@ -340,17 +364,17 @@
   "YOBE",
   "ZAMFARA"
  ],
- "transitions_total": 1977,
- "upgrades": 1252,
- "downgrades": 725,
+ "transitions_total": 1974,
+ "upgrades": 1250,
+ "downgrades": 724,
  "top_transition_months": {
   "2024-07": 755,
   "2023-02": 192,
-  "2025-02": 159,
+  "2025-02": 160,
   "2026-10": 106,
   "2024-10": 100
  },
- "into_A": 583,
+ "into_A": 584,
  "out_of_A": 495,
  "latest_feeders": 2295,
  "latest_band_counts": {
@@ -591,8 +615,8 @@
   {
    "disco_name": "Abuja",
    "downgrade": 147,
-   "upgrade": 221,
-   "net_upgrades": 74
+   "upgrade": 219,
+   "net_upgrades": 72
   },
   {
    "disco_name": "Yola",
@@ -621,13 +645,13 @@
   {
    "disco_name": "Port Harcourt",
    "downgrade": 34,
-   "upgrade": 66,
-   "net_upgrades": 32
+   "upgrade": 67,
+   "net_upgrades": 33
   },
   {
    "disco_name": "Ikeja",
-   "downgrade": 32,
-   "upgrade": 156,
+   "downgrade": 31,
+   "upgrade": 155,
    "net_upgrades": 124
   },
   {

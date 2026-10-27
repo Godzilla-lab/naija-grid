@@ -1579,7 +1579,7 @@ IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,33-0gbaTCN-ABEOKUTA EXP.,33-0gbaTCN-ABEOKUTA
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Yusuf,T2,Yusuf,11-YusufINJ-T2-Yusuf,C,390,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Yusuf,T1,Akera,11-YusufINJ-T1-Akera,C,345,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Yidi,T1,Osoba,11-YidiINJ-T1-Osoba,C,360,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,11-YidilNJ-T1-Opeilu,11-YidilNJ-T1-Opeilu,D,173,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Yidi,T1,Opeilu,11-YidiINJ-T1-Opeilu,D,173,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Yidi,T1,lioko,11-YidiINJ-T1-lioko,D,220,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Ope Ilu,T1,Adiyan,11-Ope IluINJ-T1-Adiyan,C,291,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Ope Ilu,T1,Aboro,11-Ope IluINJ-T1-Aboro,C,249,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
@@ -1589,24 +1589,24 @@ IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Lambe,T1,Olambe,11-LambeINJ-T1-Olambe,C,393,
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Lambe,T1,Matogun,11-LambeINJ-T1-Matogun,C,362,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Lambe,T1,Jolasco,11-LambeINJ-T1-Jolasco,C,338,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,11-|ju|NJ-T2-Ishaga,11-|ju|NJ-T2-Ishaga,C,495,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,lju,T2,Agbado 1,11-ljuINJ-T2-Agbado 1,C,314,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Iju,T2,Agbado 1,11-IjuINJ-T2-Agbado 1,C,314,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,liu,T1,Grailand,11-liuINJ-T1-Grailand,C,440,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,lju,T1,Galilee,11-ljuINJ-T1-Galilee,A,646,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Iju,T1,Galilee,11-IjuINJ-T1-Galilee,A,646,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,liu,T1,Asore,11-liuINJ-T1-Asore,B,426,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,lju,T1,Ajuwon,11-ljuINJ-T1-Ajuwon,A,636,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Iju,T1,Ajuwon,11-IjuINJ-T1-Ajuwon,A,636,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,|jaiye Ojokoro,T2,Agbado 2,11-|jaiye OjokoroINJ-T2-Agbado 2,C,312,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,11-ljaiye OjokorolNJ-T1-Jankara,11-ljaiye OjokorolNJ-T1-Jankara,B,404,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,11-ljaiye Express OjokorolNJ-T1-Abeokuta,11-ljaiye Express OjokorolNJ-T1-Abeokuta,C,286,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Ijaiye Ojokoro,T1,Jankara,11-Ijaiye OjokoroINJ-T1-Jankara,B,404,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Ijaiye Express Ojokoro,T1,Abeokuta,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,C,286,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Bolorunpelu,T3,Governor,11-BolorunpeluINJ-T3-Governor,B,559,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Beckley,T1,Beckley,11-BeckleyINJ-T1-Beckley,B,625,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Beckley,T1,Agbe road,11-BeckleyINJ-T1-Agbe road,B,401,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Akute,T1,Oyeyemi,11-Akute INJ-T1-Oyeyemi,C,298,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Akute,T1,Ishashi,11-Akute INJ-T1-Ishashi,C,282,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,11-Agege|NJ-T1-Oko Oba,11-Agege|NJ-T1-Oko Oba,B,523,IE-monthly-energy-caps-December-2025.pdf,1,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Agege,T1,lju Road,11-AgegeINJ-T1-lju Road,C,536,IE-monthly-energy-caps-December-2025.pdf,2,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Agege,T1,Iju Road,11-AgegeINJ-T1-Iju Road,C,536,IE-monthly-energy-caps-December-2025.pdf,2,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Books,11-Abule IrokoINJ-T1-Books,C,325,IE-monthly-energy-caps-December-2025.pdf,2,d43b4d7dd295b221,0,ocr
 IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Alakuko,11-Abule IrokoINJ-T1-Alakuko,C,320,IE-monthly-energy-caps-December-2025.pdf,2,d43b4d7dd295b221,0,ocr
-IKEDC,2025,12,OGUN,ABULE-EGBA BU,,,,11-Abule IrokolNJ-T1-Abule Iroko,11-Abule IrokolNJ-T1-Abule Iroko,C,229,IE-monthly-energy-caps-December-2025.pdf,2,d43b4d7dd295b221,0,ocr
+IKEDC,2025,12,OGUN,ABULE-EGBA BU,11,Abule Iroko,T1,Abule Iroko,11-Abule IrokoINJ-T1-Abule Iroko,C,229,IE-monthly-energy-caps-December-2025.pdf,2,d43b4d7dd295b221,0,ocr
 JEDC,2025,12,BAUCHI,AZARE,,,,AZARE,AZARE,B,145,JED-monthly-energy-caps-December-2025.pdf,1,d6ec3fa70398c914,0,ocr
 JEDC,2025,12,BAUCHI,AZARE,,,,AZARE TOWN,AZARE TOWN,B,110,JED-monthly-energy-caps-December-2025.pdf,1,d6ec3fa70398c914,0,ocr
 JEDC,2025,12,BAUCHI,AZARE,,,,COE/FIRE SERVICE,COE/FIRE SERVICE,C,139,JED-monthly-energy-caps-December-2025.pdf,1,d6ec3fa70398c914,0,ocr
@@ -2069,6 +2069,255 @@ KEDCO,2025,12,KATSINA,KATSINA SOUTH,11,,,11 KV NAKOWA,11 KV NAKOWA,C,118,KEDCO-m
 KEDCO,2025,12,KATSINA,KATSINA SOUTH,11,,,11 KV TOWN,11 KV TOWN,C,246,KEDCO-monthly-energy-caps-December-2025.pdf,4,250b2a7c10c8a229,0,ocr
 KEDCO,2025,12,KATSINA,KATSINA SOUTH,33,,,33KV DANDUME,33KV DANDUME,D,123,KEDCO-monthly-energy-caps-December-2025.pdf,4,250b2a7c10c8a229,0,ocr
 KEDCO,2025,12,KATSINA,KATSINA SOUTH,33,,,33KV MALUMFASHI,33KV MALUMFASHI,D,279,KEDCO-monthly-energy-caps-December-2025.pdf,4,250b2a7c10c8a229,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,RCC,RCC,C,410,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,QUA RIVER,QUA RIVER,A,265,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,OKON,OKON,A,265,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,MBO 11,MBO 11,E,150,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,MBO,MBO,C,150,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,MARY HARNEY,MARY HARNEY,E,150,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,MARITIME,MARITIME,E,150,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,INDUSTRIAL,INDUSTRIAL,A,379,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,IKOT IBIOK,IKOT IBIOK,B,265,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,IKOT AKAN,IKOT AKAN,E,302,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,IKOT ABASI,IKOT ABASI,C,302,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,IBENO_B,IBENO_B,D,297,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,IBENO,IBENO,A,297,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,IBEKWE,IBEKWE,E,302,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,ETINAN,ETINAN,C,177,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,ETE URBAN,ETE URBAN,E,302,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,EKPENUKPA,EKPENUKPA,A,410,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,EKIM,EKIM,C,232,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,EKET,EKET,B,265,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,EKET,,,,AFAHA UQUA,AFAHA UQUA,C,410,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,IKOT EKPENE,,,,OKU IBOKU,OKU IBOKU,B,222,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,IKOT EKPENE,,,,OBOT OKARA,OBOT OKARA,E,272,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,IKOT EKPENE,,,,ITAM JUNCTION,ITAM JUNCTION,D,371,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,IKOT EKPENE,,,,IKOT EKPENE TIKOT EKPENE,IKOT EKPENE TIKOT EKPENE,A,304,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,IKOT EKPENE,,,,ABAK,ABAK,C,261,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,WELLINGTON BASSEY,WELLINGTON BASSEY,A,314,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,UYO ROAD,UYO ROAD,E,314,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,UKANA,UKANA,D,304,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,TOWN FEEDER,TOWN FEEDER,D,304,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,SIR UDO UDOMA,SIR UDO UDOMA,B,314,PHED-monthly-energy-caps-December-2025.pdf,1,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,SHELTER AFRIQUE B,SHELTER AFRIQUE B,D,403,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,SHELTER AFRIQUE A,SHELTER AFRIQUE A,B,403,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,OSONGAMA,OSONGAMA,A,403,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,ORON ROAD B,ORON ROAD B,C,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,ORON ROAD A,ORON ROAD A,B,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,ORON ROAD,ORON ROAD,A,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,ODORO IKOT CLAN,ODORO IKOT CLAN,E,273,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,NWANIBA,NWANIBA,C,403,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,NSASAK,NSASAK,C,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,MBAK,MBAK,D,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,LE MERIDIAN,LE MERIDIAN,A,361,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,IKPA ROAD,IKPA ROAD,A,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,IDORO ROAD,IDORO ROAD,C,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,IBESIOKPO,IBESIOKPO,A,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,IBESIKPO B,IBESIKPO B,E,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,IBESIKPO A,IBESIKPO A,A,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,IBB AVENUE,IBB AVENUE,C,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,G.R.A,G.R.A,D,304,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,FOUR LANE,FOUR LANE,A,402,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,EWET,EWET,A,403,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,EDEBOM,EDEBOM,E,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,CHAMPION BREWERIES,CHAMPION BREWERIES,A,203,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,BROOKS,BROOKS,A,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,AKA ROAD,AKA ROAD,D,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,AKA ITIAM,AKA ITIAM,A,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,AKWA IBOM,UYO,,,,AFAHA UBE,AFAHA UBE,A,314,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,TUNGBO,TUNGBO,D,390,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,OPOLO,OPOLO,C,204,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,OGBEMA,OGBEMA,E,204,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,LOCAL GOVERNMENT,LOCAL GOVERNMENT,C,538,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,ISIOKPO,ISIOKPO,A,364,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,IMIRINGI_B,IMIRINGI_B,D,318,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,IMIRINGI_A,IMIRINGI_A,B,318,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,IMIRINGI,IMIRINGI,B,318,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,GOVT HOUSE,GOVT HOUSE,B,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,GBARINE,GBARINE,D,414,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,FEDERAL UNIVERSITY OTUOKE,FEDERAL UNIVERSITY OTUOKE,C,225,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,?,2,,,,BAYELSA BAYELSA EMUOHA,BAYELSA BAYELSA EMUOHA,D,341,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,BUGUMA,BUGUMA,C,476,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,AMASOMA II,AMASOMA II,E,538,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,AMASOMA,AMASOMA,C,538,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,AHOADA,AHOADA,C,575,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,AGUDAMA,AGUDAMA,D,225,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,BAYELSA,BAYELSA,,,,ABONEMA,ABONEMA,B,706,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,WATER BOARD,WATER BOARD,A,445,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,UNICAL B,UNICAL B,D,441,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,UNICAL A,UNICAL A,A,441,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,TARGET,TARGET,D,441,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,STATE HOUSING,STATE HOUSING,B,391,PHED-monthly-energy-caps-December-2025.pdf,2,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,MCC,MCC,C,391,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,LEOPARD B,LEOPARD B,D,280,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,LEOPARD A,LEOPARD A,A,280,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,GOLDIE,GOLDIE,D,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,FLOUR MILL,FLOUR MILL,B,379,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,FEDERAL HOUSING,FEDERAL HOUSING,C,384,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,ESUK UTAN,ESUK UTAN,A,384,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,ESSIEN TOWN,ESSIEN TOWN,D,379,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,EPZ2,EPZ2,A,383,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,DIAMOND HILLS,DIAMOND HILLS,A,512,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,CRUTECH,CRUTECH,E,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,CAMEROUN,CAMEROUN,D,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,ANANTIGHA,ANANTIGHA,D,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,AMIKA URBAN_A,AMIKA URBAN_A,A,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,AMIKA GAMMA,AMIKA GAMMA,B,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,AMIKA,AMIKA,A,441,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,AKAMKPA URBAN B,AKAMKPA URBAN B,C,374,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,AKAMKPA RURAL,AKAMKPA RURAL,C,374,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,AKAMKPA,AKAMKPA,A,374,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,CALABAR,,,,8 MILES,8 MILES,C,384,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,OGOJA,,,,YAHE,YAHE,D,164,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,OGOJA,,,,UGEP,UGEP,D,160,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,OGOJA,,,,KATSINA ALA,KATSINA ALA,D,139,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,OGOJA,,,,IKOM TOWN,IKOM TOWN,E,164,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,CROSS RIVER,OGOJA,,,,FOUR CORNER,FOUR CORNER,E,164,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,WATER WORKS,WATER WORKS,A,688,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,WATER LINES,WATER LINES,B,677,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,SHELL INDUSTRIAL,SHELL INDUSTRIAL,A,608,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUOROLU,RUMUOROLU,B,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUOMOI,RUMUOMOI,A,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUOLA B,RUMUOLA B,D,608,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUOLA A,RUMUOLA A,A,608,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUOKWUTA,RUMUOKWUTA,C,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUOGBA,RUMUOGBA,A,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUKALAGBO,RUMUKALAGBO,C,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RUMUIBEKWE,RUMUIBEKWE,B,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,RIVOC,RIVOC,A,688,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,OMERELU,OMERELU,B,677,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,OLD ABA ROAD,OLD ABA ROAD,A,617,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,NKPOGU,NKPOGU,C,523,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,NIGER CAT,NIGER CAT,C,523,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,NEW GRA,NEW GRA,B,608,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,NDABROS,NDABROS,A,688,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,FIMIE,FIMIE,A,688,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,ELEKAHIA VILLAGE,ELEKAHIA VILLAGE,D,523,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,ELEKAHIA ESTATE,ELEKAHIA ESTATE,B,523,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,BORI CAMP,BORI CAMP,C,608,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,BARRACKS,BARRACKS,C,608,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 1,,,,AMADI AMA,AMADI AMA,C,523,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,STATION ROAD,STATION ROAD,D,554,PHED-monthly-energy-caps-December-2025.pdf,3,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,OZUBOKO,OZUBOKO,A,371,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,OKURU,OKURU,E,371,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,OGBATAI,OGBATAI,A,723,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,ODILI ROAD,ODILI ROAD,E,371,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,NVUIGWE,NVUIGWE,A,723,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,NPA,NPA,C,554,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,NEW ROAD,NEW ROAD,D,451,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,MARINE BASE,MARINE BASE,A,451,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,JETTY,JETTY,C,371,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,HAROLD WILSON,HAROLD WILSON,D,451,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,GLASS FACTORY,GLASS FACTORY,B,371,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,EASTERN BYPASS,EASTERN BYPASS,B,451,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,CHURCHILL,CHURCHILL,D,554,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,AZUABIE,AZUABIE,D,371,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,ALPHA 2,,,,AMADI NORTH,AMADI NORTH,D,554,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,RUMUODUMAYA B,RUMUODUMAYA B,A,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,RUMUODUMAYA A,RUMUODUMAYA A,A,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,R-D ROAD,R-D ROAD,C,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,PALACE ROAD,PALACE ROAD,C,563,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,OMACHI,OMACHI,C,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,OKRIKA,OKRIKA,D,427,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,OKPORO ROAD,OKPORO ROAD,D,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,OKOH ROAD,OKOH ROAD,A,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,OBI WALI,OBI WALI,D,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,IGBO ETCHE B,IGBO ETCHE B,D,841,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,IGBO ETCHE A,IGBO ETCHE A,A,510,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,FGC,FGC,D,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,ELIOGBOLO,ELIOGBOLO,D,317,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,EBUBU,EBUBU,E,427,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,COT GAS,COT GAS,D,427,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,CIRCULAR ROAD,CIRCULAR ROAD,A,563,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,BORI B,BORI B,D,427,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,BORI A,BORI A,B,427,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 1,,,,AKPAJO,AKPAJO,C,563,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,ZENITH,ZENITH,C,559,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,TAP,TAP,C,559,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,RAILWAY,RAILWAY,D,327,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,ONNE B,ONNE B,D,621,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,ONNE A,ONNE A,A,621,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,OLU OBASANJO,OLU OBASANJO,C,559,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,MBANO JUNCTION,MBANO JUNCTION,C,284,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,KOMKOM B,KOMKOM B,D,327,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,KOMKOM A,KOMKOM A,A,327,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,FIRST BANK,FIRST BANK,C,284,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,ELELENWO,ELELENWO,C,559,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,BRISTOL,BRISTOL,A,559,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,BETA 2,,,,AFAM ROAD,AFAM ROAD,D,327,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,WOKOMA,WOKOMA,D,418,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,UST_B,UST_B,D,418,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,UST_A,UST_A,A,418,PHED-monthly-energy-caps-December-2025.pdf,4,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,UDI,UDI,D,607,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,SCHOOL OF NURSING,SCHOOL OF NURSING,D,364,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,RUMUEME,RUMUEME,C,418,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,OWERRI ROAD,OWERRI ROAD,C,526,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,OLD DIOBU,OLD DIOBU,B,526,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,OHAKWE,OHAKWE,C,467,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,NTA_A,NTA_A,A,467,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,NSUKKA,NSUKKA,D,607,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,NKPOR,NKPOR,D,247,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,NAVY,NAVY,D,579,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,MILE ONE,MILE ONE,C,526,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,MGBUOBA,MGBUOBA,B,467,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,LOCATION ROAD,LOCATION ROAD,C,467,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,KALA,KALA,C,247,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,HABOUR ROAD,HABOUR ROAD,D,579,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,11,,,ESTATE 11KV,ESTATE 11KV,D,364,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,ELIOPARANWO,ELIOPARANWO,C,247,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,EGBELU,EGBELU,C,467,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,EAGLE ISLAND,EAGLE ISLAND,A,418,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,BAKERY ROAD,BAKERY ROAD,C,467,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,AMADI SOUTH,AMADI SOUTH,A,526,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,AMADI RESIDENTIAL,AMADI RESIDENTIAL,D,526,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,AKER ROAD,AKER ROAD,C,364,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,ACB,ACB,A,579,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,ABACHA ROAD,ABACHA ROAD,B,364,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 1,,,,411,411,D,364,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,SHELL ESTATE,SHELL ESTATE,A,415,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,SARS ROAD,SARS ROAD,D,415,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,RUMUEKINI,RUMUEKINI,C,283,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,PIPE LINE,PIPE LINE,C,415,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,OPM,OPM,C,415,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,MARKET ROAD,MARKET ROAD,C,415,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,IGWURUTA ROAD,IGWURUTA ROAD,D,524,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,ELIMGBU,ELIMGBU,C,524,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,CHOBA,CHOBA,D,283,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,ALUU,ALUU,D,283,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,AIRPORT B,AIRPORT B,D,366,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,AIRPORT A,AIRPORT A,A,366,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,GAMMA 2,,,,ADP,ADP,C,415,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA1,,,,TRANS AMADI,TRANS AMADI,A,688,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA1,,,,RUMUOLA,RUMUOLA,A,609,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA1,,,,REFINERY LINE2,REFINERY LINE2,A,676,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA1,,,,RAINBOW,RAINBOW,A,523,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA1,,,,EPCL,EPCL,B,86,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA1,,,,AKANI,AKANI,A,617,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA2,,,,SECRETARIAT,SECRETARIAT,A,555,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA2,,,,RSPUB-1,RSPUB-1,A,724,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA2,,,,BOROKIRI,BOROKIRI,A,451,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-ALPHA2,,,,ABULOMA,ABULOMA,A,371,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS,PH-BETA1,,,,TIMBER,TIMBER,A,284,PHED-monthly-energy-caps-December-2025.pdf,5,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA1,PH-BETA1,,,,OYIGBO,OYIGBO,A,559,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA1,PH-BETA1,,,,ONNE,ONNE,D,621,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA1,PH-BETA1,,,,NDOKI,NDOKI,A,655,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA1,PH-BETA1,,,,KOM KOM,KOM KOM,D,327,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA2,PH-BETA1,,,,RUMUODUMAYA,RUMUODUMAYA,A,317,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA2,PH-BETA1,,,,RSTV,RSTV,A,564,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA2,PH-BETA1,,,,IGBO ETCHE,IGBO ETCHE,B,841,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-BETA2,PH-BETA1,,,,BORI,BORI,B,427,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,UTC,UTC,A,579,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,UST,UST,C,417,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,T1B,T1B,B,527,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,SILVERBIRD,SILVERBIRD,B,607,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,RUMUEPIRIKON,RUMUEPIRIKON,C,247,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,RUMOLUMINI,RUMOLUMINI,B,364,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA1,PH-BETA1,,,,NTA,NTA,B,467,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA2,PH-BETA1,,,,UPTH,UPTH,C,283,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA2,PH-BETA1,,,,RUKPOKWU,RUKPOKWU,B,416,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA2,PH-BETA1,,,,REFINERY LINE 1,REFINERY LINE 1,A,524,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA2,PH-BETA1,,,,GREATER PH,GREATER PH,A,289,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
+PHED,2025,12,RIVERS PH-GAMMA2,PH-BETA1,,,,AIRPORT,AIRPORT,B,366,PHED-monthly-energy-caps-December-2025.pdf,6,9964fdbf985a3b9e,0,ocr
 YEDC,2025,12,ADAMAWA,GOMBI,11,,,11KV HONG TOWN,11KV HONG TOWN,D,153,YEDC-monthly-energy-caps-December-2025.pdf,1,3d515a076821a731,0,ocr
 YEDC,2025,12,ADAMAWA,GOMBI,33,,,GOMBI 33KV GARKIDA,GOMBI 33KV GARKIDA,C,96,YEDC-monthly-energy-caps-December-2025.pdf,1,3d515a076821a731,0,ocr
 YEDC,2025,12,ADAMAWA,GOMBI,11,,,11KV GOMBI TOWN,11KV GOMBI TOWN,D,96,YEDC-monthly-energy-caps-December-2025.pdf,1,3d515a076821a731,0,ocr

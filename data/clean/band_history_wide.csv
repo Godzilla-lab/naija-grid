@@ -385,7 +385,7 @@ f167fafea60b,AEDC,FCT,AT3_H5_R7_2A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 5538e397103d,AEDC,FCT,AT3_H5_R7_4A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 75107852c7d4,AEDC,FCT,AT3_H5_R7_5B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 a59add76a3d5,AEDC,FCT,AT3_H5_R7_6A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-bc3d80d57d5d,AEDC,FCT,AT3_HЗ1_PL_PL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
+3cee34419228,AEDC,FCT,AT3_HЗ1_PL_PL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
 bacf03905695,AEDC,FCT,AT4 CUSTOMERS DAWAKI NOW FDR M44 BEING FD1 FED FROM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,A,,,,
 206cf6e6a2dd,AEDC,FCT,AT4_BWARI FDR_K3_FD1,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 a5630066cc4e,AEDC,FCT,AT4_BWARI FDR_K3_FD1,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
@@ -1149,25 +1149,18 @@ b8dffe2a491b,AEDC,NIGER,AT4_BWARI FDR_K3_FD2,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 d455631cda3d,AEDC,NIGER,BIDA_AGAIE_PL_PL,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,B,B,B,B,B,B,B,E,E,E,E,E,E,E,E,,,,,,,,,,,,,
 bcf16d48a11d,AEDC,NIGER,BIDA_DOKO_PL_PL,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,D,D,D,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,
 17fa4aa1a592,AEDC,NIGER,BIDA_KUTIGI_PL_PL,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,,,,,,,,,,,,,
-8a9dc2f9f7a3,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUS HISHI_WUSHISHI FD,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-6b7761ed282c,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUS HISHI_ZUNGERU FDR,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a235af39ca28,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUS HISHI_WUSHISHI FD,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ac9318a3442d,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI _WUSHISHI FD,E,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0993587f1893,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_W USHISHI FD,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-422d1e65d4f2,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUS HISHI FD,,,,,,,,,,,E,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,
-4940e02b7bf9,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSH ISHI FD,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,
+b0460ea4ac71,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_W USHISHI FD,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+629ed842f656,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUS HISHI FD,,,,,,,,,,,E,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,
+daab26abaa2e,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSH ISHI FD,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,
 02f06d456d9f,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHI SHI FD,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 e6dcf1f1a3e5,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHI SHI FD,,E,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,
 40a39371a0de,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHIS HI FD,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 4d2e5a5cbf90,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHIS HI FD,,,E,,,,,,,,,,,,,,,D,,,,,,,,,,,,,D,,,,,,,,,,,,,,
-e0d6303900ae,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISH I FD,,,,,,,,E,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,
+7492ef771b1d,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISH I FD,,,,,,,,E,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,
 0f979aaeb702,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_WUSHISHI FD,E,,,E,E,E,,,E,,,E,E,E,E,E,E,,,,,D,D,D,,D,D,D,D,D,,D,,,,,,,,,,,,,
-b51d75f6d550,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_Z UNGERU FDR,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-a3ba22d146b3,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZU NGERU FDR,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-a4796bf64da3,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUN GERU FDR,,,,,,,,,,,E,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,
-afef418d8699,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNG ERU FDR,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,
-f0bd01daeafb,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGE RU FDR,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,
-9a2611d955fc,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGER U FDR,,,,,,,,E,,,,,,,,,,D,,,,,,,D,,,,,,D,,,,,,,,,,,,,,
-3be4bb47f6e1,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGERU FDR,,,,,E,E,,,E,,,E,,E,E,E,E,,,,,D,D,D,,D,D,D,D,D,,D,,,,,,,,,,,,,
+3be4bb47f6e1,AEDC,NIGER,BIDA_LEMU/WUSHISHI_WUSHISHI_ZUNGERU FDR,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,
 8785c118bafc,AEDC,NIGER,BIDA_T3_BIDA_ARMY BARRACK,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,
 95f846f2910a,AEDC,NIGER,BIDA_T3_BIDA_TOWN FDR,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,,,,
 ead0c23b804c,AEDC,NIGER,BIDA_T3_BIDA_TOWN FDR,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,,,,
@@ -1183,14 +1176,7 @@ f1ce86038e81,AEDC,NIGER,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_A,,,,,,,D,,,,,,,,
 ffd12a244499,AEDC,NIGER,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_TOWNS,,,,,,,,,D,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 a34908ebfaea,AEDC,NIGER,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_TOWNSH,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 f1c1a2b7fbd2,AEDC,NIGER,KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_TOWNSHIP,,D,D,,,D,,D,,D,D,D,,,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,
-7002ed2af236,AEDC,NIGER,KONTAGORA_KONTAGORA_KON TAGORA_GOJE,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-b47a3ff7b2cf,AEDC,NIGER,KONTAGORA_KONTAGORA_KONT AGORA_GOJE,,,,,,,,,C,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-34c490d878e7,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTA GORA_GOJE,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-24ba850732a4,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTAG ORA_GOJE,,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-f83ba5e712b7,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTAGO RA_GOJE,,,,,,,,,,C,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,
-507839b7a285,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTAGOR A_GOJE,,C,,,,,,,,,,,,,,,,,C,,C,,,,,,,,,,,,,,,,,,,,,,,,
-daf45e67b2c5,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTAGORA_G OJE,,,,,,,,,,,,C,,,,C,C,,,,,,,C,,,,,,,,,,,,,,,,,,,,,
-b3e09c55e8a5,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTAGORA_GOJE,,,C,,,C,C,C,,,,,,,C,,,C,,,,C,C,,C,C,C,C,C,C,C,C,,,,,,,,,,,,,
+b3e09c55e8a5,AEDC,NIGER,KONTAGORA_KONTAGORA_KONTAGORA_GOJE,,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,
 3e430eb76cf6,AEDC,NIGER,KONTAGORA_TOWN_PL_PL,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,
 623c15ec9264,AEDC,NIGER,KONTAGORA_TOWN_PL_PL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 a1f990904431,AEDC,NIGER,KONTAGORA_TOWN_PL_PL,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1223,10 +1209,7 @@ e1e695777ab1,AEDC,NIGER,MINNA_T4_INJ_CHANCHAGA,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,
 679b16d9ab94,AEDC,NIGER,MINNA_ZARUMAI_PL_PL,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,
 bd18c15cf1e3,AEDC,NIGER,MINNA_ZARUMAI_PL_PL,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,,,,
 dd9577a33a56,AEDC,NIGER,MINNA_ZARUMAI_PL_PL,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-92a32bd51274,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_DUT SEN KURA,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-15145d75ae3a,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_DUTS EN KURA,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7ce22c1898c9,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_DUTSE N KURA,,,,,,,,,D,,,,D,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-81e571bc343a,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_DUTSEN KURA,D,D,D,,,D,D,D,,D,D,D,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,
+81e571bc343a,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_DUTSEN KURA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,
 d3f4939cfd68,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_GRA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,
 ee9c88392804,AEDC,NIGER,MINNA_ZARUMAI_ZARUMAI_HAJJ CAMP,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,
 ea9a4a7badf7,AEDC,NIGER,TEGINA_KAGARA_PL_PL,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,,,,,,,,,,,,,
@@ -1348,9 +1331,7 @@ cabcfcf0d750,AEDC,UNKNOWN,Gwagwalada AT3_H2_G4_7B,,A,A,A,A,,,,,,A,A,,,,A,A,,,,,,
 78f230a55440,AEDC,UNKNOWN,KATAMPE CUSTOMERS NOW BEING FED FROM AT2_LIFECAMP,,,,,,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2f88f5feb878,AEDC,UNKNOWN,KATAMPE GW_L36_L2_FD3,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 6b7c27cdf733,AEDC,UNKNOWN,KONTAGORA KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_G,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-3260380b6255,AEDC,UNKNOWN,KONTAGORA KONTAGORA_KONTAGORA _KONTAGORA_GOJE,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-87e86bde4be3,AEDC,UNKNOWN,KONTAGORA KONTAGORA_KONTAGORA_KON TAGORA_GOJE,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-f927d334a430,AEDC,UNKNOWN,KONTAGORA KONTAGORA_KONTAGORA_KONT AGORA_GOJE,,,,,,,,,C,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+f927d334a430,AEDC,UNKNOWN,KONTAGORA KONTAGORA_KONTAGORA_KONT AGORA_GOJE,,,,C,C,,C,,C,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 50d594c0b3b0,AEDC,UNKNOWN,KUKWABA_L31_PL_PL,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b8f06d5b642c,AEDC,UNKNOWN,KUKWABA_L31_PL_PL,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 1a449600c2f7,AEDC,UNKNOWN,KUKWABA_L32_PL_PL,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1364,7 +1345,6 @@ c1141a606255,AEDC,UNKNOWN,Kabusa Area AT3_H31_PL_PL,,,,,A,A,,,,,A,A,,,,A,A,,,,,,
 f65b11277bc9,AEDC,UNKNOWN,Kabusa Area KUKWABA_L31_PL_PL,,,,,A,A,,,,,A,A,,,,A,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 78d0d8c0fa4f,AEDC,UNKNOWN,Karu AT3_H21_PL_PL,,,,,C,C,,,,,C,C,,,,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 c94ecd357f96,AEDC,UNKNOWN,Kontagora KONTAGORA_KONTAGORA TOWNSHIP_KONTAGORA_GRA,,,,,D,,,,D,D,D,,D,D,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,
-58168ba61257,AEDC,UNKNOWN,Kontagora KONTAGORA_KONTAGORA_KO NTAGORA_GOJE,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 6d907e925aca,AEDC,UNKNOWN,LIFE CAMP KUKWABA_L36_PL_PL,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 112763c00c0c,AEDC,UNKNOWN,LOKOJA LOKOJA_FDR 2 LOKOJA_LOKOGOMA_OTOK,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 133c8c50a48d,AEDC,UNKNOWN,LOKOJA LOKOJA_FDR 2 LOKOJA_LOKOJA MAIN_FD1,,,,,,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1403,7 +1383,7 @@ a2ffda9350ad,APLE,ABIA,ABA INDUSTRIAL 11KV,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 7a843a6fcae7,APLE,ABIA,ABA WATER SIDE 11KV,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,,,,,,,,,,,,
 3d8b3fafef36,APLE,ABIA,ABA-EAST 11 KV,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,,,,,,,,,,,,,
 2efee469b0ef,APLE,ABIA,ABA-OWERRI 33KV,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,A,A,A,A,,,,,,,,,
-dd8252b144f8,APLE,ABIA,ABA-UMUAHIA 33KV,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,B,,,,,,,,,,,,
+dd8252b144f8,APLE,ABIA,ABA-UMUAHIA 33KV,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,B,,,,,,,,,,,,
 2ec5b70160ee,APLE,ABIA,ABAYI 11KV,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,,C,C,C,B,B,B,B,,,,,,,,,
 4d0f5aa6fade,APLE,ABIA,ARIARIA 11KV,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,,,,,,,,,
 fde923948c11,APLE,ABIA,ARIARIA DISTRICT UKWUAKPU 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,
@@ -1433,12 +1413,12 @@ bf1d3768c36f,APLE,ABIA,DI STRI CT UMUAF OR 33KV T- OFF FEEDER( ABA),,,,,,,,,,,,,
 c7f2fbbb2455,APLE,ABIA,DISTRICT 7-UP 1 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,B,B,B,,,,,,,,,
 c7f2fbbb2455_ocr,APLE,ABIA,DISTRICT 7-UP 2 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,,,,,,,,
 15e4e08c0664,APLE,ABIA,DISTRICT ABA BARRACKS 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,B,B,B,,,,,,,,,
-2611d4fff02c,APLE,ABIA,DISTRICT ABA TOWNSHIP 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,A,A,A,,,,,,,,,
-3a5fa8235fe7,APLE,ABIA,DISTRICT ABA WATER SIDE 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,C,C,C,,,,,,,,,
+726c593eb671,APLE,ABIA,DISTRICT ABA TOWNSHIP 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,A,A,A,,,,,,,,,
+ba75af05cb5e,APLE,ABIA,DISTRICT ABA WATER SIDE 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,C,C,C,,,,,,,,,
 b0c858201ab4,APLE,ABIA,DISTRICT ABA-UMUAHIA 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,,,,,,,,
 4c430278dee2,APLE,ABIA,DISTRICT EHI ROAD 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,,,,,,,,
-66db836ce762,APLE,ABIA,DISTRICT IGI 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,A,A,A,,,,,,,,,
-afcb37e7b139,APLE,ABIA,DISTRICT NGWA ROAD 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,C,C,C,,,,,,,,,
+1d1216423e88,APLE,ABIA,DISTRICT IGI 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,A,A,A,,,,,,,,,
+742ea8f51afa,APLE,ABIA,DISTRICT NGWA ROAD 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,C,C,C,,,,,,,,,
 6295f9aec981,APLE,ABIA,DISTRICT OBOHIA 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,,,,,,,,
 4e7a0bd31502,APLE,ABIA,DISTRICT OHANKU 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,,,,,,,,
 d7f1af314ab4,APLE,ABIA,DISTRICT OMOBA 11KV Ш ABIA ABA DISTRICT OPOBO ROAD 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,,,,,,,,,
@@ -1465,8 +1445,8 @@ c2699fe9eef9,APLE,ABIA,OPOBO ROAD 11KV PORT HARCOURT ROAD 11KV,,,,,,,,,,,C,,,,,,
 39f21751c9da,APLE,ABIA,OWERRINTA 1 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,,,,,,,,,
 bfb690b6a0f9,APLE,ABIA,OWERRINTA 33KV,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,,,,,,,,,,,,,
 1709d4fa54c8,APLE,ABIA,OWERRINTA2 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,,,,,,,,,
-b4c7d4049d6d,APLE,ABIA,POLEMA 1 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,,,,,
-300305a50080,APLE,ABIA,POLEMA 2 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,,,,,
+cf3c38fc9920,APLE,ABIA,POLEMA 1 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,,,,,
+3619ad2c01b6,APLE,ABIA,POLEMA 2 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,,,,,
 87f8ed297949,APLE,ABIA,POLEMA 3 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,,,,,,,,
 d3d3aa10b9e0,APLE,ABIA,PORT HARCOURT ROAD 11KV,,,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,
 be0d0a303c6e,APLE,ABIA,PORT HARCOURT ROAD 11KV (ABA),,,,,C,C,C,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,,C,C,C,,,,,,,,,,,,,
@@ -1481,7 +1461,6 @@ f918dcba1752,APLE,ABIA,UMUMBA 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,
 e9197404f27b,APLE,ABIA,WORLD BANK 11KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,,,,,
 6fe7d8fb9c74,APLE,ABIA,WORLD BANK 11KV ARIARIA,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,,A,A,A,,,,,,,,,,,,,
 3e9eda3169b2,APLE,ABIA,ZONE 6- 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,
-e638842f5ced,APLE,UNKNOWN,ABA UMUAHI A 33KV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
 5502fe360fe6,APLE,UNKNOWN,E ABA DISTRICT FEEDER(ABA) 102 ARIARIA DISTRICT ABA BARRACKS 11KV(ARIARIA),,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 e56906fe1d0a,BEDC,DELTA,ABAVO,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
 fe521db9c849,BEDC,DELTA,ABAVO,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
@@ -2979,7 +2958,7 @@ ece95455aa6f,IBEDC,KWARA,OKE-ADO 11KV FEEDER_OKE ADO,E,E,E,E,E,E,E,E,E,E,E,E,E,E
 d6d92264a41e,IBEDC,KWARA,OKE-OYI 11KV FEEDER,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
 902ae01433a5,IBEDC,KWARA,OKUKU TOWNSHIP 11KV FEEDER,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 ebc99e29d321,IBEDC,KWARA,OLOJE 11KV FEEDER,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,E,E,E,E,E,E,E,E,E,E,E
-e5e42e9a5eaa,IBEDC,KWARA,OMU ARAN 33KV FEEDER,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B
+1b8ac83165ea,IBEDC,KWARA,OMU ARAN 33KV FEEDER,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B
 0d22f250099a,IBEDC,KWARA,OMU ARAN 33KV FEEDER_ARAN-ORIN 33kV SUB-FEEDER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,C,,,,,,,,C,C
 d2ceaf0fd505,IBEDC,KWARA,OMU ARAN 33KV FEEDER_OKE AGBEDE 33kV SUB-FEEDER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,C,,,,,,,,C,C
 b06597d7ef01,IBEDC,KWARA,OMU ARAN 33KV FEEDER_ORA 33kV SUB-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,C,C,,,,,C,,C,C
@@ -3922,8 +3901,7 @@ a62866ff4a9d,IBEDC,OSUN,OPA 11KV FEEDER,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,
 b7edcf215f70,IBEDC,OSUN,OPA 11KV FEEDER_SEMINARY OPA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,
 a1f909a98bfd,IBEDC,OSUN,OPA 11KV_OPA,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,
 07727fed9fbd,IBEDC,OSUN,OPA 11KV_OPA 8 |,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-5d8b4bf26e4d,IBEDC,OSUN,ORILE OWU 33KV FEEDER,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,
-37209a8dd794,IBEDC,OSUN,ORILEOWU 33KV FEEDER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A
+5d8b4bf26e4d,IBEDC,OSUN,ORILEOWU 33KV FEEDER,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 5dad219c6deb,IBEDC,OSUN,ORILEOWU 33KV FEEDER_GARAGE OLODE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,,,,,,,,,,,
 9c0f5af675eb,IBEDC,OSUN,ORILEOWU 33KV FEEDER_GBONGAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,,,,
 1a0f52931a63,IBEDC,OSUN,ORILEOWU 33KV FEEDER_ORILE-OWU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D
@@ -4130,8 +4108,8 @@ be9fd4533f5f,IBEDC,OYO,IYAGANKU 11KV FEEDER,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,
 95350a774c7f,IBEDC,OYO,IYAGANKU 33KV FEEDER,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 91211f1bc081,IBEDC,OYO,JERICHO T2A 33KV FEEDER,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,
 8717bf2495ce,IBEDC,OYO,JERICHO T2B 33KV FEEDER,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,
-f87b05ed19d2,IBEDC,OYO,JOYCE B/RATCON 11KV FEEDER,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,
-c340789de2fd,IBEDC,OYO,JOYCEB/RATCON 11KV FEEDER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A
+6a8e5545161d,IBEDC,OYO,JOYCE B/RATCON 11KV FEEDER,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,
+b3cb4f85e24d,IBEDC,OYO,JOYCEB/RATCON 11KV FEEDER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A
 a06e6f8178fc,IBEDC,OYO,KOSO 11KV FEEDER,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
 702bc4ccc237,IBEDC,OYO,LABO 33KV FEEDER,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B
 fc28751879bb,IBEDC,OYO,LANLATE 11KV FEEDER,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
@@ -4262,7 +4240,6 @@ ffadcca4355d,IBEDC,UNKNOWN,SAGAMU IGBOBI 11KV FEEDER_LAGOS IBADAN EXPRESS,,,D,,,
 b2255dabf806,IBEDC,UNKNOWN,SAGAMU NNPC/OGIJO 33KV FEEDER_ESKOBA,,,E,,,E,,,,,,,,,,,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,
 9e3033a2822c,IBEDC,UNKNOWN,SAGAMU SAGAMU 33KV FEEDER_IWELEPE,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 56006907c4dd,IBEDC,UNKNOWN,SAGAMU SAGAMU 33KV FEEDER_TOLL GATE,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-8ed6ee28a27b,IKEDC,LAGOS,11-0gbalNJ-T1-ljaye,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,,,,,,,,
 2674bc5f882a,IKEDC,LAGOS,11-AbesanINJ-T1-Aboru,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 46db38649fad,IKEDC,LAGOS,11-AbesanINJ-T1-Aboru,,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 c89d3ed5586c,IKEDC,LAGOS,11-AbesanINJ-T1-Baruwa,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,,,,B,B,,,,,B,B,B,B
@@ -4273,9 +4250,6 @@ c2fa4a520bb0,IKEDC,LAGOS,11-AbesanINJ-T1-|paja,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 140a4d024b42,IKEDC,LAGOS,11-Abule IrokoINJ-T1-Abule Iroko,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
 641fbace39e8,IKEDC,LAGOS,11-Abule IrokoINJ-T1-Alakuko,,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 6c1eafd68373,IKEDC,LAGOS,11-Abule IrokoINJ-T1-Books,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
-41b28aa2dbfa,IKEDC,LAGOS,11-Abule IrokolNJ-T1-Abule Iroko,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
-641fbace39e8_ocr,IKEDC,LAGOS,11-Abule IrokolNJ-T1-Alakuko,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-a97f273ec0a4,IKEDC,LAGOS,11-Abule IrokolNJ-T1-Books,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
 4512d4ffd166,IKEDC,LAGOS,11-Abule TaylorINJ-T1-Bode Williams,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 abdadac8e6a5,IKEDC,LAGOS,11-Abule TaylorINJ-T1-Walter Anderm,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 beea1faae26e,IKEDC,LAGOS,11-AdaranijoINJ-T1-Arigbanla,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
@@ -4287,15 +4261,13 @@ ef94b0ba494d,IKEDC,LAGOS,11-AdaranijoINJ-T1-NYSC,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,
 b1eadae41432,IKEDC,LAGOS,11-Adeniyi JonesINJ-T1-Ajao,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 d1e38ad70493,IKEDC,LAGOS,11-Adeniyi JonesINJ-T1-Anifowoshe,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 99ae79bf4ce5,IKEDC,LAGOS,11-AgegeINJ-T1-Iju Road,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
-0e4a39f2dd78,IKEDC,LAGOS,11-AgegeINJ-T1-Oko Oba,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,B,C,,,,,C,C,C,C
+0e4a39f2dd78,IKEDC,LAGOS,11-AgegeINJ-T1-Oko Oba,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 bf31c0cb9dab,IKEDC,LAGOS,11-AgegeINJ-T2-Abule Egba,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 b25cd9e2d64d,IKEDC,LAGOS,11-AgegeINJ-T2-Orile Agege,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 8e363dec01ef,IKEDC,LAGOS,11-AgegeINJ-T2-Power Line,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 d20c013fcc87,IKEDC,LAGOS,11-AgegeINJ-T3-Oyemekun,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
 e36c19b43624,IKEDC,LAGOS,11-AgegeINJ-T3-Pen Cinema,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 3a712149160b,IKEDC,LAGOS,11-AgegeINJ-T3-Tabon Tabon,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
-0e4a39f2dd78_ocr,IKEDC,LAGOS,11-AgegelNJ-T1-Oko Oba,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-99ae79bf4ce5_ocr,IKEDC,LAGOS,11-AgegelNJ-T1-lju Road,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
 6e078166546e,IKEDC,LAGOS,11-Ago OkotaINJ-T1-Amuwo Ind.,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
 0ac0a0c636fe,IKEDC,LAGOS,11-Ago OkotaINJ-T1-Fasheun,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
 ea822a4a5059,IKEDC,LAGOS,11-Ago OkotaINJ-T2-Lake View,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
@@ -4359,7 +4331,6 @@ b25ab37bcd3c,IKEDC,LAGOS,11-EpeINJ-T1-LASU,E,E,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,
 d917ccfafe9e,IKEDC,LAGOS,11-EpeINJ-T1-Water Works,E,E,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,,,E,E,,,,,E,E,E,E
 af8156bc05ee,IKEDC,LAGOS,11-HilltopINJ-T1-Hilltop,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 184f4428e5a1,IKEDC,LAGOS,11-HilltopINJ-T1-Hilltop 11-Ijaiye OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-12d07f0c48fd,IKEDC,LAGOS,11-IJAIYE OJOKOROINJ-T1-ABEOKUTA,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,
 81784bffcc6a,IKEDC,LAGOS,11-ILUPEJULOCAL-T1-INDUSTRIAL,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,
 3bd450624f86,IKEDC,LAGOS,11-ILUPEJULOCAL-T1-OBANIKORO,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,,,
 9e312aa038e6,IKEDC,LAGOS,11-ISOLOLOCALINJ-ABIMBOLA,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,
@@ -4382,6 +4353,8 @@ bbf21af41a79,IKEDC,LAGOS,11-IgbogboINJ-T1-Bayeku,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,
 5c156d791b77,IKEDC,LAGOS,11-IgbogboINJ-T1-Ofin,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 6744cce06ad3,IKEDC,LAGOS,11-IgbogboINJ-T2-Agbele,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 bba5ad7e0c67,IKEDC,LAGOS,11-IgbogboINJ-T2-Odofin,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
+12d07f0c48fd,IKEDC,LAGOS,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,C,,,,,,,,
+12d07f0c48fd_ocr,IKEDC,LAGOS,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
 d3dfefb57c6e,IKEDC,LAGOS,11-Ijaiye OjokoroINJ-T1-Abeokuta Express,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,,,,C,,,,,,C,C,C,C
 dba738235142,IKEDC,LAGOS,11-Ijaiye OjokoroINJ-T1-Jankara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B
 8a90c555b86f,IKEDC,LAGOS,11-Ijaiye OjokoroINJ-T2-Agbado 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
@@ -4420,11 +4393,9 @@ aa9346f5dd9e,IKEDC,LAGOS,11-ItireINJ-T2-Canal,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 a4e678aceff5,IKEDC,LAGOS,11-ItireINJ-T2-Ibalex,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 dfcc4cbb69a2,IKEDC,LAGOS,11-ItireINJ-T3-Ago,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 033a5003a254,IKEDC,LAGOS,11-ItireINJ-T3-Apena,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
-685d23f1c5bd,IKEDC,LAGOS,11-LambeINJ-T1-Jolasco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
 b27e6855204e,IKEDC,LAGOS,11-LambeINJ-T1-Matogun,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
 95345c616aa6,IKEDC,LAGOS,11-LambeINJ-T1-Olambe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
-fcb377cd6405,IKEDC,LAGOS,11-LambelNJ-T1-Olambe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
-5e14e23f2735,IKEDC,LAGOS,11-LambelNJT1-Jolasco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
+fc641c82dc1d,IKEDC,LAGOS,11-LambeINJT1-Jolasco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
 4976609d939f,IKEDC,LAGOS,11-MafolukuINJ-T1-Makinde,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 bb1f0a77ff75,IKEDC,LAGOS,11-MafolukuINJ-T1-Saubana,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 a48ccae4a92c,IKEDC,LAGOS,11-MagodoINJ-T1-Emmanuel Keshi,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
@@ -4474,7 +4445,7 @@ cb487453cee2,IKEDC,LAGOS,11-OdogunyanINJ-T1-Agodo,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B
 f68b05d6654d,IKEDC,LAGOS,11-OdogunyanINJ-T2-Cantoment,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 fbde6d86c929,IKEDC,LAGOS,11-OdogunyanINJ-T2-Centex,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 48301f703315,IKEDC,LAGOS,11-OdogunyanINJ-T2-Ita Oluwo,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
-abe6c56c516a,IKEDC,LAGOS,11-OgbaINJ-T1-Ijaye,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,B,B,B,B
+abe6c56c516a,IKEDC,LAGOS,11-OgbaINJ-T1-Ijaye,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
 e25da2857995,IKEDC,LAGOS,11-OgbaINJ-T1-Isokoko,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 534ae4ef418c,IKEDC,LAGOS,11-OgbaINJ-T2-Agege,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 48d5082e1577,IKEDC,LAGOS,11-OgbaINJ-T2-Ifako,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
@@ -4511,7 +4482,6 @@ f9c1bb3241f3,IKEDC,LAGOS,11-OloworaINJ-T1-Orisha,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,
 d581a9f275b3,IKEDC,LAGOS,11-OloworaINJ-T1-UNILAG,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 e6b1d2e4e9c8,IKEDC,LAGOS,11-Ope IluINJ-T1-Aboro,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 9045726dce30,IKEDC,LAGOS,11-Ope IluINJ-T1-Adiyan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
-e6b1d2e4e9c8_ocr,IKEDC,LAGOS,11-Ope IlulNJ-T1-Aboro,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
 d1424c855c4b,IKEDC,LAGOS,11-Ope lluINJ-T1-Adiyan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
 9f8f740569bc,IKEDC,LAGOS,11-OpebiINJ-T1-Agbaoku,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 166fe6d48837,IKEDC,LAGOS,11-OpebiINJ-T1-Olusosun,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
@@ -4541,16 +4511,14 @@ b7cfa5cf95f6,IKEDC,LAGOS,11-SABOINJ-T1-LAGOS ROAD,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C
 776090beb097,IKEDC,LAGOS,11-SABOINJ-T2-LASUNWON,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,
 8638d8ff596d,IKEDC,LAGOS,11-SaboINJ-T1-Ayangburen,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 5c9d046123e9,IKEDC,LAGOS,11-SaboINJ-T1-Ijebu Ode,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
-236a8aff7645,IKEDC,LAGOS,11-SaboINJ-T1-Lasunwon,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,C,C,C,C
-74907e4c2217,IKEDC,LAGOS,11-SaboINJ-T1-Lasunwon,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,C,C,C,C
+236a8aff7645,IKEDC,LAGOS,11-SaboINJ-T1-Lasunwon,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
+74907e4c2217,IKEDC,LAGOS,11-SaboINJ-T1-Lasunwon,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 9db08ef57da0,IKEDC,LAGOS,11-SaboINJ-T1-Mary Hill,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 c1642be02117,IKEDC,LAGOS,11-SaboINJ-T2-Erunwen,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 c2fcebe162bd,IKEDC,LAGOS,11-SaboINJ-T2-Eyita,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
 b33e4d563038,IKEDC,LAGOS,11-SaboINJ-T2-Igbogbo,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 d5a608fde6f1,IKEDC,LAGOS,11-SaboINJ-T2-Ladega,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 3500bb40baf9,IKEDC,LAGOS,11-SaboINJ-T2-Lagos Road,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
-8708bcac8168,IKEDC,LAGOS,11-SabolNJ-T1-Lasunwon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
-b525014a330d,IKEDC,LAGOS,11-SabolNJ-T1-Lasunwon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
 8de7100048d2,IKEDC,LAGOS,11-SecretariatINJ-T1-Estate,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 442ff1684503,IKEDC,LAGOS,11-SecretariatINJ-T1-Lateef Jakande,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 05316507a2de,IKEDC,LAGOS,11-SecretariatINJ-T1-Omole,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
@@ -4559,10 +4527,8 @@ bad59a074eb0,IKEDC,LAGOS,11-SecretariatINJ-T2-Agidingbi,A,A,,A,A,A,A,A,A,A,A,A,A
 99d47d055acd,IKEDC,LAGOS,11-SecretariatINJ-T2-UAC,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
 d525899a0120,IKEDC,LAGOS,11-ShashaINJ-T1-Foursquare,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 6c3356856f84,IKEDC,LAGOS,11-ShashaINJ-T1-Oguntade,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
-20abf1068d77,IKEDC,LAGOS,11-ShashaINJ-T1-Orisunbare,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,C,C,C,C
-f3c8e1929eef,IKEDC,LAGOS,11-ShashaINJ-T1-Orisunbare,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,C,C,C,C
-5ef3437353ea,IKEDC,LAGOS,11-ShashalNJ-T1-Orisunbare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
-969c025c16f5,IKEDC,LAGOS,11-ShashalNJ-T1-Orisunbare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
+20abf1068d77,IKEDC,LAGOS,11-ShashaINJ-T1-Orisunbare,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
+f3c8e1929eef,IKEDC,LAGOS,11-ShashaINJ-T1-Orisunbare,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 43845a46255e,IKEDC,LAGOS,11-WasimiINJ-T1-Agiliti,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 68fa032f79ca,IKEDC,LAGOS,11-WasimiINJ-T1-Akanimodo,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,B,B,,,,,B,B,B,B
 8acffa1771d8,IKEDC,LAGOS,11-WasimiINJ-T1-Araromi,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
@@ -4572,24 +4538,10 @@ c0607bbfebcb,IKEDC,LAGOS,11-WasimiINJ-T2-Agidi,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,
 748ee41bc9fe,IKEDC,LAGOS,11-YidiINJ-T1-Opeilu,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,D,D,,,,,D,D,D,D
 7e9ebe5040e9,IKEDC,LAGOS,11-YidiINJ-T1-Osoba,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
 86194f6f0a50,IKEDC,LAGOS,11-YidiINJ-T1-lioko,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,
-3b5cec17c54e,IKEDC,LAGOS,11-YidiINJ-T1-ljoko,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,
-ff46af5ead1a,IKEDC,LAGOS,11-YidilNJ-T1-Osoba,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
 1be4a5879129,IKEDC,LAGOS,11-YusufINJ-T1-Akera,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 d4efecf2dfcd,IKEDC,LAGOS,11-YusufINJ-T2-Agbefa,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,,,,,C,C,C,C
 2277224b9121,IKEDC,LAGOS,11-YusufINJ-T2-Yusuf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C
-0ab1e1d9521d,IKEDC,LAGOS,11-ljaiye Express OjokorolNJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
-5bcc87f0e842,IKEDC,LAGOS,11-ljaiye Express OjokorolNJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,,,
-d3dfefb57c6e_ocr,IKEDC,LAGOS,11-ljaiye OjokoroINJ-T1-Abeokuta Express,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-ecbd2db4d027,IKEDC,LAGOS,11-ljaiye OjokoroINJ-T1-Jankara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,
-185bdbb54fd6,IKEDC,LAGOS,11-ljaiye OjokoroINJ-T2-Agbado 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
-081c5139da6a,IKEDC,LAGOS,11-ljaiye OjokorolNJ-T1-Jankara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,
-30bd51df019f,IKEDC,LAGOS,11-ljaiye OjokorolNJ-T2-Agbado 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-006e9f4405ea,IKEDC,LAGOS,11-ljuINJ-T1-Ajuwon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,
-dde8839ce103,IKEDC,LAGOS,11-ljuINJ-T1-Asore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,
-fa6d20451849,IKEDC,LAGOS,11-ljulNJ-T1-Ajuwon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
-a093d9a9b02f,IKEDC,LAGOS,11-ljulNJ-T1-Asore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,
 d3ecd33c993c,IKEDC,LAGOS,11-llapo|NJ-T1-llapo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,,,,,,,,
-883f16963a78,IKEDC,LAGOS,11-|julNJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
 63fa33921003,IKEDC,LAGOS,33-0gbaTCN-ABEOKUTA EXP.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,,,,,,,,
 7e3287fcbcfc,IKEDC,LAGOS,33-0gbaTCN-ABEOKUTA EXP.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,,,,,,,,
 da595563bd4c,IKEDC,LAGOS,33-AlausaTCN-OPIC,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,A,A,,,,,A,A,A,A
@@ -4631,69 +4583,56 @@ aeedb28d4897,IKEDC,LAGOS,BU 33-Oke-AroTCN-AKUTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 9d816ba774b2,IKEDC,LAGOS,Express,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 28c4f1366c77,IKEDC,LAGOS,INTERFACE,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 e0da79943484,IKEDC,LAGOS,INTERFACE,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-cefb9b5f7487,IKEDC,OGUN,11 Express ljaiye OjokorolNJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,
-4fee59c3192c,IKEDC,OGUN,11-Abule IrokoINJ-T1-Abule Iroko,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,C,C,C,C,C,C,C,C
-dfd9c0c71008,IKEDC,OGUN,11-Abule IrokoINJ-T1-Alakuko,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
-36dd7d269dc0,IKEDC,OGUN,11-Abule IrokoINJ-T1-Books,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,,C,C,C,C,C,C,C,C,C
-dfd9c0c71008_ocr,IKEDC,OGUN,11-Abule IrokolNJ-T1-Alakuko,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
-36dd7d269dc0_ocr,IKEDC,OGUN,11-Abule IrokolNJ-T1-Books,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
-8325d26375de,IKEDC,OGUN,11-AgegeINJ-T1-Iju Road,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,,C,C,C,C,C,C,C,C,C
-6a9d2ed7049e,IKEDC,OGUN,11-AgegeINJ-T1-Oko Oba,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,,B,,B,B,B,B,B,B,B,B,B
-6a9d2ed7049e_ocr,IKEDC,OGUN,11-AgegelNJ-T1-Oko Oba,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,
+80807b63d06b,IKEDC,OGUN,11 Express Ijaiye OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,
+4fee59c3192c,IKEDC,OGUN,11-Abule IrokoINJ-T1-Abule Iroko,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C
+dfd9c0c71008,IKEDC,OGUN,11-Abule IrokoINJ-T1-Alakuko,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+36dd7d269dc0,IKEDC,OGUN,11-Abule IrokoINJ-T1-Books,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C
+8325d26375de,IKEDC,OGUN,11-AgegeINJ-T1-Iju Road,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C
+6a9d2ed7049e,IKEDC,OGUN,11-AgegeINJ-T1-Oko Oba,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B
 436cbf7ea6f3,IKEDC,OGUN,11-Akute INJ-T1-Ishashi,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 8e6441da1c63,IKEDC,OGUN,11-Akute INJ-T1-Oyeyemi,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 dabd7df26728,IKEDC,OGUN,11-BeckleyINJ-T1-Agbe road,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 9367a821c576,IKEDC,OGUN,11-BeckleyINJ-T1-Beckley,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 b552c50db6b1,IKEDC,OGUN,11-BolorunpeluINJ-T3-Governor,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 e7401cbeeec5,IKEDC,OGUN,11-BolorunpeluINJ-T3-Governor 11-Ijaiye OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1740a222aacf,IKEDC,OGUN,11-Ijaiye OjokoroINJ-T1-Abeokuta Express,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,C,C,C,C,C,C,C
+6315d23a79d6,IKEDC,OGUN,11-Ijaiye Express OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,C,,,
+1740a222aacf,IKEDC,OGUN,11-Ijaiye OjokoroINJ-T1-Abeokuta Express,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,,,C,,,C,C,C,C,C,C,C
 cb9cb66c13a5,IKEDC,OGUN,11-Ijaiye OjokoroINJ-T1-Jankara,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 d105c8d46d63,IKEDC,OGUN,11-Ijaiye OjokoroINJ-T2-Agbado 2,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-671d763d0e31,IKEDC,OGUN,11-IjuINJ-T1-Ajuwon,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A,A
-61a9f4b38973,IKEDC,OGUN,11-IjuINJ-T1-Asore,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B
-32e96a21b087,IKEDC,OGUN,11-IjuINJ-T1-Galilee,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,A,A
-4f74445484f2,IKEDC,OGUN,11-IjuINJ-T1-Grailand,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,C,C
-1a658a45f091,IKEDC,OGUN,11-IjuINJ-T2-Agbado 1,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,C,C
-923b6d9bc037,IKEDC,OGUN,11-IjuINJ-T2-Ishaga,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,C,C
-ce44445e07d3,IKEDC,OGUN,11-LambeINJ-T1-Jolasco,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,C,C
-cde8b1a0f7c4,IKEDC,OGUN,11-LambeINJ-T1-Matogun,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,,,C,,C,C
-1b2c5d9f1924,IKEDC,OGUN,11-LambeINJ-T1-Olambe,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,,C,,,,C,C,C
-6471b1184b69,IKEDC,OGUN,11-LambelNJ-T1-Jolasco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,C,,C,,,
-285d4286f9e9,IKEDC,OGUN,11-LambelNJ-T1-Matogun,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,,C,,C,,
-6564e38c27aa,IKEDC,OGUN,11-Lambe|NJ-T1-Jolasco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,C,,
+671d763d0e31,IKEDC,OGUN,11-IjuINJ-T1-Ajuwon,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+61a9f4b38973,IKEDC,OGUN,11-IjuINJ-T1-Asore,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+32e96a21b087,IKEDC,OGUN,11-IjuINJ-T1-Galilee,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,,A,A
+4f74445484f2,IKEDC,OGUN,11-IjuINJ-T1-Grailand,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C
+1a658a45f091,IKEDC,OGUN,11-IjuINJ-T2-Agbado 1,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,C,C,C,C,,C,C,C
+923b6d9bc037,IKEDC,OGUN,11-IjuINJ-T2-Ishaga,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,C,,C,,C,C,C
+1fb28f3f493f,IKEDC,OGUN,11-Iju|NJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,
+685d23f1c5bd,IKEDC,OGUN,11-LambeINJ-T1-Jolasco,,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+cde8b1a0f7c4,IKEDC,OGUN,11-LambeINJ-T1-Matogun,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C
+1b2c5d9f1924,IKEDC,OGUN,11-LambeINJ-T1-Olambe,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,,,,C,C,C
 119cccd4c733,IKEDC,OGUN,11-Lambe|NJ-T1-Matogun,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,
 86b4380e1d91,IKEDC,OGUN,11-Lambe|NJ-T1-Olambe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,C,C,,,
 aa98c369ddde,IKEDC,OGUN,11-OBAWOLEINJ-T1-ANTHONY YOUDEOWEI,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,,,
 5972171dbf78,IKEDC,OGUN,11-OBAWOLEINJ-T1-SHONUBI 11-OBAWOLEINJ-T1-ANTHONY,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,
-b8988d43dd59,IKEDC,OGUN,11-ObawoleINJ-T1-Shonubi,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,,A,,A,A
-eed8998b0128,IKEDC,OGUN,11-ObawoleINJ-T1-Youdeowei,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,,,A,,A,A
-9cd6e56ce905,IKEDC,OGUN,11-ObawolelNJ-T1-Shonub,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,
-cdf916fc760a,IKEDC,OGUN,11-ObawolelNJ-T1-Shonubi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,
-e92ce9693da3,IKEDC,OGUN,11-ObawolelNJ-T1-Youdeowei,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,
+d8b6094f5245,IKEDC,OGUN,11-ObawoleINJ-T1-Shonub,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,
+b8988d43dd59,IKEDC,OGUN,11-ObawoleINJ-T1-Shonubi,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,A,,A,,A,A
+eed8998b0128,IKEDC,OGUN,11-ObawoleINJ-T1-Youdeowei,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,,A,,A,A
 69dcea060555,IKEDC,OGUN,11-Obawole|NJ-T1-Shonubi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,A,,,,A,,
 ae2d3f2dafd0,IKEDC,OGUN,11-Obawole|NJ-T1-Youdeowei,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,,,,,A,,A,,
-7850d5580c10,IKEDC,OGUN,11-Ope IluINJ-T1-Aboro,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
+7850d5580c10,IKEDC,OGUN,11-Ope IluINJ-T1-Aboro,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 f864dd2232b8,IKEDC,OGUN,11-Ope IluINJ-T1-Adiyan,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 7850d5580c10_ocr,IKEDC,OGUN,11-Ope lluINJ-T1-Aboro,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
-f21ec94aac16,IKEDC,OGUN,11-YidiINJ-T1-Ijoko,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,D,D,D,D,D,D,D,D
+f21ec94aac16,IKEDC,OGUN,11-YidiINJ-T1-Ijoko,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D
 976c9dde19a0,IKEDC,OGUN,11-YidiINJ-T1-Opeilu,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 0fc6de193679,IKEDC,OGUN,11-YidiINJ-T1-Osoba,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 fc3011860b1c,IKEDC,OGUN,11-YusufINJ-T1-Akera,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 730933941801,IKEDC,OGUN,11-YusufINJ-T2-Yusuf,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+671d763d0e31_ocr,IKEDC,OGUN,11-liuINJ-T1-Ajuwon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
+61a9f4b38973_ocr,IKEDC,OGUN,11-liuINJ-T1-Asore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,
 8db7daf88e99,IKEDC,OGUN,11-liuINJ-T1-Galilee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,
 68f1fb204e33,IKEDC,OGUN,11-liuINJ-T1-Grailand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,,,,
-c158a1670da7,IKEDC,OGUN,11-ljaiye Express OjokoroINJ-T1-Abeokuta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,C,,,
-7dd3e3c697c8,IKEDC,OGUN,11-ljuINJ-T1-Galilee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,A,,,
-ca86d6146bc8,IKEDC,OGUN,11-ljuINJ-T1-Grailand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,C,C,,C,C,,
-edc71897944e,IKEDC,OGUN,11-ljuINJ-T2-Agbado 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,C,C,,C,,C,,
-c36ad4e65af4,IKEDC,OGUN,11-ljuINJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,
-9bfb4a678bba,IKEDC,OGUN,11-ljulNJ-T1-Galilee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,,,,,
-f05b06ba11f9,IKEDC,OGUN,11-ljulNJ-T1-Grailand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,C,,,,
-17fa7146332c,IKEDC,OGUN,11-ljulNJ-T2-Agbado 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,
-2dfbb7d5b1c7,IKEDC,OGUN,11-ljulNJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,C,,
-23b0dedde7d4,IKEDC,OGUN,11-lju|NJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,C,,,,,
+d105c8d46d63_ocr,IKEDC,OGUN,11-|jaiye OjokoroINJ-T2-Agbado 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,
 ea875bf3afc6,IKEDC,OGUN,11-|juINJ-T2-Agbado 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,C,,,
-cc9ae0aa2063,IKEDC,OGUN,11-|juINJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,C,,,
+cc9ae0aa2063,IKEDC,OGUN,11-|juINJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,C,,,
 a36d04ef34d2,IKEDC,OGUN,11-|ju|NJ-T2-Agbado 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
 62db65c4644d,IKEDC,OGUN,11-|ju|NJ-T2-Ishaga,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,,,,,,,,,,
 ef1cbe9861ac,IKEDC,OGUN,33-OGBATCN-ABEOKUTA EXP. 11-IJAIYE OJOKOROINJ-T1-ABEOKUTA,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,
@@ -4701,11 +4640,11 @@ ef1cbe9861ac,IKEDC,OGUN,33-OGBATCN-ABEOKUTA EXP. 11-IJAIYE OJOKOROINJ-T1-ABEOKUT
 1587daf52d56,IKEDC,OGUN,33-Oke-AroTCN-AKUTE,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 ae55e183439d,IKEDC,OGUN,33-OtaTCN-AMJE,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A
 b5abf299d06c,IKEDC,OGUN,EXPRESS,,,,,,,,,,,,,,,,,C,,,,C,,,,,,,,,,,,,,,,,,,,,,,,
-df7c49457901,IKEDC,OGUN,T11-ljuINJ-T1-Galilee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,
+61bfa06cb045,IKEDC,OGUN,T11-IjuINJ-T1-Galilee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,
 07eed4fa8c46,IKEDC,OGUN,YOUDEOWEI,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,
-65a51eb0fbf0,IKEDC,OGUN,|11-LambeINJ-T1-Jolasco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,
 ba140fe19b11,IKEDC,UNKNOWN,11-AbesanINJ-T1-Aboru,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 23cd41a8a898,IKEDC,UNKNOWN,11-Abule IrokoINJ-T1-Alakuko,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+60980dfc8800,IKEDC,UNKNOWN,11-LambeINJ-T1-Jolasco,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b60bfccaf132,IKEDC,UNKNOWN,AKOWONJO BU 11-ILAPOINJ-T1-ILAPO,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,
 17dc3cf76558,IKEDC,UNKNOWN,OSHODI BU 11-AGO OKOTAINJ-T2-LAKE VIEW,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 0ae05a6d45de,JEDC,BAUCHI,AMINU STREET,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
@@ -4718,8 +4657,7 @@ c05cc11eed0b,JEDC,BAUCHI,BOGORO I,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,
 3a18257a7d1e,JEDC,BAUCHI,BOGORO II,D,D,D,D,E,E,E,E,E,E,E,E,E,E,E,E,E,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D
 6e6b5af5b843,JEDC,BAUCHI,COE/FIRE SERVICE,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 69fd89cb01c8,JEDC,BAUCHI,DASS,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-eabb305ca77d,JEDC,BAUCHI,FED. LOW COST BAUCHI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,,,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-d8e4fba79045,JEDC,BAUCHI,FED. LOWCOST BAUCHI,,,,,,,,,,,,,,,,,,,B,B,,,,,,,,,,,,,,,,,,,,,,,,,
+eabb305ca77d,JEDC,BAUCHI,FED. LOW COST BAUCHI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 99210b1fa873,JEDC,BAUCHI,FGC/RADIO MONITORING,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 a31b20bd487b,JEDC,BAUCHI,GALDIMARI MISAU,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 9b81c6f1176f,JEDC,BAUCHI,GAMAWA/DAMBAM,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
@@ -5714,7 +5652,7 @@ f4dd0830af3b,KEDCO,KATSINA,11 KV JABIRI,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,
 565c59ba0bea,KEDCO,KATSINA,11 KV KANTI,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 052e1a59c487,KEDCO,KATSINA,11 KV KOFAR FADA,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 c8ddf291bd3c,KEDCO,KATSINA,11 KV KOFAR MARUSA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-398f0e29ec73,KEDCO,KATSINA,11 KV LOW COST,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+398f0e29ec73,KEDCO,KATSINA,11 KV LOW COST,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,B,B,,B,B,B,B,B
 fde04a85cb38,KEDCO,KATSINA,11 KV MAI RUWA,E,E,E,E,E,E,D,D,D,D,D,D,D,D,D,D,D,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
 758f29404b55,KEDCO,KATSINA,11 KV MATAZU,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 f0f96d66664b,KEDCO,KATSINA,11 KV MUHAMMED DIKKO,,,,,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
@@ -5727,7 +5665,6 @@ a2cbb4055073,KEDCO,KATSINA,11KV DUTSIN SAFE,D,D,D,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 50e3aea61961,KEDCO,KATSINA,11KV HASSAN USMAN,B,B,B,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 a1cd6e514934,KEDCO,KATSINA,11KV KADARKO,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 961e39330253,KEDCO,KATSINA,11KV KOFAR FADA 3 |,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7364f7b402c7,KEDCO,KATSINA,11KV LOWCOST,B,B,B,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 5909b6564667,KEDCO,KATSINA,11KV MUHAMMAD DIKKO,D,D,D,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 fbf238c4e04f,KEDCO,KATSINA,11KV MUSAWA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
 70297853eb21,KEDCO,KATSINA,33KV DANBATTA,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,C,C,C,C,C,,C,C
@@ -5755,396 +5692,373 @@ c7cda0bdfc48,KEDCO,KATSINA,KATSINA NORTH 33KV KAITA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 792bcf4ae35c,KEDCO,KATSINA,KV DANTUNKU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
 3920ea034235,KEDCO,KATSINA,KV FMC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
 70ca91658ea5,KEDCO,KATSINA,KV GRA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
+b1a5c3d91baa,KEDCO,KATSINA,KV LOW COST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,,,B,,,,,
 7c76ee4f56ec,KEDCO,KATSINA,KV TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,C,,,
 0a693409fb56,KEDCO,UNKNOWN,KATSINA CENTRAL 11 KV BICHI TOWN,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,
-8e17fb5c15c8,PHED,AKWA IBOM,ABAK,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-34c2068786a5,PHED,AKWA IBOM,AFAHA UBE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-f8a2fedeb76c,PHED,AKWA IBOM,AFAHA UQUA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,C,C,C,C,C,,,C,C,,,C,C,C,C,C,C
-7258e07bc5e3,PHED,AKWA IBOM,AKA ITIAM,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-d2a100c62cc4,PHED,AKWA IBOM,AKA ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-cf13d4d3b31b,PHED,AKWA IBOM,BROOKS,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2433fc35df36,PHED,AKWA IBOM,CHAMPION BREWERIES,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2de00d886db8,PHED,AKWA IBOM,EDEBOM,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-0cba1a420a91,PHED,AKWA IBOM,EKET,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
+8e17fb5c15c8,PHED,AKWA IBOM,ABAK,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+34c2068786a5,PHED,AKWA IBOM,AFAHA UBE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+f8a2fedeb76c,PHED,AKWA IBOM,AFAHA UQUA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C
+7258e07bc5e3,PHED,AKWA IBOM,AKA ITIAM,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+d2a100c62cc4,PHED,AKWA IBOM,AKA ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+cf13d4d3b31b,PHED,AKWA IBOM,BROOKS,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2433fc35df36,PHED,AKWA IBOM,CHAMPION BREWERIES,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2de00d886db8,PHED,AKWA IBOM,EDEBOM,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+0cba1a420a91,PHED,AKWA IBOM,EKET,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 45d78bb6a65b,PHED,AKWA IBOM,EKET AFAHA UQUA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,
-3efb724e7a90,PHED,AKWA IBOM,EKIM,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
+3efb724e7a90,PHED,AKWA IBOM,EKIM,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 6cceba3c2b2a,PHED,AKWA IBOM,EKPENE IKOT EKPENE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,
-060ed2f6a88a,PHED,AKWA IBOM,EKPENUKPA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-29be13f331b2,PHED,AKWA IBOM,ETE URBAN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-37cd92fe0b53,PHED,AKWA IBOM,ETINAN,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-dfb52fef4372,PHED,AKWA IBOM,EWET,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-5167c1a52d44,PHED,AKWA IBOM,FOUR LANE,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-1e7620e09730,PHED,AKWA IBOM,G.R.A,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-506462bf0405,PHED,AKWA IBOM,IBB AVENUE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-75369afa9b16,PHED,AKWA IBOM,IBEKWE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-5f55dd36c781,PHED,AKWA IBOM,IBENO,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-f9400635e544,PHED,AKWA IBOM,IBENO_B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-b99309e381a7,PHED,AKWA IBOM,IBESIKPO A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-3f13c5477689,PHED,AKWA IBOM,IBESIKPO B,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-14bbf849c1e4,PHED,AKWA IBOM,IBESIOKPO,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-c63c0e114b7f,PHED,AKWA IBOM,IDORO ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-5c436666bf07,PHED,AKWA IBOM,IKOT ABASI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,C,,,C,C,C,C,C,C
-da0e1d7c22f0,PHED,AKWA IBOM,IKOT AKAN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-fb872bd61ba7,PHED,AKWA IBOM,IKOT EKPENE,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,A,,,A,A,A,A,A,A
-e9eebc28a711,PHED,AKWA IBOM,IKOT IBIOK,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-a440eec553fc,PHED,AKWA IBOM,IKPA ROAD,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-b27877925f8b,PHED,AKWA IBOM,INDUSTRIAL,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,B,B,A,A,A,A,A,A,A,A,A,C,C,A,A,A,A,,A,A,,,A,A,A,A,A,A
-777decc1724a,PHED,AKWA IBOM,ITAM JUNCTION,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-a6915de6c378,PHED,AKWA IBOM,LE MERIDIAN,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-541bc0f2fd57,PHED,AKWA IBOM,MARITIME,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-15bb3a47fea8,PHED,AKWA IBOM,MARY HARNEY,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-ca6a5491f766,PHED,AKWA IBOM,MBAK,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-c51e94ec2f2b,PHED,AKWA IBOM,MBO,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-68f7e41b04b8,PHED,AKWA IBOM,MBO 11,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-f7c089542f58,PHED,AKWA IBOM,NSASAK,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-e5d0f8cdc241,PHED,AKWA IBOM,NWANIBA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-421580410306,PHED,AKWA IBOM,OBOT OKARA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-89a0a099aa55,PHED,AKWA IBOM,ODORO IKOT CLAN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-2b31118785e2,PHED,AKWA IBOM,OKON,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-3e145d6020fd,PHED,AKWA IBOM,OKU IBOKU,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-8629e794e0d0,PHED,AKWA IBOM,ORON ROAD,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-16180769dd9b,PHED,AKWA IBOM,ORON ROAD A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-e50157ca3653,PHED,AKWA IBOM,ORON ROAD B,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-cc4c2f38ae41,PHED,AKWA IBOM,OSONG AMA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,B,,,,,,,,,,,,,,,,,,,,,
-0cf6f0ca0c0b,PHED,AKWA IBOM,OSONGAMA,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-f7298609d3cd,PHED,AKWA IBOM,QUA RIVER,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,,A,,,,A,A,A,A,A,A
-d0732f0996e9,PHED,AKWA IBOM,RCC,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,C,C,C,C,C,C,,C,,,,C,C,C,C,C,C
+060ed2f6a88a,PHED,AKWA IBOM,EKPENUKPA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+29be13f331b2,PHED,AKWA IBOM,ETE URBAN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+37cd92fe0b53,PHED,AKWA IBOM,ETINAN,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+dfb52fef4372,PHED,AKWA IBOM,EWET,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+5167c1a52d44,PHED,AKWA IBOM,FOUR LANE,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+1e7620e09730,PHED,AKWA IBOM,G.R.A,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+506462bf0405,PHED,AKWA IBOM,IBB AVENUE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+75369afa9b16,PHED,AKWA IBOM,IBEKWE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+5f55dd36c781,PHED,AKWA IBOM,IBENO,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+f9400635e544,PHED,AKWA IBOM,IBENO_B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+b99309e381a7,PHED,AKWA IBOM,IBESIKPO A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+3f13c5477689,PHED,AKWA IBOM,IBESIKPO B,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+14bbf849c1e4,PHED,AKWA IBOM,IBESIOKPO,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+c63c0e114b7f,PHED,AKWA IBOM,IDORO ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+5c436666bf07,PHED,AKWA IBOM,IKOT ABASI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
+da0e1d7c22f0,PHED,AKWA IBOM,IKOT AKAN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+fb872bd61ba7,PHED,AKWA IBOM,IKOT EKPENE,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,A,A,,A,A,A,A,A,A
+3985d84c10d0,PHED,AKWA IBOM,IKOT EKPENE TIKOT EKPENE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,
+e9eebc28a711,PHED,AKWA IBOM,IKOT IBIOK,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+a440eec553fc,PHED,AKWA IBOM,IKPA ROAD,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+b27877925f8b,PHED,AKWA IBOM,INDUSTRIAL,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,B,B,A,A,A,A,A,A,A,A,A,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+777decc1724a,PHED,AKWA IBOM,ITAM JUNCTION,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+a6915de6c378,PHED,AKWA IBOM,LE MERIDIAN,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+6e38c3c46f1b,PHED,AKWA IBOM,LIKOT EKPENE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,
+541bc0f2fd57,PHED,AKWA IBOM,MARITIME,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+15bb3a47fea8,PHED,AKWA IBOM,MARY HARNEY,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+ca6a5491f766,PHED,AKWA IBOM,MBAK,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+c51e94ec2f2b,PHED,AKWA IBOM,MBO,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+68f7e41b04b8,PHED,AKWA IBOM,MBO 11,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+f7c089542f58,PHED,AKWA IBOM,NSASAK,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+e5d0f8cdc241,PHED,AKWA IBOM,NWANIBA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+421580410306,PHED,AKWA IBOM,OBOT OKARA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+89a0a099aa55,PHED,AKWA IBOM,ODORO IKOT CLAN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+2b31118785e2,PHED,AKWA IBOM,OKON,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+3e145d6020fd,PHED,AKWA IBOM,OKU IBOKU,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+8629e794e0d0,PHED,AKWA IBOM,ORON ROAD,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+16180769dd9b,PHED,AKWA IBOM,ORON ROAD A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+e50157ca3653,PHED,AKWA IBOM,ORON ROAD B,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+0cf6f0ca0c0b,PHED,AKWA IBOM,OSONGAMA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+f7298609d3cd,PHED,AKWA IBOM,QUA RIVER,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
+d0732f0996e9,PHED,AKWA IBOM,RCC,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
 be38eb41b5ef,PHED,AKWA IBOM,RCC AKWA IBOM EKET QUA RIVER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
-dbb39e4a21cb,PHED,AKWA IBOM,SHELTER AFRIQUE A,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-c4900ab13310,PHED,AKWA IBOM,SHELTER AFRIQUE B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-308528d750cd,PHED,AKWA IBOM,SIR UDO UDOMA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
+dbb39e4a21cb,PHED,AKWA IBOM,SHELTER AFRIQUE A,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+c4900ab13310,PHED,AKWA IBOM,SHELTER AFRIQUE B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+308528d750cd,PHED,AKWA IBOM,SIR UDO UDOMA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 c686d61d64ef,PHED,AKWA IBOM,TIKOT ABASI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-91fb18771317,PHED,AKWA IBOM,TOWN FEEDER,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-6d9617216eef,PHED,AKWA IBOM,UKANA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-ee56b596abd5,PHED,AKWA IBOM,UYO ROAD,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-097ef4537b2e,PHED,AKWA IBOM,WELLINGTON BASSEY,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-7628411bc59a,PHED,BAYELSA,AGUDAMA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,,,,,,
-b4e6b8fa7671,PHED,BAYELSA,AMASOMA,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,,,,,,
-54034e069a7f,PHED,BAYELSA,AMASOMA II,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,,,,,,
+91fb18771317,PHED,AKWA IBOM,TOWN FEEDER,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+6d9617216eef,PHED,AKWA IBOM,UKANA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+ee56b596abd5,PHED,AKWA IBOM,UYO ROAD,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+097ef4537b2e,PHED,AKWA IBOM,WELLINGTON BASSEY,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+7628411bc59a,PHED,BAYELSA,AGUDAMA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,
+b4e6b8fa7671,PHED,BAYELSA,AMASOMA,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,
+54034e069a7f,PHED,BAYELSA,AMASOMA II,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,,,,,
 5013350b66fa,PHED,BAYELSA,BAYELSA ISIOKPO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
 39c060e3f304,PHED,BAYELSA,FEDERAL UNIVERSITY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,
-052d4c89ea10,PHED,BAYELSA,FEDERAL UNIVERSITY OTUOKE 2,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,C,C,,,,,,,,
-42d259d501c5,PHED,BAYELSA,GBARINE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,,,,,,
-af039d1a675d,PHED,BAYELSA,GOVT HOUSE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,,,,,,
-9098f56c5674,PHED,BAYELSA,IMIRINGI,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,,,,,,
-4dc114a5cf6f,PHED,BAYELSA,IMIRINGI_ A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,,,,,,
-fef36f430361,PHED,BAYELSA,IMIRINGI_B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,,,,,,
-6a9f880b07de,PHED,BAYELSA,LOCAL GOVERNMENT,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,,,,,,
-10e90e3cfc14,PHED,BAYELSA,OGBEMA,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,,,,,,
-87accfbb5627,PHED,BAYELSA,OPOLO,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,,,,,,
+42d259d501c5,PHED,BAYELSA,GBARINE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,
+af039d1a675d,PHED,BAYELSA,GOVT HOUSE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,
+9098f56c5674,PHED,BAYELSA,IMIRINGI,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,
+4dc114a5cf6f,PHED,BAYELSA,IMIRINGILA,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,
+fef36f430361,PHED,BAYELSA,IMIRINGI_B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,
+6a9f880b07de,PHED,BAYELSA,LOCAL GOVERNMENT,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,
+10e90e3cfc14,PHED,BAYELSA,OGBEMA,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,,,,,
+87accfbb5627,PHED,BAYELSA,OPOLO,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,
 8c9303f4ac16,PHED,BAYELSA,ORON ROAD 2 |,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-4981366b9490,PHED,BAYELSA,TUNGBO,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,,,,,,
-2d6540d5b215,PHED,CROSS RIVER,8 MILES,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-75f58c2a6849,PHED,CROSS RIVER,AKAMKPA,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,A,A,A,A,A,A
-b241c07a1649,PHED,CROSS RIVER,AKAMKPA RURAL,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-1437acde286d,PHED,CROSS RIVER,AKAMKPA URBAN B,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,C,,,C,C,C,C,C,C
-ca3c1568b449,PHED,CROSS RIVER,AMIKA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-9eac6ef360f6,PHED,CROSS RIVER,AMIKA GAMMA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,B,,,B,B,B,B,B,B
-aa3cbd820bda,PHED,CROSS RIVER,AMIKA URBAN_A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-9f2506a41242,PHED,CROSS RIVER,ANANTIGHA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,D,,,D,D,D,D,D,D
+4981366b9490,PHED,BAYELSA,TUNGBO,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,
+052d4c89ea10,PHED,BAYELSA,[FEDERAL UNIVERSITY OTUOKE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,,,,,,
+2d6540d5b215,PHED,CROSS RIVER,8 MILES,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+75f58c2a6849,PHED,CROSS RIVER,AKAMKPA,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,A,A,A,A,A,A,A,A
+b241c07a1649,PHED,CROSS RIVER,AKAMKPA RURAL,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+1437acde286d,PHED,CROSS RIVER,AKAMKPA URBAN B,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
+ca3c1568b449,PHED,CROSS RIVER,AMIKA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+9eac6ef360f6,PHED,CROSS RIVER,AMIKA GAMMA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B
+aa3cbd820bda,PHED,CROSS RIVER,AMIKA URBAN_A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+9f2506a41242,PHED,CROSS RIVER,ANANTIGHA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D
 3f310a726042,PHED,CROSS RIVER,CALABAR AKAMKPA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,,,,,,,,
 c2f75c9faa7f,PHED,CROSS RIVER,CALABAR AKAMKPA URBAN B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
 72b8bd97d2e2,PHED,CROSS RIVER,CALABAR AMIKA GAMMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,
 4f46535956ee,PHED,CROSS RIVER,CALABAR ANANTIGHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,
-f2925077ffee,PHED,CROSS RIVER,CAMEROUN,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-dadfabb677e6,PHED,CROSS RIVER,CRUTECH,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-d9d843b05535,PHED,CROSS RIVER,DIAMOND HILLS,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2b82d255ed0c,PHED,CROSS RIVER,EPZ2,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-1220579bfbb1,PHED,CROSS RIVER,ESSIEN TOWN,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-8fd526e1684c,PHED,CROSS RIVER,ESUK UTAN,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-766aef5b15ab,PHED,CROSS RIVER,FEDERAL HOUSING,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-d2feb49dd89e,PHED,CROSS RIVER,FLOUR MILL,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-8cbe20ddfca4,PHED,CROSS RIVER,FOUR CORNER,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-cd93077cb1e3,PHED,CROSS RIVER,GOLDIE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-3625e538d7fb,PHED,CROSS RIVER,IKOM TOWN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,,,E,,,E,E,,E,E,E
-51c4039cf258,PHED,CROSS RIVER,KATSINA ALA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-0e9e735a875a,PHED,CROSS RIVER,LEOPARD A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-4e2c70e306ff,PHED,CROSS RIVER,LEOPARD B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-fe0474c3fd8b,PHED,CROSS RIVER,MCC,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
+f2925077ffee,PHED,CROSS RIVER,CAMEROUN,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+dadfabb677e6,PHED,CROSS RIVER,CRUTECH,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+d9d843b05535,PHED,CROSS RIVER,DIAMOND HILLS,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2b82d255ed0c,PHED,CROSS RIVER,EPZ2,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+1220579bfbb1,PHED,CROSS RIVER,ESSIEN TOWN,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+8fd526e1684c,PHED,CROSS RIVER,ESUK UTAN,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+766aef5b15ab,PHED,CROSS RIVER,FEDERAL HOUSING,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+d2feb49dd89e,PHED,CROSS RIVER,FLOUR MILL,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+8cbe20ddfca4,PHED,CROSS RIVER,FOUR CORNER,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+cd93077cb1e3,PHED,CROSS RIVER,GOLDIE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+3625e538d7fb,PHED,CROSS RIVER,IKOM TOWN,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,,E,E,E,E,E,,E,E,E
+51c4039cf258,PHED,CROSS RIVER,KATSINA ALA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+0e9e735a875a,PHED,CROSS RIVER,LEOPARD A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+4e2c70e306ff,PHED,CROSS RIVER,LEOPARD B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+fe0474c3fd8b,PHED,CROSS RIVER,MCC,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 6085dbf8bd55,PHED,CROSS RIVER,OGOJA IKOM TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E,,E,,,,,,E,,,
-8fa534d443df,PHED,CROSS RIVER,STATE HOUSING,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-cc7f7909d9a1,PHED,CROSS RIVER,TARGET,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-1b39cb03d296,PHED,CROSS RIVER,UGEP,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-812dd646bb0f,PHED,CROSS RIVER,UNICAL A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-5315e319dd10,PHED,CROSS RIVER,UNICAL B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-cadf8f0c7bf8,PHED,CROSS RIVER,WATER BOARD,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-7f4ba4ff26ee,PHED,CROSS RIVER,YAHE,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-6d7e6a60c77f,PHED,RIVERS,411,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-acecd3ba28d2,PHED,RIVERS,ABACHA ROAD,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-5ac353fb6e56,PHED,RIVERS,ABONEMA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,,B,B,B,B,B
-9647817cea19,PHED,RIVERS,ABULOMA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,A,A,A,,A,A,,,A,A,A,A,A,A
-a2452bcc240d,PHED,RIVERS,ACB,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-53451dd7e67f,PHED,RIVERS,ADP,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-054140d0b308,PHED,RIVERS,AFAM ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-d5369f7a8ba8,PHED,RIVERS,AHOADA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,,C,C,,,,C,C,C,C,C
-fecbeec07be1,PHED,RIVERS,AIRPORT,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-afa121e6ed28,PHED,RIVERS,AIRPORT A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-92a863192c29,PHED,RIVERS,AIRPORT B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-1351484daf60,PHED,RIVERS,AKANI,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-ef6a560acfd5,PHED,RIVERS,AKER ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-a7bac3f3f54c,PHED,RIVERS,AKPAJO,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,,C,C,,,C,C,C,C,C,C
+8fa534d443df,PHED,CROSS RIVER,STATE HOUSING,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+cc7f7909d9a1,PHED,CROSS RIVER,TARGET,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+1b39cb03d296,PHED,CROSS RIVER,UGEP,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+812dd646bb0f,PHED,CROSS RIVER,UNICAL A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+5315e319dd10,PHED,CROSS RIVER,UNICAL B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+cadf8f0c7bf8,PHED,CROSS RIVER,WATER BOARD,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+7f4ba4ff26ee,PHED,CROSS RIVER,YAHE,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+7927e9b5dc57,PHED,RIVERS,3NNO &,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,
+6d7e6a60c77f,PHED,RIVERS,411,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+acecd3ba28d2,PHED,RIVERS,ABACHA ROAD,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+5ac353fb6e56,PHED,RIVERS,ABONEMA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B
+9647817cea19,PHED,RIVERS,ABULOMA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+a2452bcc240d,PHED,RIVERS,ACB,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+53451dd7e67f,PHED,RIVERS,ADP,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+054140d0b308,PHED,RIVERS,AFAM ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+d5369f7a8ba8,PHED,RIVERS,AHOADA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C
+fecbeec07be1,PHED,RIVERS,AIRPORT,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+afa121e6ed28,PHED,RIVERS,AIRPORT A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+92a863192c29,PHED,RIVERS,AIRPORT B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+1351484daf60,PHED,RIVERS,AKANI,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+ef6a560acfd5,PHED,RIVERS,AKER ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+a7bac3f3f54c,PHED,RIVERS,AKPAJO,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 3a334f8614ee,PHED,RIVERS,ALPHA 1 AMADI AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-d4bc40667766,PHED,RIVERS,ALUU,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-4d868227f355,PHED,RIVERS,AMADI AMA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,C,,,C,C,C,C,C,C
-995e9c909327,PHED,RIVERS,AMADI NORTH,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-3860f83e68e6,PHED,RIVERS,AMADI RESIDENTIAL,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-3edddf8bdcae,PHED,RIVERS,AMADI SOUTH,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-6f87950d851e,PHED,RIVERS,AZUABIE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-b242b9819fa0,PHED,RIVERS,BAKERY ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-c51ef5ef0648,PHED,RIVERS,BARRACKS,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-4bd62db88f36,PHED,RIVERS,BORI,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-feb7d917c83f,PHED,RIVERS,BORI A,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-496ac28f703b,PHED,RIVERS,BORI B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-47114e987f85,PHED,RIVERS,BORI CAMP,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-8668f1ca653f,PHED,RIVERS,BOROKIRI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-00f66bbe2b72,PHED,RIVERS,BRISTOL,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2ba3b8b9f770,PHED,RIVERS,BUGUMA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,,C,C,,,,C,C,C,C,C
-74d8a84604e3,PHED,RIVERS,CHOBA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-b6f383b93ffc,PHED,RIVERS,CHURCHILL,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-d26c902a8361,PHED,RIVERS,CIRCULAR ROAD,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-f047c41ffab3,PHED,RIVERS,COT GAS,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-6fc4ea3f6f7a,PHED,RIVERS,EAGLE ISLAND,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-603e69e7ed1b,PHED,RIVERS,EASTERN BYPASS,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-652d12eefac9,PHED,RIVERS,EBUBU,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-21d5c1b2c154,PHED,RIVERS,EGBELU,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-3eb10c1cc9fd,PHED,RIVERS,ELEKAHIA ESTATE,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-86e39bf8a9ed,PHED,RIVERS,ELEKAHIA VILLAGE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-f47774fcfa18,PHED,RIVERS,ELELENWO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-0a6a43d99cd1,PHED,RIVERS,ELIMGBU,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-6eb1c8e14fcc,PHED,RIVERS,ELIOGBOLO,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-85dc87eaee13,PHED,RIVERS,ELIOPARANWO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-cec249418405,PHED,RIVERS,EMUOHA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,,D,D,D,D,D
-cfa86170348e,PHED,RIVERS,EPCL,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-460a0c6b3146,PHED,RIVERS,ESTATE 11KV,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-012cf4e36077,PHED,RIVERS,FGC,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-40e62f508dad,PHED,RIVERS,FIMIE,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-25bbd6f41d81,PHED,RIVERS,FIRST BANK,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
+d4bc40667766,PHED,RIVERS,ALUU,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+4d868227f355,PHED,RIVERS,AMADI AMA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
+995e9c909327,PHED,RIVERS,AMADI NORTH,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+3860f83e68e6,PHED,RIVERS,AMADI RESIDENTIAL,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+3edddf8bdcae,PHED,RIVERS,AMADI SOUTH,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+6f87950d851e,PHED,RIVERS,AZUABIE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+b242b9819fa0,PHED,RIVERS,BAKERY ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+c51ef5ef0648,PHED,RIVERS,BARRACKS,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+4bd62db88f36,PHED,RIVERS,BORI,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+feb7d917c83f,PHED,RIVERS,BORI A,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+496ac28f703b,PHED,RIVERS,BORI B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+47114e987f85,PHED,RIVERS,BORI CAMP,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+8668f1ca653f,PHED,RIVERS,BOROKIRI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+00f66bbe2b72,PHED,RIVERS,BRISTOL,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2ba3b8b9f770,PHED,RIVERS,BUGUMA,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C
+74d8a84604e3,PHED,RIVERS,CHOBA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+b6f383b93ffc,PHED,RIVERS,CHURCHILL,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+d26c902a8361,PHED,RIVERS,CIRCULAR ROAD,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+f047c41ffab3,PHED,RIVERS,COT GAS,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+6fc4ea3f6f7a,PHED,RIVERS,EAGLE ISLAND,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+603e69e7ed1b,PHED,RIVERS,EASTERN BYPASS,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+652d12eefac9,PHED,RIVERS,EBUBU,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+21d5c1b2c154,PHED,RIVERS,EGBELU,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+3eb10c1cc9fd,PHED,RIVERS,ELEKAHIA ESTATE,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+86e39bf8a9ed,PHED,RIVERS,ELEKAHIA VILLAGE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+f47774fcfa18,PHED,RIVERS,ELELENWO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+0a6a43d99cd1,PHED,RIVERS,ELIMGBU,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+6eb1c8e14fcc,PHED,RIVERS,ELIOGBOLO,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+85dc87eaee13,PHED,RIVERS,ELIOPARANWO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+cec249418405,PHED,RIVERS,EMUOHA,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,,D,D,D,D,D
+cfa86170348e,PHED,RIVERS,EPCL,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+460a0c6b3146,PHED,RIVERS,ESTATE 11KV,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+012cf4e36077,PHED,RIVERS,FGC,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+40e62f508dad,PHED,RIVERS,FIMIE,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+25bbd6f41d81,PHED,RIVERS,FIRST BANK,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 497129501c19,PHED,RIVERS,GAMMA 1 LOCATION ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
-9bf5175f9967,PHED,RIVERS,GLASS FACTORY,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-92aa81a64320,PHED,RIVERS,GREATER PH,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-fc6a20524040,PHED,RIVERS,HABOUR ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-3cc83ffff386,PHED,RIVERS,HAROLD WILSON,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-7004314ee7fe,PHED,RIVERS,IGBO ETCHE,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-95d05aae977e,PHED,RIVERS,IGBO ETCHE A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-0344e3bddaf5,PHED,RIVERS,IGBO ETCHE B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-864bd4bc8321,PHED,RIVERS,IGWURUTA ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-55594baa9ff1,PHED,RIVERS,ISIOKPO,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,A,A,C,C,A,A,A,A,,A,,,,,A,A,A,A,A
-64f78da552ea,PHED,RIVERS,JETTY,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-65873acb8431,PHED,RIVERS,KALA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-cfb3203b3e71,PHED,RIVERS,KOM KOM,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-6933c499d668,PHED,RIVERS,KOMKOM A,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,A,A,A,A,A,A,B,A,A,A,,A,A,,,A,A,A,A,A,A
-0b1aee2c5ba4,PHED,RIVERS,KOMKOM B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-593caef1fe20,PHED,RIVERS,LOCATION ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,C,,,C,C,C,C,C,C
-597f0209e482,PHED,RIVERS,MARINE BASE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-7a11712b0903,PHED,RIVERS,MARKET ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-f6d509caa6f4,PHED,RIVERS,MBANO JUNCTION,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-e32d2a53ac80,PHED,RIVERS,MGBUOBA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-38407df90f71,PHED,RIVERS,MILE ONE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-b7d897fcee10,PHED,RIVERS,NAVY,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-af1bbff720e1,PHED,RIVERS,NDABROS,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-1ce2975b6b74,PHED,RIVERS,NDOKI,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-0d9a196b59eb,PHED,RIVERS,NEW GRA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-783e93f263b0,PHED,RIVERS,NEW ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-148134f2e456,PHED,RIVERS,NIGER CAT,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-540ad41a153c,PHED,RIVERS,NKPOGU,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-15ca47191ad3,PHED,RIVERS,NKPOR,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-34ca1900ccdf,PHED,RIVERS,NPA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-bfa235064391,PHED,RIVERS,NSUKKA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-d5ba25bda788,PHED,RIVERS,NTA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-dfebf120cf31,PHED,RIVERS,NTA_A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,A,,,A,A,A,A,A,A
-d1e8c0d8381a,PHED,RIVERS,NVUIGWE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-df075c0fa35c,PHED,RIVERS,OBI WALI,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-769bacd384e5,PHED,RIVERS,ODILI ROAD,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-bbfc0aff8478,PHED,RIVERS,OGBATAI,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-259877e8cea0,PHED,RIVERS,OHAKWE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-da1feae6ad34,PHED,RIVERS,OKOH ROAD,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,B,B,B,B,B,A,A,A,,A,A,,,A,A,A,A,A,A
-2e3be4e1d9bc,PHED,RIVERS,OKPORO ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-4056bd89bf9d,PHED,RIVERS,OKRIKA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-96e9bc5a7940,PHED,RIVERS,OKURU,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,,E,E,,,E,E,E,E,E,E
-debbceadd756,PHED,RIVERS,OLD ABA ROAD,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-db696dbd9af1,PHED,RIVERS,OLD DIOBU,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-ec92dbfa6481,PHED,RIVERS,OLU OBASANJO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-ac63be9af606,PHED,RIVERS,OMACHI,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-9cdeffd1e439,PHED,RIVERS,OMERELU,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-3a4331eb15f3,PHED,RIVERS,ONNE,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-e1cd95a0b2c9,PHED,RIVERS,ONNE A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-baaf7ef352f1,PHED,RIVERS,ONNE B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-e7a7627a140e,PHED,RIVERS,OPM,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-c8d6dc907297,PHED,RIVERS,OWERRI ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,,,,C,C,C,C,C,C
-cd3a401f7013,PHED,RIVERS,OYIGBO,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-7fdd137a728f,PHED,RIVERS,OZUBOKO,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-4de7c1c9d889,PHED,RIVERS,PALACE ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-5caa62471c7b,PHED,RIVERS,PIPE LINE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-d0cc7d1aa20c,PHED,RIVERS,R-D ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,,C,C,,,C,C,C,C,C,C
-60362f65d68c,PHED,RIVERS,RAILWAY,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-eb22796b8546,PHED,RIVERS,RAINBOW,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2c09d6ca63d3,PHED,RIVERS,REFINERY LINE 1,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-5289d441fc54,PHED,RIVERS,REFINERY LINE2,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
+9bf5175f9967,PHED,RIVERS,GLASS FACTORY,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+92aa81a64320,PHED,RIVERS,GREATER PH,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+fc6a20524040,PHED,RIVERS,HABOUR ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+3cc83ffff386,PHED,RIVERS,HAROLD WILSON,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+7004314ee7fe,PHED,RIVERS,IGBO ETCHE,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+95d05aae977e,PHED,RIVERS,IGBO ETCHE A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+0344e3bddaf5,PHED,RIVERS,IGBO ETCHE B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+864bd4bc8321,PHED,RIVERS,IGWURUTA ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+55594baa9ff1,PHED,RIVERS,ISIOKPO,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,A,A,C,C,A,A,A,A,A,A,,A,A,,A,A,A,A,A
+64f78da552ea,PHED,RIVERS,JETTY,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+65873acb8431,PHED,RIVERS,KALA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+cfb3203b3e71,PHED,RIVERS,KOM KOM,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+6933c499d668,PHED,RIVERS,KOMKOM A,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+0b1aee2c5ba4,PHED,RIVERS,KOMKOM B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+593caef1fe20,PHED,RIVERS,LOCATION ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
+597f0209e482,PHED,RIVERS,MARINE BASE,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+7a11712b0903,PHED,RIVERS,MARKET ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+f6d509caa6f4,PHED,RIVERS,MBANO JUNCTION,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+e32d2a53ac80,PHED,RIVERS,MGBUOBA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+38407df90f71,PHED,RIVERS,MILE ONE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+b7d897fcee10,PHED,RIVERS,NAVY,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+af1bbff720e1,PHED,RIVERS,NDABROS,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+1ce2975b6b74,PHED,RIVERS,NDOKI,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+0d9a196b59eb,PHED,RIVERS,NEW GRA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+783e93f263b0,PHED,RIVERS,NEW ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+148134f2e456,PHED,RIVERS,NIGER CAT,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+540ad41a153c,PHED,RIVERS,NKPOGU,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+15ca47191ad3,PHED,RIVERS,NKPOR,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+34ca1900ccdf,PHED,RIVERS,NPA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+bfa235064391,PHED,RIVERS,NSUKKA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+d5ba25bda788,PHED,RIVERS,NTA,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+dfebf120cf31,PHED,RIVERS,NTA_A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A,A
+d1e8c0d8381a,PHED,RIVERS,NVUIGWE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+df075c0fa35c,PHED,RIVERS,OBI WALI,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+769bacd384e5,PHED,RIVERS,ODILI ROAD,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+bbfc0aff8478,PHED,RIVERS,OGBATAI,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+259877e8cea0,PHED,RIVERS,OHAKWE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+da1feae6ad34,PHED,RIVERS,OKOH ROAD,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2e3be4e1d9bc,PHED,RIVERS,OKPORO ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+4056bd89bf9d,PHED,RIVERS,OKRIKA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+96e9bc5a7940,PHED,RIVERS,OKURU,,,,,,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
+debbceadd756,PHED,RIVERS,OLD ABA ROAD,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+db696dbd9af1,PHED,RIVERS,OLD DIOBU,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+ec92dbfa6481,PHED,RIVERS,OLU OBASANJO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+ac63be9af606,PHED,RIVERS,OMACHI,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+9cdeffd1e439,PHED,RIVERS,OMERELU,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+3a4331eb15f3,PHED,RIVERS,ONNE,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+e1cd95a0b2c9,PHED,RIVERS,ONNE A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+baaf7ef352f1,PHED,RIVERS,ONNE B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D
+e7a7627a140e,PHED,RIVERS,OPM,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+c8d6dc907297,PHED,RIVERS,OWERRI ROAD,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
+cd3a401f7013,PHED,RIVERS,OYIGBO,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+7fdd137a728f,PHED,RIVERS,OZUBOKO,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+4de7c1c9d889,PHED,RIVERS,PALACE ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+5caa62471c7b,PHED,RIVERS,PIPE LINE,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+d0cc7d1aa20c,PHED,RIVERS,R-D ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+60362f65d68c,PHED,RIVERS,RAILWAY,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+eb22796b8546,PHED,RIVERS,RAINBOW,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2c09d6ca63d3,PHED,RIVERS,REFINERY LINE 1,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+5289d441fc54,PHED,RIVERS,REFINERY LINE2,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 f875c8e3f938,PHED,RIVERS,RIVERS GAMMA 1 NTA_A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,
 8152f09b9580,PHED,RIVERS,RIVERS GAMMA 1 OWERRI ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,
 e5df5ac7fb6d,PHED,RIVERS,RIVERS GAMMA 1 SCHOOL OF NURSING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,
-4eeed58d272e,PHED,RIVERS,RIVOC,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-b61f682e6c36,PHED,RIVERS,RSPUB-1,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-a11d54669691,PHED,RIVERS,RSTV,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2ad96519a889,PHED,RIVERS,RUKPOKWU,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-a99ba83bccdb,PHED,RIVERS,RUMOLUMINI,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-051076e87652,PHED,RIVERS,RUMUEKINI,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-eb981a82a3c5,PHED,RIVERS,RUMUEME,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,,,,C,C,C,C,C,C
-7bf88edf81cb,PHED,RIVERS,RUMUEPIRIKON,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-a5e3cd7f54ae,PHED,RIVERS,RUMUIBEKWE,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-514da507459d,PHED,RIVERS,RUMUKALAGBO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-938e36528263,PHED,RIVERS,RUMUODUMAYA,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-18d2e1955721,PHED,RIVERS,RUMUODUMAYA A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-f9028dc24f31,PHED,RIVERS,RUMUODUMAYA B,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-2c434998e416,PHED,RIVERS,RUMUOGBA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-eeec7dfbc710,PHED,RIVERS,RUMUOKWUTA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-17666867baa7,PHED,RIVERS,RUMUOLA,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-74da527742b5,PHED,RIVERS,RUMUOLA A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-c56c9b5a1166,PHED,RIVERS,RUMUOLA B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-0b27dc0c4f49,PHED,RIVERS,RUMUOMOI,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,,A,A,,,A,A,A,A,A,A
-9ba0aa683962,PHED,RIVERS,RUMUOROLU,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-74352f1f26b1,PHED,RIVERS,SARS ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-4fe26185b28c,PHED,RIVERS,SCHOOL OF NURSING,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,D,,,D,D,D,D,D,D
-576c1e73349b,PHED,RIVERS,SECRETARIAT,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-24ef42ae9e0d,PHED,RIVERS,SHELL ESTATE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-e6330f91be94,PHED,RIVERS,SHELL INDUSTRIAL,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-6140471a2f67,PHED,RIVERS,SILVERBIRD,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-5c9d5d6d68c8,PHED,RIVERS,STATION ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-c31ae0e67909,PHED,RIVERS,T1B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-c795d21dbbcb,PHED,RIVERS,TAP,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
-05fc992c6b65,PHED,RIVERS,TIMBER,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-11f7987ead0c,PHED,RIVERS,TRANS AMADI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
+4eeed58d272e,PHED,RIVERS,RIVOC,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+b61f682e6c36,PHED,RIVERS,RSPUB-1,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+a11d54669691,PHED,RIVERS,RSTV,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2ad96519a889,PHED,RIVERS,RUKPOKWU,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+a99ba83bccdb,PHED,RIVERS,RUMOLUMINI,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+051076e87652,PHED,RIVERS,RUMUEKINI,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+eb981a82a3c5,PHED,RIVERS,RUMUEME,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
+7bf88edf81cb,PHED,RIVERS,RUMUEPIRIKON,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+a5e3cd7f54ae,PHED,RIVERS,RUMUIBEKWE,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+514da507459d,PHED,RIVERS,RUMUKALAGBO,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+938e36528263,PHED,RIVERS,RUMUODUMAYA,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+18d2e1955721,PHED,RIVERS,RUMUODUMAYA A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+f9028dc24f31,PHED,RIVERS,RUMUODUMAYA B,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+2c434998e416,PHED,RIVERS,RUMUOGBA,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+eeec7dfbc710,PHED,RIVERS,RUMUOKWUTA,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+17666867baa7,PHED,RIVERS,RUMUOLA,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+74da527742b5,PHED,RIVERS,RUMUOLA A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+c56c9b5a1166,PHED,RIVERS,RUMUOLA B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+0b27dc0c4f49,PHED,RIVERS,RUMUOMOI,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+9ba0aa683962,PHED,RIVERS,RUMUOROLU,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+74352f1f26b1,PHED,RIVERS,SARS ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+4fe26185b28c,PHED,RIVERS,SCHOOL OF NURSING,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D
+576c1e73349b,PHED,RIVERS,SECRETARIAT,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+24ef42ae9e0d,PHED,RIVERS,SHELL ESTATE,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+e6330f91be94,PHED,RIVERS,SHELL INDUSTRIAL,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+6140471a2f67,PHED,RIVERS,SILVERBIRD,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+5c9d5d6d68c8,PHED,RIVERS,STATION ROAD,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+c31ae0e67909,PHED,RIVERS,T1B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+c795d21dbbcb,PHED,RIVERS,TAP,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+05fc992c6b65,PHED,RIVERS,TIMBER,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+11f7987ead0c,PHED,RIVERS,TRANS AMADI,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 5f05c99d1575,PHED,RIVERS,TUPTH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,
-9a177007afbd,PHED,RIVERS,UDI,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-2129a9045e64,PHED,RIVERS,UPTH,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,,C,C,C,C,C
-1342ddfe3cff,PHED,RIVERS,UST,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,A,A,A,A,A,A,C,C,C,C,,C,C,,,C,C,C,C,C,C
-cd7dd2917b27,PHED,RIVERS,UST_A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-5ab2bec35fe2,PHED,RIVERS,UST_B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-b085dd0616ad,PHED,RIVERS,UTC,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-db288a00e130,PHED,RIVERS,WATER LINES,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,,,B,B,B,B,B,B
-12f6da06da8c,PHED,RIVERS,WATER WORKS,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,,,A,A,A,A,A,A
-10f264c0cca5,PHED,RIVERS,WATERWORKS,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,,,,,,,,,,
-e1b6a9907f0a,PHED,RIVERS,WOKOMA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,,,D,D,D,D,D,D
-62ae825358bd,PHED,RIVERS,ZENITH,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,,,C,C,C,C,C,C
+9a177007afbd,PHED,RIVERS,UDI,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+2129a9045e64,PHED,RIVERS,UPTH,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C
+1342ddfe3cff,PHED,RIVERS,UST,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+cd7dd2917b27,PHED,RIVERS,UST_A,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+5ab2bec35fe2,PHED,RIVERS,UST_B,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+b085dd0616ad,PHED,RIVERS,UTC,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+db288a00e130,PHED,RIVERS,WATER LINES,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+12f6da06da8c,PHED,RIVERS,WATER WORKS,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+e1b6a9907f0a,PHED,RIVERS,WOKOMA,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+62ae825358bd,PHED,RIVERS,ZENITH,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+68ca1cb4ce28,PHED,UNKNOWN,BAYELSA BAYELSA EMUOHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,
+d57219a20d1c,PHED,UNKNOWN,BAYELSA BAYELSA GBARINE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,,,,,,
 764e4514df7c,YEDC,ADAMAWA,11KV ABTI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-53046459c8c4,YEDC,ADAMAWA,11KV AJI YA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-0a3fc2d52f43,YEDC,ADAMAWA,11KV AJIYA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+0a3fc2d52f43,YEDC,ADAMAWA,11KV AJIYA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 f03d933ff85a,YEDC,ADAMAWA,11KV ARHAN KUNU,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 ed25b121ee6d,YEDC,ADAMAWA,11KV ARHAN KUNU I,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 3176bbff68c1,YEDC,ADAMAWA,11KV ARHAN KUNU II,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 90883bc98bd3,YEDC,ADAMAWA,11KV ARHAN KUNU III,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 5f1f0882fc40,YEDC,ADAMAWA,11KV AUN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-412c892d49fd,YEDC,ADAMAWA,11KV BAJ ABURE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-a0822c558bb0,YEDC,ADAMAWA,11KV BAJABURE,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+a0822c558bb0,YEDC,ADAMAWA,11KV BAJABURE,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 745e3285e0cf,YEDC,ADAMAWA,11KV BEKAJI,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 0907e043d3d2,YEDC,ADAMAWA,11KV DTB,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-5751f78858e6,YEDC,ADAMAWA,11KV FEDERAL LOWCOST,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-917da7ff415a,YEDC,ADAMAWA,11KV FGGC JI M,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-3f6720697bf5,YEDC,ADAMAWA,11KV FGGC JIM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
-6a7f2cabd6c6,YEDC,ADAMAWA,11KV FMC,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+5751f78858e6,YEDC,ADAMAWA,11KV FEDERAL LOWCOST,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+3f6720697bf5,YEDC,ADAMAWA,11KV FGGC JIM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
+6a7f2cabd6c6,YEDC,ADAMAWA,11KV FMC,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 d2c65b2899c8,YEDC,ADAMAWA,11KV GANYE,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-f416e423d204,YEDC,ADAMAWA,11KV GERI O,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-b19736fdfa64,YEDC,ADAMAWA,11KV GERIO,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B
+b19736fdfa64,YEDC,ADAMAWA,11KV GERIO,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B
 92c340fa0660,YEDC,ADAMAWA,11KV GOMBI TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-fa607bf87db9,YEDC,ADAMAWA,11KV GOVER NME NT HOUSE JI META,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
 1718a18a6a57,YEDC,ADAMAWA,11KV GOVERNMENT HOUSE JIM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-5f4902f689d1,YEDC,ADAMAWA,11KV GOVERNMENT HOUSE JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,,A,A,A,A,A,A,A,A,A,A
-a7ae003f7e3b,YEDC,ADAMAWA,11KV GRA JI META,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
+5f4902f689d1,YEDC,ADAMAWA,11KV GOVERNMENT HOUSE JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A,A,A
 bbf8b8558003,YEDC,ADAMAWA,11KV GRA JIM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,
-828d23201c9f,YEDC,ADAMAWA,11KV GRA JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+828d23201c9f,YEDC,ADAMAWA,11KV GRA JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 0b912c265048,YEDC,ADAMAWA,11KV GRA MUBI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
-bcd6ad0a454c,YEDC,ADAMAWA,11KV GYA WANA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-f546138d1749,YEDC,ADAMAWA,11KV GYAWANA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,,A,A,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+f546138d1749,YEDC,ADAMAWA,11KV GYAWANA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 ca864176a3c1,YEDC,ADAMAWA,11KV Government House,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-9e8887df0fe6,YEDC,ADAMAWA,11KV HONG T OWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-f338472bf9e2,YEDC,ADAMAWA,11KV HONG TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-3a2f7703262a,YEDC,ADAMAWA,11KV I NEC JI META,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
+f338472bf9e2,YEDC,ADAMAWA,11KV HONG TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 9a5de94da601,YEDC,ADAMAWA,11KV INEC JIM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,
-b517891fdf70,YEDC,ADAMAWA,11KV INEC JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+b517891fdf70,YEDC,ADAMAWA,11KV INEC JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 56e5280be735,YEDC,ADAMAWA,11KV JAMBUTU,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-eda92e023a83,YEDC,ADAMAWA,11KV KARE WA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-ca45a456abf4,YEDC,ADAMAWA,11KV KAREWA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
-ef07f04be55c,YEDC,ADAMAWA,11KV L OKU WA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-ba7238798467,YEDC,ADAMAWA,11KV LASSA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,,C,C,C,C,,C,C,C
+ca45a456abf4,YEDC,ADAMAWA,11KV KAREWA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
+ba7238798467,YEDC,ADAMAWA,11KV LASSA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,,C,C,C
 b26fabe78800,YEDC,ADAMAWA,11KV LASSAI,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-e3df5a032b43,YEDC,ADAMAWA,11KV LOKUWA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-cc01ac6f34b8,YEDC,ADAMAWA,11KV MAI HA ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-38d8a0718792,YEDC,ADAMAWA,11KV MAI HA T OWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
+e3df5a032b43,YEDC,ADAMAWA,11KV LOKUWA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 5aea74c32f2e,YEDC,ADAMAWA,11KV MAIHA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
-b8d881d53261,YEDC,ADAMAWA,11KV MAIHA ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-ca74f6d3b9ad,YEDC,ADAMAWA,11KV MAIHA TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-ee45a26a7eb9,YEDC,ADAMAWA,11KV MAL K WOHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-f4cf6eeeb8c5,YEDC,ADAMAWA,11KV MALKWOHI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+b8d881d53261,YEDC,ADAMAWA,11KV MAIHA ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+ca74f6d3b9ad,YEDC,ADAMAWA,11KV MAIHA TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+f4cf6eeeb8c5,YEDC,ADAMAWA,11KV MALKWOHI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 6aa3fb3b3f35,YEDC,ADAMAWA,11KV MALKWOI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
 58d7cd61a660,YEDC,ADAMAWA,11KV MAYO- BEL WA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 422df827891e,YEDC,ADAMAWA,11KV MAYO-BELWA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 46ad272d4e4c,YEDC,ADAMAWA,11KV MAYO-BELWA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-1f0c0bc99045,YEDC,ADAMAWA,11KV NASSARA WO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-44d4b8541a4c,YEDC,ADAMAWA,11KV NASSARAWO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+44d4b8541a4c,YEDC,ADAMAWA,11KV NASSARAWO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 cbfb8072dfc5,YEDC,ADAMAWA,11KV NUMAN,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 b832e4e24115,YEDC,ADAMAWA,11KV NUMAN II,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-4f2605446729,YEDC,ADAMAWA,11KV NUMAN R OAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-aca1b3473918,YEDC,ADAMAWA,11KV NUMAN ROAD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-ca5c4d174c21,YEDC,ADAMAWA,11KV NUMAN T OWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-1804178c244d,YEDC,ADAMAWA,11KV NUMAN TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-aedcfb6fb993,YEDC,ADAMAWA,11KV NYI BANGO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-8b455f6f5401,YEDC,ADAMAWA,11KV NYIBANGO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+aca1b3473918,YEDC,ADAMAWA,11KV NUMAN ROAD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+1804178c244d,YEDC,ADAMAWA,11KV NUMAN TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+8b455f6f5401,YEDC,ADAMAWA,11KV NYIBANGO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 31934f02128b,YEDC,ADAMAWA,11KV SAKUWA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-d6eab4b61e2c,YEDC,ADAMAWA,11KV SCIENCE UBA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+d6eab4b61e2c,YEDC,ADAMAWA,11KV SCIENCE UBA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 81ee7050de15,YEDC,ADAMAWA,11KV SHAGARI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A
-fe7efa52584c,YEDC,ADAMAWA,11KV SHI NCO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-3a2ea30fd6a1,YEDC,ADAMAWA,11KV SHINCO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
+3a2ea30fd6a1,YEDC,ADAMAWA,11KV SHINCO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
 ac05636c6939,YEDC,ADAMAWA,11KV SPY,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 9032b60c295c,YEDC,ADAMAWA,11KV SPY 2,,,,,,,,,,,,,,,,,,B,B,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,
 68be8a840254,YEDC,ADAMAWA,11KV SPY1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,
 f530e9a42b3e,YEDC,ADAMAWA,11KV Spy11,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-c367fd0d2930,YEDC,ADAMAWA,11KV T OWN JI META,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 599e031e3659,YEDC,ADAMAWA,11KV TOWN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 9dd2c7a234e6,YEDC,ADAMAWA,11KV TOWN JIM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-a8c0d95ff8b9,YEDC,ADAMAWA,11KV TOWN JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-10041024a4a8,YEDC,ADAMAWA,11KV TOWN UBA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+a8c0d95ff8b9,YEDC,ADAMAWA,11KV TOWN JIMETA,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+10041024a4a8,YEDC,ADAMAWA,11KV TOWN UBA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 37a6bfc5cf5f,YEDC,ADAMAWA,11KV TSAKUWA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 c2a3bf6a31f6,YEDC,ADAMAWA,11KV UBA I,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-409b01d7ba7f,YEDC,ADAMAWA,11KV WURO HAUSA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-8e00b391fb9a,YEDC,ADAMAWA,11KV YOL A ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
+409b01d7ba7f,YEDC,ADAMAWA,11KV WURO HAUSA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 22e9d83345da,YEDC,ADAMAWA,11KV YOLA RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-30dcc5118453,YEDC,ADAMAWA,11KV YOLA ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+30dcc5118453,YEDC,ADAMAWA,11KV YOLA ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 6aa96cbc35cb,YEDC,ADAMAWA,33KV DAMATURU RURAL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-f431aade7b2c,YEDC,ADAMAWA,33KV FUFORE,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+f431aade7b2c,YEDC,ADAMAWA,33KV FUFORE,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 ea4f251aaa3b,YEDC,ADAMAWA,33KV GARKI DA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-321473d544e2,YEDC,ADAMAWA,33KV GARKI DA ( MUBI ),,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 112f9ebe3bdf,YEDC,ADAMAWA,33KV GARKIDA,,C,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 113dddf808fd,YEDC,ADAMAWA,33KV GARKIDA,,D,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,,C,,C,C,C,C,C,C,C,C
-8d40bfc92d1b,YEDC,ADAMAWA,33KV GARKIDA (MUBI),,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+8d40bfc92d1b,YEDC,ADAMAWA,33KV GARKIDA (MUBI),,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 dde374f4a8d9,YEDC,ADAMAWA,33KV GARKIDA BIU,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 0eb196390488,YEDC,ADAMAWA,33KV GARKIDA GMB,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
 103aa6fff6ef,YEDC,ADAMAWA,33KV GEREI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-da185c3f7308,YEDC,ADAMAWA,33KV GI REI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-3137fbd48641,YEDC,ADAMAWA,33KV GIREI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+3137fbd48641,YEDC,ADAMAWA,33KV GIREI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 938716c55ab5,YEDC,ADAMAWA,33KV GOVT HOUSE,,,,,,,,,,,,,,,,,,,,,,,,B,B,,,,,,,,,,,,,,,,,,,,
 b8da7f1857c9,YEDC,ADAMAWA,33KV GOVT HOUSE,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,,,
 c1f552cce7cb,YEDC,ADAMAWA,33KV GUYUK,,C,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-4cc25b7a0c29,YEDC,ADAMAWA,33KV J AMBUTU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
+e1e3a062547b,YEDC,ADAMAWA,33KV J AMBUTU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
 3fd32152fc59,YEDC,ADAMAWA,33KV JAMBUTU,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 6aab20ffd612,YEDC,ADAMAWA,33KV JAMBUTU,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,
 f215accef898,YEDC,ADAMAWA,33KV JAMBUTU,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
 cbf666d197a0,YEDC,ADAMAWA,33KV JAMBUTU GMB,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
 6331b097359c,YEDC,ADAMAWA,33KV JAMBUTU RURAL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-d689036296ca,YEDC,ADAMAWA,33KV JI META,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-ee328aefbe32,YEDC,ADAMAWA,33KV JIMETA,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
-e989bffeea79,YEDC,ADAMAWA,33KV L AMURDE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
+ee328aefbe32,YEDC,ADAMAWA,33KV JIMETA,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
 52dec664b61e,YEDC,ADAMAWA,33KV LAMORDE,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
-966b62858947,YEDC,ADAMAWA,33KV LAMURDE,,C,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D
+966b62858947,YEDC,ADAMAWA,33KV LAMURDE,,C,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D
 4cedf81ef810,YEDC,ADAMAWA,33KV MAYO BEL WA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 bebf976e9888,YEDC,ADAMAWA,33KV MAYO BELWA,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 caa7d4d01937,YEDC,ADAMAWA,33KV MAYO BELWA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 6c7048bd8d26,YEDC,ADAMAWA,33KV MUTUM BIYU,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-59a97b5f91cc,YEDC,ADAMAWA,33KV NGUR ORE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-bb11fedd60b0,YEDC,ADAMAWA,33KV NGURORE,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,,,C,C,C,C,C,C,C,C
+bb11fedd60b0,YEDC,ADAMAWA,33KV NGURORE,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,C,C,C,C,C,C,C,C
 f12f7c1a7d90,YEDC,ADAMAWA,33KV WUKARI,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
-2552aa52fee2,YEDC,ADAMAWA,33KV YOL A TEE OFF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-3704a2130a8e,YEDC,ADAMAWA,33KV YOLA,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-36560cbf3115,YEDC,ADAMAWA,33KV YOLA TEE OFF,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+3704a2130a8e,YEDC,ADAMAWA,33KV YOLA,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+36560cbf3115,YEDC,ADAMAWA,33KV YOLA TEE OFF,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 03cb7a8331b2,YEDC,ADAMAWA,ADAMAWA MICHIKA 11KV LASSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,
 fba0a86a1282,YEDC,ADAMAWA,ADAMAWA YELWA 11KV SHAGARI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,
 39f0528c9a6d,YEDC,ADAMAWA,BABANGIDA,B,B,,B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -6177,66 +6091,54 @@ b0115f0a879e,YEDC,BORNO,11KV BAMA I4,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B
 849eacaa2bd3,YEDC,BORNO,11KV BAMA I7,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 e447ac909a76,YEDC,BORNO,11KV BAMA I8,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 cd4ace7f9c2b,YEDC,BORNO,11KV BIU BARRACK,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-db0209e472dd,YEDC,BORNO,11KV BIU TOWN,B,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-46f056f09f53,YEDC,BORNO,11KV BUL UMKUTU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-afb9f66fe5a6,YEDC,BORNO,11KV BULUMKUTU,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D
-04a49f2d15e1,YEDC,BORNO,11KV COMMERCI AL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-3f0122bc218e,YEDC,BORNO,11KV COMMERCIAL,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C
+db0209e472dd,YEDC,BORNO,11KV BIU TOWN,B,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+afb9f66fe5a6,YEDC,BORNO,11KV BULUMKUTU,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D
+3f0122bc218e,YEDC,BORNO,11KV COMMERCIAL,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C
 037a34992a70,YEDC,BORNO,11KV COMMERCIAL BKT,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 f8a28b5febca,YEDC,BORNO,11KV COMMERCIAL KAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 f1bcf508196c,YEDC,BORNO,11KV COMMERCIAL YER,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-982a9bcc7cde,YEDC,BORNO,11KV DAMB OA ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-e0e10076a30e,YEDC,BORNO,11KV DAMBOA ROAD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+e0e10076a30e,YEDC,BORNO,11KV DAMBOA ROAD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 a04b2fef773c,YEDC,BORNO,11KV GOMB OL E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 a582fb3fe2b2,YEDC,BORNO,11KV GOMBOLE,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,,,,,,B,B
 9a0749eec665,YEDC,BORNO,11KV GRA,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 f6f17b847c0f,YEDC,BORNO,11KV GRA BKT,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 e5149e1a2def,YEDC,BORNO,11KV GRA KAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
 0732b0b7c561,YEDC,BORNO,11KV GRA MUB,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-3d0e6f221592,YEDC,BORNO,11KV I NDUSTRI AL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 24849fd8728f,YEDC,BORNO,11KV INDIMI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-d0d336e2a831,YEDC,BORNO,11KV INDUSTRIAL,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+d0d336e2a831,YEDC,BORNO,11KV INDUSTRIAL,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 8a31647cfec6,YEDC,BORNO,11KV INDUSTRIAL BKT,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 cce4ed49858a,YEDC,BORNO,11KV INDUSTRIAL KAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-b85f8907bd41,YEDC,BORNO,11KV KASUWAN WAKE,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+b85f8907bd41,YEDC,BORNO,11KV KASUWAN WAKE,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 0d302b16379c,YEDC,BORNO,11KV KHADDAMARI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-ecade759ee91,YEDC,BORNO,11KV KWAJAFA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-82442e8f7806,YEDC,BORNO,11KV LAGOS STREET,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+ecade759ee91,YEDC,BORNO,11KV KWAJAFA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+82442e8f7806,YEDC,BORNO,11KV LAGOS STREET,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 61eb0a665f74,YEDC,BORNO,11KV LAGOS STREET I,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 f6364320c307,YEDC,BORNO,11KV LAGOS STREET KAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-37269ad75aac,YEDC,BORNO,11KV MAF ONI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-7ac3d9fc6d77,YEDC,BORNO,11KV MAFONI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+7ac3d9fc6d77,YEDC,BORNO,11KV MAFONI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 c62541a631ed,YEDC,BORNO,11KV MAFONI II,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
 a8f950a3f262,YEDC,BORNO,11KV MAIDUGURI UNIVERSITY II,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-06e7169e4bf7,YEDC,BORNO,11KV NT A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-fb81f51831f5,YEDC,BORNO,11KV NTA,A,A,,A,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B
+fb81f51831f5,YEDC,BORNO,11KV NTA,A,A,,A,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B
 a88f722df665,YEDC,BORNO,11KV NTA 225 LLO BORNO YERWA 11KV COMMERCIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,
-4229774b55b1,YEDC,BORNO,11KV OL D WEL COME,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
 d47ba5d8ee3e,YEDC,BORNO,11KV OLD GRA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-d98d3cadf641,YEDC,BORNO,11KV OLD MAIDUGURI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-3c0d20bd4ee1,YEDC,BORNO,11KV OLD WELCOME,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-b8071c9c12bd,YEDC,BORNO,11KV P OL O,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-c0f7ec824f1b,YEDC,BORNO,11KV POLO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-c1a6892665a3,YEDC,BORNO,11KV POMP OMARI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-ac38579696e6,YEDC,BORNO,11KV POMPOMARI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+d98d3cadf641,YEDC,BORNO,11KV OLD MAIDUGURI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+3c0d20bd4ee1,YEDC,BORNO,11KV OLD WELCOME,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+c0f7ec824f1b,YEDC,BORNO,11KV POLO,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+ac38579696e6,YEDC,BORNO,11KV POMPOMARI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 036562927493,YEDC,BORNO,11KV POMPOMARI KAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
-8df690fd4b12,YEDC,BORNO,11KV POWER HOUSE,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-99c7e8c2b236,YEDC,BORNO,11KV SHAGOTARA,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
+8df690fd4b12,YEDC,BORNO,11KV POWER HOUSE,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 b715f0c9b77f,YEDC,BORNO,11KV SHANI,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,,D,D,D,,,,,D,D,D
 2af00789eeb7,YEDC,BORNO,11KV STAFF QTRS KAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 412241bb649a,YEDC,BORNO,11KV STAFF QUARTERS,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-1b4df272bf46,YEDC,BORNO,11KV TEACHING HOSPITAL,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+1b4df272bf46,YEDC,BORNO,11KV TEACHING HOSPITAL,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 30c810745869,YEDC,BORNO,11KV TEACHING HOSPITAL 2.5MVA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 cf87f8b08010,YEDC,BORNO,11KV TEACHING HOSPITAL I,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-f5bc32385693,YEDC,BORNO,11KV WATER TREATMENT PLANT,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+f5bc32385693,YEDC,BORNO,11KV WATER TREATMENT PLANT,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 9003b71f5efe,YEDC,BORNO,33 KV MONGUNO,A,A,,A,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,C,C
 d1dcfb3859e5,YEDC,BORNO,33KV AZARE URBAN,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 3931ff8ab17f,YEDC,BORNO,33KV BAKASSI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 c2d22c83b6fc,YEDC,BORNO,33KV BAMA,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-05d0878937d6,YEDC,BORNO,33KV BENI SHEK RURAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-82b20c11859c,YEDC,BORNO,33KV BENI SHEK URBAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-dc8461e52c85,YEDC,BORNO,33KV BENISHEK RURAL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,D,D,D,,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D
-bc1b44f4d8b6,YEDC,BORNO,33KV BENISHEK URBAN,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,A,,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
+dc8461e52c85,YEDC,BORNO,33KV BENISHEK RURAL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,B,B,B,B,B,B,B,B,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D
+bc1b44f4d8b6,YEDC,BORNO,33KV BENISHEK URBAN,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,A,A,A,A,A,A,A,A,A,,A,A,A,A,A,A,A,A
 b75cab9bccdb,YEDC,BORNO,33KV DAMAGUN URBAN,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 3b23081d106a,YEDC,BORNO,33KV DAMASAK,A,A,,A,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 e321e49dd273,YEDC,BORNO,33KV GARKIDA,,C,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,,,,,,C,C
@@ -6245,7 +6147,7 @@ a8ad2fd4e22e,YEDC,BORNO,33KV GOMB OL E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,
 ce050deb7843,YEDC,BORNO,33KV GOMBOLE,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 a3f2599a5285,YEDC,BORNO,33KV MAIDUGURI TOWN,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 e94f8623d40e,YEDC,BORNO,33KV MAYO BELWA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-dc6c370497c1,YEDC,BORNO,33KV MIRINGA,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
+dc6c370497c1,YEDC,BORNO,33KV MIRINGA,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C
 9c465b366a94,YEDC,BORNO,33KV SHANI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,,,,,,,,D,D
 a2f81dcd09de,YEDC,BORNO,33KV SHANI,,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b4e533bdad3a,YEDC,BORNO,33KV SHANI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,
@@ -6253,7 +6155,7 @@ e1d4f72a477a,YEDC,BORNO,33KV TAKUM,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,
 771caa7469dd,YEDC,BORNO,33KV UNIVERSITY,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 faa8e6134b58,YEDC,BORNO,33KV UNIVERSITY,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8dfb4534d41e,YEDC,BORNO,33KV UNIVERSITY II,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-a4009e61e2b7,YEDC,BORNO,33KV UNIVERSITY KANEM,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+a4009e61e2b7,YEDC,BORNO,33KV UNIVERSITY KANEM,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 df4b910e8539,YEDC,BORNO,33KV UNIVERSITY RURAL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 9f71f68b0841,YEDC,BORNO,BENESHEIK,A,A,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ead7557820da,YEDC,BORNO,BIU 33KV MIRINGA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,
@@ -6286,39 +6188,29 @@ c521da13cb81,YEDC,TARABA,11KV ATC II JL2,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B
 f663475c82a5,YEDC,TARABA,11KV BANK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,
 f70e6ff0fa72,YEDC,TARABA,11KV BANK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,
 01740acfcb58,YEDC,TARABA,11KV BANK JL1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-6c2d2813f881,YEDC,TARABA,11KV DONGA DOZ ONGA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-fdb8066803a7,YEDC,TARABA,11KV DONGA DOZONGA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+fdb8066803a7,YEDC,TARABA,11KV DONGA DOZONGA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 733370eabfe8,YEDC,TARABA,11KV DONGA GARA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 bd4f0831d5c2,YEDC,TARABA,11KV FEDERAL UNIVERSITY WUKARI,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
 35fe697720e9,YEDC,TARABA,11KV GRA JL2,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
 6cc7f8fc6232,YEDC,TARABA,11KV GRA WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 e5558b7e07b6,YEDC,TARABA,11KV GRA YER,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-174a7683618e,YEDC,TARABA,11KV I BBI T OWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-ba2cf973bb09,YEDC,TARABA,11KV IBBI TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+ba2cf973bb09,YEDC,TARABA,11KV IBBI TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 4bbf2a530b0e,YEDC,TARABA,11KV JALINGO AIRPORT JL1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
 a73e15f7ac6a,YEDC,TARABA,11KV MAGAMI JL1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
 6b6f99af77cc,YEDC,TARABA,11KV MARARRABA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
-eeeefc70a899,YEDC,TARABA,11KV NE W COMMI SSI ONERS QTRS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-9d95cdb9b315,YEDC,TARABA,11KV NE W ERA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-1f83cac12c02,YEDC,TARABA,11KV NEW COMMISSIONERS QTRS,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-c1cb67b3440b,YEDC,TARABA,11KV NEW ERA,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+1f83cac12c02,YEDC,TARABA,11KV NEW COMMISSIONERS QTRS,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+c1cb67b3440b,YEDC,TARABA,11KV NEW ERA,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 1a4c85105c30,YEDC,TARABA,11KV NEW ERA JL1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
-50bb7355f7cc,YEDC,TARABA,11KV NY WONY O,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-f9f8ebbd5083,YEDC,TARABA,11KV NYWONYO,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+f9f8ebbd5083,YEDC,TARABA,11KV NYWONYO,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 109226e4f75b,YEDC,TARABA,11KV OLD MAIDUGURI 1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-1f2e0f3ed077,YEDC,TARABA,11KV PAL ACE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-fe492e191d3c,YEDC,TARABA,11KV PALACE,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+fe492e191d3c,YEDC,TARABA,11KV PALACE,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 29fc3420abdb,YEDC,TARABA,11KV PALACE JL1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-7f7ba27c8c1c,YEDC,TARABA,11KV SHI MMOH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-b9a7e2664904,YEDC,TARABA,11KV SHIMMOH,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-e4479274de62,YEDC,TARABA,11KV SI NTALI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-47a409d050b4,YEDC,TARABA,11KV SINTALI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+b9a7e2664904,YEDC,TARABA,11KV SHIMMOH,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+47a409d050b4,YEDC,TARABA,11KV SINTALI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 59519fc8b89f,YEDC,TARABA,11KV T OWNSHI P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 fc20d7c38d54,YEDC,TARABA,11KV T OWNSHI P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-fffca22ca116,YEDC,TARABA,11KV TAKUM AR MY BARRACKS RD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-a774b419937b,YEDC,TARABA,11KV TAKUM ARMY BARRACKS RD,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-483302061f19,YEDC,TARABA,11KV TAKUM T OWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-c686849e73ec,YEDC,TARABA,11KV TAKUM TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+a774b419937b,YEDC,TARABA,11KV TAKUM ARMY BARRACKS RD,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+c686849e73ec,YEDC,TARABA,11KV TAKUM TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 0e07a84230af,YEDC,TARABA,11KV TOWNSHIP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,
 9c207051fa58,YEDC,TARABA,11KV TOWNSHIP,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B
 c14494b88987,YEDC,TARABA,11KV TOWNSHIP,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
@@ -6327,12 +6219,10 @@ bf16b3f841a3,YEDC,TARABA,11KV TOWNSHIP JL2,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 96ab8a40678b,YEDC,TARABA,11KV UNIVERSITY JL1,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
 58c69f7fe0b8,YEDC,TARABA,11KV USSA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 9c1f15ec42e0,YEDC,TARABA,11KV WUKARI GRA,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-bcfd122130f3,YEDC,TARABA,11KV WUKARI T OWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-ab6f831cd8b4,YEDC,TARABA,11KV WUKARI TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+ab6f831cd8b4,YEDC,TARABA,11KV WUKARI TOWN,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 aab8fe215d75,YEDC,TARABA,33KV BABANGIDA NGU,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 5a5ffcc2bc3e,YEDC,TARABA,33KV DONGA 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-7d2ba1fa661e,YEDC,TARABA,33KV GOVER NMENT HOUSE J ALI NGO II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-12b9cf6530bb,YEDC,TARABA,33KV GOVERNMENT HOUSE JALINGO II,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,,A,,A,,,,A,A,,,A,A
+12b9cf6530bb,YEDC,TARABA,33KV GOVERNMENT HOUSE JALINGO II,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,,A,,A,,,,A,A,,,A,A
 05ae848be5e6,YEDC,TARABA,33KV GOVT HOUSE,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b65c55b3df4a,YEDC,TARABA,33KV GOVT HOUSE,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 79489f320dc4,YEDC,TARABA,33KV J ALI NGO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
@@ -6356,23 +6246,17 @@ b1ab02eb053d,YEDC,TARABA,33KV MUTUM BIYU,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 4fee518e3e27,YEDC,TARABA,33KV MUTUM-BIYU,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,,B,B,B,B,,,B,B,B,B
 765a7fdf0a3b,YEDC,TARABA,33KV MUTUM-BIYU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,
 b9dd080d4267,YEDC,TARABA,33KV MUTUM-BIYU RURAL,,,,,,,,,,,,,C,,,,,,,,,,C,,,,,,,,,,,,,,,,,,,,,,
-39d9aee832f2,YEDC,TARABA,33KV NE W WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-fc2bc47441f1,YEDC,TARABA,33KV NEW WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-8e30c3cd5015,YEDC,TARABA,33KV OL D WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-725f4023dddb,YEDC,TARABA,33KV OLD WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-fd7e84c0e840,YEDC,TARABA,33KV RAFI N KADA 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-86717010e759,YEDC,TARABA,33KV RAFI N KADA 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-6df613d31fdb,YEDC,TARABA,33KV RAFIN KADA 1,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
-9bc0c58a577b,YEDC,TARABA,33KV RAFIN KADA 11,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+fc2bc47441f1,YEDC,TARABA,33KV NEW WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+725f4023dddb,YEDC,TARABA,33KV OLD WUKARI,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+6df613d31fdb,YEDC,TARABA,33KV RAFIN KADA 1,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
+9bc0c58a577b,YEDC,TARABA,33KV RAFIN KADA 11,,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D
 b1e5ba2f8dd4,YEDC,TARABA,33KV SHANI,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
 2a3dca47784d,YEDC,TARABA,33KV UNIVERSITY 2,,C,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 096e04b49ce2,YEDC,TARABA,33KV YOLA RURAL,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-b4f7bae250b2,YEDC,TARABA,33KV ZI NG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-256339d546a8,YEDC,TARABA,33KV ZING,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+256339d546a8,YEDC,TARABA,33KV ZING,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 6e16bedfb39d,YEDC,TARABA,GOVERNMENT HOUSE JALINGO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,A,,,,,,
 b5b8531e3f7d,YEDC,TARABA,GOVT HOUSE,A,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 e55cc4eb211e,YEDC,TARABA,GOVT HOUSE,A,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-3b75880d5e82,YEDC,TARABA,J AUR O MASHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 498df4440b0f,YEDC,TARABA,JALINGO,,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 a171e638f7ee,YEDC,TARABA,JALINGO,A,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b48bb19b0bf0,YEDC,TARABA,JALINGO 33KV GOVERNMENT II HOUSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,
@@ -6380,43 +6264,23 @@ b48bb19b0bf0,YEDC,TARABA,JALINGO 33KV GOVERNMENT II HOUSE,,,,,,,,,,,,,,,,,,,,,,,
 57f49e0e57fc,YEDC,TARABA,JALINGO II 33KV JALINGO GOVERNMENT II HOUSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,A,,,,,,,
 b40cbe35829e,YEDC,TARABA,JALINGO lI 33KV GOVERNMENT HOUSE JALINGO II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,
 fa87869c58e5,YEDC,TARABA,JALINGO lI IJAURO MASHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,
-7c8e9805743e,YEDC,TARABA,JAURO MASHI,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B
+7c8e9805743e,YEDC,TARABA,JAURO MASHI,,,,,,,,,,,,,,,,,,,,,,,,,,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B
 03200ac659fa,YEDC,TARABA,MUTUM BIYU,,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 10355f2d74f9,YEDC,TARABA,MUTUM BIYU,,,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 87e9729d022e,YEDC,TARABA,POTISKUM,A,A,,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 9b01f7092255,YEDC,TARABA,TARABA JALINGO II 33KV JALINGO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,
 f8ea58c02a74,YEDC,TARABA,WUKARI NEW,D,D,,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-9c3471e3162b,YEDC,UNKNOWN,11KV BI U TOWN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-118b5d3c26bf,YEDC,UNKNOWN,11KV F MC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-3a687b92a896,YEDC,UNKNOWN,11KV FEDERAL L OWCOST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-050b42ae042e,YEDC,UNKNOWN,11KV KASU WAN WAKE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-61322297cb10,YEDC,UNKNOWN,11KV KWAJ AFA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-63898370f29f,YEDC,UNKNOWN,11KV L AGOS STREET,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-271f1c5f64bc,YEDC,UNKNOWN,11KV L ASSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-08f37fd79689,YEDC,UNKNOWN,11KV OL D MAI DUGURI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-b6a572f6fe52,YEDC,UNKNOWN,11KV P OWER HOUSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-8aba42356327,YEDC,UNKNOWN,11KV SCI ENCE UBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 59162adb2ea6,YEDC,UNKNOWN,11KV SHANI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-9a9575f3c655,YEDC,UNKNOWN,11KV T OWN UBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-e34bfcc3fce9,YEDC,UNKNOWN,11KV TEACHI NG HOSPI TAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-1b99b028c4c4,YEDC,UNKNOWN,11KV WATER TREAT MENT PL ANT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-4e22b48da5f0,YEDC,UNKNOWN,11KV WUR O HAUSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-02afefce4374,YEDC,UNKNOWN,33KV FUF ORE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
 ef010f712e66,YEDC,UNKNOWN,33KV GARKI DA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-b4cbadb096cc,YEDC,UNKNOWN,33KV MI RI NGA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 1943fcd70c15,YEDC,UNKNOWN,33KV SHANI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,,,,,,,,,,,,,,,,
-5acbb6d866ef,YEDC,UNKNOWN,33KV UNI VERSI TY KANE M,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-d44906259023,YEDC,UNKNOWN,33KV YOL A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
 920fced758af,YEDC,UNKNOWN,JALINGO,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 3f045e41a7dd,YEDC,UNKNOWN,MUTUM BIYU,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8e9ea2545351,YEDC,UNKNOWN,MUTUM BIYU,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-7ae3d5e3a58b,YEDC,YOBE,11KV ALI MARAMI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-96f525341ddf,YEDC,YOBE,11KV ALIMARAMI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
+96f525341ddf,YEDC,YOBE,11KV ALI MARAMI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 d846c910d6d6,YEDC,YOBE,11KV BUNI YADI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 237d95f7b7d5,YEDC,YOBE,11KV BUNIYADI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-dc6c7c1005b7,YEDC,YOBE,11KV DAMAT URU ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
 522459a72534,YEDC,YOBE,11KV DAMATURU RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,,,,,,,,,,,,,,,,,,,,
-3835c6fded10,YEDC,YOBE,11KV DAMATURU ROAD,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+3835c6fded10,YEDC,YOBE,11KV DAMATURU ROAD,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 c436df20c49e,YEDC,YOBE,11KV DAPCHI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 be1db08918b8,YEDC,YOBE,11KV FEDERAL POLY DAM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
 122530c61363,YEDC,YOBE,11KV GARBI,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
@@ -6426,35 +6290,25 @@ c796fcf5e9ec,YEDC,YOBE,11KV GASHUA II,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,
 2e2753965a98,YEDC,YOBE,11KV GEIDAM,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 fc0bb0175336,YEDC,YOBE,11KV GRA DAM,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 0cebaa5f0455,YEDC,YOBE,11KV GRA DAMATURU,,,,,,,,,,,,,,,,,,,,,,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-a77d3e665178,YEDC,YOBE,11KV GUJ BA RD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-82f6791a00b0,YEDC,YOBE,11KV GUJBA RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-27d430383a1d,YEDC,YOBE,11KV J AKUSKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-a76d4ed4fe69,YEDC,YOBE,11KV J OS ROAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-f4c2f97434b9,YEDC,YOBE,11KV JAKUSKO,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-b3c05dbbe084,YEDC,YOBE,11KV JOS ROAD,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-3b468b57b5be,YEDC,YOBE,11KV KANO R OAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-2676c8accd90,YEDC,YOBE,11KV KANO ROAD,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+82f6791a00b0,YEDC,YOBE,11KV GUJBA RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+f4c2f97434b9,YEDC,YOBE,11KV JAKUSKO,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+b3c05dbbe084,YEDC,YOBE,11KV JOS ROAD,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+2676c8accd90,YEDC,YOBE,11KV KANO ROAD,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 e5e1f9f92394,YEDC,YOBE,11KV MACHI NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 b64064ff44cd,YEDC,YOBE,11KV MACHINA,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-e32f6e9b47bb,YEDC,YOBE,11KV MAI DUGURI RD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,,,,,,,,,,,,,,,,
-0794c5b5b615,YEDC,YOBE,11KV MAIDUGURI RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,A,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
-9ae522a2a9ab,YEDC,YOBE,11KV NE W PRI SON,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-68a2438fba33,YEDC,YOBE,11KV NEW PRISON,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+0794c5b5b615,YEDC,YOBE,11KV MAIDUGURI RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+68a2438fba33,YEDC,YOBE,11KV NEW PRISON,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 c70fb2decdf4,YEDC,YOBE,11KV NGELZARMA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-2e52304df44b,YEDC,YOBE,11KV NGURU T OWNSHI P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-dce5419ed7f8,YEDC,YOBE,11KV NGURU TOWNSHIP,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-27460e275044,YEDC,YOBE,11KV OL D K WAT A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,,,,,,,,,,,
-094eaeff4b4e,YEDC,YOBE,11KV OLD KWATA,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
-84f04ca62685,YEDC,YOBE,11KV POTI SKUM RD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-23f76664bb0e,YEDC,YOBE,11KV POTISKUM RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-48e20d7b48b6,YEDC,YOBE,11KV SHAGO TARA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+dce5419ed7f8,YEDC,YOBE,11KV NGURU TOWNSHIP,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+094eaeff4b4e,YEDC,YOBE,11KV OLD KWATA,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+23f76664bb0e,YEDC,YOBE,11KV POTISKUM RD,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+99c7e8c2b236,YEDC,YOBE,11KV SHAGO TARA,,,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 0521e772aff3,YEDC,YOBE,11KV YUSUFARI,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 00379b19456d,YEDC,YOBE,132/KV DIRECT UNDEGROUND,,,,,A,A,A,A,A,A,A,A,A,,,A,A,A,A,A,A,A,A,,,,,,,,,,,,,,,,,,,,,,
 82a7ca1280e4,YEDC,YOBE,132/KV DIRECT UNDERGROUND,,,,,,,,,,,,,,A,A,,,,,,,,,B,B,,,,,,,,,,,,,,,,,,,,
 2f10bea6af4b,YEDC,YOBE,33KV AZARE,,C,,,B,B,B,B,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
-8d1ea5c42cb9,YEDC,YOBE,33KV BABANGI DA NGURU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 d701ea7958d1,YEDC,YOBE,33KV BABANGIDA DTR,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-80d87058b47e,YEDC,YOBE,33KV BABANGIDA NGURU,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+80d87058b47e,YEDC,YOBE,33KV BABANGIDA NGURU,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 f870b017779b,YEDC,YOBE,33KV BIU,,B,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 364808e0e6bf,YEDC,YOBE,33KV BUNI YADI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 c4f776272f4c,YEDC,YOBE,33KV BUNIYADI,,C,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
@@ -6463,16 +6317,14 @@ dabde0b748a0,YEDC,YOBE,33KV BUNIYADI,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 448ec3774c8d,YEDC,YOBE,33KV DAMASAK URBAN,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 75e2f78859d8,YEDC,YOBE,33KV DAMATURU,A,A,,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
 4b59db71ac21,YEDC,YOBE,33KV DAMBOA MCH,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
-22f5731a9bf1,YEDC,YOBE,33KV FI KA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-9c0d0058f206,YEDC,YOBE,33KV FIKA,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
+9c0d0058f206,YEDC,YOBE,33KV FIKA,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,C,C,C,C,C,C,C,C
 77bfba7f611b,YEDC,YOBE,33KV GARKIDA MCK,,,,,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,,,,,,,,,,,,,,,,,,,,
 7b99eead4a4b,YEDC,YOBE,33KV GEI DAM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
-467fcc489dc0,YEDC,YOBE,33KV GEI DAM/ NGURU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 345619a56db8,YEDC,YOBE,33KV GEIDAM,,C,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,C,,C,C,C,C,C,C,C,,
 541dd08f5a2f,YEDC,YOBE,33KV GEIDAM,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,,C,,,,,,,,C,C
 33eac9f3426a,YEDC,YOBE,33KV GEIDAM NGU,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
 110bcab4ae19,YEDC,YOBE,33KV GEIDAM POT,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,,,,,,,,,,,,,,,,,,,,
-7be3a5685b12,YEDC,YOBE,33KV GEIDAM/ NGURU,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+7be3a5685b12,YEDC,YOBE,33KV GEIDAM/ NGURU,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 cada9da192c1,YEDC,YOBE,33KV GOVERNMENT HOUSE II,,,,,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,,,,,,,,,,,,,,,,,,,,
 f8d07c18ea3e,YEDC,YOBE,33KV MACHI NA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,
 87ef742f5d75,YEDC,YOBE,33KV MACHINA,,,,,,,,,,,,,,,,,,,,,,,,,,C,C,C,,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C

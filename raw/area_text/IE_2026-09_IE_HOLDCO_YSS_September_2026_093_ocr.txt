@@ -1,0 +1,99 @@
+=====PAGE 9
+a. IE shall make appropriate compensation to the affected customers in Band
+A feeders listed in Appendix 2 for failure to deliver up to 20 hours of
+average supply but more than 18 hours of average supply in line with the
+provisions of the Order on Migration, while the feeders shall remain as
+Band A.
+b. IE has delivered up to 20 hours of average supply from 8 - 21 of August
+2026 on the feeder in Appendix 3. Thus, IE's application to upgrade the
+feeder effective 1st of September 2026 is hereby approved.
+21. Effective Date
+This Supplementary Order shall be effective from 1*September 2026.
+Dated this 31# day of August 2026
+002624/08606
+Musiliu O. Oseni    Date C. Akpeneye
+Chairman    ommissioner
+Legal, Licensing & Compliance
+=====PAGE 10
+Appendix - 1: IE's Customer Classifications
+Service Bands    New Tariff Class    Description
+Lifeline    R1    than 50kWh/month Life-Line customers with energy consumption of not more
+Customers with single or three-phase connections located
+A - Non-MD    within Band-A Service Level Feeders
+(Minimum of A    A - MD 1    Customers with LV Maximum Demand connection located within Band-A Service Level Feeders
+20hrs/day)    A - MD 2    Customers with MV/HV Maximum Demand (11/33kV) connection located within Band - A Service Level Feeders
+A - Special    Customers under special supply agreement
+B - Non-MD    Customers with single or three-phase connections located within Band-B Service Level Feeders
+B
+(Minimum of    B - MD 1    within Band-B Service Level Feeders Customers with LV Maximum Demand connection located
+16hrs/day)
+B - MD 2    nnection located within Bano - B Service Leve Feede jstomers with MV/HV Maximum Demano (11/33k
+C - Non-MD    within Band-C Service Level Feeders Customers with single or three-phase connections located
+C
+(Minimum of    C - MD 1    within Band-C Service Level Feeders Customers with LV Maximum Demand connection located
+12hrs/day)
+C - MD 2    connection located within Band - C Service Level Feeders Customers with MV/HV Maximum Demand (11/33kV)
+D - Non-MD    Customers with single or three-phase connections located within Band-D Service Level Feeders
+D
+(Minimum of    D - MD 1    within Band-D Service Level Feeders Customers with LV Maximum Demand connection located
+8hrs/day)
+D - MD 2    Customers with MV/HV Maximum Demand (11/33kV) connection located within Band - D Service Level Feeders
+E - Non-MD    Customers with single or three-phase connections located within Band-E Service Level Feeders
+E
+(Minimum of    E - MD 1    Customers with LV Maximum Demand connection located within Band-E Service Level Feeders
+4hrs/day)
+E - MD 2    connection located within Band-E Service Level Feeders Customers with MV/HV Maximum Demand (11/33kV)
+10
+=====PAGE 11
+Appendix 2: IE's Service Level Commitment for September 2026
+S/N    FEEDER NAME    BAND    FEEDER LOCATION DESCRIPTION OF    NAME OF MAJOR STREETS SERVED BY THE FEEDER    DURATION (HRS) MIN. SUPPLY
+11-JUINJT1-GALILEE    A    ABULE EGBA    OLOWOLAJUOGBON, POPOOLA, BEHIND ELLIOT AND PART OF OBAWOLE    A    20
+2    33-OGBATCN-IJU WATER WORKS    A    ABULE EGBA    IFAKO GENERAL HOSPITAL    A    20
+33-OTATCN-AMJE    A    ABULE EGBA    OSANYINTOLA, AMJE ADURA FIELD
+4    33-OWORONSHOKITCN-ALAPERE    SHOMOLU    ALAPERE, OWORONSHOKI EXPRESS WAY
+11-AYETOROINJ-T1-LAFENWA    A    AKOWONJO    UNITY STREET
+11-IJUINJ-T1-AJUWON    A    ABULE EGBA    AJUWON ROAD, BAALE AKINOSI    A    20
+11-IJUINJ-T2-WATER WORKS    ABULE EGBA    WATER WORKS COMPOUND IJU    A    20
+8    33-OKE-AROTCN-LAMBE    A    ABULE EGBA    LAMBE    A    20
+9    33-OKE-AROTCN-NEW IJU W/WORKS    A    ABULE EGBA    SEGUN OSHOBA ROAD    A    20
+33-OKE-AROTCN-YIDI    A    ABULE EGBA    ADIYAN WATER WORKS    A    20
+=    11-AGEGEINJ-TI-OKO OBA    B    ABULE EGBA    WILLAIMS ELLIOT, PUPOSOLA
+12    33-ODOGUNYANTCN-AGBEDE    IKORODU    IGBO OLOMU, ITA OLUWO, AGBEDE, BREAKTHROUGH, OPELOYERU, OLOROGBO, ODUGBOSE, OMOLAIYE
+ADAMO, ALEKE, FAKALE, OKE ONIBURUKUTU, ODOKEKERE, FADEGBUWA, AKAUN,
+13    33-ODOGUNYANTCN-FAKALE MAYA    IKORODU    ITAPARA, IGODE, EYINOGBE,    B    16
+LAIDI,OKEGBODO, IPINYEWA, IDAFA, ILUOLOYE, MOPELIFA, EMUREN,LAIYODE
+14    11-AYETOROINJ-T1-ITELE    AKOWONJO    AYETORO ITELE ROAD, FENCE BUS STOP, AJIBOYE    B    16
+15    11-IJUINJ-T2-AGBADO 1    ABULE EGBA    KOSHEMANI, ISALE ORO, ODUNMBAKU, CAPTAIN GODO    B    16
+16    11-JJUINJ-TI-GRAILAND    ABULE EGBA    GRAILAND EST, ABULEEKUN, ABULE OSHO    B    16
+17    33-OKE-AROTCN-AKUTE    SHOMOLU    RIVER VIEW ESTATE, SPARK LIGHT ESTATE, AREPO, WAWA, FORTHRIGHT ESTATE    B    16
+18    11-ABULE IROKOINJ-T1-ABULE IROKO    ABULE EGBA    ABULEIROKO, HOME SCIENCE, ARIJE, CAMPBEL    12
+19    11-ABULE IROKOINJ-T1-ALAKUKO    ABULE EGBA    BAALE ANIMASHAUN, ALAKUKO, AKINDE    12
+20    11-ABULE IROKOINJ-T1-BOOKS    ABULE EGBA    ORIJA, MANACOLA ESTATE    12
+21    11-AMIKANLEINJ-T1-IGE    AKOWONJO    EJIGUN ROAD, IKOLA ROAD    12
+22    11-IJAIYE OJOKOROINJ-T1-AGBADO 2    ABULE EGBA    TEN-KOBO, MILLENIUM ESTE, GBEMINIYI    12
+23    11-IJUINJ-T2-ISHAGA    ABULE EGBA    ALIYU, ISHAGA MARKET, AKANDE, AGBADO ROAD    12
+24    11-OWUTUINJ-T2-ASOLO    IKORODU    JUBRIL SHITTU, OTUKOYA, OTITOLOJU, OKIKI    12
+25    11-YUSUFINJ-T2-AKERA    ABULE EGBA    TEBUNFAGBEMI, JOLAOSHO,ODUOLA SHITU    12
+26    11-AKUTEINJ-T1-ISHASHI    ABULE EGBA    ISHASHI ROAD, OLUFEMI OBASA, FASHAKIN    C    12
+27    11-AKUTEINJ-T1-MAJENTE    ABULE EGBA    HERITAGE EST, ALHAJA ZAINAB, MAJENTE    C    12
+28    11-AKUTEINJ-T1-OYEYEMI    ABULE EGBA    UNITY, ORUBA, AJUWON-AKUTE ROAD
+29    11-IJUINJ-T1-ASORE    ABULE EGBA    OSHIN, OKUWOSA, ADUBA ESTATE    12
+30    11-LAMBEINJ-TI-JOLASCO    C    ABULE EGBA    ADENIYI AYENI, KOLEOSHO, JOLASCO ROAD    12
+31    11-LAMBEINJ-T1-MATOGUN    ABULE EGBA    PETESI, CUSTOM ROAD,CANNA ROAD
+=====PAGE 12
+S/N    FEEDER NAME    BAND    FEEDER LOCATION DESCRIPTION OF    NAME OF MAJOR STREETS SERVED BY THE FEEDER    DURATION (HRS) MIN. SUPPLY
+32    11-LAMBEINJ-TI-OLAMBE    C    ABULE EGBA    OSHERE, MATOGUN ROAD, LAMBE ROAD    12
+33    11-OPE ILUINJ-T1-ABORO    C    ABULE EGBA    PASTOR AINA, OLAOLUWA, BOLAJI SHONDE
+34    11-OPE ILUINJ-TI-ADIYAN    C    ABULE EGBA    PETER RD, OLUASO, OLAOGUN, OLUWO
+35    11-YIDIINJ-T1-OSOBA    C    ABULE EGBA    ENILOLOBO, ALAYAKI, OLUASO, MURIABIOLA
+ITOKIN ROAD, AGBOWA, IMOTA, OKE OSHO, ADO OTA, POKA EPE, EREDO, MOSAFEJO,
+36    33-IKORODUTCN-AGBOWA    D    IKORODU    ODO EGIRI, IRANGUNSHI, ODOGBONLE, LEJINA, ISIU, IMOKUN, OKE POPO, IKOSI EJINRIN, AYANDELU, KETU EPE, ODOGBAWOJO, AJEBO, ITUNMOJA, IGBODU, IGBOYE, IBOWON,    8
+TEMU VILLAGE, EREDO,
+37    11-ODOGUNYANINJ-T2-ITA OLUWO    D    IKORODU    ITA-OLUWO, LIBERTY, LADUGBA, OWUSI, AKEBIORO, LOGUNLOGUN, GLORIOUS LAND, D    8
+38    11-OWUTUINJ-T2-ISAWO    D    IKORODU    COMMUNITY, YEWA, OLORUNSOGO, DAYO OLUYEMI    D    8
+39    11-OPE ILUINJ-TI-IJOKO    D    ABULE EGBA    IJOKO ROAD, ROBIYAN, IBARAGUN
+40    11-YIDIINJ-T1-OPEILU    D    ABULE EGBA    MUTA, GASLINE, ORUDU, DIAMOND ESTATE
+OLD IKORODU SHAGAMU ROAD, NAZARETH ROAD, AGODO ALARA COMMUNITY, EZE
+41    11-ODOGUNYANINJ-T2-ODOKEKERE    E    IKORODU    STREET, UNITY ROAD, POWERLINE ROAD, 2ND SAWMILL WOOD MARKET ODOKEKERE, E    4
+IREAKARI IGBOSORO COMMUNITY, FOKANBALE COMMUNITY, COMFORT CDA.
+12

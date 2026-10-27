@@ -87,3 +87,37 @@ def test_month_conflicts_resolved_to_free_slot():
     assert not s.duplicated(["order_month", "disco"]).any()
     jan25 = s[s["order_month"] == "2025-01"]
     assert {"EEDC", "KEDCO"} <= set(jan25["disco"])
+
+
+def test_truncated_pdf_is_refused():
+    """A cut-off download starts with %PDF but has no %%EOF; it must not be saved or reused."""
+    assert nerc_caps.pdf_complete(b"%PDF-1.7\n...\n%%EOF\n")
+    assert not nerc_caps.pdf_complete(b"%PDF-1.7\n" + b"x" * 5000)
+    assert not nerc_caps.pdf_complete(b"<html>error</html>")
+
+
+def test_every_committed_pdf_is_complete():
+    for p in list((ROOT / "raw" / "pdfs").glob("*.pdf")) + list((ROOT / "raw" / "state").rglob("*.pdf")):
+        assert nerc_caps.pdf_complete(p.read_bytes()), p.name
+
+
+def test_ocr_name_fixes():
+    """Capital I read as lowercase l by OCR (docs/KNOWN_EXTRACTION_ERRORS.md rows 8 and 9)."""
+    f = nerc_caps.fix_ocr_name
+    assert f("11-AgegelNJ-T1-Oko Oba") == "11-AgegeINJ-T1-Oko Oba"
+    assert f("11-MagodolN-T1-Shangisha") == "11-MagodoINJ-T1-Shangisha"
+    assert f("11-ljaiye OjokorolNJ-T1-Jankara") == "11-Ijaiye OjokoroINJ-T1-Jankara"
+    for good in ["11-Abule IrokoINJ-T1-Books", "11-Akute INJ-T1-Ishashi", "OLUWOLE lNJ ROAD"]:
+        assert f(good) == good
+
+
+def test_state_regulator_files():
+    """LASERC and EERC files parse completely; EERC's space-stripped July names are restored (rows 19, 20)."""
+    import csv
+    rows = list(csv.DictReader((ROOT / "data" / "parsed" / "state_caps_all.csv").open(encoding="utf-8")))
+    las = [r for r in rows if r["regulator"] == "LASERC" and r["year"] == "2026" and r["month"] == "10"]
+    assert len([r for r in las if r["disco"] == "IKEDC"]) == 313
+    assert len([r for r in las if r["disco"] == "EKEDC"]) == 217
+    july = [r["feeder_raw"] for r in rows if r["regulator"] == "EERC" and r["month"] == "7"]
+    assert "ABAKALIKI ROAD 11KV" in july and "ORBA OBOLLO 33KV" in july
+    assert not [x for x in july if " " not in x]
