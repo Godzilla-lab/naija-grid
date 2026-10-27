@@ -17,6 +17,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23675285
     description: Version 0.1.0
+  - type: doi
+    value: 10.5281/zenodo.23699438
+    description: Version 0.2.0
 license: CC-BY-4.0
 version: 0.2.0
 date-released: "2026-10-27"
