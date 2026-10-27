@@ -133,12 +133,16 @@ def _nerc_eedc() -> dict[str, tuple[str, str, str]]:
     return out
 
 
+# Misprints in EERC files, checked against the same feeder in EERC's other months.
+EERC_TYPOS = {"ORBAOBLLO33KV": "ORBA OBOLLO 33KV"}  # July 2026 file
+
 EERC_ROW = re.compile(r"^\s*(\d{1,3})\s+(\S.*?)\s{2,}(\S.*?)\s{2,}([\d,]+)\s*$")
 
 
-def parse_eerc(path: Path, year: int, month: int, known: dict) -> tuple[list[dict], list[str]]:
+def parse_eerc(path: Path, year: int, month: int, known: dict, spaced: dict | None = None) -> tuple[list[dict], list[str]]:
     """S/N | DISTRICT | FEEDER | CAP. The July 2026 file has its spaces stripped ('ABAKALIKIROAD11KV');
-    such names are restored from NERC's printed name when the squashed forms match."""
+    such names are restored from EERC's own later files (`spaced`), else from NERC's printed name,
+    when the squashed forms match."""
     rows, unparsed = [], []
     sha = hashlib.sha256(path.read_bytes()).hexdigest()[:16]
     reader = n.pypdf.PdfReader(str(path))
@@ -150,9 +154,10 @@ def parse_eerc(path: Path, year: int, month: int, known: dict) -> tuple[list[dic
                     unparsed.append(f"{path.name}:p{pno}: {line.strip()}")
                 continue
             district, feeder, cap = m.group(2).strip(), m.group(3).strip(), m.group(4)
+            feeder = EERC_TYPOS.get(feeder, feeder)
             hit = known.get(_squash(feeder))
-            if hit and " " not in feeder:
-                feeder = hit[0]  # restore the spaces the PDF lost
+            if " " not in feeder:  # restore the spaces the PDF lost
+                feeder = (spaced or {}).get(_squash(feeder)) or (hit[0] if hit else feeder)
             band, band_source = (hit[1], f"carried_from_nerc_{hit[2]}") if hit else ("?", "not_published")
             kv = re.search(r"(\d{2})\s*KV", feeder, re.I)
             rows.append({
@@ -183,11 +188,18 @@ def main() -> None:
     listed = [] if args.no_download else download_laserc() + download_eerc()
 
     known = _nerc_eedc()
+    # EERC's own printed names (files whose text keeps its spaces), newest last so it wins
+    spaced: dict[str, str] = {}
+    for path in sorted((RAW / "eerc").glob("EERC_*.pdf")):
+        y, m = map(int, path.stem.split("_")[2].split("-"))
+        for r in parse_eerc(path, y, m, known)[0]:
+            if " " in r["feeder_raw"]:
+                spaced[_squash(r["feeder_raw"])] = r["feeder_raw"]
     rows, sources, qa = [], [], []
     for path in sorted((RAW / "laserc").glob("LASERC_*.pdf")) + sorted((RAW / "eerc").glob("EERC_*.pdf")):
         reg, disco, ym = path.stem.split("_")
         y, m = map(int, ym.split("-"))
-        got, unparsed = (parse_laserc(path, y, m, disco) if reg == "LASERC" else parse_eerc(path, y, m, known))
+        got, unparsed = (parse_laserc(path, y, m, disco) if reg == "LASERC" else parse_eerc(path, y, m, known, spaced))
         rows += got
         qa += unparsed
         sources.append({"regulator": reg, "order_month": ym, "disco": disco, "file": path.name,

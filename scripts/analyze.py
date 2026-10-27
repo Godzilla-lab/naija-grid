@@ -32,6 +32,7 @@ import pandas as pd  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "parsed" / "nerc_caps_all.csv"
+SRC_STATE = ROOT / "data" / "parsed" / "state_caps_all.csv"
 OUT = ROOT / "data"
 
 BANDS = ["A", "B", "C", "D", "E"]
@@ -109,8 +110,19 @@ def bu_core(bu: str) -> str:
 
 
 def load() -> pd.DataFrame:
+    """NERC rows plus the state regulators' rows (LASERC, EERC). `regulator` says who set the cap and
+    `band_source` whether the band was printed in that order. State rows never change NERC rows: state,
+    feeder identity and OCR linking are learned from NERC rows only."""
     df = pd.read_csv(SRC, dtype=str).fillna("")
-    df = df[df["service_band"].isin(BANDS)].copy()
+    df["regulator"], df["band_source"] = "NERC", "printed"
+    if SRC_STATE.exists():
+        s = pd.read_csv(SRC_STATE, dtype=str).fillna("")
+        if len(s):
+            # EERC prints no band; a feeder with no NERC history has no band at all ('?' in data/parsed)
+            s.loc[s["service_band"] == "?", "service_band"] = ""
+            df = pd.concat([df, s[[c for c in s.columns if c in df.columns]]], ignore_index=True).fillna("")
+    nerc = df["regulator"] == "NERC"
+    df = df[(nerc & df["service_band"].isin(BANDS)) | (~nerc & df["service_band"].isin(BANDS + [""]))].copy()
     df["cap_kwh"] = pd.to_numeric(df["cap_kwh"], errors="coerce")
     df = df[df["cap_kwh"].notna() & (df["cap_kwh"] > 0)]
     df["order_month"] = [ym(y, m) for y, m in zip(df["year"], df["month"])]
@@ -129,7 +141,7 @@ def load() -> pd.DataFrame:
 
     # State: printed > learned from newer orders (same DisCo + business unit) > manual map > unknown
     df["state_source"] = df["state"].map(lambda v: "printed" if v else "")
-    learned = (df[df["state"] != ""].groupby(["disco", "bu_core"])["state"]
+    learned = (df[(df["state"] != "") & (df["regulator"] == "NERC")].groupby(["disco", "bu_core"])["state"]
                .agg(lambda s: s.value_counts().index[0]).to_dict())
     manual = {}
     if MANUAL_BU_STATE.exists():
@@ -148,7 +160,7 @@ def load() -> pd.DataFrame:
     # Exact repeats inside one order (same DisCo, month, business unit, feeder, band, cap) are printing
     # duplicates in NERC's PDF: drop them and count them.
     before = len(df)
-    df = df.drop_duplicates(["disco", "order_month", "bu_core", "feeder_raw", "service_band", "cap_kwh"]).copy()
+    df = df.drop_duplicates(["regulator", "disco", "order_month", "bu_core", "feeder_raw", "service_band", "cap_kwh"]).copy()
     df.attrs["exact_duplicates_dropped"] = before - len(df)
 
     # Feeder identity. Default: DisCo + stable feeder name (kV tags, FEEDER, case removed), which links
@@ -157,12 +169,19 @@ def load() -> pd.DataFrame:
     # rows in the order (NERC lists some codes twice with different caps every month, e.g. AT5_FDR 8_M2_3A).
     df["feeder_core"] = df["feeder_raw"].map(feeder_core)
     df["raw_key"] = df["feeder_raw"].map(norm_key)
-    clash = df.groupby(["disco", "order_month", "feeder_core"])["feeder_core"].transform("size") > 1
-    clash_keys = set(zip(df.loc[clash, "disco"], df.loc[clash, "feeder_core"]))
-    df["occ"] = df.groupby(["disco", "order_month", "bu_core", "raw_key"]).cumcount()
+    # NERC rows use clashes among NERC rows only, so adding state rows never changes a NERC feeder_id;
+    # state rows also count clashes with each other and with NERC rows in the same month.
+    is_nerc = df["regulator"] == "NERC"
+    grp = ["disco", "order_month", "feeder_core"]
+    clash_n = df[is_nerc].groupby(grp)["feeder_core"].transform("size") > 1
+    clash_a = df.groupby(grp)["feeder_core"].transform("size") > 1
+    nerc_part = df[is_nerc]
+    keys_nerc = set(zip(nerc_part.loc[clash_n, "disco"], nerc_part.loc[clash_n, "feeder_core"]))
+    keys_all = keys_nerc | set(zip(df.loc[clash_a, "disco"], df.loc[clash_a, "feeder_core"]))
+    df["occ"] = df.groupby(["regulator", "disco", "order_month", "bu_core", "raw_key"]).cumcount()
     df["feeder_key"] = [
-        (f"{r}|{b}|{o}" if (d, c) in clash_keys else c)
-        for d, c, r, b, o in zip(df["disco"], df["feeder_core"], df["raw_key"], df["bu_core"], df["occ"])
+        (f"{r}|{b}|{o}" if (d, c) in (keys_nerc if n else keys_all) else c)
+        for d, c, r, b, o, n in zip(df["disco"], df["feeder_core"], df["raw_key"], df["bu_core"], df["occ"], is_nerc)
     ]
     df["feeder_id"] = [hashlib.sha1(f"{d}|{k}".encode()).hexdigest()[:12]
                        for d, k in zip(df["disco"], df["feeder_key"])]
@@ -183,7 +202,7 @@ def reconcile_ocr(df: pd.DataFrame) -> pd.DataFrame:
     df["id_link"] = "exact"
     if "extraction_method" not in df.columns:
         return df
-    text = df[df["extraction_method"] != "ocr"]
+    text = df[(df["extraction_method"] != "ocr") & (df["regulator"] == "NERC")]
     canon = text.drop_duplicates("feeder_id")[["disco", "state", "raw_key", "feeder_id"]]
     known = set(canon["feeder_id"])
     pools = {d: g for d, g in canon.groupby("disco")}
@@ -239,8 +258,82 @@ def band_shares(g: pd.DataFrame) -> pd.Series:
     return pd.Series(out)
 
 
+def state_regulator_findings(dfu_all: pd.DataFrame, F: dict) -> None:
+    """Caps set by state regulators, compared with the same feeder's last NERC cap and band.
+    Writes summary/state_regulator_caps.csv (one row per regulator, DisCo and month) and F['state_regulators']."""
+    st = dfu_all[dfu_all["regulator"] != "NERC"].copy()
+    if st.empty:
+        return
+    nerc = dfu_all[dfu_all["regulator"] == "NERC"].sort_values("order_month")
+    last = nerc.groupby("feeder_id").agg(nerc_last_month=("order_month", "last"), nerc_last_cap=("cap_kwh", "last"),
+                                         nerc_last_band=("band", "last"))
+    st = st.join(last, on="feeder_id")
+    st["linked"] = st["nerc_last_month"].notna()
+    st["change_pct"] = 100 * (st["cap_kwh"] - st["nerc_last_cap"]) / st["nerc_last_cap"]
+    rows = []
+    for (reg, disco, m), g in st.groupby(["regulator", "disco", "order_month"]):
+        lk = g[g["linked"]]
+        rows.append({"regulator": reg, "disco": disco, "order_month": m, "feeders": int(g["feeder_id"].nunique()),
+                     "median_cap_kwh": float(g["cap_kwh"].median()),
+                     "linked_to_nerc": int(lk["feeder_id"].nunique()),
+                     "nerc_last_month": lk["nerc_last_month"].mode().iloc[0] if len(lk) else "",
+                     "median_nerc_last_cap_kwh": float(lk["nerc_last_cap"].median()) if len(lk) else None,
+                     "median_change_vs_nerc_pct": round(float(lk["change_pct"].median()), 1) if len(lk) else None})
+    write(pd.DataFrame(rows), "summary/state_regulator_caps.csv")
+    out = {}
+    for reg, g in st.groupby("regulator"):
+        first_m, last_m = g["order_month"].min(), g["order_month"].max()
+        fm = g[(g["order_month"] == first_m) & g["linked"]]
+        lm = g[(g["order_month"] == last_m) & g["linked"]]
+        d = {"months": sorted(g["order_month"].unique()), "rows": int(len(g)),
+             "feeders": int(g["feeder_id"].nunique()),
+             "feeders_latest": int(g.loc[g["order_month"] == last_m, "feeder_id"].nunique()),
+             "linked_latest": int(lm["feeder_id"].nunique()),
+             "nerc_last_months": sorted(lm["nerc_last_month"].unique().tolist()),
+             "median_change_first_month_pct": round(float(fm["change_pct"].median()), 1) if len(fm) else None,
+             "median_change_latest_pct": round(float(lm["change_pct"].median()), 1) if len(lm) else None,
+             "median_cap_latest": float(g.loc[g["order_month"] == last_m, "cap_kwh"].median()),
+             "median_nerc_last_cap": float(lm["nerc_last_cap"].median()) if len(lm) else None,
+             "band_source_rows": g["band_source"].str.replace(r"_\d{4}-\d{2}$", "", regex=True).value_counts().to_dict()}
+        pb = lm[(lm["band_source"] == "printed") & lm["nerc_last_band"].isin(BANDS)]
+        if len(pb):
+            delta = pb["band"].map(BAND_RANK) - pb["nerc_last_band"].map(BAND_RANK)
+            d["band_vs_nerc_latest"] = {"same": int((delta == 0).sum()), "higher": int((delta < 0).sum()),
+                                        "lower": int((delta > 0).sum())}
+        out[reg] = d
+    F["state_regulators"] = out
+
+
+FEEDER_COLS = ["feeder_id", "disco", "disco_name", "state", "business_unit", "voltage_kv", "injection_substation",
+               "feeder_name", "feeder_raw", "first_seen", "last_seen", "months_listed", "latest_band",
+               "latest_cap_kwh", "best_band_ever", "worst_band_ever", "band_changes", "regulator", "latest_band_source"]
+
+
+def feeder_table(d: pd.DataFrame) -> pd.DataFrame:
+    """One row per feeder. Best, worst and band changes use printed bands only (EERC prints none)."""
+    d = d.sort_values("order_month")
+    f = d.groupby("feeder_id").agg(
+        disco=("disco", "last"), disco_name=("disco_name", "last"), state=("state", "last"),
+        business_unit=("business_unit", "last"), voltage_kv=("voltage_kv", "last"),
+        injection_substation=("injection_substation", "last"), feeder_name=("feeder_name", "last"),
+        feeder_raw=("feeder_raw", "last"), first_seen=("order_month", "first"), last_seen=("order_month", "last"),
+        months_listed=("order_month", "nunique"), latest_band=("band", "last"), latest_cap_kwh=("cap_kwh", "last"),
+        regulator=("regulator", "last"), latest_band_source=("band_source", "last"),
+    )
+    pr = d[d["band_source"] == "printed"].groupby("feeder_id").agg(
+        best_band_ever=("band_rank", "min"), worst_band_ever=("band_rank", "max"),
+        band_changes=("band", lambda s: int((s != s.shift()).sum() - 1)),
+    )
+    f = f.join(pr).reset_index()
+    for c in ("best_band_ever", "worst_band_ever"):
+        f[c] = f[c].map(lambda r: BANDS[int(r)] if pd.notna(r) else "")
+    f["band_changes"] = f["band_changes"].fillna(0).astype(int)
+    return f[FEEDER_COLS]
+
+
 def main() -> None:
-    df = load()
+    df_all = load()
+    df = df_all[df_all["regulator"] == "NERC"].copy()  # every finding, ranking and chart is NERC-only
     F: dict = {}  # findings
     months = sorted(df["order_month"].unique())
     latest = months[-1]
@@ -249,7 +342,7 @@ def main() -> None:
     F["rows"] = int(len(df))
     F["pdf_files"] = int(df["source_file"].nunique())
     F["distinct_feeders"] = int(df["feeder_id"].nunique())
-    F["exact_duplicates_dropped"] = int(df.attrs.get("exact_duplicates_dropped", 0))
+    F["exact_duplicates_dropped"] = int(df_all.attrs.get("exact_duplicates_dropped", 0))
     F["id_link_counts"] = {k: int(v) for k, v in df["id_link"].value_counts().items()}
     F["state_source_rows"] = df["state_source"].value_counts().to_dict()
     unk = (df[df["state_source"] == "unknown"].groupby(["disco", "bu_core"]).size()
@@ -259,35 +352,43 @@ def main() -> None:
     # ---------- duplicates within a month (same feeder listed twice) ----------
     dup = df.duplicated(["feeder_id", "order_month"], keep=False)
     F["duplicate_feeder_month_rows"] = int(dup.sum())
-    dfu = df.sort_values("cap_kwh", ascending=False).drop_duplicates(["feeder_id", "order_month"])
+    # A feeder listed by NERC and by a state regulator in the same month (border feeders such as
+    # Abule-Egba BU, in NERC's Ikeja order as Ogun and in LASERC's as Lagos): keep the NERC row, log both.
+    nerc_keys = set(zip(df["feeder_id"], df["order_month"]))
+    is_state = df_all["regulator"] != "NERC"
+    both = is_state & pd.Series([k in nerc_keys for k in zip(df_all["feeder_id"], df_all["order_month"])], index=df_all.index)
+    ov = df_all[both][["feeder_id", "order_month", "regulator", "state", "business_unit", "feeder_raw", "band", "cap_kwh",
+                       "source_file"]].merge(
+        df[["feeder_id", "order_month", "state", "band", "cap_kwh", "source_file"]].rename(
+            columns={"state": "nerc_state", "band": "nerc_band", "cap_kwh": "nerc_cap_kwh", "source_file": "nerc_source_file"}),
+        on=["feeder_id", "order_month"]).drop_duplicates(["feeder_id", "order_month", "regulator"])
+    write(ov.sort_values(["feeder_id", "order_month"]), "qa/state_nerc_overlap.csv")
+    F["state_nerc_overlap"] = {"rows": int(len(ov)), "feeders": int(ov["feeder_id"].nunique()),
+                               "same_cap_and_band": int(((ov["cap_kwh"] == ov["nerc_cap_kwh"]) & (ov["band"] == ov["nerc_band"])).sum())}
+    df_all = df_all[~both]
+    dfu_all = df_all.sort_values("cap_kwh", ascending=False).drop_duplicates(["feeder_id", "order_month"])
+    dfu = dfu_all[dfu_all["regulator"] == "NERC"]
 
-    # ---------- clean tables ----------
-    caps_long = dfu[["feeder_id", "disco", "disco_name", "state", "order_month", "consumption_month",
-                     "band", "cap_kwh", "state_source", "extraction_method", "id_link",
-                     "source_file", "source_page"]].sort_values(["feeder_id", "order_month"])
+    # ---------- clean tables (NERC and state regulator rows) ----------
+    caps_long = dfu_all[["feeder_id", "disco", "disco_name", "state", "order_month", "consumption_month",
+                         "band", "cap_kwh", "state_source", "extraction_method", "id_link",
+                         "source_file", "source_page", "regulator", "band_source"]].sort_values(["feeder_id", "order_month"])
     write(caps_long, "clean/caps_long.csv")
     try:
         caps_long.to_parquet(OUT / "clean" / "caps_long.parquet", index=False)
     except Exception as e:  # noqa: BLE001  pyarrow optional
         print("parquet skipped:", e)
 
-    g = dfu.sort_values("order_month").groupby("feeder_id")
-    feeders = g.agg(
-        disco=("disco", "last"), disco_name=("disco_name", "last"), state=("state", "last"),
-        business_unit=("business_unit", "last"), voltage_kv=("voltage_kv", "last"),
-        injection_substation=("injection_substation", "last"), feeder_name=("feeder_name", "last"),
-        feeder_raw=("feeder_raw", "last"), first_seen=("order_month", "first"), last_seen=("order_month", "last"),
-        months_listed=("order_month", "nunique"), latest_band=("band", "last"), latest_cap_kwh=("cap_kwh", "last"),
-        best_band_ever=("band_rank", "min"), worst_band_ever=("band_rank", "max"),
-        band_changes=("band", lambda s: int((s != s.shift()).sum() - 1)),
-    ).reset_index()
-    feeders["best_band_ever"] = feeders["best_band_ever"].map(lambda r: BANDS[int(r)])
-    feeders["worst_band_ever"] = feeders["worst_band_ever"].map(lambda r: BANDS[int(r)])
-    write(feeders.sort_values(["disco", "state", "feeder_raw"]), "clean/feeders.csv")
+    feeders_all = feeder_table(dfu_all)
+    write(feeders_all.sort_values(["disco", "state", "feeder_raw"]), "clean/feeders.csv")
+    feeders = feeder_table(dfu)  # NERC-only, for the rankings below
 
-    wide = dfu.pivot_table(index="feeder_id", columns="order_month", values="band", aggfunc="first")
-    wide = feeders.set_index("feeder_id")[["disco", "state", "feeder_raw"]].join(wide).reset_index()
+    printed = dfu_all[dfu_all["band_source"] == "printed"]
+    wide = printed.pivot_table(index="feeder_id", columns="order_month", values="band", aggfunc="first")
+    wide = feeders_all.set_index("feeder_id")[["disco", "state", "feeder_raw"]].join(wide).reset_index()
     write(wide.sort_values(["disco", "state", "feeder_raw"]), "clean/band_history_wide.csv")
+
+    state_regulator_findings(dfu_all, F)
 
     # ---------- coverage ----------
     cov = dfu.groupby("order_month").agg(pdfs=("source_file", "nunique"), discos=("disco", "nunique"),
