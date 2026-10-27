@@ -91,6 +91,23 @@
             "name": "source_page",
             "type": "integer",
             "description": "Page of the PDF the row is on (1-based)."
+          },
+          {
+            "name": "regulator",
+            "type": "string",
+            "description": "Who set the cap: NERC, LASERC (Lagos) or EERC (Enugu).",
+            "constraints": {
+              "enum": [
+                "NERC",
+                "LASERC",
+                "EERC"
+              ]
+            }
+          },
+          {
+            "name": "band_source",
+            "type": "string",
+            "description": "printed, carried_from_nerc_YYYY-MM (Enugu: last NERC band) or not_published."
           }
         ],
         "primaryKey": [

@@ -57,6 +57,9 @@ jobs:
       - name: Extract every order (scans and images are recognised; known pages reuse raw/ocr_text)
         run: python scripts/reparse.py
 
+      - name: State regulators' caps (Lagos LASERC, Enugu EERC)
+        run: python scripts/state_caps.py
+
       - name: Rebuild clean tables, rankings and charts
         run: python scripts/analyze.py
 

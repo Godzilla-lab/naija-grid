@@ -424,3 +424,16 @@ One row per state regulator file month: how its caps compare with the last cap N
 | median_nerc_last_cap_kwh | number | 165.5 | Median of the last NERC cap for the linked feeders. |
 | median_change_vs_nerc_pct | number | -27.4 | Median percent change from the last NERC cap to the state regulator's cap, same feeder. |
 
+
+## `data/summary/state_vs_nerc_year_on_year.csv`
+
+Caps follow metered consumption and move with the seasons, so state caps are compared with NERC's cap for the same feeder twelve months earlier, next to the same comparison for the states NERC still covers.
+
+| Column | Type | Example | Meaning |
+|---|---|---|---|
+| group | text | LASERC | LASERC, EERC, or NERC (all feeders still in NERC's orders). |
+| disco | text | IKEDC | DisCo code, or all for the NERC group. |
+| order_month | text | 2026-08 | Month compared. |
+| vs_month | text | 2025-08 | The same month a year earlier (a NERC order). |
+| feeders_compared | number | 278 | Feeders present in both months. |
+| median_change_pct | number | -11.4 | Median percent change in the feeder's cap over the year; blank when no feeder could be compared. |

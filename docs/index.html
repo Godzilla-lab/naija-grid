@@ -73,13 +73,14 @@ button.more { font: inherit; background: none; border: 1px solid var(--line); co
   </div>
 
   <footer>
-    <p>The cap is the legal maximum monthly bill in kWh for an unmetered (estimated billing) customer on that feeder, set by NERC's Monthly Energy Cap order. If you were billed more, you can complain to your DisCo, then to NERC's Forum Office.</p>
+    <p>The cap is the legal maximum monthly bill in kWh for an unmetered (estimated billing) customer on that feeder, set by NERC's Monthly Energy Cap order, or in Lagos and Enugu by the state regulator (LASERC, EERC). If you were billed more, you can complain to your DisCo, then to the regulator: NERC's Forum Office, or LASERC or EERC in those states.</p>
     <p>Data: <a href="https://github.com/Godzilla-lab/naija-grid">naija-grid</a>, from every NERC order published online, refreshed monthly. CC BY 4.0. Also on Telegram: <a href="https://t.me/naijagridbot">@naijagridbot</a>.</p>
   </footer>
 </main>
 
 <script>
 const BASE = "https://raw.githubusercontent.com/Godzilla-lab/naija-grid/main/data/";
+const REGULATOR = { NERC: "NERC", LASERC: "LASERC (Lagos)", EERC: "EERC (Enugu)" };
 const BAND_COLOR = { A: "var(--A)", B: "var(--B)", C: "var(--C)", D: "var(--D)", E: "var(--E)" };
 const $ = (id) => document.getElementById(id);
 let feeders = [], bandHist = {}, months = [], newest = "", transferred = {};
@@ -152,11 +153,18 @@ function card(x) {
   const band = x.latest_band;
   const hist = (bandHist[x.feeder_id] || []).map((b, i) =>
     `<span title="${monthName(months[i])}: ${b ? "Band " + b : "not listed"}" style="${b && BAND_COLOR[b] ? "background:" + BAND_COLOR[b] : ""}"></span>`).join("");
+  const reg = REGULATOR[x.regulator] || "NERC";
   let note = "";
   if (!current) {
     const t = transferred[(x.state || "").toUpperCase()];
-    note = `<div class="note">Not in NERC's ${monthName(newest)} orders; last listed ${monthName(x.last_seen)}.` +
-      (t ? ` ${esc(x.state)} has its own electricity regulator (${esc(t.regulator_acronym || t.regulator_name)}), which may now set this cap.` : "") + `</div>`;
+    note = `<div class="note">Not in the ${monthName(newest)} cap orders; last listed ${monthName(x.last_seen)}.` +
+      (t ? ` ${esc(x.state)} has its own electricity regulator (${esc(t.regulator_acronym || t.regulator_name)}), which has not published a cap for this feeder.` : "") + `</div>`;
+  }
+  const bs = x.latest_band_source || "printed";
+  if (bs.startsWith("carried_from_nerc_")) {
+    note += `<div class="note">${esc(reg)} does not publish bands. The band shown is the one NERC last set, in ${monthName(bs.slice(-7))}.</div>`;
+  } else if (bs === "not_published") {
+    note += `<div class="note">${esc(reg)} does not publish bands, and NERC never listed this feeder, so its band is unknown.</div>`;
   }
   return `<div class="card">
     <div class="row">
@@ -165,9 +173,9 @@ function card(x) {
       <div class="band" style="background:${BAND_COLOR[band] || "var(--none)"}" aria-label="Band ${esc(band)}">${esc(band || "?")}</div>
     </div>
     <div class="facts">
-      <div><b>${esc(x.latest_cap_kwh)} kWh</b>monthly cap, ${current ? "latest order" : monthName(x.last_seen)}</div>
-      <div><b>${esc(x.best_band_ever)} to ${esc(x.worst_band_ever)}</b>best to worst band seen</div>
-      <div><b>${esc(x.band_changes)}</b>band changes since ${monthName(x.first_seen)}</div>
+      <div><b>${esc(x.latest_cap_kwh)} kWh</b>monthly cap set by ${esc(reg)}, ${current ? "latest order" : monthName(x.last_seen)}</div>
+      ${x.best_band_ever ? `<div><b>${esc(x.best_band_ever)} to ${esc(x.worst_band_ever)}</b>best to worst band seen</div>
+      <div><b>${esc(x.band_changes)}</b>band changes since ${monthName(x.first_seen)}</div>` : `<div><b>Unknown</b>band</div>`}
     </div>
     <div class="history" aria-label="Band history by month">${hist}</div>
     ${note}
@@ -182,6 +190,7 @@ function readHash() {
 let t;
 $("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => { shown = 20; location.replace("#q=" + encodeURIComponent($("q").value)); search(); }, 150); });
 $("disco").addEventListener("change", () => { shown = 20; search(); });
+window.addEventListener("hashchange", readHash);
 load();
 </script>
 </body>

@@ -303,6 +303,31 @@ def state_regulator_findings(dfu_all: pd.DataFrame, F: dict) -> None:
         out[reg] = d
     F["state_regulators"] = out
 
+    # Caps follow consumption and so move with the seasons: compare each state month with NERC's cap for
+    # the same feeder twelve months earlier, against the same comparison for states NERC still covers.
+    def yoy(cur: pd.DataFrame, base: pd.DataFrame) -> tuple[int, float | None]:
+        j = cur[["feeder_id", "cap_kwh"]].merge(base[["feeder_id", "cap_kwh"]], on="feeder_id", suffixes=("", "_ly"))
+        return len(j), (round(float((100 * (j["cap_kwh"] / j["cap_kwh_ly"] - 1)).median()), 1) if len(j) else None)
+
+    def year_before(m: str) -> str:
+        return f"{int(m[:4]) - 1}{m[4:]}"
+
+    rows = []
+    for (reg, disco, m), g in st.groupby(["regulator", "disco", "order_month"]):
+        n, med = yoy(g, nerc[nerc["order_month"] == year_before(m)])
+        rows.append({"group": reg, "disco": disco, "order_month": m, "vs_month": year_before(m),
+                     "feeders_compared": n, "median_change_pct": med})
+    for m in sorted(st["order_month"].unique()):
+        n, med = yoy(nerc[nerc["order_month"] == m], nerc[nerc["order_month"] == year_before(m)])
+        rows.append({"group": "NERC", "disco": "all", "order_month": m, "vs_month": year_before(m),
+                     "feeders_compared": n, "median_change_pct": med})
+    yo = pd.DataFrame(rows)
+    write(yo, "summary/state_vs_nerc_year_on_year.csv")
+    ok = yo[yo["feeders_compared"] > 0]
+    F["state_year_on_year"] = {g: {"months": sorted(set(x["order_month"])), "min_pct": float(x["median_change_pct"].min()),
+                                   "max_pct": float(x["median_change_pct"].max())}
+                               for g, x in ok.groupby("group")}
+
 
 FEEDER_COLS = ["feeder_id", "disco", "disco_name", "state", "business_unit", "voltage_kv", "injection_substation",
                "feeder_name", "feeder_raw", "first_seen", "last_seen", "months_listed", "latest_band",
