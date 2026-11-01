@@ -88,11 +88,13 @@ jobs:
       - name: Push a new version to Kaggle (only when the data changed)
         if: steps.commit.outputs.data_changed == 'true' && env.KAGGLE_KEY != ''
         run: |
-          pip install kaggle==2.2.5
+          # kaggle 2.2.5 imports six without declaring it
+          pip install kaggle==2.2.5 six==1.17.0
           python scripts/kaggle_package.py --owner "$KAGGLE_USERNAME"
           kaggle datasets version -p build/kaggle -r zip -m "NERC caps refresh $(date -u +%Y-%m-%d)"
 
       - name: Health check, open an issue if anything looks wrong
+        if: ${{ !cancelled() }}  # still runs when only the Kaggle mirror failed
         run: |
           python scripts/check_refresh.py > report.md
           if [ -s report.md ]; then
