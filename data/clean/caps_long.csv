@@ -2246,6 +2246,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 04075148261c,EEDC,Enugu,ENUGU,2026-08,2026-07,A,143,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 04075148261c,EEDC,Enugu,ENUGU,2026-09,2026-08,A,146,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 04075148261c,EEDC,Enugu,ENUGU,2026-10,2026-09,A,147,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+04075148261c,EEDC,Enugu,ENUGU,2026-11,2026-10,A,155,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 043ba9090dac,APLE,Aba Power,ABIA,2022-12,2022-11,A,327,learned,text,exact,APL-December-2022-Cap.pdf,1,NERC,printed,,,
 043ba9090dac,APLE,Aba Power,ABIA,2023-01,2022-12,A,301,learned,text,exact,Aba-Electric-Power-Company-Ltd-Monthly-Energy-Cap-for-January-2023.pdf,1,NERC,printed,,,
 043ba9090dac,APLE,Aba Power,ABIA,2023-02,2023-01,A,332,learned,text,exact,Aba-Electric-Power-Company-Ltd-Monthly-Energy-Cap-for-Feb-2023.pdf,1,NERC,printed,,,
@@ -3319,6 +3320,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 05df4dbb9417,EEDC,Enugu,ENUGU,2026-08,2026-07,,121,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,not_published,,,
 05df4dbb9417,EEDC,Enugu,ENUGU,2026-09,2026-08,,237,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,not_published,,,
 05df4dbb9417,EEDC,Enugu,ENUGU,2026-10,2026-09,,126,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,not_published,,,
+05df4dbb9417,EEDC,Enugu,ENUGU,2026-11,2026-10,,113,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,not_published,,,
 05e0b7d631aa,AEDC,Abuja,FCT,2022-10,2022-09,A,303,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,3,NERC,printed,,,
 05e0b7d631aa,AEDC,Abuja,FCT,2022-11,2022-10,A,319,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,2,NERC,printed,,,
 05e0b7d631aa,AEDC,Abuja,FCT,2022-12,2022-11,A,335,learned,text,exact,Abuja-December-2022-Cap.pdf,3,NERC,printed,68.2,24561,AEDCMYTO2024-1.pdf
@@ -10159,6 +10161,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 116dda41b349,EEDC,Enugu,ENUGU,2026-08,2026-07,B,104,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 116dda41b349,EEDC,Enugu,ENUGU,2026-09,2026-08,B,102,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 116dda41b349,EEDC,Enugu,ENUGU,2026-10,2026-09,B,101,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+116dda41b349,EEDC,Enugu,ENUGU,2026-11,2026-10,B,102,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1177e6b7fa04,KAEDC,Kaduna,KADUNA,2026-01,2025-12,C,151,printed,ocr,exact,KAEDC-monthly-energy-caps-Jan-2026.pdf,1,NERC,printed,51.12,8298,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 1177e6b7fa04,KAEDC,Kaduna,KADUNA,2026-02,2026-01,C,158,printed,ocr,exact,KAEDC-monthly-energy-caps-Feb-2026.pdf,1,NERC,printed,51.12,8683,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 117861a1908c,KAEDC,Kaduna,KEBBI,2026-02,2026-01,C,141,printed,ocr,exact,KAEDC-monthly-energy-caps-Feb-2026.pdf,3,NERC,printed,51.12,7749,KAEDC_HOLDCO_YSS_September_2026_095.pdf
@@ -10293,6 +10296,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 1188b48b441f,EEDC,Enugu,ENUGU,2026-08,2026-07,B,137,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1188b48b441f,EEDC,Enugu,ENUGU,2026-09,2026-08,B,135,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1188b48b441f,EEDC,Enugu,ENUGU,2026-10,2026-09,B,143,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+1188b48b441f,EEDC,Enugu,ENUGU,2026-11,2026-10,B,136,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1194e271d96c,APLE,Aba Power,ABIA,2025-06,2025-05,C,268,learned,text,exact,Aba-Power-Electricity-Distribution-Plc.-Monthly-Energy-Cap-June-2025.pdf,1,NERC,printed,,,
 1199d5c9bcc4,KAEDC,Kaduna,KEBBI,2023-02,2023-01,B,93,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-February-2023.pdf,3,NERC,printed,62.63,6261,KAEDCMYTO2024.pdf
 1199d5c9bcc4,KAEDC,Kaduna,KEBBI,2023-03,2023-02,B,92,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-March-2023.pdf,3,NERC,printed,62.63,6194,KAEDCMYTO2024.pdf
@@ -12113,6 +12117,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 14a66579e68b,EEDC,Enugu,ENUGU,2026-08,2026-07,A,91,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 14a66579e68b,EEDC,Enugu,ENUGU,2026-09,2026-08,A,99,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 14a66579e68b,EEDC,Enugu,ENUGU,2026-10,2026-09,A,98,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+14a66579e68b,EEDC,Enugu,ENUGU,2026-11,2026-10,A,101,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 14bbf849c1e4,PHED,Port Harcourt,BAYELSA,2022-10,2022-09,B,236,learned,text,exact,PHED-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
 14bbf849c1e4,PHED,Port Harcourt,BAYELSA,2022-11,2022-10,B,236,learned,text,exact,PHED-Monthly-Energy-Cap-for-November-2022.pdf,2,NERC,printed,,,
 14bbf849c1e4,PHED,Port Harcourt,BAYELSA,2022-12,2022-11,B,240,learned,text,exact,Port-Harcourt-December-2022-Cap.pdf,3,NERC,printed,68.96,17792,PHEDMYTO2024.pdf
@@ -12194,6 +12199,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 14e5391977a8,EEDC,Enugu,ENUGU,2026-08,2026-07,B,124,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 14e5391977a8,EEDC,Enugu,ENUGU,2026-09,2026-08,B,125,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 14e5391977a8,EEDC,Enugu,ENUGU,2026-10,2026-09,B,129,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+14e5391977a8,EEDC,Enugu,ENUGU,2026-11,2026-10,B,116,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 14eabbcfc4c0,KEDCO,Kano,KANO,2022-10,2022-09,B,242,learned,text,exact,KEDCO-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
 14eabbcfc4c0,KEDCO,Kano,KANO,2022-11,2022-10,B,259,learned,text,exact,KEDCO-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
 14eabbcfc4c0,KEDCO,Kano,KANO,2022-12,2022-11,B,268,learned,text,exact,Kano-december-2022-caps.pdf,2,NERC,printed,65.29,18810,KEDCO-MYTO-2024.pdf
@@ -12810,6 +12816,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 15c6833e26e4,EEDC,Enugu,ENUGU,2026-08,2026-07,A,101,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 15c6833e26e4,EEDC,Enugu,ENUGU,2026-09,2026-08,A,104,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 15c6833e26e4,EEDC,Enugu,ENUGU,2026-10,2026-09,A,109,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+15c6833e26e4,EEDC,Enugu,ENUGU,2026-11,2026-10,A,106,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 15ca47191ad3,PHED,Port Harcourt,RIVERS,2023-03,2023-02,D,207,learned,text,exact,PHED-Monthly-Energy-Cap-for-March-2023.pdf,5,NERC,printed,39.67,8828,PHEDMYTO2024.pdf
 15ca47191ad3,PHED,Port Harcourt,RIVERS,2023-04,2023-03,D,202,learned,text,exact,PHED-Monthly-Energy-Cap-for-April-2023.pdf,5,NERC,printed,39.67,8614,PHEDMYTO2024.pdf
 15ca47191ad3,PHED,Port Harcourt,RIVERS,2023-05,2023-04,D,201,manual,text,exact,PHED-Monthly-Energy-Cap-for-May-2023.pdf,5,NERC,printed,39.67,8572,PHEDMYTO2024.pdf
@@ -13250,6 +13257,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 16ab3e7e2e63,EEDC,Enugu,ENUGU,2026-08,2026-07,A,149,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 16ab3e7e2e63,EEDC,Enugu,ENUGU,2026-09,2026-08,A,161,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 16ab3e7e2e63,EEDC,Enugu,ENUGU,2026-10,2026-09,A,165,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+16ab3e7e2e63,EEDC,Enugu,ENUGU,2026-11,2026-10,A,165,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 16b01bc66570,IBEDC,Ibadan,KWARA,2026-01,2025-12,B,212,printed,ocr,exact,IBEDC-monthly-energy-caps-Jan-2026.pdf,3,NERC,printed,67.25,15326,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 16b01bc66570,IBEDC,Ibadan,KWARA,2026-02,2026-01,B,214,printed,ocr,exact,IBEDC-monthly-energy-caps-Feb-2026.pdf,4,NERC,printed,67.25,15471,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 16d2c020cfcd,AEDC,Abuja,FCT,2023-02,2023-01,A,117,learned,text,exact,AEDC-Monthly-Energy-Cap-for-February-2023.pdf,27,NERC,printed,68.2,8578,AEDCMYTO2024-1.pdf
@@ -13929,6 +13937,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 18069f1d0a21,EEDC,Enugu,ENUGU,2026-08,2026-07,A,76,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2023-01,,,
 18069f1d0a21,EEDC,Enugu,ENUGU,2026-09,2026-08,A,102,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2023-01,,,
 18069f1d0a21,EEDC,Enugu,ENUGU,2026-10,2026-09,A,102,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2023-01,,,
+18069f1d0a21,EEDC,Enugu,ENUGU,2026-11,2026-10,A,102,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2023-01,,,
 180f50052e5c,EEDC,Enugu,IMO,2023-02,2023-01,B,569,manual,text,exact,EEDC-Monthly-Energy-Cap-for-February-2023.pdf,4,NERC,printed,66.47,40658,EEDCMYTO2024-1.pdf
 180f50052e5c,EEDC,Enugu,IMO,2023-03,2023-02,B,572,manual,text,exact,EEDC-Monthly-Energy-Cap-for-March-2023.pdf,4,NERC,printed,66.47,40872,EEDCMYTO2024-1.pdf
 180f50052e5c,EEDC,Enugu,IMO,2023-04,2023-03,B,551,manual,text,exact,EEDC-Monthly-Energy-Cap-for-April-2023.pdf,4,NERC,printed,66.47,39372,EEDCMYTO2024-1.pdf
@@ -14002,6 +14011,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 18140ad57b21,EEDC,Enugu,ENUGU,2026-08,2026-07,A,127,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 18140ad57b21,EEDC,Enugu,ENUGU,2026-09,2026-08,A,162,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 18140ad57b21,EEDC,Enugu,ENUGU,2026-10,2026-09,A,80,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+18140ad57b21,EEDC,Enugu,ENUGU,2026-11,2026-10,A,110,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 1817c9e29262,AEDC,Abuja,FCT,2022-10,2022-09,C,108,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,15,NERC,printed,,,
 1817c9e29262,AEDC,Abuja,FCT,2022-12,2022-11,C,120,learned,text,exact,Abuja-December-2022-Cap.pdf,15,NERC,printed,51.79,6681,AEDCMYTO2024-1.pdf
 1817c9e29262,AEDC,Abuja,FCT,2023-01,2022-12,C,123,learned,text,exact,AEDC-Monthly-Energy-Cap-for-January-2023.pdf,14,NERC,printed,51.79,6848,AEDCMYTO2024-1.pdf
@@ -14385,6 +14395,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 1976ce4d8faf,EEDC,Enugu,ENUGU,2026-08,2026-07,C,132,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 1976ce4d8faf,EEDC,Enugu,ENUGU,2026-09,2026-08,C,127,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 1976ce4d8faf,EEDC,Enugu,ENUGU,2026-10,2026-09,C,131,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+1976ce4d8faf,EEDC,Enugu,ENUGU,2026-11,2026-10,C,122,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 1989e160b8ae,IBEDC,Ibadan,OYO,2022-10,2022-09,D,109,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,14,NERC,printed,,,
 1989e160b8ae,IBEDC,Ibadan,OYO,2022-11,2022-10,D,110,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,10,NERC,printed,,,
 1989e160b8ae,IBEDC,Ibadan,OYO,2022-12,2022-11,D,112,learned,text,exact,Ibadan-December-2022-Cap.pdf,12,NERC,printed,32.44,3906,IBEDCMYTO2024-1.pdf
@@ -14449,6 +14460,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 199e649ad6cd,EEDC,Enugu,ENUGU,2026-08,2026-07,E,110,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 199e649ad6cd,EEDC,Enugu,ENUGU,2026-09,2026-08,E,219,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 199e649ad6cd,EEDC,Enugu,ENUGU,2026-10,2026-09,E,163,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+199e649ad6cd,EEDC,Enugu,ENUGU,2026-11,2026-10,E,138,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 199f30f76510,AEDC,Abuja,NASARAWA,2022-10,2022-09,A,96,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,14,NERC,printed,,,
 199f30f76510,AEDC,Abuja,NASARAWA,2022-11,2022-10,A,101,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,12,NERC,printed,,,
 199f30f76510,AEDC,Abuja,NASARAWA,2022-12,2022-11,A,106,learned,text,exact,Abuja-December-2022-Cap.pdf,14,NERC,printed,68.2,7771,AEDCMYTO2024-1.pdf
@@ -14688,6 +14700,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 1a012fab9855,EEDC,Enugu,ENUGU,2026-08,2026-07,B,138,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1a012fab9855,EEDC,Enugu,ENUGU,2026-09,2026-08,B,149,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1a012fab9855,EEDC,Enugu,ENUGU,2026-10,2026-09,B,132,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+1a012fab9855,EEDC,Enugu,ENUGU,2026-11,2026-10,B,135,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1a052ab82c75,AEDC,Abuja,NASARAWA,2022-10,2022-09,D,403,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,14,NERC,printed,,,
 1a0f52931a63,IBEDC,Ibadan,OSUN,2025-10,2025-09,D,190,printed,text,exact,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2025.pdf,15,NERC,printed,32.44,6626,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 1a0f52931a63,IBEDC,Ibadan,OSUN,2025-11,2025-10,D,192,printed,ocr,exact,IBEDC-monthly-energy-caps-November-2025.pdf,16,NERC,printed,32.44,6696,IBEDC_HOLDCO_YSS_September_2026_092.pdf
@@ -15180,6 +15193,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 1b1290952c23,EEDC,Enugu,ENUGU,2026-08,2026-07,C,230,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1b1290952c23,EEDC,Enugu,ENUGU,2026-09,2026-08,C,264,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1b1290952c23,EEDC,Enugu,ENUGU,2026-10,2026-09,C,184,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+1b1290952c23,EEDC,Enugu,ENUGU,2026-11,2026-10,C,208,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 1b2a53b68d18,AEDC,Abuja,UNKNOWN,2023-04,2023-03,D,76,unknown,text,exact,AEDC-Monthly-Energy-Cap-for-April-2023.pdf,6,NERC,printed,33.95,2774,AEDCMYTO2024-1.pdf
 1b2c5d9f1924,IKEDC,Ikeja,UNKNOWN,2022-10,2022-09,C,316,unknown,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,1,NERC,printed,,,
 1b2c5d9f1924,IKEDC,Ikeja,OGUN,2022-11,2022-10,C,325,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
@@ -16930,6 +16944,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 1e26108990ba,EEDC,Enugu,ENUGU,2026-08,2026-07,A,103,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1e26108990ba,EEDC,Enugu,ENUGU,2026-09,2026-08,A,115,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1e26108990ba,EEDC,Enugu,ENUGU,2026-10,2026-09,A,108,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+1e26108990ba,EEDC,Enugu,ENUGU,2026-11,2026-10,A,109,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1e39802da3a7,KAEDC,Kaduna,KADUNA,2022-10,2022-09,A,191,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-October-2022.pdf,5,NERC,printed,,,
 1e39802da3a7,KAEDC,Kaduna,KADUNA,2022-11,2022-10,A,201,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 1e39802da3a7,KAEDC,Kaduna,KADUNA,2022-12,2022-11,A,204,manual,text,exact,Kaduna-December-2022-Cap.pdf,7,NERC,printed,67.53,14809,KAEDCMYTO2024.pdf
@@ -17267,6 +17282,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 1ea85317264f,EEDC,Enugu,ENUGU,2026-08,2026-07,C,110,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1ea85317264f,EEDC,Enugu,ENUGU,2026-09,2026-08,C,95,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1ea85317264f,EEDC,Enugu,ENUGU,2026-10,2026-09,C,113,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+1ea85317264f,EEDC,Enugu,ENUGU,2026-11,2026-10,C,107,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 1ee8edcccfb0,EKEDC,Eko,LAGOS,2022-10,2022-09,B,861,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-October-2022.pdf,6,NERC,printed,,,
 1ee8edcccfb0,EKEDC,Eko,LAGOS,2022-11,2022-10,B,905,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-November-2022.pdf,5,NERC,printed,,,
 1ee8edcccfb0,EKEDC,Eko,LAGOS,2022-12,2022-11,B,955,learned,text,exact,Eko-December-2022-Cap.pdf,5,NERC,printed,61.0,62624,EKEDPMYTO2024-1.pdf
@@ -18183,6 +18199,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 20a3674bcbe7,EEDC,Enugu,ENUGU,2026-08,2026-07,A,112,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 20a3674bcbe7,EEDC,Enugu,ENUGU,2026-09,2026-08,A,116,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 20a3674bcbe7,EEDC,Enugu,ENUGU,2026-10,2026-09,A,113,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+20a3674bcbe7,EEDC,Enugu,ENUGU,2026-11,2026-10,A,110,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 20a789500655,KAEDC,Kaduna,KADUNA,2026-01,2025-12,A,188,printed,ocr,exact,KAEDC-monthly-energy-caps-Jan-2026.pdf,2,NERC,printed,209.5,42340,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 20a789500655,KAEDC,Kaduna,KADUNA,2026-02,2026-01,A,196,printed,ocr,exact,KAEDC-monthly-energy-caps-Feb-2026.pdf,2,NERC,printed,209.5,44142,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 20abf1068d77,IKEDC,Ikeja,LAGOS,2022-10,2022-09,D,328,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,3,NERC,printed,,,
@@ -19727,6 +19744,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 22e0ecd4bcdf,EEDC,Enugu,ENUGU,2026-08,2026-07,B,143,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 22e0ecd4bcdf,EEDC,Enugu,ENUGU,2026-09,2026-08,B,131,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 22e0ecd4bcdf,EEDC,Enugu,ENUGU,2026-10,2026-09,B,135,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+22e0ecd4bcdf,EEDC,Enugu,ENUGU,2026-11,2026-10,B,133,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 22e9d83345da,YEDC,Yola,ADAMAWA,2023-02,2023-01,A,282,learned,text,exact,YEDC-Monthly-Energy-Cap-for-February-2023.pdf,3,NERC,printed,69.43,21048,YEDCMYTO2024.pdf
 22e9d83345da,YEDC,Yola,ADAMAWA,2023-03,2023-02,A,282,learned,text,exact,YEDC-Monthly-Energy-Cap-for-March-2023.pdf,3,NERC,printed,69.43,21048,YEDCMYTO2024.pdf
 22e9d83345da,YEDC,Yola,ADAMAWA,2023-04,2023-03,A,315,learned,text,exact,YEDC-Monthly-Energy-Cap-for-April-2023.pdf,3,NERC,printed,69.43,23511,YEDCMYTO2024.pdf
@@ -25657,6 +25675,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 2d4fb07df8ca,EEDC,Enugu,ENUGU,2026-08,2026-07,C,77,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 2d4fb07df8ca,EEDC,Enugu,ENUGU,2026-09,2026-08,C,76,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 2d4fb07df8ca,EEDC,Enugu,ENUGU,2026-10,2026-09,C,76,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+2d4fb07df8ca,EEDC,Enugu,ENUGU,2026-11,2026-10,C,76,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 2d5295d97530,IBEDC,Ibadan,OYO,2022-10,2022-09,D,209,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,15,NERC,printed,,,
 2d5295d97530,IBEDC,Ibadan,OYO,2022-11,2022-10,D,210,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,11,NERC,printed,,,
 2d5295d97530,IBEDC,Ibadan,OYO,2022-12,2022-11,D,215,learned,text,exact,Ibadan-December-2022-Cap.pdf,13,NERC,printed,32.44,7498,IBEDCMYTO2024-1.pdf
@@ -26750,6 +26769,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 2f6ac07cac31,EEDC,Enugu,ENUGU,2026-08,2026-07,A,149,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 2f6ac07cac31,EEDC,Enugu,ENUGU,2026-09,2026-08,A,158,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 2f6ac07cac31,EEDC,Enugu,ENUGU,2026-10,2026-09,A,146,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+2f6ac07cac31,EEDC,Enugu,ENUGU,2026-11,2026-10,A,132,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 2f6e593f9cce,KAEDC,Kaduna,KADUNA,2026-02,2026-01,B,132,printed,ocr,exact,KAEDC-monthly-energy-caps-Feb-2026.pdf,2,NERC,printed,62.63,8887,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 2f6e593f9cce,KAEDC,Kaduna,KADUNA,2026-05,2026-04,B,127,printed,ocr,exact,KAEDC-monthly-energy-caps-May-2026.pdf,2,NERC,printed,62.63,8551,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 2f738101f732,AEDC,Abuja,FCT,2022-10,2022-09,A,796,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,3,NERC,printed,,,
@@ -28358,6 +28378,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 328e9a55b415,EEDC,Enugu,ENUGU,2026-08,2026-07,A,133,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 328e9a55b415,EEDC,Enugu,ENUGU,2026-09,2026-08,A,141,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 328e9a55b415,EEDC,Enugu,ENUGU,2026-10,2026-09,A,167,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+328e9a55b415,EEDC,Enugu,ENUGU,2026-11,2026-10,A,158,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 329122693fa2,IBEDC,Ibadan,OGUN,2022-10,2022-09,E,201,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,25,NERC,printed,,,
 329122693fa2,IBEDC,Ibadan,OGUN,2022-11,2022-10,E,202,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,19,NERC,printed,,,
 329122693fa2,IBEDC,Ibadan,OGUN,2022-12,2022-11,E,207,learned,text,exact,Ibadan-December-2022-Cap.pdf,22,NERC,printed,32.26,7179,IBEDCMYTO2024-1.pdf
@@ -29041,6 +29062,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 33755fd03e3d,EEDC,Enugu,ENUGU,2026-08,2026-07,B,122,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 33755fd03e3d,EEDC,Enugu,ENUGU,2026-09,2026-08,B,122,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 33755fd03e3d,EEDC,Enugu,ENUGU,2026-10,2026-09,B,101,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+33755fd03e3d,EEDC,Enugu,ENUGU,2026-11,2026-10,B,101,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 337e1403d09f,AEDC,Abuja,FCT,2022-11,2022-10,D,303,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,11,NERC,printed,,,
 337e1403d09f,AEDC,Abuja,FCT,2022-12,2022-11,D,319,learned,text,exact,Abuja-December-2022-Cap.pdf,14,NERC,printed,33.95,11642,AEDCMYTO2024-1.pdf
 337e1403d09f,AEDC,Abuja,FCT,2023-01,2022-12,D,327,learned,text,exact,AEDC-Monthly-Energy-Cap-for-January-2023.pdf,13,NERC,printed,33.95,11934,AEDCMYTO2024-1.pdf
@@ -30821,6 +30843,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 368482a9ed89,EEDC,Enugu,ENUGU,2026-08,2026-07,A,100,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 368482a9ed89,EEDC,Enugu,ENUGU,2026-09,2026-08,A,109,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 368482a9ed89,EEDC,Enugu,ENUGU,2026-10,2026-09,A,110,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+368482a9ed89,EEDC,Enugu,ENUGU,2026-11,2026-10,A,84,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 3688d9c43f90,EEDC,Enugu,UNKNOWN,2022-10,2022-09,D,138,unknown,text,exact,EEDC-Monthly-Energy-Cap-for-October-2022.pdf,5,NERC,printed,,,
 3688d9c43f90,EEDC,Enugu,ANAMBRA,2022-11,2022-10,D,140,learned,text,exact,EEDC-Monthly-Energy-Cap-for-November-2022.pdf,3,NERC,printed,,,
 3688d9c43f90,EEDC,Enugu,ANAMBRA,2022-12,2022-11,D,141,learned,text,exact,Enugu-December-2022-Cap.pdf,3,NERC,printed,36.49,5531,EEDCMYTO2024-1.pdf
@@ -31662,6 +31685,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 378ab5634763,EEDC,Enugu,ENUGU,2026-08,2026-07,A,98,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 378ab5634763,EEDC,Enugu,ENUGU,2026-09,2026-08,A,98,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 378ab5634763,EEDC,Enugu,ENUGU,2026-10,2026-09,A,88,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+378ab5634763,EEDC,Enugu,ENUGU,2026-11,2026-10,A,107,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 379f061bc8fe,BEDC,Benin,EDO,2022-10,2022-09,A,291,learned,text,exact,BEDC-Monthly-Energy-Cap-for-October-2022.pdf,4,NERC,printed,,,
 379f061bc8fe,BEDC,Benin,EDO,2022-11,2022-10,A,301,learned,text,exact,BEDC-Monthly-Energy-Cap-for-November-2022.pdf,3,NERC,printed,,,
 379f061bc8fe,BEDC,Benin,EDO,2022-12,2022-11,A,308,learned,text,exact,Benin-December-2022-Cap.pdf,4,NERC,printed,72.19,23902,BEDCMYTO2024.pdf
@@ -37520,6 +37544,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 42b08d401948,EEDC,Enugu,ENUGU,2026-08,2026-07,A,168,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 42b08d401948,EEDC,Enugu,ENUGU,2026-09,2026-08,A,171,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 42b08d401948,EEDC,Enugu,ENUGU,2026-10,2026-09,A,196,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+42b08d401948,EEDC,Enugu,ENUGU,2026-11,2026-10,A,197,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 42c50fc25109,EEDC,Enugu,ANAMBRA,2022-10,2022-09,D,102,learned,text,exact,EEDC-Monthly-Energy-Cap-for-October-2022.pdf,10,NERC,printed,,,
 42c50fc25109,EEDC,Enugu,ANAMBRA,2022-11,2022-10,D,103,learned,text,exact,EEDC-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 42c50fc25109,EEDC,Enugu,ANAMBRA,2022-12,2022-11,D,104,learned,text,exact,Enugu-December-2022-Cap.pdf,7,NERC,printed,36.49,4080,EEDCMYTO2024-1.pdf
@@ -39823,6 +39848,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 473ecfd8bcaf,EEDC,Enugu,ENUGU,2026-08,2026-07,A,108,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 473ecfd8bcaf,EEDC,Enugu,ENUGU,2026-09,2026-08,A,100,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 473ecfd8bcaf,EEDC,Enugu,ENUGU,2026-10,2026-09,A,88,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+473ecfd8bcaf,EEDC,Enugu,ENUGU,2026-11,2026-10,A,123,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 47414a650a6b,KEDCO,Kano,KANO,2025-11,2025-10,A,132,printed,ocr,exact,KEDCO-monthly-energy-caps-November-2025.pdf,2,NERC,printed,209.5,29728,KEDCO_HOLDCO_YSS_Septmeber_2026_096.pdf
 47414a650a6b,KEDCO,Kano,KANO,2025-12,2025-11,A,137,printed,ocr,exact,KEDCO-monthly-energy-caps-December-2025.pdf,2,NERC,printed,209.5,30854,KEDCO_HOLDCO_YSS_Septmeber_2026_096.pdf
 47414a650a6b,KEDCO,Kano,KANO,2026-01,2025-12,A,141,printed,ocr,exact,KEDCO-monthly-energy-caps-Jan-2026.pdf,2,NERC,printed,209.5,31755,KEDCO_HOLDCO_YSS_Septmeber_2026_096.pdf
@@ -40162,6 +40188,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 47cb12095d18,EEDC,Enugu,ENUGU,2026-08,2026-07,D,133,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 47cb12095d18,EEDC,Enugu,ENUGU,2026-09,2026-08,D,126,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 47cb12095d18,EEDC,Enugu,ENUGU,2026-10,2026-09,D,114,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+47cb12095d18,EEDC,Enugu,ENUGU,2026-11,2026-10,D,103,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 47d44fd754b3,EKEDC,Eko,LAGOS,2026-01,2025-12,A,391,printed,ocr,exact,EKEDP-monthly-energy-caps-Jan-2026.pdf,1,NERC,printed,209.5,88058,EKEDP_HOLDCO_YSS_September_2026_091.pdf
 47d44fd754b3,EKEDC,Eko,LAGOS,2026-02,2026-01,A,394,printed,ocr,exact,EKEDP-monthly-energy-caps-Feb-2026.pdf,1,NERC,printed,209.5,88734,EKEDP_HOLDCO_YSS_September_2026_091.pdf
 47e366082dc3,AEDC,Abuja,FCT,2022-10,2022-09,A,424,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
@@ -45071,6 +45098,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 4f6a47934d4f,EEDC,Enugu,ENUGU,2026-08,2026-07,D,96,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 4f6a47934d4f,EEDC,Enugu,ENUGU,2026-09,2026-08,D,96,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 4f6a47934d4f,EEDC,Enugu,ENUGU,2026-10,2026-09,D,152,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+4f6a47934d4f,EEDC,Enugu,ENUGU,2026-11,2026-10,D,73,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 4f70f4a79d49,AEDC,Abuja,UNKNOWN,2022-10,2022-09,A,390,unknown,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,11,NERC,printed,,,
 4f74445484f2,IKEDC,Ikeja,UNKNOWN,2022-10,2022-09,D,354,unknown,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,1,NERC,printed,,,
 4f74445484f2,IKEDC,Ikeja,OGUN,2022-11,2022-10,D,364,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
@@ -50421,6 +50449,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 5671e470873f,EEDC,Enugu,ENUGU,2026-08,2026-07,B,105,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 5671e470873f,EEDC,Enugu,ENUGU,2026-09,2026-08,B,104,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 5671e470873f,EEDC,Enugu,ENUGU,2026-10,2026-09,B,114,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+5671e470873f,EEDC,Enugu,ENUGU,2026-11,2026-10,B,110,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 56741affa882,BEDC,Benin,ONDO,2022-10,2022-09,E,170,manual,text,exact,BEDC-Monthly-Energy-Cap-for-October-2022.pdf,8,NERC,printed,,,
 56741affa882,BEDC,Benin,ONDO,2022-11,2022-10,E,176,manual,text,exact,BEDC-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 56741affa882,BEDC,Benin,ONDO,2022-12,2022-11,E,180,manual,text,exact,Benin-December-2022-Cap.pdf,7,NERC,printed,41.21,7974,BEDCMYTO2024.pdf
@@ -51406,6 +51435,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 57e508e5498e,EEDC,Enugu,ENUGU,2026-08,2026-07,,76,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,not_published,,,
 57e508e5498e,EEDC,Enugu,ENUGU,2026-09,2026-08,,142,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,not_published,,,
 57e508e5498e,EEDC,Enugu,ENUGU,2026-10,2026-09,,105,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,not_published,,,
+57e508e5498e,EEDC,Enugu,ENUGU,2026-11,2026-10,,92,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,not_published,,,
 57ec009e9b93,IBEDC,Ibadan,OSUN,2026-10,2026-09,A,239,printed,text,exact,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2026.pdf,9,NERC,printed,209.5,53826,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 57f49e0e57fc,YEDC,Yola,TARABA,2025-12,2025-11,A,186,printed,ocr,exact,YEDC-monthly-energy-caps-December-2025.pdf,3,NERC,printed,209.5,41890,YEDC_HOLDCO_YSS_September_2026_098.pdf
 57f49e0e57fc,YEDC,Yola,TARABA,2026-03,2026-02,A,174,printed,ocr,exact,YEDC-monthly-energy-caps-Mar-2026.pdf,3,NERC,printed,209.5,39187,YEDC_HOLDCO_YSS_September_2026_098.pdf
@@ -51653,6 +51683,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 585a2dabea3e,EEDC,Enugu,ENUGU,2025-08,2025-07,A,324,manual,text,exact,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-August-2025.pdf,6,NERC,printed,209.5,72969,EEDC_HOLDCO_YSS_September_2026_090.pdf
 585a2dabea3e,EEDC,Enugu,ENUGU,2025-09,2025-08,A,314,manual,text,exact,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-September-2025.pdf,6,NERC,printed,209.5,70717,EEDC_HOLDCO_YSS_September_2026_090.pdf
 585a2dabea3e,EEDC,Enugu,ENUGU,2026-10,2026-09,A,242,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+585a2dabea3e,EEDC,Enugu,ENUGU,2026-11,2026-10,A,242,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 5872aa19bdd5,EEDC,Enugu,UNKNOWN,2023-02,2023-01,C,155,unknown,text,exact,EEDC-Monthly-Energy-Cap-for-February-2023.pdf,3,NERC,printed,53.78,8961,EEDCMYTO2024-1.pdf
 5872aa19bdd5,EEDC,Enugu,UNKNOWN,2023-03,2023-02,C,156,unknown,text,exact,EEDC-Monthly-Energy-Cap-for-March-2023.pdf,3,NERC,printed,53.78,9019,EEDCMYTO2024-1.pdf
 5872aa19bdd5,EEDC,Enugu,UNKNOWN,2023-04,2023-03,C,150,unknown,text,exact,EEDC-Monthly-Energy-Cap-for-April-2023.pdf,3,NERC,printed,53.78,8672,EEDCMYTO2024-1.pdf
@@ -53570,6 +53601,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 5c08af3f9e1b,EEDC,Enugu,ENUGU,2026-08,2026-07,C,124,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 5c08af3f9e1b,EEDC,Enugu,ENUGU,2026-09,2026-08,C,117,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 5c08af3f9e1b,EEDC,Enugu,ENUGU,2026-10,2026-09,C,112,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+5c08af3f9e1b,EEDC,Enugu,ENUGU,2026-11,2026-10,C,105,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 5c156d791b77,IKEDC,Ikeja,LAGOS,2022-10,2022-09,D,265,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,5,NERC,printed,,,
 5c156d791b77,IKEDC,Ikeja,LAGOS,2022-11,2022-10,D,274,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,5,NERC,printed,,,
 5c156d791b77,IKEDC,Ikeja,LAGOS,2023-01,2022-12,D,285,learned,text,exact,IE-Monthly-Energy-Cap-for-January-2023.pdf,5,NERC,printed,31.24,9571,April-2024-Supplementary-Order-to-MYTO-IKEDC.pdf
@@ -56286,6 +56318,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 60c22509f13c,EEDC,Enugu,ENUGU,2026-08,2026-07,B,112,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 60c22509f13c,EEDC,Enugu,ENUGU,2026-09,2026-08,B,119,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 60c22509f13c,EEDC,Enugu,ENUGU,2026-10,2026-09,B,112,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+60c22509f13c,EEDC,Enugu,ENUGU,2026-11,2026-10,B,110,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 60ca4cdc3055,AEDC,Abuja,FCT,2022-11,2022-10,B,67,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,10,NERC,printed,,,
 60ca4cdc3055,AEDC,Abuja,FCT,2022-12,2022-11,B,70,learned,text,exact,Abuja-December-2022-Cap.pdf,12,NERC,printed,63.35,4767,AEDCMYTO2024-1.pdf
 60ca4cdc3055,AEDC,Abuja,FCT,2023-01,2022-12,B,72,learned,text,exact,AEDC-Monthly-Energy-Cap-for-January-2023.pdf,11,NERC,printed,63.35,4903,AEDCMYTO2024-1.pdf
@@ -57487,6 +57520,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 6325b273e4d6,EEDC,Enugu,ENUGU,2026-08,2026-07,A,128,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 6325b273e4d6,EEDC,Enugu,ENUGU,2026-09,2026-08,A,134,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 6325b273e4d6,EEDC,Enugu,ENUGU,2026-10,2026-09,A,136,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+6325b273e4d6,EEDC,Enugu,ENUGU,2026-11,2026-10,A,131,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 6331b097359c,YEDC,Yola,ADAMAWA,2023-02,2023-01,C,119,learned,text,exact,YEDC-Monthly-Energy-Cap-for-February-2023.pdf,2,NERC,printed,52.51,6717,YEDCMYTO2024.pdf
 6331b097359c,YEDC,Yola,ADAMAWA,2023-03,2023-02,C,119,learned,text,exact,YEDC-Monthly-Energy-Cap-for-March-2023.pdf,2,NERC,printed,52.51,6717,YEDCMYTO2024.pdf
 6331b097359c,YEDC,Yola,ADAMAWA,2023-04,2023-03,C,133,learned,text,exact,YEDC-Monthly-Energy-Cap-for-April-2023.pdf,2,NERC,printed,52.51,7508,YEDCMYTO2024.pdf
@@ -58579,6 +58613,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 65e5476c682b,EEDC,Enugu,ENUGU,2026-08,2026-07,C,114,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2023-01,,,
 65e5476c682b,EEDC,Enugu,ENUGU,2026-09,2026-08,C,119,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2023-01,,,
 65e5476c682b,EEDC,Enugu,ENUGU,2026-10,2026-09,C,102,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2023-01,,,
+65e5476c682b,EEDC,Enugu,ENUGU,2026-11,2026-10,C,99,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2023-01,,,
 65eb3852f4c6,IBEDC,Ibadan,OYO,2022-10,2022-09,A,149,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,16,NERC,printed,,,
 65eb3852f4c6,IBEDC,Ibadan,OYO,2022-11,2022-10,A,150,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,12,NERC,printed,,,
 65eb3852f4c6,IBEDC,Ibadan,OYO,2022-12,2022-11,A,153,learned,text,exact,Ibadan-December-2022-Cap.pdf,14,NERC,printed,74.82,12306,IBEDCMYTO2024-1.pdf
@@ -59743,6 +59778,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 68537e08c23d,EEDC,Enugu,ENUGU,2026-08,2026-07,A,135,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 68537e08c23d,EEDC,Enugu,ENUGU,2026-09,2026-08,A,138,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 68537e08c23d,EEDC,Enugu,ENUGU,2026-10,2026-09,A,139,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+68537e08c23d,EEDC,Enugu,ENUGU,2026-11,2026-10,A,129,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 685d23f1c5bd,IKEDC,Ikeja,OGUN,2022-11,2022-10,D,280,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
 685d23f1c5bd,IKEDC,Ikeja,OGUN,2023-01,2022-12,D,292,learned,text,exact,IE-Monthly-Energy-Cap-for-January-2023.pdf,1,NERC,printed,31.24,9806,April-2024-Supplementary-Order-to-MYTO-IKEDC.pdf
 685d23f1c5bd,IKEDC,Ikeja,OGUN,2023-02,2023-01,D,251,learned,text,exact,IE-Monthly-Energy-Cap-for-February-2023.pdf,1,NERC,printed,31.24,8429,April-2024-Supplementary-Order-to-MYTO-IKEDC.pdf
@@ -68658,6 +68694,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 75c97fa61393,EEDC,Enugu,ENUGU,2026-08,2026-07,A,113,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 75c97fa61393,EEDC,Enugu,ENUGU,2026-09,2026-08,A,147,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 75c97fa61393,EEDC,Enugu,ENUGU,2026-10,2026-09,A,173,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+75c97fa61393,EEDC,Enugu,ENUGU,2026-11,2026-10,A,167,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 75dc5da20979,EEDC,Enugu,IMO,2022-10,2022-09,D,125,manual,text,exact,EEDC-Monthly-Energy-Cap-for-October-2022.pdf,6,NERC,printed,,,
 75dc5da20979,EEDC,Enugu,ANAMBRA,2022-11,2022-10,D,126,learned,text,exact,EEDC-Monthly-Energy-Cap-for-November-2022.pdf,3,NERC,printed,,,
 75dc5da20979,EEDC,Enugu,ANAMBRA,2022-12,2022-11,D,127,learned,text,exact,Enugu-December-2022-Cap.pdf,3,NERC,printed,36.49,4982,EEDCMYTO2024-1.pdf
@@ -68990,6 +69027,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 7639eb43476f,EEDC,Enugu,ENUGU,2026-08,2026-07,A,140,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 7639eb43476f,EEDC,Enugu,ENUGU,2026-09,2026-08,A,142,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 7639eb43476f,EEDC,Enugu,ENUGU,2026-10,2026-09,A,153,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+7639eb43476f,EEDC,Enugu,ENUGU,2026-11,2026-10,A,141,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 763a9d9f937b,IBEDC,Ibadan,KWARA,2026-05,2026-04,B,288,printed,ocr,exact,IBEDC-monthly-energy-caps-May-2026.pdf,3,NERC,printed,67.25,20821,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 763a9d9f937b,IBEDC,Ibadan,KWARA,2026-06,2026-05,B,270,printed,ocr,exact,IBEDC-monthly-energy-caps-June-2026.pdf,3,NERC,printed,67.25,19519,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 763c20b67979,IKEDC,Ikeja,LAGOS,2022-10,2022-09,A,851,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,8,NERC,printed,,,
@@ -72113,6 +72151,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 7b7440975418,EEDC,Enugu,ENUGU,2026-08,2026-07,A,93,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2023-01,,,
 7b7440975418,EEDC,Enugu,ENUGU,2026-09,2026-08,A,102,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2023-01,,,
 7b7440975418,EEDC,Enugu,ENUGU,2026-10,2026-09,A,102,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2023-01,,,
+7b7440975418,EEDC,Enugu,ENUGU,2026-11,2026-10,A,97,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2023-01,,,
 7b7fc98d362f,EKEDC,Eko,LAGOS,2022-10,2022-09,B,685,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-October-2022.pdf,5,NERC,printed,,,
 7b7fc98d362f,EKEDC,Eko,LAGOS,2022-11,2022-10,B,720,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-November-2022.pdf,4,NERC,printed,,,
 7b7fc98d362f,EKEDC,Eko,LAGOS,2022-12,2022-11,B,760,learned,text,exact,Eko-December-2022-Cap.pdf,5,NERC,printed,61.0,49837,EKEDPMYTO2024-1.pdf
@@ -74275,6 +74314,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 7f1acc964f93,EEDC,Enugu,ENUGU,2026-08,2026-07,A,108,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 7f1acc964f93,EEDC,Enugu,ENUGU,2026-09,2026-08,A,104,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 7f1acc964f93,EEDC,Enugu,ENUGU,2026-10,2026-09,A,112,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+7f1acc964f93,EEDC,Enugu,ENUGU,2026-11,2026-10,A,118,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 7f1c9bb8d229,IBEDC,Ibadan,OSUN,2026-06,2026-05,C,309,printed,ocr,exact,IBEDC-monthly-energy-caps-June-2026.pdf,9,NERC,printed,56.4,18735,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 7f1e68e6526a,IBEDC,Ibadan,OSUN,2022-10,2022-09,C,126,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,10,NERC,printed,,,
 7f1e68e6526a,IBEDC,Ibadan,OSUN,2022-11,2022-10,C,127,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,7,NERC,printed,,,
@@ -77235,6 +77275,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 831bca850f9d,EEDC,Enugu,ENUGU,2026-08,2026-07,A,128,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 831bca850f9d,EEDC,Enugu,ENUGU,2026-09,2026-08,A,132,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 831bca850f9d,EEDC,Enugu,ENUGU,2026-10,2026-09,A,128,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+831bca850f9d,EEDC,Enugu,ENUGU,2026-11,2026-10,A,124,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 832268802ac5,BEDC,Benin,EDO,2026-06,2026-05,A,237,printed,ocr,exact,BEDC-monthly-energy-caps-June-2026.pdf,6,NERC,printed,209.5,53375,BEDC_HOLDCO_YSS_September_2026_089.pdf
 8325d26375de,IKEDC,Ikeja,OGUN,2022-10,2022-09,C,431,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,1,NERC,printed,,,
 8325d26375de,IKEDC,Ikeja,OGUN,2022-11,2022-10,C,444,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
@@ -78779,6 +78820,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 860e15e41260,EEDC,Enugu,ENUGU,2026-08,2026-07,C,151,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 860e15e41260,EEDC,Enugu,ENUGU,2026-09,2026-08,C,149,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 860e15e41260,EEDC,Enugu,ENUGU,2026-10,2026-09,C,134,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+860e15e41260,EEDC,Enugu,ENUGU,2026-11,2026-10,C,138,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 86194f6f0a50,IKEDC,Ikeja,LAGOS,2026-02,2026-01,D,240,printed,ocr,exact,IE-monthly-energy-caps-Feb-2026.pdf,1,NERC,printed,31.24,8060,IE_HOLDCO_YSS_September_2026_093.pdf
 862962e90b53,BEDC,Benin,ONDO,2022-10,2022-09,C,262,manual,text,exact,BEDC-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
 862962e90b53,BEDC,Benin,ONDO,2022-11,2022-10,C,271,manual,text,exact,BEDC-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
@@ -78930,6 +78972,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 8649cbfcd6de,EEDC,Enugu,ENUGU,2026-08,2026-07,A,119,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 8649cbfcd6de,EEDC,Enugu,ENUGU,2026-09,2026-08,A,123,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 8649cbfcd6de,EEDC,Enugu,ENUGU,2026-10,2026-09,A,122,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+8649cbfcd6de,EEDC,Enugu,ENUGU,2026-11,2026-10,A,122,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 864bd4bc8321,PHED,Port Harcourt,RIVERS,2023-03,2023-02,D,438,learned,text,exact,PHED-Monthly-Energy-Cap-for-March-2023.pdf,5,NERC,printed,39.67,18679,PHEDMYTO2024.pdf
 864bd4bc8321,PHED,Port Harcourt,RIVERS,2023-04,2023-03,D,427,learned,text,exact,PHED-Monthly-Energy-Cap-for-April-2023.pdf,5,NERC,printed,39.67,18210,PHEDMYTO2024.pdf
 864bd4bc8321,PHED,Port Harcourt,RIVERS,2023-05,2023-04,D,426,manual,text,exact,PHED-Monthly-Energy-Cap-for-May-2023.pdf,5,NERC,printed,39.67,18167,PHEDMYTO2024.pdf
@@ -80001,6 +80044,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 879a43cc8d36,EEDC,Enugu,ENUGU,2026-08,2026-07,C,105,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 879a43cc8d36,EEDC,Enugu,ENUGU,2026-09,2026-08,C,105,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 879a43cc8d36,EEDC,Enugu,ENUGU,2026-10,2026-09,C,92,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+879a43cc8d36,EEDC,Enugu,ENUGU,2026-11,2026-10,C,110,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 87a155e30b3a,KAEDC,Kaduna,ZAMFARA,2025-11,2025-10,B,150,printed,ocr,exact,KAEDC-monthly-energy-caps-November-2025.pdf,5,NERC,printed,62.63,10099,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 87a155e30b3a,KAEDC,Kaduna,ZAMFARA,2025-12,2025-11,B,148,printed,ocr,exact,KAEDC-monthly-energy-caps-December-2025.pdf,5,NERC,printed,62.63,9964,KAEDC_HOLDCO_YSS_September_2026_095.pdf
 87a155e30b3a,KAEDC,Kaduna,ZAMFARA,2026-03,2026-02,B,163,printed,ocr,exact,KAEDC-monthly-energy-caps-Mar-2026.pdf,5,NERC,printed,62.63,10974,KAEDC_HOLDCO_YSS_September_2026_095.pdf
@@ -93019,6 +93063,7 @@ feeder_id,disco,disco_name,state,order_month,consumption_month,band,cap_kwh,stat
 9ee471d9c916,EEDC,Enugu,ENUGU,2026-08,2026-07,B,247,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 9ee471d9c916,EEDC,Enugu,ENUGU,2026-09,2026-08,B,247,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 9ee471d9c916,EEDC,Enugu,ENUGU,2026-10,2026-09,B,247,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+9ee471d9c916,EEDC,Enugu,ENUGU,2026-11,2026-10,B,247,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 9ef432fe04d7,IBEDC,Ibadan,OYO,2022-10,2022-09,D,308,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
 9ef432fe04d7,IBEDC,Ibadan,OYO,2022-11,2022-10,D,311,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,2,NERC,printed,,,
 9ef432fe04d7,IBEDC,Ibadan,OYO,2022-12,2022-11,D,317,learned,text,exact,Ibadan-December-2022-Cap.pdf,2,NERC,printed,32.44,11055,IBEDCMYTO2024-1.pdf
@@ -95620,6 +95665,7 @@ a3735b38c979,EEDC,Enugu,ENUGU,2026-07,2026-06,B,128,printed,text,exact,EERC_EEDC
 a3735b38c979,EEDC,Enugu,ENUGU,2026-08,2026-07,B,105,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 a3735b38c979,EEDC,Enugu,ENUGU,2026-09,2026-08,B,105,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 a3735b38c979,EEDC,Enugu,ENUGU,2026-10,2026-09,B,106,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+a3735b38c979,EEDC,Enugu,ENUGU,2026-11,2026-10,B,104,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 a3784b4dc1aa,IBEDC,Ibadan,KWARA,2026-09,2026-08,D,147,printed,text,exact,IBEDC-Monthly-Energy-Cap-September-2026.pdf,4,NERC,printed,32.44,5126,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 a3784b4dc1aa,IBEDC,Ibadan,KWARA,2026-10,2026-09,D,154,printed,text,exact,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2026.pdf,4,NERC,printed,32.44,5370,IBEDC_HOLDCO_YSS_September_2026_092.pdf
 a37d5d821284,YEDC,Yola,BORNO,2023-02,2023-01,B,147,learned,text,exact,YEDC-Monthly-Energy-Cap-for-February-2023.pdf,5,NERC,printed,63.33,10008,YEDCMYTO2024.pdf
@@ -97811,6 +97857,7 @@ a6a3db08ef82,EEDC,Enugu,ENUGU,2026-07,2026-06,D,179,printed,text,exact,EERC_EEDC
 a6a3db08ef82,EEDC,Enugu,ENUGU,2026-08,2026-07,D,179,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2023-01,,,
 a6a3db08ef82,EEDC,Enugu,ENUGU,2026-09,2026-08,D,179,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2023-01,,,
 a6a3db08ef82,EEDC,Enugu,ENUGU,2026-10,2026-09,D,179,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2023-01,,,
+a6a3db08ef82,EEDC,Enugu,ENUGU,2026-11,2026-10,D,161,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2023-01,,,
 a6aa4e89c6ab,IKEDC,Ikeja,LAGOS,2022-10,2022-09,B,535,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,8,NERC,printed,,,
 a6aa4e89c6ab,IKEDC,Ikeja,LAGOS,2022-11,2022-10,B,551,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,7,NERC,printed,,,
 a6aa4e89c6ab,IKEDC,Ikeja,LAGOS,2023-01,2022-12,B,573,learned,text,exact,IE-Monthly-Energy-Cap-for-January-2023.pdf,9,NERC,printed,62.48,38486,April-2024-Supplementary-Order-to-MYTO-IKEDC.pdf
@@ -99762,6 +99809,7 @@ aa2890bf9d43,EEDC,Enugu,ENUGU,2026-07,2026-06,D,273,printed,text,exact,EERC_EEDC
 aa2890bf9d43,EEDC,Enugu,ENUGU,2026-08,2026-07,D,273,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 aa2890bf9d43,EEDC,Enugu,ENUGU,2026-09,2026-08,D,273,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 aa2890bf9d43,EEDC,Enugu,ENUGU,2026-10,2026-09,D,273,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+aa2890bf9d43,EEDC,Enugu,ENUGU,2026-11,2026-10,D,246,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 aa2cc97adde1,AEDC,Abuja,FCT,2022-10,2022-09,C,90,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,17,NERC,printed,,,
 aa2cc97adde1,AEDC,Abuja,FCT,2022-11,2022-10,C,94,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,14,NERC,printed,,,
 aa2cc97adde1,AEDC,Abuja,FCT,2022-12,2022-11,C,99,learned,text,exact,Abuja-December-2022-Cap.pdf,17,NERC,printed,51.79,5512,AEDCMYTO2024-1.pdf
@@ -100793,6 +100841,7 @@ abfec6f44a95,EEDC,Enugu,ENUGU,2026-07,2026-06,A,259,printed,text,exact,EERC_EEDC
 abfec6f44a95,EEDC,Enugu,ENUGU,2026-08,2026-07,A,224,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 abfec6f44a95,EEDC,Enugu,ENUGU,2026-09,2026-08,A,229,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 abfec6f44a95,EEDC,Enugu,ENUGU,2026-10,2026-09,A,251,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+abfec6f44a95,EEDC,Enugu,ENUGU,2026-11,2026-10,A,237,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 ac05636c6939,YEDC,Yola,ADAMAWA,2025-03,2025-02,A,229,learned,text,exact,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-March-2025.pdf,2,NERC,printed,209.5,51574,YEDC_HOLDCO_YSS_September_2026_098.pdf
 ac05636c6939,YEDC,Yola,ADAMAWA,2025-04,2025-03,A,256,learned,text,exact,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-April-2025.pdf,2,NERC,printed,209.5,57654,YEDC_HOLDCO_YSS_September_2026_098.pdf
 ac05636c6939,YEDC,Yola,ADAMAWA,2025-05,2025-04,A,292,learned,text,exact,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-May-2025.pdf,2,NERC,printed,209.5,65762,YEDC_HOLDCO_YSS_September_2026_098.pdf
@@ -103011,6 +103060,7 @@ b04cb56548e2,EEDC,Enugu,ENUGU,2026-07,2026-06,C,141,printed,text,exact,EERC_EEDC
 b04cb56548e2,EEDC,Enugu,ENUGU,2026-08,2026-07,C,128,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b04cb56548e2,EEDC,Enugu,ENUGU,2026-09,2026-08,C,130,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b04cb56548e2,EEDC,Enugu,ENUGU,2026-10,2026-09,C,120,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+b04cb56548e2,EEDC,Enugu,ENUGU,2026-11,2026-10,C,139,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b05230ee18b2,IBEDC,Ibadan,OSUN,2022-10,2022-09,D,78,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,10,NERC,printed,,,
 b05230ee18b2,IBEDC,Ibadan,OSUN,2022-11,2022-10,D,79,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,7,NERC,printed,,,
 b05230ee18b2,IBEDC,Ibadan,OSUN,2022-12,2022-11,D,80,learned,text,exact,Ibadan-December-2022-Cap.pdf,8,NERC,printed,32.44,2790,IBEDCMYTO2024-1.pdf
@@ -104898,6 +104948,7 @@ b3156b21904d,EEDC,Enugu,ENUGU,2026-07,2026-06,B,149,printed,text,exact,EERC_EEDC
 b3156b21904d,EEDC,Enugu,ENUGU,2026-08,2026-07,B,132,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b3156b21904d,EEDC,Enugu,ENUGU,2026-09,2026-08,B,127,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b3156b21904d,EEDC,Enugu,ENUGU,2026-10,2026-09,B,130,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+b3156b21904d,EEDC,Enugu,ENUGU,2026-11,2026-10,B,140,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b31924e3fe57,AEDC,Abuja,FCT,2023-02,2023-01,A,842,learned,text,exact,AEDC-Monthly-Energy-Cap-for-February-2023.pdf,3,NERC,printed,68.2,61731,AEDCMYTO2024-1.pdf
 b31924e3fe57,AEDC,Abuja,FCT,2023-03,2023-02,A,841,learned,text,exact,AEDC-Monthly-Energy-Cap-for-March-2023.pdf,3,NERC,printed,68.2,61658,AEDCMYTO2024-1.pdf
 b31924e3fe57,AEDC,Abuja,FCT,2023-04,2023-03,A,855,learned,text,exact,AEDC-Monthly-Energy-Cap-for-April-2023.pdf,3,NERC,printed,68.2,62684,AEDCMYTO2024-1.pdf
@@ -105989,6 +106040,7 @@ b4847fa2cd14,EEDC,Enugu,ENUGU,2026-07,2026-06,B,138,printed,text,exact,EERC_EEDC
 b4847fa2cd14,EEDC,Enugu,ENUGU,2026-08,2026-07,B,116,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b4847fa2cd14,EEDC,Enugu,ENUGU,2026-09,2026-08,B,130,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b4847fa2cd14,EEDC,Enugu,ENUGU,2026-10,2026-09,B,126,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+b4847fa2cd14,EEDC,Enugu,ENUGU,2026-11,2026-10,B,106,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 b48bb19b0bf0,YEDC,Yola,TARABA,2026-07,2026-06,A,218,printed,ocr,exact,YEDC-monthly-energy-caps-July-2026.pdf,3,NERC,printed,209.5,49096,YEDC_HOLDCO_YSS_September_2026_098.pdf
 b48be57f0f18,IBEDC,Ibadan,OYO,2022-10,2022-09,A,238,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,1,NERC,printed,,,
 b48be57f0f18,IBEDC,Ibadan,OYO,2022-11,2022-10,A,240,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
@@ -109571,6 +109623,7 @@ bb08d30d86f3,EEDC,Enugu,ENUGU,2026-07,2026-06,A,209,printed,text,exact,EERC_EEDC
 bb08d30d86f3,EEDC,Enugu,ENUGU,2026-08,2026-07,A,164,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 bb08d30d86f3,EEDC,Enugu,ENUGU,2026-09,2026-08,A,169,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 bb08d30d86f3,EEDC,Enugu,ENUGU,2026-10,2026-09,A,175,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+bb08d30d86f3,EEDC,Enugu,ENUGU,2026-11,2026-10,A,174,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 bb11fedd60b0,YEDC,Yola,ADAMAWA,2022-10,2022-09,C,136,learned,text,exact,YEDC-Monthly-Energy-Cap-for-October-2022.pdf,1,NERC,printed,,,
 bb11fedd60b0,YEDC,Yola,ADAMAWA,2022-11,2022-10,C,141,learned,text,exact,YEDC-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
 bb11fedd60b0,YEDC,Yola,ADAMAWA,2023-01,2022-12,C,154,learned,text,exact,YEDC-Monthly-Energy-Cap-for-January-2023.pdf,1,NERC,printed,52.51,8693,YEDCMYTO2024.pdf
@@ -111680,6 +111733,7 @@ be6cfe831477,EEDC,Enugu,ENUGU,2026-07,2026-06,B,137,printed,text,exact,EERC_EEDC
 be6cfe831477,EEDC,Enugu,ENUGU,2026-08,2026-07,B,120,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 be6cfe831477,EEDC,Enugu,ENUGU,2026-09,2026-08,B,121,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 be6cfe831477,EEDC,Enugu,ENUGU,2026-10,2026-09,B,123,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+be6cfe831477,EEDC,Enugu,ENUGU,2026-11,2026-10,B,119,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 be7236773783,EEDC,Enugu,IMO,2022-10,2022-09,E,67,manual,text,exact,EEDC-Monthly-Energy-Cap-for-October-2022.pdf,13,NERC,printed,,,
 be7236773783,EEDC,Enugu,IMO,2022-11,2022-10,E,68,manual,text,exact,EEDC-Monthly-Energy-Cap-for-November-2022.pdf,7,NERC,printed,,,
 be7236773783,EEDC,Enugu,IMO,2022-12,2022-11,E,68,manual,text,exact,Enugu-December-2022-Cap.pdf,8,NERC,printed,36.2,2646,EEDCMYTO2024-1.pdf
@@ -114655,6 +114709,7 @@ c2f09db84ba2,EEDC,Enugu,ENUGU,2026-07,2026-06,A,120,printed,text,exact,EERC_EEDC
 c2f09db84ba2,EEDC,Enugu,ENUGU,2026-08,2026-07,A,100,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c2f09db84ba2,EEDC,Enugu,ENUGU,2026-09,2026-08,A,105,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 c2f09db84ba2,EEDC,Enugu,ENUGU,2026-10,2026-09,A,107,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+c2f09db84ba2,EEDC,Enugu,ENUGU,2026-11,2026-10,A,95,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 c2f75c9faa7f,PHED,Port Harcourt,CROSS RIVER,2026-01,2025-12,C,387,printed,ocr,exact,PHED-monthly-energy-caps-Jan-2026.pdf,3,NERC,printed,56.38,23455,PHED_HOLDCO_YSS_September_2026_097.pdf
 c2fa4a520bb0,IKEDC,Ikeja,LAGOS,2026-01,2025-12,C,470,printed,ocr,exact,IE-monthly-energy-caps-Jan-2026.pdf,3,NERC,printed,45.8,23140,IE_HOLDCO_YSS_September_2026_093.pdf
 c2fcebe162bd,IKEDC,Ikeja,LAGOS,2022-10,2022-09,B,455,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,6,NERC,printed,,,
@@ -115082,6 +115137,7 @@ c3cf453cad06,EEDC,Enugu,ENUGU,2026-07,2026-06,A,106,printed,text,exact,EERC_EEDC
 c3cf453cad06,EEDC,Enugu,ENUGU,2026-08,2026-07,A,107,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 c3cf453cad06,EEDC,Enugu,ENUGU,2026-09,2026-08,A,113,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 c3cf453cad06,EEDC,Enugu,ENUGU,2026-10,2026-09,A,108,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+c3cf453cad06,EEDC,Enugu,ENUGU,2026-11,2026-10,A,109,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 c3d38eba46fb,EKEDC,Eko,LAGOS,2022-10,2022-09,D,436,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-October-2022.pdf,4,NERC,printed,,,
 c3d38eba46fb,EKEDC,Eko,LAGOS,2022-11,2022-10,D,458,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-November-2022.pdf,4,NERC,printed,,,
 c3d38eba46fb,EKEDC,Eko,LAGOS,2022-12,2022-11,D,484,learned,text,exact,Eko-December-2022-Cap.pdf,4,NERC,printed,32.48,16899,EKEDPMYTO2024-1.pdf
@@ -117302,6 +117358,7 @@ c7bc9efedfd2,EEDC,Enugu,ENUGU,2026-07,2026-06,C,166,printed,text,exact,EERC_EEDC
 c7bc9efedfd2,EEDC,Enugu,ENUGU,2026-08,2026-07,C,145,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c7bc9efedfd2,EEDC,Enugu,ENUGU,2026-09,2026-08,C,146,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c7bc9efedfd2,EEDC,Enugu,ENUGU,2026-10,2026-09,C,155,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+c7bc9efedfd2,EEDC,Enugu,ENUGU,2026-11,2026-10,C,144,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c7cda0bdfc48,KEDCO,Kano,KATSINA,2026-07,2026-06,B,174,printed,ocr,exact,KEDCO-monthly-energy-caps-July-2026.pdf,4,NERC,printed,65.29,12212,KEDCO_HOLDCO_YSS_Septmeber_2026_096.pdf
 c7d95401b8fc,AEDC,Abuja,FCT,2023-02,2023-01,C,392,learned,text,exact,AEDC-Monthly-Energy-Cap-for-February-2023.pdf,14,NERC,printed,51.79,21824,AEDCMYTO2024-1.pdf
 c7d95401b8fc,AEDC,Abuja,FCT,2023-03,2023-02,C,392,learned,text,exact,AEDC-Monthly-Energy-Cap-for-March-2023.pdf,13,NERC,printed,51.79,21824,AEDCMYTO2024-1.pdf
@@ -117551,6 +117608,7 @@ c84cdfb37d61,EEDC,Enugu,ENUGU,2026-07,2026-06,A,237,printed,text,exact,EERC_EEDC
 c84cdfb37d61,EEDC,Enugu,ENUGU,2026-08,2026-07,A,183,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c84cdfb37d61,EEDC,Enugu,ENUGU,2026-09,2026-08,A,167,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c84cdfb37d61,EEDC,Enugu,ENUGU,2026-10,2026-09,A,174,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+c84cdfb37d61,EEDC,Enugu,ENUGU,2026-11,2026-10,A,163,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 c857e5bb6e82,BEDC,Benin,DELTA,2022-10,2022-09,C,301,learned,text,exact,BEDC-Monthly-Energy-Cap-for-October-2022.pdf,8,NERC,printed,,,
 c857e5bb6e82,BEDC,Benin,DELTA,2022-11,2022-10,C,311,learned,text,exact,BEDC-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 c857e5bb6e82,BEDC,Benin,DELTA,2022-12,2022-11,C,318,learned,text,exact,Benin-December-2022-Cap.pdf,7,NERC,printed,56.91,19455,BEDCMYTO2024.pdf
@@ -118825,6 +118883,7 @@ caf084b8bd70,EEDC,Enugu,ENUGU,2026-07,2026-06,B,141,printed,text,exact,EERC_EEDC
 caf084b8bd70,EEDC,Enugu,ENUGU,2026-08,2026-07,B,120,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 caf084b8bd70,EEDC,Enugu,ENUGU,2026-09,2026-08,B,129,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 caf084b8bd70,EEDC,Enugu,ENUGU,2026-10,2026-09,B,110,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+caf084b8bd70,EEDC,Enugu,ENUGU,2026-11,2026-10,B,105,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 caf2cacef779,AEDC,Abuja,FCT,2022-11,2022-10,D,111,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,17,NERC,printed,,,
 caf9be1202c8,AEDC,Abuja,FCT,2022-10,2022-09,A,239,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,16,NERC,printed,,,
 caf9be1202c8,AEDC,Abuja,FCT,2022-11,2022-10,A,252,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,13,NERC,printed,,,
@@ -122321,6 +122380,7 @@ d067a2a3ff6e,EEDC,Enugu,ENUGU,2026-07,2026-06,A,165,printed,text,exact,EERC_EEDC
 d067a2a3ff6e,EEDC,Enugu,ENUGU,2026-08,2026-07,A,138,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 d067a2a3ff6e,EEDC,Enugu,ENUGU,2026-09,2026-08,A,140,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 d067a2a3ff6e,EEDC,Enugu,ENUGU,2026-10,2026-09,A,144,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+d067a2a3ff6e,EEDC,Enugu,ENUGU,2026-11,2026-10,A,121,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 d0732f0996e9,PHED,Port Harcourt,AKWA IBOM,2023-03,2023-02,C,343,learned,text,exact,PHED-Monthly-Energy-Cap-for-March-2023.pdf,4,NERC,printed,56.38,20789,PHEDMYTO2024.pdf
 d0732f0996e9,PHED,Port Harcourt,AKWA IBOM,2023-04,2023-03,C,334,learned,text,exact,PHED-Monthly-Energy-Cap-for-April-2023.pdf,4,NERC,printed,56.38,20243,PHEDMYTO2024.pdf
 d0732f0996e9,PHED,Port Harcourt,AKWA IBOM,2023-05,2023-04,C,334,learned,text,exact,PHED-Monthly-Energy-Cap-for-May-2023.pdf,4,NERC,printed,56.38,20243,PHEDMYTO2024.pdf
@@ -124419,6 +124479,7 @@ d3a2eae5cec1,EEDC,Enugu,ENUGU,2026-07,2026-06,A,145,printed,text,exact,EERC_EEDC
 d3a2eae5cec1,EEDC,Enugu,ENUGU,2026-08,2026-07,A,79,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2023-01,,,
 d3a2eae5cec1,EEDC,Enugu,ENUGU,2026-09,2026-08,A,74,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2023-01,,,
 d3a2eae5cec1,EEDC,Enugu,ENUGU,2026-10,2026-09,A,66,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2023-01,,,
+d3a2eae5cec1,EEDC,Enugu,ENUGU,2026-11,2026-10,A,78,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2023-01,,,
 d3a4752a1aee,IBEDC,Ibadan,OSUN,2022-10,2022-09,C,101,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,9,NERC,printed,,,
 d3a4752a1aee,IBEDC,Ibadan,OSUN,2022-11,2022-10,C,102,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 d3a4752a1aee,IBEDC,Ibadan,OSUN,2022-12,2022-11,C,104,learned,text,exact,Ibadan-December-2022-Cap.pdf,7,NERC,printed,56.4,6306,IBEDCMYTO2024-1.pdf
@@ -128903,6 +128964,7 @@ dbe4aeafc3dc,EEDC,Enugu,ENUGU,2026-07,2026-06,A,163,printed,text,exact,EERC_EEDC
 dbe4aeafc3dc,EEDC,Enugu,ENUGU,2026-08,2026-07,A,150,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 dbe4aeafc3dc,EEDC,Enugu,ENUGU,2026-09,2026-08,A,160,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 dbe4aeafc3dc,EEDC,Enugu,ENUGU,2026-10,2026-09,A,153,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+dbe4aeafc3dc,EEDC,Enugu,ENUGU,2026-11,2026-10,A,144,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 dbe9fd09076a,KAEDC,Kaduna,KADUNA,2022-10,2022-09,C,85,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-October-2022.pdf,1,NERC,printed,,,
 dbe9fd09076a,KAEDC,Kaduna,KADUNA,2022-11,2022-10,C,89,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-November-2022.pdf,1,NERC,printed,,,
 dbe9fd09076a,KAEDC,Kaduna,KADUNA,2022-12,2022-11,C,91,manual,text,exact,Kaduna-December-2022-Cap.pdf,1,NERC,printed,51.12,5001,KAEDCMYTO2024.pdf
@@ -130388,6 +130450,7 @@ de9ae527a9ec,EEDC,Enugu,ENUGU,2026-07,2026-06,B,131,printed,text,exact,EERC_EEDC
 de9ae527a9ec,EEDC,Enugu,ENUGU,2026-08,2026-07,B,128,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 de9ae527a9ec,EEDC,Enugu,ENUGU,2026-09,2026-08,B,131,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 de9ae527a9ec,EEDC,Enugu,ENUGU,2026-10,2026-09,B,129,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+de9ae527a9ec,EEDC,Enugu,ENUGU,2026-11,2026-10,B,117,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 dea0b0ead3ee,YEDC,Yola,TARABA,2025-03,2025-02,A,171,learned,text,exact,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-March-2025.pdf,2,NERC,printed,209.5,38511,YEDC_HOLDCO_YSS_September_2026_098.pdf
 dea0b0ead3ee,YEDC,Yola,TARABA,2025-04,2025-03,A,191,learned,text,exact,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-April-2025.pdf,2,NERC,printed,209.5,43016,YEDC_HOLDCO_YSS_September_2026_098.pdf
 dea0b0ead3ee,YEDC,Yola,TARABA,2025-05,2025-04,A,218,learned,text,exact,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-May-2025.pdf,2,NERC,printed,209.5,49096,YEDC_HOLDCO_YSS_September_2026_098.pdf
@@ -133333,6 +133396,7 @@ e3af8f7c57dd,EEDC,Enugu,ENUGU,2026-07,2026-06,B,124,printed,text,exact,EERC_EEDC
 e3af8f7c57dd,EEDC,Enugu,ENUGU,2026-08,2026-07,B,103,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2023-01,,,
 e3af8f7c57dd,EEDC,Enugu,ENUGU,2026-09,2026-08,B,112,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2023-01,,,
 e3af8f7c57dd,EEDC,Enugu,ENUGU,2026-10,2026-09,B,110,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2023-01,,,
+e3af8f7c57dd,EEDC,Enugu,ENUGU,2026-11,2026-10,B,113,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2023-01,,,
 e3b3e6f4fef3,AEDC,Abuja,FCT,2022-10,2022-09,A,203,learned,text,exact,AEDC-Monthly-Energy-Cap-for-October-2022.pdf,16,NERC,printed,,,
 e3b3e6f4fef3,AEDC,Abuja,FCT,2022-11,2022-10,A,214,learned,text,exact,AEDC-Monthly-Energy-Cap-for-November-2022.pdf,14,NERC,printed,,,
 e3b3e6f4fef3,AEDC,Abuja,FCT,2022-12,2022-11,A,225,learned,text,exact,Abuja-December-2022-Cap.pdf,16,NERC,printed,68.2,16496,AEDCMYTO2024-1.pdf
@@ -133670,6 +133734,7 @@ e3f9abe4408a,EEDC,Enugu,ENUGU,2026-07,2026-06,B,114,printed,text,exact,EERC_EEDC
 e3f9abe4408a,EEDC,Enugu,ENUGU,2026-08,2026-07,B,104,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 e3f9abe4408a,EEDC,Enugu,ENUGU,2026-09,2026-08,B,114,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 e3f9abe4408a,EEDC,Enugu,ENUGU,2026-10,2026-09,B,107,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+e3f9abe4408a,EEDC,Enugu,ENUGU,2026-11,2026-10,B,109,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 e403b91ec9aa,IKEDC,Ikeja,LAGOS,2022-10,2022-09,C,420,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,6,NERC,printed,,,
 e403b91ec9aa,IKEDC,Ikeja,LAGOS,2022-11,2022-10,C,433,learned,text,exact,IE-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 e403b91ec9aa,IKEDC,Ikeja,LAGOS,2023-01,2022-12,C,450,learned,text,exact,IE-Monthly-Energy-Cap-for-January-2023.pdf,7,NERC,printed,45.8,22156,April-2024-Supplementary-Order-to-MYTO-IKEDC.pdf
@@ -135171,6 +135236,7 @@ e716fc20ca79,EEDC,Enugu,ENUGU,2026-07,2026-06,C,53,printed,text,exact,EERC_EEDC_
 e716fc20ca79,EEDC,Enugu,ENUGU,2026-08,2026-07,C,53,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 e716fc20ca79,EEDC,Enugu,ENUGU,2026-09,2026-08,C,53,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 e716fc20ca79,EEDC,Enugu,ENUGU,2026-10,2026-09,C,99,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+e716fc20ca79,EEDC,Enugu,ENUGU,2026-11,2026-10,C,78,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 e7193e343f6a,AEDC,Abuja,FCT,2026-03,2026-02,B,113,printed,ocr,exact,AEDC-monthly-energy-caps-Mar-2026.pdf,6,NERC,printed,63.35,7695,AEDC_HOLDCO_YSS_September_2026_088.pdf
 e71bcb748aca,IBEDC,Ibadan,OGUN,2022-10,2022-09,C,156,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,15,NERC,printed,,,
 e71bcb748aca,IBEDC,Ibadan,OYO,2022-11,2022-10,C,157,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,11,NERC,printed,,,
@@ -136516,6 +136582,7 @@ e9a6a88c8343,EEDC,Enugu,ENUGU,2026-07,2026-06,A,241,printed,text,exact,EERC_EEDC
 e9a6a88c8343,EEDC,Enugu,ENUGU,2026-08,2026-07,A,214,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 e9a6a88c8343,EEDC,Enugu,ENUGU,2026-09,2026-08,A,211,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 e9a6a88c8343,EEDC,Enugu,ENUGU,2026-10,2026-09,A,212,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+e9a6a88c8343,EEDC,Enugu,ENUGU,2026-11,2026-10,A,213,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 e9ba232a635d,KAEDC,Kaduna,KEBBI,2022-12,2022-11,D,94,manual,text,exact,Kaduna-December-2022-Cap.pdf,3,NERC,printed,35.41,3578,KAEDCMYTO2024.pdf
 e9c3c73dc655,KEDCO,Kano,KANO,2022-10,2022-09,D,93,learned,text,exact,KEDCO-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
 e9c3c73dc655,KEDCO,Kano,KANO,2022-11,2022-10,D,99,learned,text,exact,KEDCO-Monthly-Energy-Cap-for-November-2022.pdf,2,NERC,printed,,,
@@ -140762,6 +140829,7 @@ efb6eac210f0,EEDC,Enugu,ENUGU,2026-07,2026-06,C,132,printed,text,exact,EERC_EEDC
 efb6eac210f0,EEDC,Enugu,ENUGU,2026-08,2026-07,C,108,printed,text,exact,EERC_EEDC_2026-08.pdf,3,EERC,carried_from_nerc_2025-09,,,
 efb6eac210f0,EEDC,Enugu,ENUGU,2026-09,2026-08,C,109,printed,text,exact,EERC_EEDC_2026-09.pdf,3,EERC,carried_from_nerc_2025-09,,,
 efb6eac210f0,EEDC,Enugu,ENUGU,2026-10,2026-09,C,93,printed,text,exact,EERC_EEDC_2026-10.pdf,3,EERC,carried_from_nerc_2025-09,,,
+efb6eac210f0,EEDC,Enugu,ENUGU,2026-11,2026-10,C,114,printed,text,exact,EERC_EEDC_2026-11.pdf,3,EERC,carried_from_nerc_2025-09,,,
 efba37c18ad4,EEDC,Enugu,ANAMBRA,2022-11,2022-10,B,111,learned,text,exact,EEDC-Monthly-Energy-Cap-for-November-2022.pdf,6,NERC,printed,,,
 efca31ffcc6f,AEDC,Abuja,FCT,2025-12,2025-11,A,431,printed,ocr,exact,AEDC-monthly-energy-caps-December-2025.pdf,4,NERC,printed,209.5,97067,AEDC_HOLDCO_YSS_September_2026_088.pdf
 efd1f775f2b6,KAEDC,Kaduna,KADUNA,2024-01,2023-12,D,224,manual,text,exact,KadunaElectricityDistributionPlcMonthlyEnergyCapJanuary2024.pdf,2,NERC,printed,35.41,8527,KAEDCMYTO2024.pdf
@@ -141171,6 +141239,7 @@ f05ffde45da8,EEDC,Enugu,ENUGU,2026-07,2026-06,B,135,printed,text,exact,EERC_EEDC
 f05ffde45da8,EEDC,Enugu,ENUGU,2026-08,2026-07,B,132,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 f05ffde45da8,EEDC,Enugu,ENUGU,2026-09,2026-08,B,131,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 f05ffde45da8,EEDC,Enugu,ENUGU,2026-10,2026-09,B,109,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+f05ffde45da8,EEDC,Enugu,ENUGU,2026-11,2026-10,B,102,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 f06a424848c2,BEDC,Benin,EDO,2023-02,2023-01,C,348,learned,text,exact,BEDC-Monthly-Energy-Cap-for-February-2023.pdf,5,NERC,printed,56.91,21290,BEDCMYTO2024.pdf
 f06a424848c2,BEDC,Benin,EDO,2023-03,2023-02,C,343,learned,text,exact,BEDC-Monthly-Energy-Cap-for-March-2023.pdf,5,NERC,printed,56.91,20984,BEDCMYTO2024.pdf
 f06a424848c2,BEDC,Benin,EDO,2023-04,2023-03,C,337,learned,text,exact,BEDC-Monthly-Energy-Cap-for-April-2023.pdf,5,NERC,printed,56.91,20617,BEDCMYTO2024.pdf
@@ -141981,6 +142050,7 @@ f1ba9b91295c,EEDC,Enugu,ENUGU,2026-07,2026-06,,329,printed,text,exact,EERC_EEDC_
 f1ba9b91295c,EEDC,Enugu,ENUGU,2026-08,2026-07,,329,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,not_published,,,
 f1ba9b91295c,EEDC,Enugu,ENUGU,2026-09,2026-08,,329,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,not_published,,,
 f1ba9b91295c,EEDC,Enugu,ENUGU,2026-10,2026-09,,329,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,not_published,,,
+f1ba9b91295c,EEDC,Enugu,ENUGU,2026-11,2026-10,,329,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,not_published,,,
 f1bcf508196c,YEDC,Yola,BORNO,2023-02,2023-01,A,221,learned,text,exact,YEDC-Monthly-Energy-Cap-for-February-2023.pdf,3,NERC,printed,69.43,16495,YEDCMYTO2024.pdf
 f1bcf508196c,YEDC,Yola,BORNO,2023-03,2023-02,A,221,learned,text,exact,YEDC-Monthly-Energy-Cap-for-March-2023.pdf,3,NERC,printed,69.43,16495,YEDCMYTO2024.pdf
 f1bcf508196c,YEDC,Yola,BORNO,2023-04,2023-03,A,248,learned,text,exact,YEDC-Monthly-Energy-Cap-for-April-2023.pdf,3,NERC,printed,69.43,18510,YEDCMYTO2024.pdf
@@ -143415,6 +143485,7 @@ f3ab20492e44,EEDC,Enugu,ENUGU,2026-07,2026-06,A,110,printed,text,exact,EERC_EEDC
 f3ab20492e44,EEDC,Enugu,ENUGU,2026-08,2026-07,A,108,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 f3ab20492e44,EEDC,Enugu,ENUGU,2026-09,2026-08,A,119,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 f3ab20492e44,EEDC,Enugu,ENUGU,2026-10,2026-09,A,92,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+f3ab20492e44,EEDC,Enugu,ENUGU,2026-11,2026-10,A,91,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 f3bb7d1bbcbe,KAEDC,Kaduna,KADUNA,2022-12,2022-11,E,100,manual,text,exact,Kaduna-December-2022-Cap.pdf,4,NERC,printed,35.41,3807,KAEDCMYTO2024.pdf
 f3bb7d1bbcbe,KAEDC,Kaduna,KADUNA,2023-01,2022-12,E,102,manual,text,exact,KAEDC-Monthly-Energy-Cap-for-January-2023.pdf,5,NERC,printed,35.41,3883,KAEDCMYTO2024.pdf
 f3c8e1929eef,IKEDC,Ikeja,LAGOS,2022-10,2022-09,D,318,learned,text,exact,IE-Monthly-Energy-Cap-for-October-2022.pdf,8,NERC,printed,,,
@@ -144498,6 +144569,7 @@ f5a80fdbb112,EEDC,Enugu,ENUGU,2026-07,2026-06,D,99,printed,text,exact,EERC_EEDC_
 f5a80fdbb112,EEDC,Enugu,ENUGU,2026-08,2026-07,D,90,printed,text,exact,EERC_EEDC_2026-08.pdf,1,EERC,carried_from_nerc_2025-09,,,
 f5a80fdbb112,EEDC,Enugu,ENUGU,2026-09,2026-08,D,90,printed,text,exact,EERC_EEDC_2026-09.pdf,1,EERC,carried_from_nerc_2025-09,,,
 f5a80fdbb112,EEDC,Enugu,ENUGU,2026-10,2026-09,D,143,printed,text,exact,EERC_EEDC_2026-10.pdf,1,EERC,carried_from_nerc_2025-09,,,
+f5a80fdbb112,EEDC,Enugu,ENUGU,2026-11,2026-10,D,88,printed,text,exact,EERC_EEDC_2026-11.pdf,1,EERC,carried_from_nerc_2025-09,,,
 f5a836604477,IBEDC,Ibadan,OGUN,2022-10,2022-09,C,156,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-October-2022.pdf,6,NERC,printed,,,
 f5a836604477,IBEDC,Ibadan,OGUN,2022-11,2022-10,C,157,learned,text,exact,IBEDC-Monthly-Energy-Cap-for-November-2022.pdf,4,NERC,printed,,,
 f5a836604477,IBEDC,Ibadan,OGUN,2022-12,2022-11,C,160,learned,text,exact,Ibadan-December-2022-Cap.pdf,5,NERC,printed,56.4,9701,IBEDCMYTO2024-1.pdf
@@ -145006,6 +145078,7 @@ f6a08ca3654a,EEDC,Enugu,ENUGU,2026-07,2026-06,A,217,printed,text,exact,EERC_EEDC
 f6a08ca3654a,EEDC,Enugu,ENUGU,2026-08,2026-07,A,187,printed,text,exact,EERC_EEDC_2026-08.pdf,2,EERC,carried_from_nerc_2025-09,,,
 f6a08ca3654a,EEDC,Enugu,ENUGU,2026-09,2026-08,A,170,printed,text,exact,EERC_EEDC_2026-09.pdf,2,EERC,carried_from_nerc_2025-09,,,
 f6a08ca3654a,EEDC,Enugu,ENUGU,2026-10,2026-09,A,162,printed,text,exact,EERC_EEDC_2026-10.pdf,2,EERC,carried_from_nerc_2025-09,,,
+f6a08ca3654a,EEDC,Enugu,ENUGU,2026-11,2026-10,A,174,printed,text,exact,EERC_EEDC_2026-11.pdf,2,EERC,carried_from_nerc_2025-09,,,
 f6ac09d2584f,EKEDC,Eko,LAGOS,2022-10,2022-09,C,311,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-October-2022.pdf,2,NERC,printed,,,
 f6ac09d2584f,EKEDC,Eko,LAGOS,2022-11,2022-10,C,327,learned,text,exact,EKEDC-Monthly-Energy-Cap-for-November-2022.pdf,2,NERC,printed,,,
 f6ac09d2584f,EKEDC,Eko,LAGOS,2022-12,2022-11,C,345,learned,text,exact,Eko-December-2022-Cap.pdf,2,NERC,printed,48.53,17999,EKEDPMYTO2024-1.pdf

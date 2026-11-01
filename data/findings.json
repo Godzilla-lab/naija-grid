@@ -53,9 +53,10 @@
     "2026-07",
     "2026-08",
     "2026-09",
-    "2026-10"
+    "2026-10",
+    "2026-11"
    ],
-   "rows": 289,
+   "rows": 362,
    "feeders": 73,
    "feeders_latest": 73,
    "linked_latest": 70,
@@ -64,12 +65,12 @@
     "2025-09"
    ],
    "median_change_first_month_pct": -14.1,
-   "median_change_latest_pct": -27.4,
-   "median_cap_latest": 126.0,
+   "median_change_latest_pct": -29.2,
+   "median_cap_latest": 117.0,
    "median_nerc_last_cap": 165.5,
    "band_source_rows": {
-    "carried_from_nerc": 277,
-    "not_published": 12
+    "carried_from_nerc": 347,
+    "not_published": 15
    }
   },
   "LASERC": {
