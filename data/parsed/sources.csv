@@ -522,3 +522,14 @@ order_month,disco,file,sha256,bytes,pages,rows,unparsed_lines,extraction
 2026-10,KEDCO,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2026.pdf,c28e7985c7a76dc6735e359eb12376f4ab45eaea03ad016a9191eefb010928fc,252818,4,158,0,text
 2026-10,PHED,Port-Harcourt-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2026.pdf,d5f8485caa5e6c90bf44e60ec85d25586608e9129e18be7fb254ac5622d97cf9,302938,6,236,0,text
 2026-10,YEDC,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-October-2026.pdf,0fc3b99d4e8a892190a011f1c9b7f2fcbc79596dc6caa228b4285aea2d02106c,244533,4,149,0,text
+2026-11,AEDC,Abuja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,60e90271ebdf06bf27b53afbf73749ebe80bb65760cffc413138b71cdeb2a7e9,554136,15,642,0,text
+2026-11,BEDC,Benin-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,9dfbf7696331051b7b143ab525c4cae229cd85ad5b412edbebed25e20cfb0a5e,306041,6,243,0,text
+2026-11,EEDC,Enugu-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,09a5cfd843e91e9df4a91ba131cf1b34ce21909f15cf701873cbe2b4fa9b8630,163829,1,17,0,text
+2026-11,EKEDC,Eko-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,1dfa31b8461b11e520cab66620507ed1f64e5778fbdaeb3460b4cbf7c3aa2a1b,161361,1,17,0,text
+2026-11,IBEDC,Ibadan-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,575e693b522fbcd997d0d854e56e64c871963663f8efbd890e590d389fe99c38,483958,12,509,0,text
+2026-11,IKEDC,Ikeja-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,a5b01576591ef2c427d5ac528980b9109e957fe487d5ee5c7da494af717046c9,178882,2,34,0,text
+2026-11,JEDC,Jos-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,630c2927c353e1deb53808b72a1329eb74640d96b24a7c4044140ae8799832e1,214451,3,98,0,text
+2026-11,KAEDC,Kaduna-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,c2c5304081c9be4d29033e94bba5b83e1a7b3f74930430bdad4ed6595ccd4ec6,283684,5,206,0,text
+2026-11,KEDCO,Kano-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,29b6a5835446a7ac6df672117bd565fa07bd10006b13ee51f9c31746e39e4398,252443,4,158,0,text
+2026-11,PHED,Port-Harcourt-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,eb4f489f29169099383eb8d0e8891e66955b74983e5dc03b49632fe9b937eaf5,303181,6,236,0,text
+2026-11,YEDC,Yola-Electricity-Distribution-Plc.-Monthly-Energy-Cap-November-2026.pdf,2c6b64adc0678076efa97121d02278e9566442db6d266f3301946a91d4be4b23,246566,4,149,0,text
